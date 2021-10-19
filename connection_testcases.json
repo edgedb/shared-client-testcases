@@ -270,7 +270,7 @@
       }
     },
     "error": {
-      "type": "invalid_instance_name"
+      "type": "invalid_dsn_or_instance_name"
     }
   },
   {
@@ -285,7 +285,7 @@
       }
     },
     "error": {
-      "type": "invalid_instance_name"
+      "type": "invalid_dsn_or_instance_name"
     }
   },
   {
@@ -300,7 +300,7 @@
       }
     },
     "error": {
-      "type": "invalid_instance_name"
+      "type": "invalid_dsn_or_instance_name"
     }
   },
   {
@@ -322,7 +322,7 @@
       "dsn": "edgedb:/user3:123123@localhost:5555/abcdef"
     },
     "error": {
-      "type": "invalid_instance_name"
+      "type": "invalid_dsn_or_instance_name"
     }
   },
   {
@@ -330,7 +330,15 @@
       "dsn": "user3:123123@localhost:5555/abcdef"
     },
     "error": {
-      "type": "invalid_instance_name"
+      "type": "invalid_dsn_or_instance_name"
+    }
+  },
+  {
+    "opts": {
+      "dsn": "edgedb://localhost:fivesixfivesix"
+    },
+    "error": {
+      "type": "invalid_dsn_or_instance_name"
     }
   },
   {
@@ -1715,7 +1723,7 @@
       "dsn": ""
     },
     "error": {
-      "type": "invalid_instance_name"
+      "type": "invalid_dsn_or_instance_name"
     }
   },
   {
