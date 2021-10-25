@@ -72,7 +72,7 @@
       "homedir": "C:\\Users\\edgedb",
       "files": {
         "C:\\Users\\edgedb\\test\\edgedb.toml": "",
-        "C:\\Users\\edgedb\\AppData\\Local\\EdgeDB\\config\\projects\\test-461d1a84b3307c343f37187e3722391ce4f8f64c": {
+        "C:\\Users\\edgedb\\AppData\\Local\\EdgeDB\\config\\projects\\test-${HASH}": {
            "instance-name": "test_project",
            "project-path": "C:\\Users\\edgedb\\test"
         },
