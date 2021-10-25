@@ -98,7 +98,7 @@
       "homedir": "/Users/edgedb",
       "files": {
         "/Users/edgedb/test/edgedb.toml": "",
-        "/Users/edgedb/Library/Application Support/edgedb/projects/test-bea4557cb17f02c484b4e7f8ea93fc168ecd28d4": {
+        "/Users/edgedb/Library/Application Support/edgedb/projects/test-${HASH}": {
           "instance-name": "test_project",
           "project-path": "/Users/edgedb/test"
         },
