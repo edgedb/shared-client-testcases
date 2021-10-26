@@ -263,7 +263,41 @@
     "env": {},
     "fs": {
       "files": {
+        "/home/edgedb/test/credentials.json": "{\"port\": 10702, \"user\": \"test3n\", \"tls_security\": \"strict\", \"tls_cert_data\": \"-----BEGIN CERTIFICATE-----\\nMIICEjCCAXsCAg36MA0GCSqGSIb3DQEBBQUAMIGbMQswCQYDVQQGEwJKUDEOMAwG\\nA1UECBMFVG9reW8xEDAOBgNVBAcTB0NodW8ta3UxETAPBgNVBAoTCEZyYW5rNERE\\nMRgwFgYDVQQLEw9XZWJDZXJ0IFN1cHBvcnQxGDAWBgNVBAMTD0ZyYW5rNEREIFdl\\nYiBDQTEjMCEGCSqGSIb3DQEJARYUc3VwcG9ydEBmcmFuazRkZC5jb20wHhcNMTIw\\nODIyMDUyNjU0WhcNMTcwODIxMDUyNjU0WjBKMQswCQYDVQQGEwJKUDEOMAwGA1UE\\nCAwFVG9reW8xETAPBgNVBAoMCEZyYW5rNEREMRgwFgYDVQQDDA93d3cuZXhhbXBs\\nZS5jb20wXDANBgkqhkiG9w0BAQEFAANLADBIAkEAm/xmkHmEQrurE/0re/jeFRLl\\n8ZPjBop7uLHhnia7lQG/5zDtZIUC3RVpqDSwBuw/NTweGyuP+o8AG98HxqxTBwID\\nAQABMA0GCSqGSIb3DQEBBQUAA4GBABS2TLuBeTPmcaTaUW/LCB2NYOy8GMdzR1mx\\n8iBIu2H6/E2tiY3RIevV2OW61qY2/XRQg7YPxx3ffeUugX9F4J/iPnnu1zAxxyBy\\n2VguKv4SWjRFoRkIfIlHX0qVviMhSlNy2ioFLy7JcPZb+v3ftDGywUqcBiVDoea0\\nHn+GmxZA\\n-----END CERTIFICATE-----\\n\"}"
+      }
+    },
+    "result": {
+      "address": ["localhost", 10702],
+      "database": "edgedb",
+      "user": "test3n",
+      "password": null,
+      "tlsCAData": "-----BEGIN CERTIFICATE-----\ncertdata\n-----END CERTIFICATE-----\n",
+      "tlsVerifyHostname": true,
+      "serverSettings": {}
+    }
+  },
+  {
+    "opts": {
+      "credentialsFile": "/home/edgedb/test/credentials.json"
+    },
+    "env": {},
+    "fs": {
+      "files": {
         "/home/edgedb/test/credentials.json": "{\"port\": 10702, \"user\": \"test3n\", \"tls_verify_hostname\": \"true\", \"tls_cert_data\": \"-----BEGIN CERTIFICATE-----\\ncertdata\\n-----END CERTIFICATE-----\\n\"}"
+      }
+    },
+    "error": {
+      "type": "invalid_credentials_file"
+    }
+  },
+  {
+    "opts": {
+      "credentialsFile": "/home/edgedb/test/credentials.json"
+    },
+    "env": {},
+    "fs": {
+      "files": {
+        "/home/edgedb/test/credentials.json": "{\"port\": 10702, \"user\": \"test3n\", \"tls_security\": true, \"tls_cert_data\": \"-----BEGIN CERTIFICATE-----\\ncertdata\\n-----END CERTIFICATE-----\\n\"}"
       }
     },
     "error": {
@@ -1430,7 +1464,37 @@
   },
   {
     "env": {
+      "EDGEDB_DSN": "edgedb://?tls_security=strict",
+      "EDGEDB_CLIENT_TLS_SECURITY": "insecure"
+    },
+    "result": {
+      "address": ["localhost", 5656],
+      "database": "edgedb",
+      "user": "edgedb",
+      "password": null,
+      "tlsCAData": null,
+      "tlsVerifyHostname": false,
+      "serverSettings": {}
+    }
+  },
+  {
+    "env": {
       "EDGEDB_DSN": "edgedb://?tls_verify_hostname=yes",
+      "EDGEDB_CLIENT_TLS_SECURITY": "no_host_verification"
+    },
+    "result": {
+      "address": ["localhost", 5656],
+      "database": "edgedb",
+      "user": "edgedb",
+      "password": null,
+      "tlsCAData": null,
+      "tlsVerifyHostname": false,
+      "serverSettings": {}
+    }
+  },
+  {
+    "env": {
+      "EDGEDB_DSN": "edgedb://?tls_security=strict",
       "EDGEDB_CLIENT_TLS_SECURITY": "no_host_verification"
     },
     "result": {
@@ -1699,6 +1763,14 @@
   {
     "opts": {
       "dsn": "edgedb://?tls_verify_hostname"
+    },
+    "error": {
+      "type": "invalid_tls_verify_hostname"
+    }
+  },
+  {
+    "opts": {
+      "dsn": "edgedb://?tls_security"
     },
     "error": {
       "type": "invalid_tls_verify_hostname"
