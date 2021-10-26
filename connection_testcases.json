@@ -1587,7 +1587,7 @@
       "EDGEDB_CLIENT_TLS_SECURITY": "invalid value"
     },
     "error": {
-      "type": "invalid_tls_verify_hostname"
+      "type": "invalid_tls_security"
     }
   },
   {
@@ -1757,7 +1757,7 @@
       "tlsVerifyHostname": ""
     },
     "error": {
-      "type": "invalid_tls_verify_hostname"
+      "type": "invalid_tls_security"
     }
   },
   {
@@ -1765,7 +1765,7 @@
       "dsn": "edgedb://?tls_verify_hostname"
     },
     "error": {
-      "type": "invalid_tls_verify_hostname"
+      "type": "invalid_tls_security"
     }
   },
   {
@@ -1773,7 +1773,7 @@
       "dsn": "edgedb://?tls_security"
     },
     "error": {
-      "type": "invalid_tls_verify_hostname"
+      "type": "invalid_tls_security"
     }
   },
   {
