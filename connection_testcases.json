@@ -1435,7 +1435,22 @@
   {
     "opts": {
       "dsn": "edgedb://",
-      "tlsVerifyHostname": false
+      "tlsSecurity": "no_host_verification"
+    },
+    "result": {
+      "address": ["localhost", 5656],
+      "database": "edgedb",
+      "user": "edgedb",
+      "password": null,
+      "tlsCAData": null,
+      "tlsVerifyHostname": false,
+      "serverSettings": {}
+    }
+  },
+  {
+    "opts": {
+      "dsn": "edgedb://",
+      "tlsSecurity": "insecure"
     },
     "result": {
       "address": ["localhost", 5656],
@@ -1511,7 +1526,7 @@
     "opts": {
       "dsn": "edgedb://",
       "tlsCAFile": "/home/edgedb/test/cert.pem",
-      "tlsVerifyHostname": true
+      "tlsSecurity": "strict"
     },
     "fs": {
       "files": {
@@ -1754,7 +1769,7 @@
   {
     "opts": {
       "dsn": "edgedb://",
-      "tlsVerifyHostname": ""
+      "tlsSecurity": ""
     },
     "error": {
       "type": "invalid_tls_security"
