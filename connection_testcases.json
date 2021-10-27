@@ -1458,7 +1458,7 @@
       "user": "edgedb",
       "password": null,
       "tlsCAData": null,
-      "tlsSecurity": "no_host_verification",
+      "tlsSecurity": "insecure",
       "serverSettings": {}
     }
   },
@@ -1473,7 +1473,7 @@
       "user": "edgedb",
       "password": null,
       "tlsCAData": null,
-      "tlsSecurity": "no_host_verification",
+      "tlsSecurity": "insecure",
       "serverSettings": {}
     }
   },
@@ -1488,7 +1488,7 @@
       "user": "edgedb",
       "password": null,
       "tlsCAData": null,
-      "tlsSecurity": "no_host_verification",
+      "tlsSecurity": "insecure",
       "serverSettings": {}
     }
   },
@@ -1577,7 +1577,7 @@
       "user": "edgedb",
       "password": null,
       "tlsCAData": null,
-      "tlsSecurity": "no_host_verification",
+      "tlsSecurity": "insecure",
       "serverSettings": {}
     }
   },
