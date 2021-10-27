@@ -2001,5 +2001,89 @@
       "tlsSecurity": "no_host_verification",
       "serverSettings": {}
     }
+  },
+  {
+    "opts": {
+      "dsn": "test_instance"
+    },
+    "fs": {
+      "homedir": "/home/edgedb",
+      "files": {
+        "/home/edgedb/.config/edgedb/credentials/test_instance.json": "{\"port\": 10702, \"tls_verify_hostname\": true, \"tls_security\": \"strict\"}"
+      }
+    },
+    "result": {
+      "address": ["localhost", 10702],
+      "database": "edgedb",
+      "user": "edgedb",
+      "password": null,
+      "tlsCAData": null,
+      "tlsSecurity": "strict",
+      "serverSettings": {}
+    }
+  },
+  {
+    "opts": {
+      "dsn": "test_instance"
+    },
+    "fs": {
+      "homedir": "/home/edgedb",
+      "files": {
+        "/home/edgedb/.config/edgedb/credentials/test_instance.json": "{\"port\": 10702, \"tls_verify_hostname\": false, \"tls_security\": \"no_host_verification\"}"
+      }
+    },
+    "result": {
+      "address": ["localhost", 10702],
+      "database": "edgedb",
+      "user": "edgedb",
+      "password": null,
+      "tlsCAData": null,
+      "tlsSecurity": "no_host_verification",
+      "serverSettings": {}
+    }
+  },
+  {
+    "opts": {
+      "dsn": "test_instance"
+    },
+    "fs": {
+      "homedir": "/home/edgedb",
+      "files": {
+        "/home/edgedb/.config/edgedb/credentials/test_instance.json": "{\"port\": 10702, \"tls_verify_hostname\": false, \"tls_security\": \"insecure\"}"
+      }
+    },
+    "result": {
+      "address": ["localhost", 10702],
+      "database": "edgedb",
+      "user": "edgedb",
+      "password": null,
+      "tlsCAData": null,
+      "tlsSecurity": "insecure",
+      "serverSettings": {}
+    }
+  },
+  {
+    "opts": {
+      "dsn": "test_instance"
+    },
+    "fs": {
+      "homedir": "/home/edgedb",
+      "files": {
+        "/home/edgedb/.config/edgedb/credentials/test_instance.json": "{\"port\": 10702, \"tls_verify_hostname\": true, \"tls_security\": \"insecure\"}"
+      }
+    },
+    "error": "invalid_tls_security"
+  },
+  {
+    "opts": {
+      "dsn": "test_instance"
+    },
+    "fs": {
+      "homedir": "/home/edgedb",
+      "files": {
+        "/home/edgedb/.config/edgedb/credentials/test_instance.json": "{\"port\": 10702, \"tls_verify_hostname\": true, \"tls_security\": \"no_host_verification\"}"
+      }
+    },
+    "error": "invalid_tls_security"
   }
 ]
