@@ -2035,7 +2035,7 @@
       }
     },
     "error": {
-      "type":"invalid_tls_security"
+      "type":"invalid_credentials_file"
     }
   },
   {
@@ -2049,7 +2049,7 @@
       }
     },
     "error": {
-      "type":"invalid_tls_security"
+      "type":"invalid_credentials_file"
     }
   }
 ]
