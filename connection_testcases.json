@@ -1464,21 +1464,6 @@
   },
   {
     "env": {
-      "EDGEDB_DSN": "edgedb://?tls_verify_hostname=yes",
-      "EDGEDB_CLIENT_TLS_SECURITY": "insecure"
-    },
-    "result": {
-      "address": ["localhost", 5656],
-      "database": "edgedb",
-      "user": "edgedb",
-      "password": null,
-      "tlsCAData": null,
-      "tlsSecurity": "insecure",
-      "serverSettings": {}
-    }
-  },
-  {
-    "env": {
       "EDGEDB_DSN": "edgedb://?tls_security=strict",
       "EDGEDB_CLIENT_TLS_SECURITY": "insecure"
     },
@@ -1489,21 +1474,6 @@
       "password": null,
       "tlsCAData": null,
       "tlsSecurity": "insecure",
-      "serverSettings": {}
-    }
-  },
-  {
-    "env": {
-      "EDGEDB_DSN": "edgedb://?tls_verify_hostname=yes",
-      "EDGEDB_CLIENT_TLS_SECURITY": "no_host_verification"
-    },
-    "result": {
-      "address": ["localhost", 5656],
-      "database": "edgedb",
-      "user": "edgedb",
-      "password": null,
-      "tlsCAData": null,
-      "tlsSecurity": "no_host_verification",
       "serverSettings": {}
     }
   },
@@ -1770,14 +1740,6 @@
     "opts": {
       "dsn": "edgedb://",
       "tlsSecurity": ""
-    },
-    "error": {
-      "type": "invalid_tls_security"
-    }
-  },
-  {
-    "opts": {
-      "dsn": "edgedb://?tls_verify_hostname"
     },
     "error": {
       "type": "invalid_tls_security"
