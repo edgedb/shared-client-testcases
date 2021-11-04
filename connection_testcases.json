@@ -1960,7 +1960,7 @@
       "user": "super_user",
       "password": "lZTBy1RVCfOpBAOwSCwIyBIR",
       "tlsCAData": null,
-      "tlsSecurity": "no_host_verification",
+      "tlsSecurity": "insecure",
       "serverSettings": {}
     }
   },
