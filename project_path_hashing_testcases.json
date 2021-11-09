@@ -1,0 +1,17 @@
+[
+  {
+    "platform": "linux",
+    "project": "/home/edgedb/test",
+    "result": "/home/edgedb/.config/edgedb/projects/test-cf3c86df8fc33fbb73a47671ac5762eda8219158"
+  },
+  {
+    "platform": "macos",
+    "project": "/Users/edgedb/test",
+    "result": "/Users/edgedb/Library/Application Support/edgedb/projects/test-bea4557cb17f02c484b4e7f8ea93fc168ecd28d4"
+  },
+  {
+    "platform": "windows",
+    "project": "C:\\Users\\edgedb\\test",
+    "result": "C:\\Users\\edgedb\\AppData\\Local\\EdgeDB\\config\\projects\\test-461d1a84b3307c343f37187e3722391ce4f8f64c"
+  }
+]
