@@ -1537,6 +1537,210 @@
     }
   },
   {
+    "opts": {
+      "tlsCAFile": "/home/edgedb/test/cert.pem"
+    },
+    "env": {
+      "EDGEDB_DSN": "edgedb://",
+      "EDGEDB_CLIENT_TLS_SECURITY": "default",
+      "EDGEDB_CLIENT_SECURITY": "default"
+    },
+    "fs": {
+      "files": {
+        "/home/edgedb/test/cert.pem": "-----BEGIN CERTIFICATE-----\nMIICEjCCAXsCAg36MA0GCSqGSIb3DQEBBQUAMIGbMQswCQYDVQQGEwJKUDEOMAwG\nA1UECBMFVG9reW8xEDAOBgNVBAcTB0NodW8ta3UxETAPBgNVBAoTCEZyYW5rNERE\nMRgwFgYDVQQLEw9XZWJDZXJ0IFN1cHBvcnQxGDAWBgNVBAMTD0ZyYW5rNEREIFdl\nYiBDQTEjMCEGCSqGSIb3DQEJARYUc3VwcG9ydEBmcmFuazRkZC5jb20wHhcNMTIw\nODIyMDUyNjU0WhcNMTcwODIxMDUyNjU0WjBKMQswCQYDVQQGEwJKUDEOMAwGA1UE\nCAwFVG9reW8xETAPBgNVBAoMCEZyYW5rNEREMRgwFgYDVQQDDA93d3cuZXhhbXBs\nZS5jb20wXDANBgkqhkiG9w0BAQEFAANLADBIAkEAm/xmkHmEQrurE/0re/jeFRLl\n8ZPjBop7uLHhnia7lQG/5zDtZIUC3RVpqDSwBuw/NTweGyuP+o8AG98HxqxTBwID\nAQABMA0GCSqGSIb3DQEBBQUAA4GBABS2TLuBeTPmcaTaUW/LCB2NYOy8GMdzR1mx\n8iBIu2H6/E2tiY3RIevV2OW61qY2/XRQg7YPxx3ffeUugX9F4J/iPnnu1zAxxyBy\n2VguKv4SWjRFoRkIfIlHX0qVviMhSlNy2ioFLy7JcPZb+v3ftDGywUqcBiVDoea0\nHn+GmxZA\n-----END CERTIFICATE-----\n"
+      }
+    },
+    "result": {
+      "address": ["localhost", 5656],
+      "database": "edgedb",
+      "user": "edgedb",
+      "password": null,
+      "tlsCAData": "-----BEGIN CERTIFICATE-----\nMIICEjCCAXsCAg36MA0GCSqGSIb3DQEBBQUAMIGbMQswCQYDVQQGEwJKUDEOMAwG\nA1UECBMFVG9reW8xEDAOBgNVBAcTB0NodW8ta3UxETAPBgNVBAoTCEZyYW5rNERE\nMRgwFgYDVQQLEw9XZWJDZXJ0IFN1cHBvcnQxGDAWBgNVBAMTD0ZyYW5rNEREIFdl\nYiBDQTEjMCEGCSqGSIb3DQEJARYUc3VwcG9ydEBmcmFuazRkZC5jb20wHhcNMTIw\nODIyMDUyNjU0WhcNMTcwODIxMDUyNjU0WjBKMQswCQYDVQQGEwJKUDEOMAwGA1UE\nCAwFVG9reW8xETAPBgNVBAoMCEZyYW5rNEREMRgwFgYDVQQDDA93d3cuZXhhbXBs\nZS5jb20wXDANBgkqhkiG9w0BAQEFAANLADBIAkEAm/xmkHmEQrurE/0re/jeFRLl\n8ZPjBop7uLHhnia7lQG/5zDtZIUC3RVpqDSwBuw/NTweGyuP+o8AG98HxqxTBwID\nAQABMA0GCSqGSIb3DQEBBQUAA4GBABS2TLuBeTPmcaTaUW/LCB2NYOy8GMdzR1mx\n8iBIu2H6/E2tiY3RIevV2OW61qY2/XRQg7YPxx3ffeUugX9F4J/iPnnu1zAxxyBy\n2VguKv4SWjRFoRkIfIlHX0qVviMhSlNy2ioFLy7JcPZb+v3ftDGywUqcBiVDoea0\nHn+GmxZA\n-----END CERTIFICATE-----\n",
+      "tlsSecurity": "no_host_verification",
+      "serverSettings": {}
+    }
+  },
+  {
+    "env": {
+      "EDGEDB_DSN": "edgedb://",
+      "EDGEDB_CLIENT_TLS_SECURITY": "default",
+      "EDGEDB_CLIENT_SECURITY": "default"
+    },
+    "result": {
+      "address": ["localhost", 5656],
+      "database": "edgedb",
+      "user": "edgedb",
+      "password": null,
+      "tlsCAData": null,
+      "tlsSecurity": "strict",
+      "serverSettings": {}
+    }
+  },
+  {
+    "env": {
+      "EDGEDB_DSN": "edgedb://",
+      "EDGEDB_CLIENT_TLS_SECURITY": "insecure",
+      "EDGEDB_CLIENT_SECURITY": "default"
+    },
+    "result": {
+      "address": ["localhost", 5656],
+      "database": "edgedb",
+      "user": "edgedb",
+      "password": null,
+      "tlsCAData": null,
+      "tlsSecurity": "insecure",
+      "serverSettings": {}
+    }
+  },
+  {
+    "env": {
+      "EDGEDB_DSN": "edgedb://",
+      "EDGEDB_CLIENT_TLS_SECURITY": "no_host_verification",
+      "EDGEDB_CLIENT_SECURITY": "default"
+    },
+    "result": {
+      "address": ["localhost", 5656],
+      "database": "edgedb",
+      "user": "edgedb",
+      "password": null,
+      "tlsCAData": null,
+      "tlsSecurity": "no_host_verification",
+      "serverSettings": {}
+    }
+  },
+  {
+    "env": {
+      "EDGEDB_DSN": "edgedb://",
+      "EDGEDB_CLIENT_TLS_SECURITY": "strict",
+      "EDGEDB_CLIENT_SECURITY": "default"
+    },
+    "result": {
+      "address": ["localhost", 5656],
+      "database": "edgedb",
+      "user": "edgedb",
+      "password": null,
+      "tlsCAData": null,
+      "tlsSecurity": "strict",
+      "serverSettings": {}
+    }
+  },
+  {
+    "env": {
+      "EDGEDB_DSN": "edgedb://",
+      "EDGEDB_CLIENT_TLS_SECURITY": "default",
+      "EDGEDB_CLIENT_SECURITY": "insecure_dev_mode"
+    },
+    "result": {
+      "address": ["localhost", 5656],
+      "database": "edgedb",
+      "user": "edgedb",
+      "password": null,
+      "tlsCAData": null,
+      "tlsSecurity": "insecure",
+      "serverSettings": {}
+    }
+  },
+  {
+    "env": {
+      "EDGEDB_DSN": "edgedb://",
+      "EDGEDB_CLIENT_TLS_SECURITY": "insecure",
+      "EDGEDB_CLIENT_SECURITY": "insecure_dev_mode"
+    },
+    "result": {
+      "address": ["localhost", 5656],
+      "database": "edgedb",
+      "user": "edgedb",
+      "password": null,
+      "tlsCAData": null,
+      "tlsSecurity": "insecure",
+      "serverSettings": {}
+    }
+  },
+  {
+    "env": {
+      "EDGEDB_DSN": "edgedb://",
+      "EDGEDB_CLIENT_TLS_SECURITY": "no_host_verification",
+      "EDGEDB_CLIENT_SECURITY": "insecure_dev_mode"
+    },
+    "result": {
+      "address": ["localhost", 5656],
+      "database": "edgedb",
+      "user": "edgedb",
+      "password": null,
+      "tlsCAData": null,
+      "tlsSecurity": "no_host_verification",
+      "serverSettings": {}
+    }
+  },
+  {
+    "env": {
+      "EDGEDB_DSN": "edgedb://",
+      "EDGEDB_CLIENT_TLS_SECURITY": "strict",
+      "EDGEDB_CLIENT_SECURITY": "insecure_dev_mode"
+    },
+    "result": {
+      "address": ["localhost", 5656],
+      "database": "edgedb",
+      "user": "edgedb",
+      "password": null,
+      "tlsCAData": null,
+      "tlsSecurity": "strict",
+      "serverSettings": {}
+    }
+  },
+  {
+    "env": {
+      "EDGEDB_DSN": "edgedb://",
+      "EDGEDB_CLIENT_TLS_SECURITY": "default",
+      "EDGEDB_CLIENT_SECURITY": "strict"
+    },
+    "result": {
+      "address": ["localhost", 5656],
+      "database": "edgedb",
+      "user": "edgedb",
+      "password": null,
+      "tlsCAData": null,
+      "tlsSecurity": "strict",
+      "serverSettings": {}
+    }
+  },
+  {
+    "env": {
+      "EDGEDB_DSN": "edgedb://",
+      "EDGEDB_CLIENT_TLS_SECURITY": "insecure",
+      "EDGEDB_CLIENT_SECURITY": "strict"
+    },
+    "error": {
+      "type": "invalid_tls_security"
+    }
+  },
+  {
+    "env": {
+      "EDGEDB_DSN": "edgedb://",
+      "EDGEDB_CLIENT_TLS_SECURITY": "no_host_verification",
+      "EDGEDB_CLIENT_SECURITY": "strict"
+    },
+    "error": {
+      "type": "invalid_tls_security"
+    }
+  },
+  {
+    "env": {
+      "EDGEDB_DSN": "edgedb://",
+      "EDGEDB_CLIENT_TLS_SECURITY": "strict",
+      "EDGEDB_CLIENT_SECURITY": "strict"
+    },
+    "result": {
+      "address": ["localhost", 5656],
+      "database": "edgedb",
+      "user": "edgedb",
+      "password": null,
+      "tlsCAData": null,
+      "tlsSecurity": "strict",
+      "serverSettings": {}
+    }
+  },
+  {
     "env": {
       "EDGEDB_DSN": "edgedb://",
       "EDGEDB_CLIENT_TLS_SECURITY": "insecure"
