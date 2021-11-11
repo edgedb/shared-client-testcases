@@ -6,6 +6,15 @@
     "result": "/home/edgedb/.config/edgedb/projects/test-cf3c86df8fc33fbb73a47671ac5762eda8219158"
   },
   {
+    "platform": "linux",
+    "env": {
+      "XDG_CONFIG_HOME": "/some/other/path"
+    },
+    "homeDir": "/home/edgedb",
+    "project": "/home/edgedb/test",
+    "result": "/some/other/path/edgedb/projects/test-cf3c86df8fc33fbb73a47671ac5762eda8219158"
+  },
+  {
     "platform": "macos",
     "homeDir": "/Users/edgedb",
     "project": "/Users/edgedb/test",
