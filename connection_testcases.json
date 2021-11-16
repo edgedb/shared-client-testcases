@@ -2255,5 +2255,63 @@
     "error": {
       "type":"invalid_credentials_file"
     }
+  },
+  {
+    "opts": {
+      "dsn": "edgedb://user3:123123@[::1]:5555/abcdef"
+    },
+    "result": {
+      "address": ["::1", 5555],
+      "database": "abcdef",
+      "password": "123123",
+      "serverSettings": {},
+      "tlsCAData": null,
+      "tlsSecurity": "strict",
+      "user": "user3"
+    }
+  },
+  {
+    "opts": {
+      "dsn": "edgedb://user3@[fe80::1ff:fe23:4567:890a%25eth0]:3000/ab"
+    },
+    "result": {
+      "address": ["fe80::1ff:fe23:4567:890a%eth0", 3000],
+      "database": "ab",
+      "password": null,
+      "serverSettings": {},
+      "tlsCAData": null,
+      "tlsSecurity": "strict",
+      "user": "user3"
+    }
+  },
+  {
+    "env": {
+      "EDGEDB_HOST": "fe80::1ff:fe23:4567:890a%eth0",
+      "EDGEDB_PORT": "12341"
+    },
+    "result": {
+      "address": ["fe80::1ff:fe23:4567:890a%eth0", 12341],
+      "database": "edgedb",
+      "user": "edgedb",
+      "password": null,
+      "tlsCAData": null,
+      "tlsSecurity": "strict",
+      "serverSettings": {}
+    }
+  },
+  {
+    "opts": {
+      "host": "fe80::1ff:fe23:4567:890a%eth0",
+      "port": 12342
+    },
+    "result": {
+      "address": ["fe80::1ff:fe23:4567:890a%eth0", 12342],
+      "database": "edgedb",
+      "user": "edgedb",
+      "password": null,
+      "tlsCAData": null,
+      "tlsSecurity": "strict",
+      "serverSettings": {}
+    }
   }
 ]
