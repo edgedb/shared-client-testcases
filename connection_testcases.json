@@ -21,7 +21,8 @@
       "password": "lZTBy1RVCfOpBAOwSCwIyBIR",
       "tlsCAData": null,
       "tlsSecurity": "strict",
-      "serverSettings": {}
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
     }
   },
   {
@@ -46,7 +47,8 @@
       "password": "lZTBy1RVCfOpBAOwSCwIyBIR",
       "tlsCAData": null,
       "tlsSecurity": "strict",
-      "serverSettings": {}
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
     }
   },
   {
@@ -111,7 +113,8 @@
       "password": "lZTBy1RVCfOpBAOwSCwIyBIR",
       "tlsCAData": null,
       "tlsSecurity": "strict",
-      "serverSettings": {}
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
     }
   },
   {
@@ -137,7 +140,8 @@
       "password": "lZTBy1RVCfOpBAOwSCwIyBIR",
       "tlsCAData": null,
       "tlsSecurity": "strict",
-      "serverSettings": {}
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
     }
   },
   {
@@ -213,7 +217,8 @@
       "password": null,
       "tlsCAData": null,
       "tlsSecurity": "strict",
-      "serverSettings": {}
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
     }
   },
   {
@@ -233,7 +238,8 @@
       "password": null,
       "tlsCAData": "-----BEGIN CERTIFICATE-----\nMIICEjCCAXsCAg36MA0GCSqGSIb3DQEBBQUAMIGbMQswCQYDVQQGEwJKUDEOMAwG\nA1UECBMFVG9reW8xEDAOBgNVBAcTB0NodW8ta3UxETAPBgNVBAoTCEZyYW5rNERE\nMRgwFgYDVQQLEw9XZWJDZXJ0IFN1cHBvcnQxGDAWBgNVBAMTD0ZyYW5rNEREIFdl\nYiBDQTEjMCEGCSqGSIb3DQEJARYUc3VwcG9ydEBmcmFuazRkZC5jb20wHhcNMTIw\nODIyMDUyNjU0WhcNMTcwODIxMDUyNjU0WjBKMQswCQYDVQQGEwJKUDEOMAwGA1UE\nCAwFVG9reW8xETAPBgNVBAoMCEZyYW5rNEREMRgwFgYDVQQDDA93d3cuZXhhbXBs\nZS5jb20wXDANBgkqhkiG9w0BAQEFAANLADBIAkEAm/xmkHmEQrurE/0re/jeFRLl\n8ZPjBop7uLHhnia7lQG/5zDtZIUC3RVpqDSwBuw/NTweGyuP+o8AG98HxqxTBwID\nAQABMA0GCSqGSIb3DQEBBQUAA4GBABS2TLuBeTPmcaTaUW/LCB2NYOy8GMdzR1mx\n8iBIu2H6/E2tiY3RIevV2OW61qY2/XRQg7YPxx3ffeUugX9F4J/iPnnu1zAxxyBy\n2VguKv4SWjRFoRkIfIlHX0qVviMhSlNy2ioFLy7JcPZb+v3ftDGywUqcBiVDoea0\nHn+GmxZA\n-----END CERTIFICATE-----\n",
       "tlsSecurity": "no_host_verification",
-      "serverSettings": {}
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
     }
   },
   {
@@ -253,7 +259,8 @@
       "password": null,
       "tlsCAData": "-----BEGIN CERTIFICATE-----\nMIICEjCCAXsCAg36MA0GCSqGSIb3DQEBBQUAMIGbMQswCQYDVQQGEwJKUDEOMAwG\nA1UECBMFVG9reW8xEDAOBgNVBAcTB0NodW8ta3UxETAPBgNVBAoTCEZyYW5rNERE\nMRgwFgYDVQQLEw9XZWJDZXJ0IFN1cHBvcnQxGDAWBgNVBAMTD0ZyYW5rNEREIFdl\nYiBDQTEjMCEGCSqGSIb3DQEJARYUc3VwcG9ydEBmcmFuazRkZC5jb20wHhcNMTIw\nODIyMDUyNjU0WhcNMTcwODIxMDUyNjU0WjBKMQswCQYDVQQGEwJKUDEOMAwGA1UE\nCAwFVG9reW8xETAPBgNVBAoMCEZyYW5rNEREMRgwFgYDVQQDDA93d3cuZXhhbXBs\nZS5jb20wXDANBgkqhkiG9w0BAQEFAANLADBIAkEAm/xmkHmEQrurE/0re/jeFRLl\n8ZPjBop7uLHhnia7lQG/5zDtZIUC3RVpqDSwBuw/NTweGyuP+o8AG98HxqxTBwID\nAQABMA0GCSqGSIb3DQEBBQUAA4GBABS2TLuBeTPmcaTaUW/LCB2NYOy8GMdzR1mx\n8iBIu2H6/E2tiY3RIevV2OW61qY2/XRQg7YPxx3ffeUugX9F4J/iPnnu1zAxxyBy\n2VguKv4SWjRFoRkIfIlHX0qVviMhSlNy2ioFLy7JcPZb+v3ftDGywUqcBiVDoea0\nHn+GmxZA\n-----END CERTIFICATE-----\n",
       "tlsSecurity": "strict",
-      "serverSettings": {}
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
     }
   },
   {
@@ -273,7 +280,8 @@
       "password": null,
       "tlsCAData": "-----BEGIN CERTIFICATE-----\nMIICEjCCAXsCAg36MA0GCSqGSIb3DQEBBQUAMIGbMQswCQYDVQQGEwJKUDEOMAwG\nA1UECBMFVG9reW8xEDAOBgNVBAcTB0NodW8ta3UxETAPBgNVBAoTCEZyYW5rNERE\nMRgwFgYDVQQLEw9XZWJDZXJ0IFN1cHBvcnQxGDAWBgNVBAMTD0ZyYW5rNEREIFdl\nYiBDQTEjMCEGCSqGSIb3DQEJARYUc3VwcG9ydEBmcmFuazRkZC5jb20wHhcNMTIw\nODIyMDUyNjU0WhcNMTcwODIxMDUyNjU0WjBKMQswCQYDVQQGEwJKUDEOMAwGA1UE\nCAwFVG9reW8xETAPBgNVBAoMCEZyYW5rNEREMRgwFgYDVQQDDA93d3cuZXhhbXBs\nZS5jb20wXDANBgkqhkiG9w0BAQEFAANLADBIAkEAm/xmkHmEQrurE/0re/jeFRLl\n8ZPjBop7uLHhnia7lQG/5zDtZIUC3RVpqDSwBuw/NTweGyuP+o8AG98HxqxTBwID\nAQABMA0GCSqGSIb3DQEBBQUAA4GBABS2TLuBeTPmcaTaUW/LCB2NYOy8GMdzR1mx\n8iBIu2H6/E2tiY3RIevV2OW61qY2/XRQg7YPxx3ffeUugX9F4J/iPnnu1zAxxyBy\n2VguKv4SWjRFoRkIfIlHX0qVviMhSlNy2ioFLy7JcPZb+v3ftDGywUqcBiVDoea0\nHn+GmxZA\n-----END CERTIFICATE-----\n",
       "tlsSecurity": "strict",
-      "serverSettings": {}
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
     }
   },
   {
@@ -336,7 +344,8 @@
       "password": "lZTBy1RVCfOpBAOwSCwIyBIR",
       "tlsCAData": null,
       "tlsSecurity": "strict",
-      "serverSettings": {}
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
     }
   },
   {
@@ -395,7 +404,8 @@
       "password": "123123",
       "tlsCAData": null,
       "tlsSecurity": "strict",
-      "serverSettings": {}
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
     }
   },
   {
@@ -457,7 +467,8 @@
       "password": null,
       "tlsCAData": null,
       "tlsSecurity": "strict",
-      "serverSettings": {}
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
     }
   },
   {
@@ -471,7 +482,8 @@
       "password": null,
       "tlsCAData": null,
       "tlsSecurity": "strict",
-      "serverSettings": {}
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
     }
   },
   {
@@ -485,7 +497,8 @@
       "password": null,
       "tlsCAData": null,
       "tlsSecurity": "strict",
-      "serverSettings": {}
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
     }
   },
   {
@@ -507,7 +520,8 @@
       "password": null,
       "tlsCAData": null,
       "tlsSecurity": "strict",
-      "serverSettings": {}
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
     }
   },
   {
@@ -561,7 +575,8 @@
       "password": null,
       "tlsCAData": null,
       "tlsSecurity": "strict",
-      "serverSettings": {}
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
     }
   },
   {
@@ -595,7 +610,8 @@
       "password": null,
       "tlsCAData": null,
       "tlsSecurity": "strict",
-      "serverSettings": {}
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
     }
   },
   {
@@ -619,7 +635,8 @@
       "password": "123123",
       "tlsCAData": null,
       "tlsSecurity": "strict",
-      "serverSettings": {}
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
     },
     "warnings": ["docker_tcp_port"]
   },
@@ -635,7 +652,8 @@
       "password": null,
       "tlsCAData": null,
       "tlsSecurity": "strict",
-      "serverSettings": {}
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
     }
   },
   {
@@ -724,7 +742,8 @@
       "password": null,
       "tlsCAData": null,
       "tlsSecurity": "strict",
-      "serverSettings": {}
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
     }
   },
   {
@@ -834,7 +853,8 @@
       "password": "123123",
       "tlsCAData": null,
       "tlsSecurity": "strict",
-      "serverSettings": {}
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
     }
   },
   {
@@ -851,7 +871,8 @@
       "password": null,
       "tlsCAData": null,
       "tlsSecurity": "strict",
-      "serverSettings": {}
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
     }
   },
   {
@@ -868,7 +889,8 @@
       "password": null,
       "tlsCAData": null,
       "tlsSecurity": "strict",
-      "serverSettings": {}
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
     }
   },
   {
@@ -905,7 +927,8 @@
       "password": "lZTBy1RVCfOpBAOwSCwIyBIR",
       "tlsCAData": null,
       "tlsSecurity": "strict",
-      "serverSettings": {}
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
     }
   },
   {
@@ -922,7 +945,8 @@
       "password": "123123",
       "tlsCAData": null,
       "tlsSecurity": "strict",
-      "serverSettings": {}
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
     }
   },
   {
@@ -939,7 +963,8 @@
       "password": null,
       "tlsCAData": null,
       "tlsSecurity": "strict",
-      "serverSettings": {}
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
     }
   },
   {
@@ -961,7 +986,8 @@
       "password": "lZTBy1RVCfOpBAOwSCwIyBIR",
       "tlsCAData": null,
       "tlsSecurity": "strict",
-      "serverSettings": {}
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
     }
   },
   {
@@ -978,7 +1004,8 @@
       "password": "lZTBy1RVCfOpBAOwSCwIyBIR",
       "tlsCAData": null,
       "tlsSecurity": "strict",
-      "serverSettings": {}
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
     }
   },
   {
@@ -997,7 +1024,8 @@
       "password": null,
       "tlsCAData": null,
       "tlsSecurity": "strict",
-      "serverSettings": {}
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
     }
   },
   {
@@ -1089,7 +1117,8 @@
       "tlsSecurity": "strict",
       "serverSettings": {
         "param": "123"
-      }
+      },
+      "waitUntilAvailable": "PT30S"
     }
   },
   {
@@ -1113,7 +1142,8 @@
       "tlsSecurity": "strict",
       "serverSettings": {
         "param": "123"
-      }
+      },
+      "waitUntilAvailable": "PT30S"
     }
   },
   {
@@ -1137,7 +1167,8 @@
       "tlsSecurity": "strict",
       "serverSettings": {
         "param": "123"
-      }
+      },
+      "waitUntilAvailable": "PT30S"
     }
   },
   {
@@ -1153,7 +1184,8 @@
       "tlsSecurity": "strict",
       "serverSettings": {
         "param": "123"
-      }
+      },
+      "waitUntilAvailable": "PT30S"
     }
   },
   {
@@ -1169,7 +1201,8 @@
       "tlsSecurity": "strict",
       "serverSettings": {
         "param": "123"
-      }
+      },
+      "waitUntilAvailable": "PT30S"
     }
   },
   {
@@ -1193,7 +1226,8 @@
       "tlsSecurity": "strict",
       "serverSettings": {
         "param": "123"
-      }
+      },
+      "waitUntilAvailable": "PT30S"
     }
   },
   {
@@ -1217,7 +1251,8 @@
       "tlsSecurity": "strict",
       "serverSettings": {
         "param": "123"
-      }
+      },
+      "waitUntilAvailable": "PT30S"
     }
   },
   {
@@ -1231,7 +1266,8 @@
       "password": null,
       "tlsCAData": null,
       "tlsSecurity": "strict",
-      "serverSettings": {}
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
     }
   },
   {
@@ -1245,7 +1281,8 @@
       "password": null,
       "tlsCAData": null,
       "tlsSecurity": "strict",
-      "serverSettings": {}
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
     }
   },
   {
@@ -1259,7 +1296,8 @@
       "password": "not_secret_password",
       "tlsCAData": null,
       "tlsSecurity": "strict",
-      "serverSettings": {}
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
     }
   },
   {
@@ -1276,7 +1314,8 @@
       "password": "super_secret_password",
       "tlsCAData": null,
       "tlsSecurity": "strict",
-      "serverSettings": {}
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
     }
   },
   {
@@ -1293,7 +1332,8 @@
       "password": "password",
       "tlsCAData": null,
       "tlsSecurity": "strict",
-      "serverSettings": {}
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
     }
   },
   {
@@ -1310,7 +1350,8 @@
       "password": null,
       "tlsCAData": null,
       "tlsSecurity": "strict",
-      "serverSettings": {}
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
     }
   },
   {
@@ -1338,7 +1379,8 @@
       "password": "password",
       "tlsCAData": null,
       "tlsSecurity": "strict",
-      "serverSettings": {}
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
     }
   },
   {
@@ -1368,7 +1410,8 @@
       "password": "12345",
       "tlsCAData": null,
       "tlsSecurity": "strict",
-      "serverSettings": {}
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
     }
   },
   {
@@ -1400,7 +1443,8 @@
         "a": "abc",
         "b": "def",
         "c": "ghi"
-      }
+      },
+      "waitUntilAvailable": "PT30S"
     }
   },
   {
@@ -1423,7 +1467,8 @@
         "a": "abc",
         "b": "def",
         "c": "ghi"
-      }
+      },
+      "waitUntilAvailable": "PT30S"
     }
   },
   {
@@ -1447,7 +1492,8 @@
         "a": "jkl",
         "b": "def",
         "c": "ghi"
-      }
+      },
+      "waitUntilAvailable": "PT30S"
     }
   },
   {
@@ -1469,7 +1515,8 @@
         "a": "jkl",
         "b": "def",
         "c": "ghi"
-      }
+      },
+      "waitUntilAvailable": "PT30S"
     }
   },
   {
@@ -1484,7 +1531,8 @@
       "password": null,
       "tlsCAData": null,
       "tlsSecurity": "no_host_verification",
-      "serverSettings": {}
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
     }
   },
   {
@@ -1499,7 +1547,8 @@
       "password": null,
       "tlsCAData": null,
       "tlsSecurity": "insecure",
-      "serverSettings": {}
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
     }
   },
   {
@@ -1514,7 +1563,8 @@
       "password": null,
       "tlsCAData": null,
       "tlsSecurity": "insecure",
-      "serverSettings": {}
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
     }
   },
   {
@@ -1529,7 +1579,8 @@
       "password": null,
       "tlsCAData": null,
       "tlsSecurity": "no_host_verification",
-      "serverSettings": {}
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
     }
   },
   {
@@ -1560,7 +1611,8 @@
       "password": null,
       "tlsCAData": "-----BEGIN CERTIFICATE-----\nMIICEjCCAXsCAg36MA0GCSqGSIb3DQEBBQUAMIGbMQswCQYDVQQGEwJKUDEOMAwG\nA1UECBMFVG9reW8xEDAOBgNVBAcTB0NodW8ta3UxETAPBgNVBAoTCEZyYW5rNERE\nMRgwFgYDVQQLEw9XZWJDZXJ0IFN1cHBvcnQxGDAWBgNVBAMTD0ZyYW5rNEREIFdl\nYiBDQTEjMCEGCSqGSIb3DQEJARYUc3VwcG9ydEBmcmFuazRkZC5jb20wHhcNMTIw\nODIyMDUyNjU0WhcNMTcwODIxMDUyNjU0WjBKMQswCQYDVQQGEwJKUDEOMAwGA1UE\nCAwFVG9reW8xETAPBgNVBAoMCEZyYW5rNEREMRgwFgYDVQQDDA93d3cuZXhhbXBs\nZS5jb20wXDANBgkqhkiG9w0BAQEFAANLADBIAkEAm/xmkHmEQrurE/0re/jeFRLl\n8ZPjBop7uLHhnia7lQG/5zDtZIUC3RVpqDSwBuw/NTweGyuP+o8AG98HxqxTBwID\nAQABMA0GCSqGSIb3DQEBBQUAA4GBABS2TLuBeTPmcaTaUW/LCB2NYOy8GMdzR1mx\n8iBIu2H6/E2tiY3RIevV2OW61qY2/XRQg7YPxx3ffeUugX9F4J/iPnnu1zAxxyBy\n2VguKv4SWjRFoRkIfIlHX0qVviMhSlNy2ioFLy7JcPZb+v3ftDGywUqcBiVDoea0\nHn+GmxZA\n-----END CERTIFICATE-----\n",
       "tlsSecurity": "strict",
-      "serverSettings": {}
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
     }
   },
   {
@@ -1576,7 +1628,8 @@
       "password": null,
       "tlsCAData": "-----BEGIN CERTIFICATE-----\nMIICEjCCAXsCAg36MA0GCSqGSIb3DQEBBQUAMIGbMQswCQYDVQQGEwJKUDEOMAwG\nA1UECBMFVG9reW8xEDAOBgNVBAcTB0NodW8ta3UxETAPBgNVBAoTCEZyYW5rNERE\nMRgwFgYDVQQLEw9XZWJDZXJ0IFN1cHBvcnQxGDAWBgNVBAMTD0ZyYW5rNEREIFdl\nYiBDQTEjMCEGCSqGSIb3DQEJARYUc3VwcG9ydEBmcmFuazRkZC5jb20wHhcNMTIw\nODIyMDUyNjU0WhcNMTcwODIxMDUyNjU0WjBKMQswCQYDVQQGEwJKUDEOMAwGA1UE\nCAwFVG9reW8xETAPBgNVBAoMCEZyYW5rNEREMRgwFgYDVQQDDA93d3cuZXhhbXBs\nZS5jb20wXDANBgkqhkiG9w0BAQEFAANLADBIAkEAm/xmkHmEQrurE/0re/jeFRLl\n8ZPjBop7uLHhnia7lQG/5zDtZIUC3RVpqDSwBuw/NTweGyuP+o8AG98HxqxTBwID\nAQABMA0GCSqGSIb3DQEBBQUAA4GBABS2TLuBeTPmcaTaUW/LCB2NYOy8GMdzR1mx\n8iBIu2H6/E2tiY3RIevV2OW61qY2/XRQg7YPxx3ffeUugX9F4J/iPnnu1zAxxyBy\n2VguKv4SWjRFoRkIfIlHX0qVviMhSlNy2ioFLy7JcPZb+v3ftDGywUqcBiVDoea0\nHn+GmxZA\n-----END CERTIFICATE-----\n",
       "tlsSecurity": "strict",
-      "serverSettings": {}
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
     }
   },
   {
@@ -1597,7 +1650,8 @@
       "password": null,
       "tlsCAData": "-----BEGIN CERTIFICATE-----\nMIICEjCCAXsCAg36MA0GCSqGSIb3DQEBBQUAMIGbMQswCQYDVQQGEwJKUDEOMAwG\nA1UECBMFVG9reW8xEDAOBgNVBAcTB0NodW8ta3UxETAPBgNVBAoTCEZyYW5rNERE\nMRgwFgYDVQQLEw9XZWJDZXJ0IFN1cHBvcnQxGDAWBgNVBAMTD0ZyYW5rNEREIFdl\nYiBDQTEjMCEGCSqGSIb3DQEJARYUc3VwcG9ydEBmcmFuazRkZC5jb20wHhcNMTIw\nODIyMDUyNjU0WhcNMTcwODIxMDUyNjU0WjBKMQswCQYDVQQGEwJKUDEOMAwGA1UE\nCAwFVG9reW8xETAPBgNVBAoMCEZyYW5rNEREMRgwFgYDVQQDDA93d3cuZXhhbXBs\nZS5jb20wXDANBgkqhkiG9w0BAQEFAANLADBIAkEAm/xmkHmEQrurE/0re/jeFRLl\n8ZPjBop7uLHhnia7lQG/5zDtZIUC3RVpqDSwBuw/NTweGyuP+o8AG98HxqxTBwID\nAQABMA0GCSqGSIb3DQEBBQUAA4GBABS2TLuBeTPmcaTaUW/LCB2NYOy8GMdzR1mx\n8iBIu2H6/E2tiY3RIevV2OW61qY2/XRQg7YPxx3ffeUugX9F4J/iPnnu1zAxxyBy\n2VguKv4SWjRFoRkIfIlHX0qVviMhSlNy2ioFLy7JcPZb+v3ftDGywUqcBiVDoea0\nHn+GmxZA\n-----END CERTIFICATE-----\n",
       "tlsSecurity": "strict",
-      "serverSettings": {}
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
     }
   },
   {
@@ -1618,7 +1672,8 @@
       "password": null,
       "tlsCAData": "-----BEGIN CERTIFICATE-----\nMIICEjCCAXsCAg36MA0GCSqGSIb3DQEBBQUAMIGbMQswCQYDVQQGEwJKUDEOMAwG\nA1UECBMFVG9reW8xEDAOBgNVBAcTB0NodW8ta3UxETAPBgNVBAoTCEZyYW5rNERE\nMRgwFgYDVQQLEw9XZWJDZXJ0IFN1cHBvcnQxGDAWBgNVBAMTD0ZyYW5rNEREIFdl\nYiBDQTEjMCEGCSqGSIb3DQEJARYUc3VwcG9ydEBmcmFuazRkZC5jb20wHhcNMTIw\nODIyMDUyNjU0WhcNMTcwODIxMDUyNjU0WjBKMQswCQYDVQQGEwJKUDEOMAwGA1UE\nCAwFVG9reW8xETAPBgNVBAoMCEZyYW5rNEREMRgwFgYDVQQDDA93d3cuZXhhbXBs\nZS5jb20wXDANBgkqhkiG9w0BAQEFAANLADBIAkEAm/xmkHmEQrurE/0re/jeFRLl\n8ZPjBop7uLHhnia7lQG/5zDtZIUC3RVpqDSwBuw/NTweGyuP+o8AG98HxqxTBwID\nAQABMA0GCSqGSIb3DQEBBQUAA4GBABS2TLuBeTPmcaTaUW/LCB2NYOy8GMdzR1mx\n8iBIu2H6/E2tiY3RIevV2OW61qY2/XRQg7YPxx3ffeUugX9F4J/iPnnu1zAxxyBy\n2VguKv4SWjRFoRkIfIlHX0qVviMhSlNy2ioFLy7JcPZb+v3ftDGywUqcBiVDoea0\nHn+GmxZA\n-----END CERTIFICATE-----\n",
       "tlsSecurity": "strict",
-      "serverSettings": {}
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
     }
   },
   {
@@ -1641,7 +1696,8 @@
       "password": null,
       "tlsCAData": "-----BEGIN CERTIFICATE-----\nMIICEjCCAXsCAg36MA0GCSqGSIb3DQEBBQUAMIGbMQswCQYDVQQGEwJKUDEOMAwG\nA1UECBMFVG9reW8xEDAOBgNVBAcTB0NodW8ta3UxETAPBgNVBAoTCEZyYW5rNERE\nMRgwFgYDVQQLEw9XZWJDZXJ0IFN1cHBvcnQxGDAWBgNVBAMTD0ZyYW5rNEREIFdl\nYiBDQTEjMCEGCSqGSIb3DQEJARYUc3VwcG9ydEBmcmFuazRkZC5jb20wHhcNMTIw\nODIyMDUyNjU0WhcNMTcwODIxMDUyNjU0WjBKMQswCQYDVQQGEwJKUDEOMAwGA1UE\nCAwFVG9reW8xETAPBgNVBAoMCEZyYW5rNEREMRgwFgYDVQQDDA93d3cuZXhhbXBs\nZS5jb20wXDANBgkqhkiG9w0BAQEFAANLADBIAkEAm/xmkHmEQrurE/0re/jeFRLl\n8ZPjBop7uLHhnia7lQG/5zDtZIUC3RVpqDSwBuw/NTweGyuP+o8AG98HxqxTBwID\nAQABMA0GCSqGSIb3DQEBBQUAA4GBABS2TLuBeTPmcaTaUW/LCB2NYOy8GMdzR1mx\n8iBIu2H6/E2tiY3RIevV2OW61qY2/XRQg7YPxx3ffeUugX9F4J/iPnnu1zAxxyBy\n2VguKv4SWjRFoRkIfIlHX0qVviMhSlNy2ioFLy7JcPZb+v3ftDGywUqcBiVDoea0\nHn+GmxZA\n-----END CERTIFICATE-----\n",
       "tlsSecurity": "strict",
-      "serverSettings": {}
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
     }
   },
   {
@@ -1665,7 +1721,8 @@
       "password": null,
       "tlsCAData": "-----BEGIN CERTIFICATE-----\nMIICEjCCAXsCAg36MA0GCSqGSIb3DQEBBQUAMIGbMQswCQYDVQQGEwJKUDEOMAwG\nA1UECBMFVG9reW8xEDAOBgNVBAcTB0NodW8ta3UxETAPBgNVBAoTCEZyYW5rNERE\nMRgwFgYDVQQLEw9XZWJDZXJ0IFN1cHBvcnQxGDAWBgNVBAMTD0ZyYW5rNEREIFdl\nYiBDQTEjMCEGCSqGSIb3DQEJARYUc3VwcG9ydEBmcmFuazRkZC5jb20wHhcNMTIw\nODIyMDUyNjU0WhcNMTcwODIxMDUyNjU0WjBKMQswCQYDVQQGEwJKUDEOMAwGA1UE\nCAwFVG9reW8xETAPBgNVBAoMCEZyYW5rNEREMRgwFgYDVQQDDA93d3cuZXhhbXBs\nZS5jb20wXDANBgkqhkiG9w0BAQEFAANLADBIAkEAm/xmkHmEQrurE/0re/jeFRLl\n8ZPjBop7uLHhnia7lQG/5zDtZIUC3RVpqDSwBuw/NTweGyuP+o8AG98HxqxTBwID\nAQABMA0GCSqGSIb3DQEBBQUAA4GBABS2TLuBeTPmcaTaUW/LCB2NYOy8GMdzR1mx\n8iBIu2H6/E2tiY3RIevV2OW61qY2/XRQg7YPxx3ffeUugX9F4J/iPnnu1zAxxyBy\n2VguKv4SWjRFoRkIfIlHX0qVviMhSlNy2ioFLy7JcPZb+v3ftDGywUqcBiVDoea0\nHn+GmxZA\n-----END CERTIFICATE-----\n",
       "tlsSecurity": "no_host_verification",
-      "serverSettings": {}
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
     }
   },
   {
@@ -1681,7 +1738,8 @@
       "password": null,
       "tlsCAData": null,
       "tlsSecurity": "strict",
-      "serverSettings": {}
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
     }
   },
   {
@@ -1697,7 +1755,8 @@
       "password": null,
       "tlsCAData": null,
       "tlsSecurity": "insecure",
-      "serverSettings": {}
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
     }
   },
   {
@@ -1713,7 +1772,8 @@
       "password": null,
       "tlsCAData": null,
       "tlsSecurity": "no_host_verification",
-      "serverSettings": {}
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
     }
   },
   {
@@ -1729,7 +1789,8 @@
       "password": null,
       "tlsCAData": null,
       "tlsSecurity": "strict",
-      "serverSettings": {}
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
     }
   },
   {
@@ -1745,7 +1806,8 @@
       "password": null,
       "tlsCAData": null,
       "tlsSecurity": "insecure",
-      "serverSettings": {}
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
     }
   },
   {
@@ -1761,7 +1823,8 @@
       "password": null,
       "tlsCAData": null,
       "tlsSecurity": "insecure",
-      "serverSettings": {}
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
     }
   },
   {
@@ -1777,7 +1840,8 @@
       "password": null,
       "tlsCAData": null,
       "tlsSecurity": "no_host_verification",
-      "serverSettings": {}
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
     }
   },
   {
@@ -1793,7 +1857,8 @@
       "password": null,
       "tlsCAData": null,
       "tlsSecurity": "strict",
-      "serverSettings": {}
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
     }
   },
   {
@@ -1809,7 +1874,8 @@
       "password": null,
       "tlsCAData": null,
       "tlsSecurity": "strict",
-      "serverSettings": {}
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
     }
   },
   {
@@ -1845,7 +1911,8 @@
       "password": null,
       "tlsCAData": null,
       "tlsSecurity": "strict",
-      "serverSettings": {}
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
     }
   },
   {
@@ -1860,7 +1927,8 @@
       "password": null,
       "tlsCAData": null,
       "tlsSecurity": "insecure",
-      "serverSettings": {}
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
     }
   },
   {
@@ -1875,7 +1943,8 @@
       "password": null,
       "tlsCAData": null,
       "tlsSecurity": "no_host_verification",
-      "serverSettings": {}
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
     }
   },
   {
@@ -1901,7 +1970,8 @@
       "password": null,
       "tlsCAData": null,
       "tlsSecurity": "strict",
-      "serverSettings": {}
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
     }
   },
   {
@@ -1989,7 +2059,8 @@
       "password": "",
       "tlsCAData": null,
       "tlsSecurity": "strict",
-      "serverSettings": {}
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
     }
   },
   {
@@ -2003,7 +2074,8 @@
       "password": "",
       "tlsCAData": null,
       "tlsSecurity": "strict",
-      "serverSettings": {}
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
     }
   },
   {
@@ -2077,7 +2149,8 @@
       "password": "secret",
       "tlsCAData": null,
       "tlsSecurity": "strict",
-      "serverSettings": {}
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
     }
   },
   {
@@ -2094,7 +2167,8 @@
       "password": null,
       "tlsCAData": null,
       "tlsSecurity": "strict",
-      "serverSettings": {}
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
     }
   },
   {
@@ -2110,7 +2184,8 @@
       "password": null,
       "tlsCAData": null,
       "tlsSecurity": "strict",
-      "serverSettings": {}
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
     }
   },
   {
@@ -2128,7 +2203,8 @@
       "password": null,
       "tlsCAData": null,
       "tlsSecurity": "strict",
-      "serverSettings": {}
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
     }
   },
   {
@@ -2147,7 +2223,8 @@
       "password": null,
       "tlsCAData": null,
       "tlsSecurity": "strict",
-      "serverSettings": {}
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
     }
   },
   {
@@ -2166,7 +2243,8 @@
       "password": null,
       "tlsCAData": null,
       "tlsSecurity": "strict",
-      "serverSettings": {}
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
     }
   },
   {
@@ -2184,7 +2262,8 @@
       "password": null,
       "tlsCAData": null,
       "tlsSecurity": "strict",
-      "serverSettings": {}
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
     }
   },
   {
@@ -2202,7 +2281,8 @@
       "password": null,
       "tlsCAData": null,
       "tlsSecurity": "strict",
-      "serverSettings": {}
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
     }
   },
   {
@@ -2225,7 +2305,8 @@
       "password": "lZTBy1RVCfOpBAOwSCwIyBIR",
       "tlsCAData": null,
       "tlsSecurity": "strict",
-      "serverSettings": {}
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
     }
   },
   {
@@ -2249,10 +2330,11 @@
       "password": "lZTBy1RVCfOpBAOwSCwIyBIR",
       "tlsCAData": null,
       "tlsSecurity": "no_host_verification",
-      "serverSettings": {}
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
     }
   },
-	{
+  {
     "opts": {
       "user": "super_user"
     },
@@ -2273,7 +2355,8 @@
       "password": "lZTBy1RVCfOpBAOwSCwIyBIR",
       "tlsCAData": null,
       "tlsSecurity": "insecure",
-      "serverSettings": {}
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
     }
   },
   {
@@ -2293,7 +2376,8 @@
       "password": null,
       "tlsCAData": null,
       "tlsSecurity": "strict",
-      "serverSettings": {}
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
     }
   },
   {
@@ -2313,7 +2397,8 @@
       "password": null,
       "tlsCAData": null,
       "tlsSecurity": "no_host_verification",
-      "serverSettings": {}
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
     }
   },
   {
@@ -2333,7 +2418,8 @@
       "password": null,
       "tlsCAData": null,
       "tlsSecurity": "insecure",
-      "serverSettings": {}
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
     }
   },
   {
@@ -2375,7 +2461,8 @@
       "serverSettings": {},
       "tlsCAData": null,
       "tlsSecurity": "strict",
-      "user": "user3"
+      "user": "user3",
+      "waitUntilAvailable": "PT30S"
     }
   },
   {
@@ -2389,7 +2476,8 @@
       "serverSettings": {},
       "tlsCAData": null,
       "tlsSecurity": "strict",
-      "user": "user3"
+      "user": "user3",
+      "waitUntilAvailable": "PT30S"
     }
   },
   {
@@ -2404,7 +2492,8 @@
       "password": null,
       "tlsCAData": null,
       "tlsSecurity": "strict",
-      "serverSettings": {}
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
     }
   },
   {
@@ -2419,7 +2508,124 @@
       "password": null,
       "tlsCAData": null,
       "tlsSecurity": "strict",
-      "serverSettings": {}
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
+    }
+  },
+  {
+    "env" :{
+      "EDGEDB_WAIT_UNTIL_AVAILABLE": "PT10S",
+      "EDGEDB_HOST": "sample"
+    },
+    "result": {
+      "address": ["sample", 5656],
+      "database": "edgedb",
+      "user": "edgedb",
+      "password": null,
+      "tlsCAData": null,
+      "tlsSecurity": "strict",
+      "serverSettings": {},
+      "waitUntilAvailable": "PT10S"
+    }
+  },
+  {
+    "opts": {
+      "dsn": "edgedb://localhost:5555",
+      "waitUntilAvailable": "PT9M"
+    },
+    "result": {
+      "address": ["localhost", 5555],
+      "database": "edgedb",
+      "user": "edgedb",
+      "password": null,
+      "tlsCAData": null,
+      "tlsSecurity": "strict",
+      "serverSettings": {},
+      "waitUntilAvailable": "PT9M"
+    }
+  },
+  {
+    "opts": {
+      "dsn": "edgedb://localhost:5555?wait_until_available=PT2M5S"
+    },
+    "result": {
+      "address": ["localhost", 5555],
+      "database": "edgedb",
+      "user": "edgedb",
+      "password": null,
+      "tlsCAData": null,
+      "tlsSecurity": "strict",
+      "serverSettings": {},
+      "waitUntilAvailable": "PT2M5S"
+    }
+  },
+  {
+    "env" :{
+      "EDGEDB_WAIT_UNTIL_AVAILABLE": "PT1H1M28S"
+    },
+    "opts": {
+      "dsn": "edgedb://localhost:5555?wait_until_available=PT1H"
+    },
+    "result": {
+      "address": ["localhost", 5555],
+      "database": "edgedb",
+      "user": "edgedb",
+      "password": null,
+      "tlsCAData": null,
+      "tlsSecurity": "strict",
+      "serverSettings": {},
+      "waitUntilAvailable": "PT1H"
+    }
+  },
+  {
+    "env" :{
+      "EDGEDB_WAIT_UNTIL_AVAILABLE": "PT1S"
+    },
+    "opts": {
+      "dsn": "edgedb://localhost:5555",
+      "waitUntilAvailable": "PT9M"
+    },
+    "result": {
+      "address": ["localhost", 5555],
+      "database": "edgedb",
+      "user": "edgedb",
+      "password": null,
+      "tlsCAData": null,
+      "tlsSecurity": "strict",
+      "serverSettings": {},
+      "waitUntilAvailable": "PT9M"
+    }
+  },
+  {
+    "opts": {
+      "dsn": "edgedb://localhost:5555?wait_until_available=PT1H",
+      "waitUntilAvailable": "PT90M"
+    },
+    "result": {
+      "address": ["localhost", 5555],
+      "database": "edgedb",
+      "user": "edgedb",
+      "password": null,
+      "tlsCAData": null,
+      "tlsSecurity": "strict",
+      "serverSettings": {},
+      "waitUntilAvailable": "PT90M"
+    }
+  },
+  {
+    "env" :{
+      "EDGEDB_DSN": "edgedb://localhost:5555?wait_until_available=PT1H",
+      "EDGEDB_WAIT_UNTIL_AVAILABLE": "PT10S"
+    },
+    "result": {
+      "address": ["localhost", 5555],
+      "database": "edgedb",
+      "user": "edgedb",
+      "password": null,
+      "tlsCAData": null,
+      "tlsSecurity": "strict",
+      "serverSettings": {},
+      "waitUntilAvailable": "PT10S"
     }
   }
 ]
