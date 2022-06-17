@@ -2560,11 +2560,26 @@
     }
   },
   {
+    "opts": {
+      "dsn": "edgedb://localhost:5555?wait_until_available=5s2minutes"
+    },
+    "result": {
+      "address": ["localhost", 5555],
+      "database": "edgedb",
+      "user": "edgedb",
+      "password": null,
+      "tlsCAData": null,
+      "tlsSecurity": "strict",
+      "serverSettings": {},
+      "waitUntilAvailable": "PT2M5S"
+    }
+  },
+  {
     "env" :{
       "EDGEDB_WAIT_UNTIL_AVAILABLE": "PT1H1M28S"
     },
     "opts": {
-      "dsn": "edgedb://localhost:5555?wait_until_available=PT1H"
+      "dsn": "edgedb://localhost:5555?wait_until_available=1hour"
     },
     "result": {
       "address": ["localhost", 5555],
@@ -2583,7 +2598,7 @@
     },
     "opts": {
       "dsn": "edgedb://localhost:5555",
-      "waitUntilAvailable": "PT9M"
+      "waitUntilAvailable": "9 minutes"
     },
     "result": {
       "address": ["localhost", 5555],
@@ -2615,7 +2630,7 @@
   {
     "env" :{
       "EDGEDB_DSN": "edgedb://localhost:5555?wait_until_available=PT1H",
-      "EDGEDB_WAIT_UNTIL_AVAILABLE": "PT10S"
+      "EDGEDB_WAIT_UNTIL_AVAILABLE": "10 s"
     },
     "result": {
       "address": ["localhost", 5555],
