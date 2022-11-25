@@ -1410,25 +1410,6 @@
     "opts": {
       "dsn": "edgedb://testuser@localhost/db?password_env=EDGEDB_PASSWORD"
     },
-    "env": {
-      "EDGEDB_PASSWORD": "password"
-    },
-    "result": {
-      "address": ["localhost", 5656],
-      "database": "db",
-      "user": "testuser",
-      "password": "password",
-      "secret_key": null,
-      "tlsCAData": null,
-      "tlsSecurity": "strict",
-      "serverSettings": {},
-      "waitUntilAvailable": "PT30S"
-    }
-  },
-  {
-    "opts": {
-      "dsn": "edgedb://testuser@localhost/db?password_env=EDGEDB_PASSWORD"
-    },
     "error": {
       "type": "env_not_found"
     }
