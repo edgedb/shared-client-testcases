@@ -2763,5 +2763,347 @@
       "serverSettings": {},
       "waitUntilAvailable": "PT10S"
     }
+  },
+  {
+    "opts": {
+      "dsn": "testorg/test_123"
+    },
+    "env": {},
+    "fs": {
+      "homedir": "/home/edgedb",
+      "files": {
+        "/home/edgedb/.config/edgedb/cloud.json": "{\"access_token\": \"nbwt_eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlZGIuc2VydmVyLmFueV9yb2xlIjp0cnVlLCJpYXQiOjE2NjkzMTE3NjMsImlzcyI6ImxvY2FsLTEuaW50ZXJuYWwiLCJuZWJ1bGEuc2NvcGVzIjpbImFkbWluIl0sIm5lYnVsYS51c2VyX2lkIjoiM2U3ODU4YTgtNmJjNy0xMWVkLWFmNTAtMTdiMzkzMjlmZmEyIn0.9cS6-rR00fgmEmGu423IP3snJvmXe7ZGol7ZlYuHBNqmKGrWtTsMZPj-3C7dmureUmk3ZUttxioouPeAreKueg\"}"
+      }
+    },
+    "result": {
+      "address": ["test_123.testorg.c-15ea.i.local-1.internal", 5656],
+      "database": "edgedb",
+      "user": "edgedb",
+      "password": null,
+      "secret_key": "nbwt_eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlZGIuc2VydmVyLmFueV9yb2xlIjp0cnVlLCJpYXQiOjE2NjkzMTE3NjMsImlzcyI6ImxvY2FsLTEuaW50ZXJuYWwiLCJuZWJ1bGEuc2NvcGVzIjpbImFkbWluIl0sIm5lYnVsYS51c2VyX2lkIjoiM2U3ODU4YTgtNmJjNy0xMWVkLWFmNTAtMTdiMzkzMjlmZmEyIn0.9cS6-rR00fgmEmGu423IP3snJvmXe7ZGol7ZlYuHBNqmKGrWtTsMZPj-3C7dmureUmk3ZUttxioouPeAreKueg",
+      "tlsCAData": null,
+      "tlsSecurity": "strict",
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
+    }
+  },
+  {
+    "opts": {
+      "dsn": "testorg/test_123"
+    },
+    "env": {},
+    "fs": {
+      "homedir": "/home/edgedb",
+      "files": {}
+    },
+    "error": {
+      "type": "security_key_not_found"
+    }
+  },
+  {
+    "opts": {
+      "dsn": "testorg/test_123"
+    },
+    "env": {},
+    "fs": {
+      "homedir": "/home/edgedb",
+      "files": {
+        "/home/edgedb/.config/edgedb/cloud.json": "{\"access_token\": \"nbwt_eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9\"}"
+      }
+    },
+    "error": {
+      "type": "invalid_security_key"
+    }
+  },
+  {
+    "opts": {
+      "dsn": "test-org/test-123"
+    },
+    "env": {},
+    "fs": {
+      "homedir": "/home/edgedb",
+      "files": {
+        "/home/edgedb/.config/edgedb/cloud.json": "{\"access_token\": \"nbwt_eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlZGIuc2VydmVyLmFueV9yb2xlIjp0cnVlLCJpYXQiOjE2NjkzMTE3NjMsImlzcyI6ImxvY2FsLTEuaW50ZXJuYWwiLCJuZWJ1bGEuc2NvcGVzIjpbImFkbWluIl0sIm5lYnVsYS51c2VyX2lkIjoiM2U3ODU4YTgtNmJjNy0xMWVkLWFmNTAtMTdiMzkzMjlmZmEyIn0.9cS6-rR00fgmEmGu423IP3snJvmXe7ZGol7ZlYuHBNqmKGrWtTsMZPj-3C7dmureUmk3ZUttxioouPeAreKueg\"}"
+      }
+    },
+    "error": {
+      "type": "invalid_dsn_or_instance_name"
+    }
+  },
+  {
+    "opts": {
+      "dsn": "123/456"
+    },
+    "env": {},
+    "fs": {
+      "homedir": "/home/edgedb",
+      "files": {
+        "/home/edgedb/.config/edgedb/cloud.json": "{\"access_token\": \"nbwt_eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlZGIuc2VydmVyLmFueV9yb2xlIjp0cnVlLCJpYXQiOjE2NjkzMTE3NjMsImlzcyI6ImxvY2FsLTEuaW50ZXJuYWwiLCJuZWJ1bGEuc2NvcGVzIjpbImFkbWluIl0sIm5lYnVsYS51c2VyX2lkIjoiM2U3ODU4YTgtNmJjNy0xMWVkLWFmNTAtMTdiMzkzMjlmZmEyIn0.9cS6-rR00fgmEmGu423IP3snJvmXe7ZGol7ZlYuHBNqmKGrWtTsMZPj-3C7dmureUmk3ZUttxioouPeAreKueg\"}"
+      }
+    },
+    "error": {
+      "type": "invalid_dsn_or_instance_name"
+    }
+  },
+  {
+    "opts": {
+      "dsn": "test🦖/test😏"
+    },
+    "env": {},
+    "fs": {
+      "homedir": "/home/edgedb",
+      "files": {
+        "/home/edgedb/.config/edgedb/cloud.json": "{\"access_token\": \"nbwt_eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlZGIuc2VydmVyLmFueV9yb2xlIjp0cnVlLCJpYXQiOjE2NjkzMTE3NjMsImlzcyI6ImxvY2FsLTEuaW50ZXJuYWwiLCJuZWJ1bGEuc2NvcGVzIjpbImFkbWluIl0sIm5lYnVsYS51c2VyX2lkIjoiM2U3ODU4YTgtNmJjNy0xMWVkLWFmNTAtMTdiMzkzMjlmZmEyIn0.9cS6-rR00fgmEmGu423IP3snJvmXe7ZGol7ZlYuHBNqmKGrWtTsMZPj-3C7dmureUmk3ZUttxioouPeAreKueg\"}"
+      }
+    },
+    "error": {
+      "type": "invalid_dsn_or_instance_name"
+    }
+  },
+  {
+    "opts": {
+      "dsn": "testorg/test_123",
+      "secret_key": "nbwt_eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlZGIuc2VydmVyLmFueV9yb2xlIjp0cnVlLCJpYXQiOjE2NjkzMTE3NjMsImlzcyI6ImxvY2FsLTEuaW50ZXJuYWwiLCJuZWJ1bGEuc2NvcGVzIjpbImFkbWluIl0sIm5lYnVsYS51c2VyX2lkIjoiM2U3ODU4YTgtNmJjNy0xMWVkLWFmNTAtMTdiMzkzMjlmZmEyIn0.9cS6-rR00fgmEmGu423IP3snJvmXe7ZGol7ZlYuHBNqmKGrWtTsMZPj-3C7dmureUmk3ZUttxioouPeAreKueg"
+    },
+    "env": {},
+    "fs": {
+      "homedir": "/home/edgedb",
+      "files": {}
+    },
+    "result": {
+      "address": ["test_123.testorg.c-15ea.i.local-1.internal", 5656],
+      "database": "edgedb",
+      "user": "edgedb",
+      "password": null,
+      "secret_key": "nbwt_eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlZGIuc2VydmVyLmFueV9yb2xlIjp0cnVlLCJpYXQiOjE2NjkzMTE3NjMsImlzcyI6ImxvY2FsLTEuaW50ZXJuYWwiLCJuZWJ1bGEuc2NvcGVzIjpbImFkbWluIl0sIm5lYnVsYS51c2VyX2lkIjoiM2U3ODU4YTgtNmJjNy0xMWVkLWFmNTAtMTdiMzkzMjlmZmEyIn0.9cS6-rR00fgmEmGu423IP3snJvmXe7ZGol7ZlYuHBNqmKGrWtTsMZPj-3C7dmureUmk3ZUttxioouPeAreKueg",
+      "tlsCAData": null,
+      "tlsSecurity": "strict",
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
+    }
+  },
+  {
+    "env": {
+      "EDGEDB_INSTANCE": "testorg/test_123",
+      "EDGEDB_SECRET_KEY": "nbwt_eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlZGIuc2VydmVyLmFueV9yb2xlIjp0cnVlLCJpYXQiOjE2NjkzMTE3NjMsImlzcyI6ImxvY2FsLTEuaW50ZXJuYWwiLCJuZWJ1bGEuc2NvcGVzIjpbImFkbWluIl0sIm5lYnVsYS51c2VyX2lkIjoiM2U3ODU4YTgtNmJjNy0xMWVkLWFmNTAtMTdiMzkzMjlmZmEyIn0.9cS6-rR00fgmEmGu423IP3snJvmXe7ZGol7ZlYuHBNqmKGrWtTsMZPj-3C7dmureUmk3ZUttxioouPeAreKueg"
+    },
+    "fs": {
+      "homedir": "/home/edgedb",
+      "files": {}
+    },
+    "result": {
+      "address": ["test_123.testorg.c-15ea.i.local-1.internal", 5656],
+      "database": "edgedb",
+      "user": "edgedb",
+      "password": null,
+      "secret_key": "nbwt_eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlZGIuc2VydmVyLmFueV9yb2xlIjp0cnVlLCJpYXQiOjE2NjkzMTE3NjMsImlzcyI6ImxvY2FsLTEuaW50ZXJuYWwiLCJuZWJ1bGEuc2NvcGVzIjpbImFkbWluIl0sIm5lYnVsYS51c2VyX2lkIjoiM2U3ODU4YTgtNmJjNy0xMWVkLWFmNTAtMTdiMzkzMjlmZmEyIn0.9cS6-rR00fgmEmGu423IP3snJvmXe7ZGol7ZlYuHBNqmKGrWtTsMZPj-3C7dmureUmk3ZUttxioouPeAreKueg",
+      "tlsCAData": null,
+      "tlsSecurity": "strict",
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
+    }
+  },
+  {
+    "opts": {
+      "dsn": "testorg/test_123",
+      "secret_key": "nbwt_eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlZGIuc2VydmVyLmFueV9yb2xlIjp0cnVlLCJpYXQiOjE2NjkzMTE3NjMsImlzcyI6ImxvY2FsLTEuaW50ZXJuYWwiLCJuZWJ1bGEuc2NvcGVzIjpbImFkbWluIl0sIm5lYnVsYS51c2VyX2lkIjoiM2U3ODU4YTgtNmJjNy0xMWVkLWFmNTAtMTdiMzkzMjlmZmEyIn0.9cS6-rR00fgmEmGu423IP3snJvmXe7ZGol7ZlYuHBNqmKGrWtTsMZPj-3C7dmureUmk3ZUttxioouPeAreKueg"
+    },
+    "env": {
+      "EDGEDB_INSTANCE": "testorg/test_456",
+      "EDGEDB_SECRET_KEY": "nbwt_eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9"
+    },
+    "fs": {
+      "homedir": "/home/edgedb",
+      "files": {
+        "/home/edgedb/.config/edgedb/cloud.json": "{\"access_token\": \"nbwt_eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9\"}"
+      }
+    },
+    "result": {
+      "address": ["test_123.testorg.c-15ea.i.local-1.internal", 5656],
+      "database": "edgedb",
+      "user": "edgedb",
+      "password": null,
+      "secret_key": "nbwt_eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlZGIuc2VydmVyLmFueV9yb2xlIjp0cnVlLCJpYXQiOjE2NjkzMTE3NjMsImlzcyI6ImxvY2FsLTEuaW50ZXJuYWwiLCJuZWJ1bGEuc2NvcGVzIjpbImFkbWluIl0sIm5lYnVsYS51c2VyX2lkIjoiM2U3ODU4YTgtNmJjNy0xMWVkLWFmNTAtMTdiMzkzMjlmZmEyIn0.9cS6-rR00fgmEmGu423IP3snJvmXe7ZGol7ZlYuHBNqmKGrWtTsMZPj-3C7dmureUmk3ZUttxioouPeAreKueg",
+      "tlsCAData": null,
+      "tlsSecurity": "strict",
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
+    }
+  },
+  {
+    "env": {
+      "EDGEDB_INSTANCE": "testorg/test_123",
+      "EDGEDB_SECRET_KEY": "nbwt_eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlZGIuc2VydmVyLmFueV9yb2xlIjp0cnVlLCJpYXQiOjE2NjkzMTE3NjMsImlzcyI6ImxvY2FsLTEuaW50ZXJuYWwiLCJuZWJ1bGEuc2NvcGVzIjpbImFkbWluIl0sIm5lYnVsYS51c2VyX2lkIjoiM2U3ODU4YTgtNmJjNy0xMWVkLWFmNTAtMTdiMzkzMjlmZmEyIn0.9cS6-rR00fgmEmGu423IP3snJvmXe7ZGol7ZlYuHBNqmKGrWtTsMZPj-3C7dmureUmk3ZUttxioouPeAreKueg"
+    },
+    "fs": {
+      "homedir": "/home/edgedb",
+      "files": {
+        "/home/edgedb/.config/edgedb/cloud.json": "{\"access_token\": \"nbwt_eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9\"}"
+      }
+    },
+    "result": {
+      "address": ["test_123.testorg.c-15ea.i.local-1.internal", 5656],
+      "database": "edgedb",
+      "user": "edgedb",
+      "password": null,
+      "secret_key": "nbwt_eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlZGIuc2VydmVyLmFueV9yb2xlIjp0cnVlLCJpYXQiOjE2NjkzMTE3NjMsImlzcyI6ImxvY2FsLTEuaW50ZXJuYWwiLCJuZWJ1bGEuc2NvcGVzIjpbImFkbWluIl0sIm5lYnVsYS51c2VyX2lkIjoiM2U3ODU4YTgtNmJjNy0xMWVkLWFmNTAtMTdiMzkzMjlmZmEyIn0.9cS6-rR00fgmEmGu423IP3snJvmXe7ZGol7ZlYuHBNqmKGrWtTsMZPj-3C7dmureUmk3ZUttxioouPeAreKueg",
+      "tlsCAData": null,
+      "tlsSecurity": "strict",
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
+    }
+  },
+  {
+    "opts": {
+      "dsn": "testorg/test_123"
+    },
+    "env": {
+      "EDGEDB_SECRET_KEY": "nbwt_eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlZGIuc2VydmVyLmFueV9yb2xlIjp0cnVlLCJpYXQiOjE2NjkzMTE3NjMsImlzcyI6ImxvY2FsLTEuaW50ZXJuYWwiLCJuZWJ1bGEuc2NvcGVzIjpbImFkbWluIl0sIm5lYnVsYS51c2VyX2lkIjoiM2U3ODU4YTgtNmJjNy0xMWVkLWFmNTAtMTdiMzkzMjlmZmEyIn0.9cS6-rR00fgmEmGu423IP3snJvmXe7ZGol7ZlYuHBNqmKGrWtTsMZPj-3C7dmureUmk3ZUttxioouPeAreKueg"
+    },
+    "fs": {
+      "homedir": "/home/edgedb",
+      "files": {}
+    },
+    "error": {
+      "type": "security_key_not_found"
+    }
+  },
+  {
+    "env": {
+      "EDGEDB_INSTANCE": "testorg/test_123"
+    },
+    "fs": {
+      "homedir": "/home/edgedb",
+      "files": {
+        "/home/edgedb/.config/edgedb/cloud.json": "{\"access_token\": \"nbwt_eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlZGIuc2VydmVyLmFueV9yb2xlIjp0cnVlLCJpYXQiOjE2NjkzMTE3NjMsImlzcyI6ImxvY2FsLTEuaW50ZXJuYWwiLCJuZWJ1bGEuc2NvcGVzIjpbImFkbWluIl0sIm5lYnVsYS51c2VyX2lkIjoiM2U3ODU4YTgtNmJjNy0xMWVkLWFmNTAtMTdiMzkzMjlmZmEyIn0.9cS6-rR00fgmEmGu423IP3snJvmXe7ZGol7ZlYuHBNqmKGrWtTsMZPj-3C7dmureUmk3ZUttxioouPeAreKueg\"}"
+      }
+    },
+    "result": {
+      "address": ["test_123.testorg.c-15ea.i.local-1.internal", 5656],
+      "database": "edgedb",
+      "user": "edgedb",
+      "password": null,
+      "secret_key": "nbwt_eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlZGIuc2VydmVyLmFueV9yb2xlIjp0cnVlLCJpYXQiOjE2NjkzMTE3NjMsImlzcyI6ImxvY2FsLTEuaW50ZXJuYWwiLCJuZWJ1bGEuc2NvcGVzIjpbImFkbWluIl0sIm5lYnVsYS51c2VyX2lkIjoiM2U3ODU4YTgtNmJjNy0xMWVkLWFmNTAtMTdiMzkzMjlmZmEyIn0.9cS6-rR00fgmEmGu423IP3snJvmXe7ZGol7ZlYuHBNqmKGrWtTsMZPj-3C7dmureUmk3ZUttxioouPeAreKueg",
+      "tlsCAData": null,
+      "tlsSecurity": "strict",
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
+    }
+  },
+  {
+    "opts": {
+      "dsn": "edgedb://testuser@localhost/db?secret_key=not_secret_key"
+    },
+    "result": {
+      "address": ["localhost", 5656],
+      "database": "db",
+      "user": "testuser",
+      "password": null,
+      "secret_key": "not_secret_key",
+      "tlsCAData": null,
+      "tlsSecurity": "strict",
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
+    }
+  },
+  {
+    "opts": {
+      "dsn": "edgedb://testuser@localhost/db?secret_key_env=SECRET_KEY"
+    },
+    "env": {
+      "SECRET_KEY": "super_secret_key"
+    },
+    "result": {
+      "address": ["localhost", 5656],
+      "database": "db",
+      "user": "testuser",
+      "password": null,
+      "secret_key": "super_secret_key",
+      "tlsCAData": null,
+      "tlsSecurity": "strict",
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
+    }
+  },
+  {
+    "opts": {
+      "dsn": "edgedb://testuser@localhost/db?secret_key_env=EDGEDB_SECRET_KEY"
+    },
+    "env": {
+      "EDGEDB_SECRET_KEY": "kkk"
+    },
+    "result": {
+      "address": ["localhost", 5656],
+      "database": "db",
+      "user": "testuser",
+      "password": null,
+      "secret_key": "kkk",
+      "tlsCAData": null,
+      "tlsSecurity": "strict",
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
+    }
+  },
+  {
+    "opts": {
+      "dsn": "edgedb://testuser@localhost/db"
+    },
+    "env": {
+      "EDGEDB_SECRET_KEY": "kkk"
+    },
+    "result": {
+      "address": ["localhost", 5656],
+      "database": "db",
+      "user": "testuser",
+      "password": null,
+      "secret_key": null,
+      "tlsCAData": null,
+      "tlsSecurity": "strict",
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
+    }
+  },
+  {
+    "opts": {
+      "dsn": "edgedb://testuser@localhost/db?secret_key_env=EDGEDB_SECRET_KEY"
+    },
+    "error": {
+      "type": "env_not_found"
+    }
+  },
+  {
+    "opts": {
+      "dsn": "edgedb://testuser@localhost/db?secret_key_file=/home/edgedb/secret_key"
+    },
+    "env": {
+      "EDGEDB_SECRET_KEY": "secret_key"
+    },
+    "fs": {
+      "files": {
+        "/home/edgedb/secret_key": "12345"
+      }
+    },
+    "result": {
+      "address": ["localhost", 5656],
+      "database": "db",
+      "user": "testuser",
+      "password": null,
+      "secret_key": "12345",
+      "tlsCAData": null,
+      "tlsSecurity": "strict",
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
+    }
+  },
+  {
+    "opts": {
+      "dsn": "edgedb://testuser@localhost/db?secret_key_file=/home/edgedb/secret_key"
+    },
+    "env": {
+      "EDGEDB_SECRET_KEY": "password"
+    },
+    "error": {
+      "type": "file_not_found"
+    }
   }
 ]
