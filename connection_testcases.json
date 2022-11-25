@@ -19,6 +19,7 @@
       "database": "test3n",
       "user": "test3n",
       "password": "lZTBy1RVCfOpBAOwSCwIyBIR",
+      "secret_key": null,
       "tlsCAData": null,
       "tlsSecurity": "strict",
       "serverSettings": {},
@@ -45,6 +46,7 @@
       "database": "test3n",
       "user": "test3n",
       "password": "lZTBy1RVCfOpBAOwSCwIyBIR",
+      "secret_key": null,
       "tlsCAData": null,
       "tlsSecurity": "strict",
       "serverSettings": {},
@@ -111,6 +113,7 @@
       "database": "test3n",
       "user": "test3n",
       "password": "lZTBy1RVCfOpBAOwSCwIyBIR",
+      "secret_key": null,
       "tlsCAData": null,
       "tlsSecurity": "strict",
       "serverSettings": {},
@@ -138,6 +141,7 @@
       "database": "test3n",
       "user": "test3n",
       "password": "lZTBy1RVCfOpBAOwSCwIyBIR",
+      "secret_key": null,
       "tlsCAData": null,
       "tlsSecurity": "strict",
       "serverSettings": {},
@@ -215,6 +219,7 @@
       "database": "edgedb",
       "user": "test3n",
       "password": null,
+      "secret_key": null,
       "tlsCAData": null,
       "tlsSecurity": "strict",
       "serverSettings": {},
@@ -236,6 +241,7 @@
       "database": "edgedb",
       "user": "test3n",
       "password": null,
+      "secret_key": null,
       "tlsCAData": "-----BEGIN CERTIFICATE-----\nMIICEjCCAXsCAg36MA0GCSqGSIb3DQEBBQUAMIGbMQswCQYDVQQGEwJKUDEOMAwG\nA1UECBMFVG9reW8xEDAOBgNVBAcTB0NodW8ta3UxETAPBgNVBAoTCEZyYW5rNERE\nMRgwFgYDVQQLEw9XZWJDZXJ0IFN1cHBvcnQxGDAWBgNVBAMTD0ZyYW5rNEREIFdl\nYiBDQTEjMCEGCSqGSIb3DQEJARYUc3VwcG9ydEBmcmFuazRkZC5jb20wHhcNMTIw\nODIyMDUyNjU0WhcNMTcwODIxMDUyNjU0WjBKMQswCQYDVQQGEwJKUDEOMAwGA1UE\nCAwFVG9reW8xETAPBgNVBAoMCEZyYW5rNEREMRgwFgYDVQQDDA93d3cuZXhhbXBs\nZS5jb20wXDANBgkqhkiG9w0BAQEFAANLADBIAkEAm/xmkHmEQrurE/0re/jeFRLl\n8ZPjBop7uLHhnia7lQG/5zDtZIUC3RVpqDSwBuw/NTweGyuP+o8AG98HxqxTBwID\nAQABMA0GCSqGSIb3DQEBBQUAA4GBABS2TLuBeTPmcaTaUW/LCB2NYOy8GMdzR1mx\n8iBIu2H6/E2tiY3RIevV2OW61qY2/XRQg7YPxx3ffeUugX9F4J/iPnnu1zAxxyBy\n2VguKv4SWjRFoRkIfIlHX0qVviMhSlNy2ioFLy7JcPZb+v3ftDGywUqcBiVDoea0\nHn+GmxZA\n-----END CERTIFICATE-----\n",
       "tlsSecurity": "no_host_verification",
       "serverSettings": {},
@@ -257,6 +263,7 @@
       "database": "edgedb",
       "user": "test3n",
       "password": null,
+      "secret_key": null,
       "tlsCAData": "-----BEGIN CERTIFICATE-----\nMIICEjCCAXsCAg36MA0GCSqGSIb3DQEBBQUAMIGbMQswCQYDVQQGEwJKUDEOMAwG\nA1UECBMFVG9reW8xEDAOBgNVBAcTB0NodW8ta3UxETAPBgNVBAoTCEZyYW5rNERE\nMRgwFgYDVQQLEw9XZWJDZXJ0IFN1cHBvcnQxGDAWBgNVBAMTD0ZyYW5rNEREIFdl\nYiBDQTEjMCEGCSqGSIb3DQEJARYUc3VwcG9ydEBmcmFuazRkZC5jb20wHhcNMTIw\nODIyMDUyNjU0WhcNMTcwODIxMDUyNjU0WjBKMQswCQYDVQQGEwJKUDEOMAwGA1UE\nCAwFVG9reW8xETAPBgNVBAoMCEZyYW5rNEREMRgwFgYDVQQDDA93d3cuZXhhbXBs\nZS5jb20wXDANBgkqhkiG9w0BAQEFAANLADBIAkEAm/xmkHmEQrurE/0re/jeFRLl\n8ZPjBop7uLHhnia7lQG/5zDtZIUC3RVpqDSwBuw/NTweGyuP+o8AG98HxqxTBwID\nAQABMA0GCSqGSIb3DQEBBQUAA4GBABS2TLuBeTPmcaTaUW/LCB2NYOy8GMdzR1mx\n8iBIu2H6/E2tiY3RIevV2OW61qY2/XRQg7YPxx3ffeUugX9F4J/iPnnu1zAxxyBy\n2VguKv4SWjRFoRkIfIlHX0qVviMhSlNy2ioFLy7JcPZb+v3ftDGywUqcBiVDoea0\nHn+GmxZA\n-----END CERTIFICATE-----\n",
       "tlsSecurity": "strict",
       "serverSettings": {},
@@ -278,6 +285,7 @@
       "database": "edgedb",
       "user": "test3n",
       "password": null,
+      "secret_key": null,
       "tlsCAData": "-----BEGIN CERTIFICATE-----\nMIICEjCCAXsCAg36MA0GCSqGSIb3DQEBBQUAMIGbMQswCQYDVQQGEwJKUDEOMAwG\nA1UECBMFVG9reW8xEDAOBgNVBAcTB0NodW8ta3UxETAPBgNVBAoTCEZyYW5rNERE\nMRgwFgYDVQQLEw9XZWJDZXJ0IFN1cHBvcnQxGDAWBgNVBAMTD0ZyYW5rNEREIFdl\nYiBDQTEjMCEGCSqGSIb3DQEJARYUc3VwcG9ydEBmcmFuazRkZC5jb20wHhcNMTIw\nODIyMDUyNjU0WhcNMTcwODIxMDUyNjU0WjBKMQswCQYDVQQGEwJKUDEOMAwGA1UE\nCAwFVG9reW8xETAPBgNVBAoMCEZyYW5rNEREMRgwFgYDVQQDDA93d3cuZXhhbXBs\nZS5jb20wXDANBgkqhkiG9w0BAQEFAANLADBIAkEAm/xmkHmEQrurE/0re/jeFRLl\n8ZPjBop7uLHhnia7lQG/5zDtZIUC3RVpqDSwBuw/NTweGyuP+o8AG98HxqxTBwID\nAQABMA0GCSqGSIb3DQEBBQUAA4GBABS2TLuBeTPmcaTaUW/LCB2NYOy8GMdzR1mx\n8iBIu2H6/E2tiY3RIevV2OW61qY2/XRQg7YPxx3ffeUugX9F4J/iPnnu1zAxxyBy\n2VguKv4SWjRFoRkIfIlHX0qVviMhSlNy2ioFLy7JcPZb+v3ftDGywUqcBiVDoea0\nHn+GmxZA\n-----END CERTIFICATE-----\n",
       "tlsSecurity": "strict",
       "serverSettings": {},
@@ -342,6 +350,7 @@
       "database": "test3n",
       "user": "test3n",
       "password": "lZTBy1RVCfOpBAOwSCwIyBIR",
+      "secret_key": null,
       "tlsCAData": null,
       "tlsSecurity": "strict",
       "serverSettings": {},
@@ -402,6 +411,7 @@
       "database": "abcdef",
       "user": "user3",
       "password": "123123",
+      "secret_key": null,
       "tlsCAData": null,
       "tlsSecurity": "strict",
       "serverSettings": {},
@@ -465,6 +475,7 @@
       "database": "edgedb",
       "user": "edgedb",
       "password": null,
+      "secret_key": null,
       "tlsCAData": null,
       "tlsSecurity": "strict",
       "serverSettings": {},
@@ -480,6 +491,7 @@
       "database": "edgedb",
       "user": "edgedb",
       "password": null,
+      "secret_key": null,
       "tlsCAData": null,
       "tlsSecurity": "strict",
       "serverSettings": {},
@@ -495,6 +507,7 @@
       "database": "edgedb",
       "user": "edgedb",
       "password": null,
+      "secret_key": null,
       "tlsCAData": null,
       "tlsSecurity": "strict",
       "serverSettings": {},
@@ -518,6 +531,7 @@
       "database": "edgedb",
       "user": "edgedb",
       "password": null,
+      "secret_key": null,
       "tlsCAData": null,
       "tlsSecurity": "strict",
       "serverSettings": {},
@@ -573,6 +587,7 @@
       "database": "edgedb",
       "user": "edgedb",
       "password": null,
+      "secret_key": null,
       "tlsCAData": null,
       "tlsSecurity": "strict",
       "serverSettings": {},
@@ -608,6 +623,7 @@
       "database": "edgedb",
       "user": "edgedb",
       "password": null,
+      "secret_key": null,
       "tlsCAData": null,
       "tlsSecurity": "strict",
       "serverSettings": {},
@@ -633,6 +649,7 @@
       "database": "abcdef",
       "user": "user3",
       "password": "123123",
+      "secret_key": null,
       "tlsCAData": null,
       "tlsSecurity": "strict",
       "serverSettings": {},
@@ -650,6 +667,7 @@
       "database": "edgedb",
       "user": "edgedb",
       "password": null,
+      "secret_key": null,
       "tlsCAData": null,
       "tlsSecurity": "strict",
       "serverSettings": {},
@@ -740,6 +758,7 @@
       "database": "edgedb",
       "user": "edgedb",
       "password": null,
+      "secret_key": null,
       "tlsCAData": null,
       "tlsSecurity": "strict",
       "serverSettings": {},
@@ -851,6 +870,7 @@
       "database": "abcdef",
       "user": "user3",
       "password": "123123",
+      "secret_key": null,
       "tlsCAData": null,
       "tlsSecurity": "strict",
       "serverSettings": {},
@@ -869,6 +889,7 @@
       "database": "edgedb",
       "user": "edgedb",
       "password": null,
+      "secret_key": null,
       "tlsCAData": null,
       "tlsSecurity": "strict",
       "serverSettings": {},
@@ -887,6 +908,7 @@
       "database": "edgedb",
       "user": "edgedb",
       "password": null,
+      "secret_key": null,
       "tlsCAData": null,
       "tlsSecurity": "strict",
       "serverSettings": {},
@@ -925,6 +947,7 @@
       "database": "test3n",
       "user": "test3n",
       "password": "lZTBy1RVCfOpBAOwSCwIyBIR",
+      "secret_key": null,
       "tlsCAData": null,
       "tlsSecurity": "strict",
       "serverSettings": {},
@@ -943,6 +966,7 @@
       "database": "abcdef",
       "user": "user3",
       "password": "123123",
+      "secret_key": null,
       "tlsCAData": null,
       "tlsSecurity": "strict",
       "serverSettings": {},
@@ -961,6 +985,7 @@
       "database": "edgedb",
       "user": "edgedb",
       "password": null,
+      "secret_key": null,
       "tlsCAData": null,
       "tlsSecurity": "strict",
       "serverSettings": {},
@@ -984,6 +1009,7 @@
       "database": "test3n",
       "user": "test3n",
       "password": "lZTBy1RVCfOpBAOwSCwIyBIR",
+      "secret_key": null,
       "tlsCAData": null,
       "tlsSecurity": "strict",
       "serverSettings": {},
@@ -1002,6 +1028,7 @@
       "database": "test3n",
       "user": "test3n",
       "password": "lZTBy1RVCfOpBAOwSCwIyBIR",
+      "secret_key": null,
       "tlsCAData": null,
       "tlsSecurity": "strict",
       "serverSettings": {},
@@ -1022,6 +1049,7 @@
       "database": "edgedb",
       "user": "edgedb",
       "password": null,
+      "secret_key": null,
       "tlsCAData": null,
       "tlsSecurity": "strict",
       "serverSettings": {},
@@ -1113,6 +1141,7 @@
       "database": "abcdef",
       "user": "user3",
       "password": "123123",
+      "secret_key": null,
       "tlsCAData": null,
       "tlsSecurity": "strict",
       "serverSettings": {
@@ -1138,6 +1167,7 @@
       "database": "abcdef",
       "user": "testuser",
       "password": null,
+      "secret_key": null,
       "tlsCAData": null,
       "tlsSecurity": "strict",
       "serverSettings": {
@@ -1163,6 +1193,7 @@
       "database": "abcdef",
       "user": "testuser",
       "password": null,
+      "secret_key": null,
       "tlsCAData": null,
       "tlsSecurity": "strict",
       "serverSettings": {
@@ -1180,6 +1211,7 @@
       "database": "testdb",
       "user": "testuser",
       "password": null,
+      "secret_key": null,
       "tlsCAData": null,
       "tlsSecurity": "strict",
       "serverSettings": {
@@ -1197,6 +1229,7 @@
       "database": "testdb",
       "user": "testuser",
       "password": null,
+      "secret_key": null,
       "tlsCAData": null,
       "tlsSecurity": "strict",
       "serverSettings": {
@@ -1222,6 +1255,7 @@
       "database": "testdb",
       "user": "testuser",
       "password": null,
+      "secret_key": null,
       "tlsCAData": null,
       "tlsSecurity": "strict",
       "serverSettings": {
@@ -1247,6 +1281,7 @@
       "database": "testdb",
       "user": "testuser",
       "password": null,
+      "secret_key": null,
       "tlsCAData": null,
       "tlsSecurity": "strict",
       "serverSettings": {
@@ -1264,6 +1299,7 @@
       "database": "database/with/slash",
       "user": "testuser",
       "password": null,
+      "secret_key": null,
       "tlsCAData": null,
       "tlsSecurity": "strict",
       "serverSettings": {},
@@ -1279,6 +1315,7 @@
       "database": "database/with/slash",
       "user": "testuser",
       "password": null,
+      "secret_key": null,
       "tlsCAData": null,
       "tlsSecurity": "strict",
       "serverSettings": {},
@@ -1294,6 +1331,7 @@
       "database": "db",
       "user": "testuser",
       "password": "not_secret_password",
+      "secret_key": null,
       "tlsCAData": null,
       "tlsSecurity": "strict",
       "serverSettings": {},
@@ -1312,6 +1350,7 @@
       "database": "db",
       "user": "testuser",
       "password": "super_secret_password",
+      "secret_key": null,
       "tlsCAData": null,
       "tlsSecurity": "strict",
       "serverSettings": {},
@@ -1330,6 +1369,7 @@
       "database": "db",
       "user": "testuser",
       "password": "password",
+      "secret_key": null,
       "tlsCAData": null,
       "tlsSecurity": "strict",
       "serverSettings": {},
@@ -1348,6 +1388,7 @@
       "database": "db",
       "user": "testuser",
       "password": null,
+      "secret_key": null,
       "tlsCAData": null,
       "tlsSecurity": "strict",
       "serverSettings": {},
@@ -1363,24 +1404,6 @@
     },
     "error": {
       "type": "invalid_dsn"
-    }
-  },
-  {
-    "opts": {
-      "dsn": "edgedb://testuser@localhost/db?password_env=EDGEDB_PASSWORD"
-    },
-    "env": {
-      "EDGEDB_PASSWORD": "password"
-    },
-    "result": {
-      "address": ["localhost", 5656],
-      "database": "db",
-      "user": "testuser",
-      "password": "password",
-      "tlsCAData": null,
-      "tlsSecurity": "strict",
-      "serverSettings": {},
-      "waitUntilAvailable": "PT30S"
     }
   },
   {
@@ -1408,6 +1431,7 @@
       "database": "db",
       "user": "testuser",
       "password": "12345",
+      "secret_key": null,
       "tlsCAData": null,
       "tlsSecurity": "strict",
       "serverSettings": {},
@@ -1437,6 +1461,7 @@
       "database": "edgedb",
       "user": "edgedb",
       "password": null,
+      "secret_key": null,
       "tlsCAData": null,
       "tlsSecurity": "strict",
       "serverSettings": {
@@ -1461,6 +1486,7 @@
       "database": "edgedb",
       "user": "edgedb",
       "password": null,
+      "secret_key": null,
       "tlsCAData": null,
       "tlsSecurity": "strict",
       "serverSettings": {
@@ -1486,6 +1512,7 @@
       "database": "edgedb",
       "user": "edgedb",
       "password": null,
+      "secret_key": null,
       "tlsCAData": null,
       "tlsSecurity": "strict",
       "serverSettings": {
@@ -1509,6 +1536,7 @@
       "database": "edgedb",
       "user": "edgedb",
       "password": null,
+      "secret_key": null,
       "tlsCAData": null,
       "tlsSecurity": "strict",
       "serverSettings": {
@@ -1529,6 +1557,7 @@
       "database": "edgedb",
       "user": "edgedb",
       "password": null,
+      "secret_key": null,
       "tlsCAData": null,
       "tlsSecurity": "no_host_verification",
       "serverSettings": {},
@@ -1545,6 +1574,7 @@
       "database": "edgedb",
       "user": "edgedb",
       "password": null,
+      "secret_key": null,
       "tlsCAData": null,
       "tlsSecurity": "insecure",
       "serverSettings": {},
@@ -1561,6 +1591,7 @@
       "database": "edgedb",
       "user": "edgedb",
       "password": null,
+      "secret_key": null,
       "tlsCAData": null,
       "tlsSecurity": "insecure",
       "serverSettings": {},
@@ -1577,6 +1608,7 @@
       "database": "edgedb",
       "user": "edgedb",
       "password": null,
+      "secret_key": null,
       "tlsCAData": null,
       "tlsSecurity": "no_host_verification",
       "serverSettings": {},
@@ -1609,6 +1641,7 @@
       "database": "edgedb",
       "user": "edgedb",
       "password": null,
+      "secret_key": null,
       "tlsCAData": "-----BEGIN CERTIFICATE-----\nMIICEjCCAXsCAg36MA0GCSqGSIb3DQEBBQUAMIGbMQswCQYDVQQGEwJKUDEOMAwG\nA1UECBMFVG9reW8xEDAOBgNVBAcTB0NodW8ta3UxETAPBgNVBAoTCEZyYW5rNERE\nMRgwFgYDVQQLEw9XZWJDZXJ0IFN1cHBvcnQxGDAWBgNVBAMTD0ZyYW5rNEREIFdl\nYiBDQTEjMCEGCSqGSIb3DQEJARYUc3VwcG9ydEBmcmFuazRkZC5jb20wHhcNMTIw\nODIyMDUyNjU0WhcNMTcwODIxMDUyNjU0WjBKMQswCQYDVQQGEwJKUDEOMAwGA1UE\nCAwFVG9reW8xETAPBgNVBAoMCEZyYW5rNEREMRgwFgYDVQQDDA93d3cuZXhhbXBs\nZS5jb20wXDANBgkqhkiG9w0BAQEFAANLADBIAkEAm/xmkHmEQrurE/0re/jeFRLl\n8ZPjBop7uLHhnia7lQG/5zDtZIUC3RVpqDSwBuw/NTweGyuP+o8AG98HxqxTBwID\nAQABMA0GCSqGSIb3DQEBBQUAA4GBABS2TLuBeTPmcaTaUW/LCB2NYOy8GMdzR1mx\n8iBIu2H6/E2tiY3RIevV2OW61qY2/XRQg7YPxx3ffeUugX9F4J/iPnnu1zAxxyBy\n2VguKv4SWjRFoRkIfIlHX0qVviMhSlNy2ioFLy7JcPZb+v3ftDGywUqcBiVDoea0\nHn+GmxZA\n-----END CERTIFICATE-----\n",
       "tlsSecurity": "strict",
       "serverSettings": {},
@@ -1626,6 +1659,7 @@
       "database": "edgedb",
       "user": "edgedb",
       "password": null,
+      "secret_key": null,
       "tlsCAData": "-----BEGIN CERTIFICATE-----\nMIICEjCCAXsCAg36MA0GCSqGSIb3DQEBBQUAMIGbMQswCQYDVQQGEwJKUDEOMAwG\nA1UECBMFVG9reW8xEDAOBgNVBAcTB0NodW8ta3UxETAPBgNVBAoTCEZyYW5rNERE\nMRgwFgYDVQQLEw9XZWJDZXJ0IFN1cHBvcnQxGDAWBgNVBAMTD0ZyYW5rNEREIFdl\nYiBDQTEjMCEGCSqGSIb3DQEJARYUc3VwcG9ydEBmcmFuazRkZC5jb20wHhcNMTIw\nODIyMDUyNjU0WhcNMTcwODIxMDUyNjU0WjBKMQswCQYDVQQGEwJKUDEOMAwGA1UE\nCAwFVG9reW8xETAPBgNVBAoMCEZyYW5rNEREMRgwFgYDVQQDDA93d3cuZXhhbXBs\nZS5jb20wXDANBgkqhkiG9w0BAQEFAANLADBIAkEAm/xmkHmEQrurE/0re/jeFRLl\n8ZPjBop7uLHhnia7lQG/5zDtZIUC3RVpqDSwBuw/NTweGyuP+o8AG98HxqxTBwID\nAQABMA0GCSqGSIb3DQEBBQUAA4GBABS2TLuBeTPmcaTaUW/LCB2NYOy8GMdzR1mx\n8iBIu2H6/E2tiY3RIevV2OW61qY2/XRQg7YPxx3ffeUugX9F4J/iPnnu1zAxxyBy\n2VguKv4SWjRFoRkIfIlHX0qVviMhSlNy2ioFLy7JcPZb+v3ftDGywUqcBiVDoea0\nHn+GmxZA\n-----END CERTIFICATE-----\n",
       "tlsSecurity": "strict",
       "serverSettings": {},
@@ -1648,6 +1682,7 @@
       "database": "edgedb",
       "user": "edgedb",
       "password": null,
+      "secret_key": null,
       "tlsCAData": "-----BEGIN CERTIFICATE-----\nMIICEjCCAXsCAg36MA0GCSqGSIb3DQEBBQUAMIGbMQswCQYDVQQGEwJKUDEOMAwG\nA1UECBMFVG9reW8xEDAOBgNVBAcTB0NodW8ta3UxETAPBgNVBAoTCEZyYW5rNERE\nMRgwFgYDVQQLEw9XZWJDZXJ0IFN1cHBvcnQxGDAWBgNVBAMTD0ZyYW5rNEREIFdl\nYiBDQTEjMCEGCSqGSIb3DQEJARYUc3VwcG9ydEBmcmFuazRkZC5jb20wHhcNMTIw\nODIyMDUyNjU0WhcNMTcwODIxMDUyNjU0WjBKMQswCQYDVQQGEwJKUDEOMAwGA1UE\nCAwFVG9reW8xETAPBgNVBAoMCEZyYW5rNEREMRgwFgYDVQQDDA93d3cuZXhhbXBs\nZS5jb20wXDANBgkqhkiG9w0BAQEFAANLADBIAkEAm/xmkHmEQrurE/0re/jeFRLl\n8ZPjBop7uLHhnia7lQG/5zDtZIUC3RVpqDSwBuw/NTweGyuP+o8AG98HxqxTBwID\nAQABMA0GCSqGSIb3DQEBBQUAA4GBABS2TLuBeTPmcaTaUW/LCB2NYOy8GMdzR1mx\n8iBIu2H6/E2tiY3RIevV2OW61qY2/XRQg7YPxx3ffeUugX9F4J/iPnnu1zAxxyBy\n2VguKv4SWjRFoRkIfIlHX0qVviMhSlNy2ioFLy7JcPZb+v3ftDGywUqcBiVDoea0\nHn+GmxZA\n-----END CERTIFICATE-----\n",
       "tlsSecurity": "strict",
       "serverSettings": {},
@@ -1670,6 +1705,7 @@
       "database": "edgedb",
       "user": "edgedb",
       "password": null,
+      "secret_key": null,
       "tlsCAData": "-----BEGIN CERTIFICATE-----\nMIICEjCCAXsCAg36MA0GCSqGSIb3DQEBBQUAMIGbMQswCQYDVQQGEwJKUDEOMAwG\nA1UECBMFVG9reW8xEDAOBgNVBAcTB0NodW8ta3UxETAPBgNVBAoTCEZyYW5rNERE\nMRgwFgYDVQQLEw9XZWJDZXJ0IFN1cHBvcnQxGDAWBgNVBAMTD0ZyYW5rNEREIFdl\nYiBDQTEjMCEGCSqGSIb3DQEJARYUc3VwcG9ydEBmcmFuazRkZC5jb20wHhcNMTIw\nODIyMDUyNjU0WhcNMTcwODIxMDUyNjU0WjBKMQswCQYDVQQGEwJKUDEOMAwGA1UE\nCAwFVG9reW8xETAPBgNVBAoMCEZyYW5rNEREMRgwFgYDVQQDDA93d3cuZXhhbXBs\nZS5jb20wXDANBgkqhkiG9w0BAQEFAANLADBIAkEAm/xmkHmEQrurE/0re/jeFRLl\n8ZPjBop7uLHhnia7lQG/5zDtZIUC3RVpqDSwBuw/NTweGyuP+o8AG98HxqxTBwID\nAQABMA0GCSqGSIb3DQEBBQUAA4GBABS2TLuBeTPmcaTaUW/LCB2NYOy8GMdzR1mx\n8iBIu2H6/E2tiY3RIevV2OW61qY2/XRQg7YPxx3ffeUugX9F4J/iPnnu1zAxxyBy\n2VguKv4SWjRFoRkIfIlHX0qVviMhSlNy2ioFLy7JcPZb+v3ftDGywUqcBiVDoea0\nHn+GmxZA\n-----END CERTIFICATE-----\n",
       "tlsSecurity": "strict",
       "serverSettings": {},
@@ -1692,6 +1728,7 @@
       "database": "edgedb",
       "user": "edgedb",
       "password": null,
+      "secret_key": null,
       "tlsCAData": "-----BEGIN CERTIFICATE-----\nMIICEjCCAXsCAg36MA0GCSqGSIb3DQEBBQUAMIGbMQswCQYDVQQGEwJKUDEOMAwG\nA1UECBMFVG9reW8xEDAOBgNVBAcTB0NodW8ta3UxETAPBgNVBAoTCEZyYW5rNERE\nMRgwFgYDVQQLEw9XZWJDZXJ0IFN1cHBvcnQxGDAWBgNVBAMTD0ZyYW5rNEREIFdl\nYiBDQTEjMCEGCSqGSIb3DQEJARYUc3VwcG9ydEBmcmFuazRkZC5jb20wHhcNMTIw\nODIyMDUyNjU0WhcNMTcwODIxMDUyNjU0WjBKMQswCQYDVQQGEwJKUDEOMAwGA1UE\nCAwFVG9reW8xETAPBgNVBAoMCEZyYW5rNEREMRgwFgYDVQQDDA93d3cuZXhhbXBs\nZS5jb20wXDANBgkqhkiG9w0BAQEFAANLADBIAkEAm/xmkHmEQrurE/0re/jeFRLl\n8ZPjBop7uLHhnia7lQG/5zDtZIUC3RVpqDSwBuw/NTweGyuP+o8AG98HxqxTBwID\nAQABMA0GCSqGSIb3DQEBBQUAA4GBABS2TLuBeTPmcaTaUW/LCB2NYOy8GMdzR1mx\n8iBIu2H6/E2tiY3RIevV2OW61qY2/XRQg7YPxx3ffeUugX9F4J/iPnnu1zAxxyBy\n2VguKv4SWjRFoRkIfIlHX0qVviMhSlNy2ioFLy7JcPZb+v3ftDGywUqcBiVDoea0\nHn+GmxZA\n-----END CERTIFICATE-----\n",
       "tlsSecurity": "strict",
       "serverSettings": {},
@@ -1716,6 +1753,7 @@
       "database": "edgedb",
       "user": "edgedb",
       "password": null,
+      "secret_key": null,
       "tlsCAData": "-----BEGIN CERTIFICATE-----\nMIICEjCCAXsCAg36MA0GCSqGSIb3DQEBBQUAMIGbMQswCQYDVQQGEwJKUDEOMAwG\nA1UECBMFVG9reW8xEDAOBgNVBAcTB0NodW8ta3UxETAPBgNVBAoTCEZyYW5rNERE\nMRgwFgYDVQQLEw9XZWJDZXJ0IFN1cHBvcnQxGDAWBgNVBAMTD0ZyYW5rNEREIFdl\nYiBDQTEjMCEGCSqGSIb3DQEJARYUc3VwcG9ydEBmcmFuazRkZC5jb20wHhcNMTIw\nODIyMDUyNjU0WhcNMTcwODIxMDUyNjU0WjBKMQswCQYDVQQGEwJKUDEOMAwGA1UE\nCAwFVG9reW8xETAPBgNVBAoMCEZyYW5rNEREMRgwFgYDVQQDDA93d3cuZXhhbXBs\nZS5jb20wXDANBgkqhkiG9w0BAQEFAANLADBIAkEAm/xmkHmEQrurE/0re/jeFRLl\n8ZPjBop7uLHhnia7lQG/5zDtZIUC3RVpqDSwBuw/NTweGyuP+o8AG98HxqxTBwID\nAQABMA0GCSqGSIb3DQEBBQUAA4GBABS2TLuBeTPmcaTaUW/LCB2NYOy8GMdzR1mx\n8iBIu2H6/E2tiY3RIevV2OW61qY2/XRQg7YPxx3ffeUugX9F4J/iPnnu1zAxxyBy\n2VguKv4SWjRFoRkIfIlHX0qVviMhSlNy2ioFLy7JcPZb+v3ftDGywUqcBiVDoea0\nHn+GmxZA\n-----END CERTIFICATE-----\n",
       "tlsSecurity": "strict",
       "serverSettings": {},
@@ -1741,6 +1779,7 @@
       "database": "edgedb",
       "user": "edgedb",
       "password": null,
+      "secret_key": null,
       "tlsCAData": "-----BEGIN CERTIFICATE-----\nMIICEjCCAXsCAg36MA0GCSqGSIb3DQEBBQUAMIGbMQswCQYDVQQGEwJKUDEOMAwG\nA1UECBMFVG9reW8xEDAOBgNVBAcTB0NodW8ta3UxETAPBgNVBAoTCEZyYW5rNERE\nMRgwFgYDVQQLEw9XZWJDZXJ0IFN1cHBvcnQxGDAWBgNVBAMTD0ZyYW5rNEREIFdl\nYiBDQTEjMCEGCSqGSIb3DQEJARYUc3VwcG9ydEBmcmFuazRkZC5jb20wHhcNMTIw\nODIyMDUyNjU0WhcNMTcwODIxMDUyNjU0WjBKMQswCQYDVQQGEwJKUDEOMAwGA1UE\nCAwFVG9reW8xETAPBgNVBAoMCEZyYW5rNEREMRgwFgYDVQQDDA93d3cuZXhhbXBs\nZS5jb20wXDANBgkqhkiG9w0BAQEFAANLADBIAkEAm/xmkHmEQrurE/0re/jeFRLl\n8ZPjBop7uLHhnia7lQG/5zDtZIUC3RVpqDSwBuw/NTweGyuP+o8AG98HxqxTBwID\nAQABMA0GCSqGSIb3DQEBBQUAA4GBABS2TLuBeTPmcaTaUW/LCB2NYOy8GMdzR1mx\n8iBIu2H6/E2tiY3RIevV2OW61qY2/XRQg7YPxx3ffeUugX9F4J/iPnnu1zAxxyBy\n2VguKv4SWjRFoRkIfIlHX0qVviMhSlNy2ioFLy7JcPZb+v3ftDGywUqcBiVDoea0\nHn+GmxZA\n-----END CERTIFICATE-----\n",
       "tlsSecurity": "no_host_verification",
       "serverSettings": {},
@@ -1758,6 +1797,7 @@
       "database": "edgedb",
       "user": "edgedb",
       "password": null,
+      "secret_key": null,
       "tlsCAData": null,
       "tlsSecurity": "strict",
       "serverSettings": {},
@@ -1775,6 +1815,7 @@
       "database": "edgedb",
       "user": "edgedb",
       "password": null,
+      "secret_key": null,
       "tlsCAData": null,
       "tlsSecurity": "insecure",
       "serverSettings": {},
@@ -1792,6 +1833,7 @@
       "database": "edgedb",
       "user": "edgedb",
       "password": null,
+      "secret_key": null,
       "tlsCAData": null,
       "tlsSecurity": "no_host_verification",
       "serverSettings": {},
@@ -1809,6 +1851,7 @@
       "database": "edgedb",
       "user": "edgedb",
       "password": null,
+      "secret_key": null,
       "tlsCAData": null,
       "tlsSecurity": "strict",
       "serverSettings": {},
@@ -1826,6 +1869,7 @@
       "database": "edgedb",
       "user": "edgedb",
       "password": null,
+      "secret_key": null,
       "tlsCAData": null,
       "tlsSecurity": "insecure",
       "serverSettings": {},
@@ -1843,6 +1887,7 @@
       "database": "edgedb",
       "user": "edgedb",
       "password": null,
+      "secret_key": null,
       "tlsCAData": null,
       "tlsSecurity": "insecure",
       "serverSettings": {},
@@ -1860,6 +1905,7 @@
       "database": "edgedb",
       "user": "edgedb",
       "password": null,
+      "secret_key": null,
       "tlsCAData": null,
       "tlsSecurity": "no_host_verification",
       "serverSettings": {},
@@ -1877,6 +1923,7 @@
       "database": "edgedb",
       "user": "edgedb",
       "password": null,
+      "secret_key": null,
       "tlsCAData": null,
       "tlsSecurity": "strict",
       "serverSettings": {},
@@ -1894,6 +1941,7 @@
       "database": "edgedb",
       "user": "edgedb",
       "password": null,
+      "secret_key": null,
       "tlsCAData": null,
       "tlsSecurity": "strict",
       "serverSettings": {},
@@ -1931,6 +1979,7 @@
       "database": "edgedb",
       "user": "edgedb",
       "password": null,
+      "secret_key": null,
       "tlsCAData": null,
       "tlsSecurity": "strict",
       "serverSettings": {},
@@ -1947,6 +1996,7 @@
       "database": "edgedb",
       "user": "edgedb",
       "password": null,
+      "secret_key": null,
       "tlsCAData": null,
       "tlsSecurity": "insecure",
       "serverSettings": {},
@@ -1963,6 +2013,7 @@
       "database": "edgedb",
       "user": "edgedb",
       "password": null,
+      "secret_key": null,
       "tlsCAData": null,
       "tlsSecurity": "no_host_verification",
       "serverSettings": {},
@@ -1990,6 +2041,7 @@
       "database": "edgedb",
       "user": "edgedb",
       "password": null,
+      "secret_key": null,
       "tlsCAData": null,
       "tlsSecurity": "strict",
       "serverSettings": {},
@@ -2079,6 +2131,7 @@
       "database": "edgedb",
       "user": "edgedb",
       "password": "",
+      "secret_key": null,
       "tlsCAData": null,
       "tlsSecurity": "strict",
       "serverSettings": {},
@@ -2094,6 +2147,7 @@
       "database": "edgedb",
       "user": "edgedb",
       "password": "",
+      "secret_key": null,
       "tlsCAData": null,
       "tlsSecurity": "strict",
       "serverSettings": {},
@@ -2169,6 +2223,7 @@
       "database": "edgedb",
       "user": "edgedb",
       "password": "secret",
+      "secret_key": null,
       "tlsCAData": null,
       "tlsSecurity": "strict",
       "serverSettings": {},
@@ -2187,6 +2242,7 @@
       "database": "edgedb",
       "user": "edgedb",
       "password": null,
+      "secret_key": null,
       "tlsCAData": null,
       "tlsSecurity": "strict",
       "serverSettings": {},
@@ -2204,6 +2260,7 @@
       "database": "test_db",
       "user": "edgedb",
       "password": null,
+      "secret_key": null,
       "tlsCAData": null,
       "tlsSecurity": "strict",
       "serverSettings": {},
@@ -2223,6 +2280,7 @@
       "database": "test_db",
       "user": "user_123",
       "password": null,
+      "secret_key": null,
       "tlsCAData": null,
       "tlsSecurity": "strict",
       "serverSettings": {},
@@ -2243,6 +2301,7 @@
       "database": "new_db",
       "user": "user_123",
       "password": null,
+      "secret_key": null,
       "tlsCAData": null,
       "tlsSecurity": "strict",
       "serverSettings": {},
@@ -2263,6 +2322,7 @@
       "database": "new_db",
       "user": "user_123",
       "password": null,
+      "secret_key": null,
       "tlsCAData": null,
       "tlsSecurity": "strict",
       "serverSettings": {},
@@ -2282,6 +2342,7 @@
       "database": "db",
       "user": "user_123",
       "password": null,
+      "secret_key": null,
       "tlsCAData": null,
       "tlsSecurity": "strict",
       "serverSettings": {},
@@ -2301,6 +2362,7 @@
       "database": "db",
       "user": "user_123",
       "password": null,
+      "secret_key": null,
       "tlsCAData": null,
       "tlsSecurity": "strict",
       "serverSettings": {},
@@ -2325,6 +2387,7 @@
       "database": "test3n",
       "user": "super_user",
       "password": "lZTBy1RVCfOpBAOwSCwIyBIR",
+      "secret_key": null,
       "tlsCAData": null,
       "tlsSecurity": "strict",
       "serverSettings": {},
@@ -2350,6 +2413,7 @@
       "database": "test3n",
       "user": "super_user",
       "password": "lZTBy1RVCfOpBAOwSCwIyBIR",
+      "secret_key": null,
       "tlsCAData": null,
       "tlsSecurity": "no_host_verification",
       "serverSettings": {},
@@ -2375,6 +2439,7 @@
       "database": "test3n",
       "user": "super_user",
       "password": "lZTBy1RVCfOpBAOwSCwIyBIR",
+      "secret_key": null,
       "tlsCAData": null,
       "tlsSecurity": "insecure",
       "serverSettings": {},
@@ -2396,6 +2461,7 @@
       "database": "edgedb",
       "user": "edgedb",
       "password": null,
+      "secret_key": null,
       "tlsCAData": null,
       "tlsSecurity": "strict",
       "serverSettings": {},
@@ -2417,6 +2483,7 @@
       "database": "edgedb",
       "user": "edgedb",
       "password": null,
+      "secret_key": null,
       "tlsCAData": null,
       "tlsSecurity": "no_host_verification",
       "serverSettings": {},
@@ -2438,6 +2505,7 @@
       "database": "edgedb",
       "user": "edgedb",
       "password": null,
+      "secret_key": null,
       "tlsCAData": null,
       "tlsSecurity": "insecure",
       "serverSettings": {},
@@ -2480,6 +2548,7 @@
       "address": ["::1", 5555],
       "database": "abcdef",
       "password": "123123",
+      "secret_key": null,
       "serverSettings": {},
       "tlsCAData": null,
       "tlsSecurity": "strict",
@@ -2495,6 +2564,7 @@
       "address": ["fe80::1ff:fe23:4567:890a%eth0", 3000],
       "database": "ab",
       "password": null,
+      "secret_key": null,
       "serverSettings": {},
       "tlsCAData": null,
       "tlsSecurity": "strict",
@@ -2512,6 +2582,7 @@
       "database": "edgedb",
       "user": "edgedb",
       "password": null,
+      "secret_key": null,
       "tlsCAData": null,
       "tlsSecurity": "strict",
       "serverSettings": {},
@@ -2528,6 +2599,7 @@
       "database": "edgedb",
       "user": "edgedb",
       "password": null,
+      "secret_key": null,
       "tlsCAData": null,
       "tlsSecurity": "strict",
       "serverSettings": {},
@@ -2544,6 +2616,7 @@
       "database": "edgedb",
       "user": "edgedb",
       "password": null,
+      "secret_key": null,
       "tlsCAData": null,
       "tlsSecurity": "strict",
       "serverSettings": {},
@@ -2560,6 +2633,7 @@
       "database": "edgedb",
       "user": "edgedb",
       "password": null,
+      "secret_key": null,
       "tlsCAData": null,
       "tlsSecurity": "strict",
       "serverSettings": {},
@@ -2575,6 +2649,7 @@
       "database": "edgedb",
       "user": "edgedb",
       "password": null,
+      "secret_key": null,
       "tlsCAData": null,
       "tlsSecurity": "strict",
       "serverSettings": {},
@@ -2590,6 +2665,7 @@
       "database": "edgedb",
       "user": "edgedb",
       "password": null,
+      "secret_key": null,
       "tlsCAData": null,
       "tlsSecurity": "strict",
       "serverSettings": {},
@@ -2608,6 +2684,7 @@
       "database": "edgedb",
       "user": "edgedb",
       "password": null,
+      "secret_key": null,
       "tlsCAData": null,
       "tlsSecurity": "strict",
       "serverSettings": {},
@@ -2627,6 +2704,7 @@
       "database": "edgedb",
       "user": "edgedb",
       "password": null,
+      "secret_key": null,
       "tlsCAData": null,
       "tlsSecurity": "strict",
       "serverSettings": {},
@@ -2643,6 +2721,7 @@
       "database": "edgedb",
       "user": "edgedb",
       "password": null,
+      "secret_key": null,
       "tlsCAData": null,
       "tlsSecurity": "strict",
       "serverSettings": {},
@@ -2659,10 +2738,353 @@
       "database": "edgedb",
       "user": "edgedb",
       "password": null,
+      "secret_key": null,
       "tlsCAData": null,
       "tlsSecurity": "strict",
       "serverSettings": {},
       "waitUntilAvailable": "PT10S"
+    }
+  },
+  {
+    "opts": {
+      "dsn": "testorg/test_123"
+    },
+    "env": {},
+    "fs": {
+      "homedir": "/home/edgedb",
+      "files": {
+        "/home/edgedb/.config/edgedb/cloud.json": "{\"access_token\": \"nbwt_eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlZGIuc2VydmVyLmFueV9yb2xlIjp0cnVlLCJpYXQiOjE2NjkzMTE3NjMsImlzcyI6ImxvY2FsLTEuaW50ZXJuYWwiLCJuZWJ1bGEuc2NvcGVzIjpbImFkbWluIl0sIm5lYnVsYS51c2VyX2lkIjoiM2U3ODU4YTgtNmJjNy0xMWVkLWFmNTAtMTdiMzkzMjlmZmEyIn0.9cS6-rR00fgmEmGu423IP3snJvmXe7ZGol7ZlYuHBNqmKGrWtTsMZPj-3C7dmureUmk3ZUttxioouPeAreKueg\"}"
+      }
+    },
+    "result": {
+      "address": ["test_123.testorg.c-15ea.i.local-1.internal", 5656],
+      "database": "edgedb",
+      "user": "edgedb",
+      "password": null,
+      "secret_key": "nbwt_eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlZGIuc2VydmVyLmFueV9yb2xlIjp0cnVlLCJpYXQiOjE2NjkzMTE3NjMsImlzcyI6ImxvY2FsLTEuaW50ZXJuYWwiLCJuZWJ1bGEuc2NvcGVzIjpbImFkbWluIl0sIm5lYnVsYS51c2VyX2lkIjoiM2U3ODU4YTgtNmJjNy0xMWVkLWFmNTAtMTdiMzkzMjlmZmEyIn0.9cS6-rR00fgmEmGu423IP3snJvmXe7ZGol7ZlYuHBNqmKGrWtTsMZPj-3C7dmureUmk3ZUttxioouPeAreKueg",
+      "tlsCAData": null,
+      "tlsSecurity": "strict",
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
+    }
+  },
+  {
+    "opts": {
+      "dsn": "testorg/test_123"
+    },
+    "env": {},
+    "fs": {
+      "homedir": "/home/edgedb",
+      "files": {}
+    },
+    "error": {
+      "type": "security_key_not_found"
+    }
+  },
+  {
+    "opts": {
+      "dsn": "testorg/test_123"
+    },
+    "env": {},
+    "fs": {
+      "homedir": "/home/edgedb",
+      "files": {
+        "/home/edgedb/.config/edgedb/cloud.json": "{\"access_token\": \"nbwt_eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9\"}"
+      }
+    },
+    "error": {
+      "type": "invalid_security_key"
+    }
+  },
+  {
+    "opts": {
+      "dsn": "test-org/test-123"
+    },
+    "env": {},
+    "fs": {
+      "homedir": "/home/edgedb",
+      "files": {
+        "/home/edgedb/.config/edgedb/cloud.json": "{\"access_token\": \"nbwt_eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlZGIuc2VydmVyLmFueV9yb2xlIjp0cnVlLCJpYXQiOjE2NjkzMTE3NjMsImlzcyI6ImxvY2FsLTEuaW50ZXJuYWwiLCJuZWJ1bGEuc2NvcGVzIjpbImFkbWluIl0sIm5lYnVsYS51c2VyX2lkIjoiM2U3ODU4YTgtNmJjNy0xMWVkLWFmNTAtMTdiMzkzMjlmZmEyIn0.9cS6-rR00fgmEmGu423IP3snJvmXe7ZGol7ZlYuHBNqmKGrWtTsMZPj-3C7dmureUmk3ZUttxioouPeAreKueg\"}"
+      }
+    },
+    "error": {
+      "type": "invalid_dsn_or_instance_name"
+    }
+  },
+  {
+    "opts": {
+      "dsn": "123/456"
+    },
+    "env": {},
+    "fs": {
+      "homedir": "/home/edgedb",
+      "files": {
+        "/home/edgedb/.config/edgedb/cloud.json": "{\"access_token\": \"nbwt_eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlZGIuc2VydmVyLmFueV9yb2xlIjp0cnVlLCJpYXQiOjE2NjkzMTE3NjMsImlzcyI6ImxvY2FsLTEuaW50ZXJuYWwiLCJuZWJ1bGEuc2NvcGVzIjpbImFkbWluIl0sIm5lYnVsYS51c2VyX2lkIjoiM2U3ODU4YTgtNmJjNy0xMWVkLWFmNTAtMTdiMzkzMjlmZmEyIn0.9cS6-rR00fgmEmGu423IP3snJvmXe7ZGol7ZlYuHBNqmKGrWtTsMZPj-3C7dmureUmk3ZUttxioouPeAreKueg\"}"
+      }
+    },
+    "error": {
+      "type": "invalid_dsn_or_instance_name"
+    }
+  },
+  {
+    "opts": {
+      "dsn": "test🦖/test😏"
+    },
+    "env": {},
+    "fs": {
+      "homedir": "/home/edgedb",
+      "files": {
+        "/home/edgedb/.config/edgedb/cloud.json": "{\"access_token\": \"nbwt_eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlZGIuc2VydmVyLmFueV9yb2xlIjp0cnVlLCJpYXQiOjE2NjkzMTE3NjMsImlzcyI6ImxvY2FsLTEuaW50ZXJuYWwiLCJuZWJ1bGEuc2NvcGVzIjpbImFkbWluIl0sIm5lYnVsYS51c2VyX2lkIjoiM2U3ODU4YTgtNmJjNy0xMWVkLWFmNTAtMTdiMzkzMjlmZmEyIn0.9cS6-rR00fgmEmGu423IP3snJvmXe7ZGol7ZlYuHBNqmKGrWtTsMZPj-3C7dmureUmk3ZUttxioouPeAreKueg\"}"
+      }
+    },
+    "error": {
+      "type": "invalid_dsn_or_instance_name"
+    }
+  },
+  {
+    "opts": {
+      "dsn": "testorg/test_123",
+      "secret_key": "nbwt_eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlZGIuc2VydmVyLmFueV9yb2xlIjp0cnVlLCJpYXQiOjE2NjkzMTE3NjMsImlzcyI6ImxvY2FsLTEuaW50ZXJuYWwiLCJuZWJ1bGEuc2NvcGVzIjpbImFkbWluIl0sIm5lYnVsYS51c2VyX2lkIjoiM2U3ODU4YTgtNmJjNy0xMWVkLWFmNTAtMTdiMzkzMjlmZmEyIn0.9cS6-rR00fgmEmGu423IP3snJvmXe7ZGol7ZlYuHBNqmKGrWtTsMZPj-3C7dmureUmk3ZUttxioouPeAreKueg"
+    },
+    "env": {},
+    "fs": {
+      "homedir": "/home/edgedb",
+      "files": {}
+    },
+    "result": {
+      "address": ["test_123.testorg.c-15ea.i.local-1.internal", 5656],
+      "database": "edgedb",
+      "user": "edgedb",
+      "password": null,
+      "secret_key": "nbwt_eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlZGIuc2VydmVyLmFueV9yb2xlIjp0cnVlLCJpYXQiOjE2NjkzMTE3NjMsImlzcyI6ImxvY2FsLTEuaW50ZXJuYWwiLCJuZWJ1bGEuc2NvcGVzIjpbImFkbWluIl0sIm5lYnVsYS51c2VyX2lkIjoiM2U3ODU4YTgtNmJjNy0xMWVkLWFmNTAtMTdiMzkzMjlmZmEyIn0.9cS6-rR00fgmEmGu423IP3snJvmXe7ZGol7ZlYuHBNqmKGrWtTsMZPj-3C7dmureUmk3ZUttxioouPeAreKueg",
+      "tlsCAData": null,
+      "tlsSecurity": "strict",
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
+    }
+  },
+  {
+    "env": {
+      "EDGEDB_INSTANCE": "testorg/test_123",
+      "EDGEDB_SECRET_KEY": "nbwt_eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlZGIuc2VydmVyLmFueV9yb2xlIjp0cnVlLCJpYXQiOjE2NjkzMTE3NjMsImlzcyI6ImxvY2FsLTEuaW50ZXJuYWwiLCJuZWJ1bGEuc2NvcGVzIjpbImFkbWluIl0sIm5lYnVsYS51c2VyX2lkIjoiM2U3ODU4YTgtNmJjNy0xMWVkLWFmNTAtMTdiMzkzMjlmZmEyIn0.9cS6-rR00fgmEmGu423IP3snJvmXe7ZGol7ZlYuHBNqmKGrWtTsMZPj-3C7dmureUmk3ZUttxioouPeAreKueg"
+    },
+    "fs": {
+      "homedir": "/home/edgedb",
+      "files": {}
+    },
+    "result": {
+      "address": ["test_123.testorg.c-15ea.i.local-1.internal", 5656],
+      "database": "edgedb",
+      "user": "edgedb",
+      "password": null,
+      "secret_key": "nbwt_eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlZGIuc2VydmVyLmFueV9yb2xlIjp0cnVlLCJpYXQiOjE2NjkzMTE3NjMsImlzcyI6ImxvY2FsLTEuaW50ZXJuYWwiLCJuZWJ1bGEuc2NvcGVzIjpbImFkbWluIl0sIm5lYnVsYS51c2VyX2lkIjoiM2U3ODU4YTgtNmJjNy0xMWVkLWFmNTAtMTdiMzkzMjlmZmEyIn0.9cS6-rR00fgmEmGu423IP3snJvmXe7ZGol7ZlYuHBNqmKGrWtTsMZPj-3C7dmureUmk3ZUttxioouPeAreKueg",
+      "tlsCAData": null,
+      "tlsSecurity": "strict",
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
+    }
+  },
+  {
+    "opts": {
+      "dsn": "testorg/test_123",
+      "secret_key": "nbwt_eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlZGIuc2VydmVyLmFueV9yb2xlIjp0cnVlLCJpYXQiOjE2NjkzMTE3NjMsImlzcyI6ImxvY2FsLTEuaW50ZXJuYWwiLCJuZWJ1bGEuc2NvcGVzIjpbImFkbWluIl0sIm5lYnVsYS51c2VyX2lkIjoiM2U3ODU4YTgtNmJjNy0xMWVkLWFmNTAtMTdiMzkzMjlmZmEyIn0.9cS6-rR00fgmEmGu423IP3snJvmXe7ZGol7ZlYuHBNqmKGrWtTsMZPj-3C7dmureUmk3ZUttxioouPeAreKueg"
+    },
+    "env": {
+      "EDGEDB_INSTANCE": "testorg/test_456",
+      "EDGEDB_SECRET_KEY": "nbwt_eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9"
+    },
+    "fs": {
+      "homedir": "/home/edgedb",
+      "files": {
+        "/home/edgedb/.config/edgedb/cloud.json": "{\"access_token\": \"nbwt_eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9\"}"
+      }
+    },
+    "result": {
+      "address": ["test_123.testorg.c-15ea.i.local-1.internal", 5656],
+      "database": "edgedb",
+      "user": "edgedb",
+      "password": null,
+      "secret_key": "nbwt_eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlZGIuc2VydmVyLmFueV9yb2xlIjp0cnVlLCJpYXQiOjE2NjkzMTE3NjMsImlzcyI6ImxvY2FsLTEuaW50ZXJuYWwiLCJuZWJ1bGEuc2NvcGVzIjpbImFkbWluIl0sIm5lYnVsYS51c2VyX2lkIjoiM2U3ODU4YTgtNmJjNy0xMWVkLWFmNTAtMTdiMzkzMjlmZmEyIn0.9cS6-rR00fgmEmGu423IP3snJvmXe7ZGol7ZlYuHBNqmKGrWtTsMZPj-3C7dmureUmk3ZUttxioouPeAreKueg",
+      "tlsCAData": null,
+      "tlsSecurity": "strict",
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
+    }
+  },
+  {
+    "env": {
+      "EDGEDB_INSTANCE": "testorg/test_123",
+      "EDGEDB_SECRET_KEY": "nbwt_eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlZGIuc2VydmVyLmFueV9yb2xlIjp0cnVlLCJpYXQiOjE2NjkzMTE3NjMsImlzcyI6ImxvY2FsLTEuaW50ZXJuYWwiLCJuZWJ1bGEuc2NvcGVzIjpbImFkbWluIl0sIm5lYnVsYS51c2VyX2lkIjoiM2U3ODU4YTgtNmJjNy0xMWVkLWFmNTAtMTdiMzkzMjlmZmEyIn0.9cS6-rR00fgmEmGu423IP3snJvmXe7ZGol7ZlYuHBNqmKGrWtTsMZPj-3C7dmureUmk3ZUttxioouPeAreKueg"
+    },
+    "fs": {
+      "homedir": "/home/edgedb",
+      "files": {
+        "/home/edgedb/.config/edgedb/cloud.json": "{\"access_token\": \"nbwt_eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9\"}"
+      }
+    },
+    "result": {
+      "address": ["test_123.testorg.c-15ea.i.local-1.internal", 5656],
+      "database": "edgedb",
+      "user": "edgedb",
+      "password": null,
+      "secret_key": "nbwt_eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlZGIuc2VydmVyLmFueV9yb2xlIjp0cnVlLCJpYXQiOjE2NjkzMTE3NjMsImlzcyI6ImxvY2FsLTEuaW50ZXJuYWwiLCJuZWJ1bGEuc2NvcGVzIjpbImFkbWluIl0sIm5lYnVsYS51c2VyX2lkIjoiM2U3ODU4YTgtNmJjNy0xMWVkLWFmNTAtMTdiMzkzMjlmZmEyIn0.9cS6-rR00fgmEmGu423IP3snJvmXe7ZGol7ZlYuHBNqmKGrWtTsMZPj-3C7dmureUmk3ZUttxioouPeAreKueg",
+      "tlsCAData": null,
+      "tlsSecurity": "strict",
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
+    }
+  },
+  {
+    "opts": {
+      "dsn": "testorg/test_123"
+    },
+    "env": {
+      "EDGEDB_SECRET_KEY": "nbwt_eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlZGIuc2VydmVyLmFueV9yb2xlIjp0cnVlLCJpYXQiOjE2NjkzMTE3NjMsImlzcyI6ImxvY2FsLTEuaW50ZXJuYWwiLCJuZWJ1bGEuc2NvcGVzIjpbImFkbWluIl0sIm5lYnVsYS51c2VyX2lkIjoiM2U3ODU4YTgtNmJjNy0xMWVkLWFmNTAtMTdiMzkzMjlmZmEyIn0.9cS6-rR00fgmEmGu423IP3snJvmXe7ZGol7ZlYuHBNqmKGrWtTsMZPj-3C7dmureUmk3ZUttxioouPeAreKueg"
+    },
+    "fs": {
+      "homedir": "/home/edgedb",
+      "files": {}
+    },
+    "error": {
+      "type": "security_key_not_found"
+    }
+  },
+  {
+    "env": {
+      "EDGEDB_INSTANCE": "testorg/test_123"
+    },
+    "fs": {
+      "homedir": "/home/edgedb",
+      "files": {
+        "/home/edgedb/.config/edgedb/cloud.json": "{\"access_token\": \"nbwt_eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlZGIuc2VydmVyLmFueV9yb2xlIjp0cnVlLCJpYXQiOjE2NjkzMTE3NjMsImlzcyI6ImxvY2FsLTEuaW50ZXJuYWwiLCJuZWJ1bGEuc2NvcGVzIjpbImFkbWluIl0sIm5lYnVsYS51c2VyX2lkIjoiM2U3ODU4YTgtNmJjNy0xMWVkLWFmNTAtMTdiMzkzMjlmZmEyIn0.9cS6-rR00fgmEmGu423IP3snJvmXe7ZGol7ZlYuHBNqmKGrWtTsMZPj-3C7dmureUmk3ZUttxioouPeAreKueg\"}"
+      }
+    },
+    "result": {
+      "address": ["test_123.testorg.c-15ea.i.local-1.internal", 5656],
+      "database": "edgedb",
+      "user": "edgedb",
+      "password": null,
+      "secret_key": "nbwt_eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlZGIuc2VydmVyLmFueV9yb2xlIjp0cnVlLCJpYXQiOjE2NjkzMTE3NjMsImlzcyI6ImxvY2FsLTEuaW50ZXJuYWwiLCJuZWJ1bGEuc2NvcGVzIjpbImFkbWluIl0sIm5lYnVsYS51c2VyX2lkIjoiM2U3ODU4YTgtNmJjNy0xMWVkLWFmNTAtMTdiMzkzMjlmZmEyIn0.9cS6-rR00fgmEmGu423IP3snJvmXe7ZGol7ZlYuHBNqmKGrWtTsMZPj-3C7dmureUmk3ZUttxioouPeAreKueg",
+      "tlsCAData": null,
+      "tlsSecurity": "strict",
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
+    }
+  },
+  {
+    "opts": {
+      "dsn": "edgedb://testuser@localhost/db?secret_key=not_secret_key"
+    },
+    "result": {
+      "address": ["localhost", 5656],
+      "database": "db",
+      "user": "testuser",
+      "password": null,
+      "secret_key": "not_secret_key",
+      "tlsCAData": null,
+      "tlsSecurity": "strict",
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
+    }
+  },
+  {
+    "opts": {
+      "dsn": "edgedb://testuser@localhost/db?secret_key_env=SECRET_KEY"
+    },
+    "env": {
+      "SECRET_KEY": "super_secret_key"
+    },
+    "result": {
+      "address": ["localhost", 5656],
+      "database": "db",
+      "user": "testuser",
+      "password": null,
+      "secret_key": "super_secret_key",
+      "tlsCAData": null,
+      "tlsSecurity": "strict",
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
+    }
+  },
+  {
+    "opts": {
+      "dsn": "edgedb://testuser@localhost/db?secret_key_env=EDGEDB_SECRET_KEY"
+    },
+    "env": {
+      "EDGEDB_SECRET_KEY": "kkk"
+    },
+    "result": {
+      "address": ["localhost", 5656],
+      "database": "db",
+      "user": "testuser",
+      "password": null,
+      "secret_key": "kkk",
+      "tlsCAData": null,
+      "tlsSecurity": "strict",
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
+    }
+  },
+  {
+    "opts": {
+      "dsn": "edgedb://testuser@localhost/db"
+    },
+    "env": {
+      "EDGEDB_SECRET_KEY": "kkk"
+    },
+    "result": {
+      "address": ["localhost", 5656],
+      "database": "db",
+      "user": "testuser",
+      "password": null,
+      "secret_key": null,
+      "tlsCAData": null,
+      "tlsSecurity": "strict",
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
+    }
+  },
+  {
+    "opts": {
+      "dsn": "edgedb://testuser@localhost/db?secret_key_env=EDGEDB_SECRET_KEY"
+    },
+    "error": {
+      "type": "env_not_found"
+    }
+  },
+  {
+    "opts": {
+      "dsn": "edgedb://testuser@localhost/db?secret_key_file=/home/edgedb/secret_key"
+    },
+    "env": {
+      "EDGEDB_SECRET_KEY": "secret_key"
+    },
+    "fs": {
+      "files": {
+        "/home/edgedb/secret_key": "12345"
+      }
+    },
+    "result": {
+      "address": ["localhost", 5656],
+      "database": "db",
+      "user": "testuser",
+      "password": null,
+      "secret_key": "12345",
+      "tlsCAData": null,
+      "tlsSecurity": "strict",
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
+    }
+  },
+  {
+    "opts": {
+      "dsn": "edgedb://testuser@localhost/db?secret_key_file=/home/edgedb/secret_key"
+    },
+    "env": {
+      "EDGEDB_SECRET_KEY": "password"
+    },
+    "error": {
+      "type": "file_not_found"
     }
   }
 ]
