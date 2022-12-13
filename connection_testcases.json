@@ -336,7 +336,7 @@
   },
   {
     "opts": {
-      "dsn": "test_123"
+      "instance": "test_123"
     },
     "env": {},
     "fs": {
@@ -359,7 +359,7 @@
   },
   {
     "opts": {
-      "dsn": "test-123"
+      "instance": "test-123"
     },
     "env": {},
     "fs": {
@@ -374,7 +374,7 @@
   },
   {
     "opts": {
-      "dsn": "123-test"
+      "instance": "123-test"
     },
     "env": {},
     "fs": {
@@ -389,7 +389,7 @@
   },
   {
     "opts": {
-      "dsn": "test-🦕"
+      "instance": "test-🦕"
     },
     "env": {},
     "fs": {
@@ -694,7 +694,7 @@
   },
   {
     "opts": {
-      "dsn": "test_instance",
+      "instance": "test_instance",
       "port": 10701
     },
     "error": {
@@ -901,7 +901,7 @@
       "port": 10701
     },
     "env": {
-      "EDGEDB_DSN": "test_instance"
+      "EDGEDB_INSTANCE": "test_instance"
     },
     "result": {
       "address": ["localhost", 10701],
@@ -917,7 +917,7 @@
   },
   {
     "opts": {
-      "dsn": "test_instance"
+      "instance": "test_instance"
     },
     "env": {
       "EDGEDB_PORT": "10701"
@@ -931,7 +931,7 @@
   },
   {
     "opts": {
-      "dsn": "test_instance"
+      "instance": "test_instance"
     },
     "env": {
       "EDGEDB_PORT": "10701"
@@ -2106,6 +2106,14 @@
   },
   {
     "opts": {
+      "instance": ""
+    },
+    "error": {
+      "type": "invalid_dsn_or_instance_name"
+    }
+  },
+  {
+    "opts": {
       "dsn": "edgedb://",
       "user": ""
     },
@@ -2448,7 +2456,7 @@
   },
   {
     "opts": {
-      "dsn": "test_instance"
+      "instance": "test_instance"
     },
     "fs": {
       "homedir": "/home/edgedb",
@@ -2470,7 +2478,7 @@
   },
   {
     "opts": {
-      "dsn": "test_instance"
+      "instance": "test_instance"
     },
     "fs": {
       "homedir": "/home/edgedb",
@@ -2492,7 +2500,7 @@
   },
   {
     "opts": {
-      "dsn": "test_instance"
+      "instance": "test_instance"
     },
     "fs": {
       "homedir": "/home/edgedb",
@@ -2514,7 +2522,7 @@
   },
   {
     "opts": {
-      "dsn": "test_instance"
+      "instance": "test_instance"
     },
     "fs": {
       "homedir": "/home/edgedb",
@@ -2528,7 +2536,7 @@
   },
   {
     "opts": {
-      "dsn": "test_instance"
+      "instance": "test_instance"
     },
     "fs": {
       "homedir": "/home/edgedb",
@@ -2747,7 +2755,7 @@
   },
   {
     "opts": {
-      "dsn": "testorg/test_123"
+      "instance": "testorg/test_123"
     },
     "env": {},
     "fs": {
@@ -2770,7 +2778,7 @@
   },
   {
     "opts": {
-      "dsn": "testorg/test_123"
+      "instance": "testorg/test_123"
     },
     "env": {},
     "fs": {
@@ -2783,7 +2791,7 @@
   },
   {
     "opts": {
-      "dsn": "testorg/test_123"
+      "instance": "testorg/test_123"
     },
     "env": {},
     "fs": {
@@ -2798,7 +2806,7 @@
   },
   {
     "opts": {
-      "dsn": "test-org/test-123"
+      "instance": "test-org/test-123"
     },
     "env": {},
     "fs": {
@@ -2813,7 +2821,7 @@
   },
   {
     "opts": {
-      "dsn": "123/456"
+      "instance": "123/456"
     },
     "env": {},
     "fs": {
@@ -2828,7 +2836,7 @@
   },
   {
     "opts": {
-      "dsn": "test🦖/test😏"
+      "instance": "test🦖/test😏"
     },
     "env": {},
     "fs": {
@@ -2843,7 +2851,7 @@
   },
   {
     "opts": {
-      "dsn": "testorg/test_123",
+      "instance": "testorg/test_123",
       "secret_key": "nbwt_eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlZGIuc2VydmVyLmFueV9yb2xlIjp0cnVlLCJpYXQiOjE2NjkzMTE3NjMsImlzcyI6ImxvY2FsLTEuaW50ZXJuYWwiLCJuZWJ1bGEuc2NvcGVzIjpbImFkbWluIl0sIm5lYnVsYS51c2VyX2lkIjoiM2U3ODU4YTgtNmJjNy0xMWVkLWFmNTAtMTdiMzkzMjlmZmEyIn0.9cS6-rR00fgmEmGu423IP3snJvmXe7ZGol7ZlYuHBNqmKGrWtTsMZPj-3C7dmureUmk3ZUttxioouPeAreKueg"
     },
     "env": {},
@@ -2886,7 +2894,7 @@
   },
   {
     "opts": {
-      "dsn": "testorg/test_123",
+      "instance": "testorg/test_123",
       "secret_key": "nbwt_eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlZGIuc2VydmVyLmFueV9yb2xlIjp0cnVlLCJpYXQiOjE2NjkzMTE3NjMsImlzcyI6ImxvY2FsLTEuaW50ZXJuYWwiLCJuZWJ1bGEuc2NvcGVzIjpbImFkbWluIl0sIm5lYnVsYS51c2VyX2lkIjoiM2U3ODU4YTgtNmJjNy0xMWVkLWFmNTAtMTdiMzkzMjlmZmEyIn0.9cS6-rR00fgmEmGu423IP3snJvmXe7ZGol7ZlYuHBNqmKGrWtTsMZPj-3C7dmureUmk3ZUttxioouPeAreKueg"
     },
     "env": {
@@ -2936,7 +2944,7 @@
   },
   {
     "opts": {
-      "dsn": "testorg/test_123"
+      "instance": "testorg/test_123"
     },
     "env": {
       "EDGEDB_SECRET_KEY": "nbwt_eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlZGIuc2VydmVyLmFueV9yb2xlIjp0cnVlLCJpYXQiOjE2NjkzMTE3NjMsImlzcyI6ImxvY2FsLTEuaW50ZXJuYWwiLCJuZWJ1bGEuc2NvcGVzIjpbImFkbWluIl0sIm5lYnVsYS51c2VyX2lkIjoiM2U3ODU4YTgtNmJjNy0xMWVkLWFmNTAtMTdiMzkzMjlmZmEyIn0.9cS6-rR00fgmEmGu423IP3snJvmXe7ZGol7ZlYuHBNqmKGrWtTsMZPj-3C7dmureUmk3ZUttxioouPeAreKueg"
