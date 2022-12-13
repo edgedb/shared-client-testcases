@@ -328,7 +328,7 @@
   },
   {
     "opts": {
-      "dsn": "test_123"
+      "instance": "test_123"
     },
     "env": {},
     "fs": {
@@ -350,7 +350,7 @@
   },
   {
     "opts": {
-      "dsn": "test-123"
+      "instance": "test-123"
     },
     "env": {},
     "fs": {
@@ -365,7 +365,7 @@
   },
   {
     "opts": {
-      "dsn": "123-test"
+      "instance": "123-test"
     },
     "env": {},
     "fs": {
@@ -380,7 +380,7 @@
   },
   {
     "opts": {
-      "dsn": "test-🦕"
+      "instance": "test-🦕"
     },
     "env": {},
     "fs": {
@@ -676,7 +676,7 @@
   },
   {
     "opts": {
-      "dsn": "test_instance",
+      "instance": "test_instance",
       "port": 10701
     },
     "error": {
@@ -880,7 +880,7 @@
       "port": 10701
     },
     "env": {
-      "EDGEDB_DSN": "test_instance"
+      "EDGEDB_INSTANCE": "test_instance"
     },
     "result": {
       "address": ["localhost", 10701],
@@ -895,7 +895,7 @@
   },
   {
     "opts": {
-      "dsn": "test_instance"
+      "instance": "test_instance"
     },
     "env": {
       "EDGEDB_PORT": "10701"
@@ -909,7 +909,7 @@
   },
   {
     "opts": {
-      "dsn": "test_instance"
+      "instance": "test_instance"
     },
     "env": {
       "EDGEDB_PORT": "10701"
@@ -2054,6 +2054,14 @@
   },
   {
     "opts": {
+      "instance": ""
+    },
+    "error": {
+      "type": "invalid_dsn_or_instance_name"
+    }
+  },
+  {
+    "opts": {
       "dsn": "edgedb://",
       "user": ""
     },
@@ -2383,7 +2391,7 @@
   },
   {
     "opts": {
-      "dsn": "test_instance"
+      "instance": "test_instance"
     },
     "fs": {
       "homedir": "/home/edgedb",
@@ -2404,7 +2412,7 @@
   },
   {
     "opts": {
-      "dsn": "test_instance"
+      "instance": "test_instance"
     },
     "fs": {
       "homedir": "/home/edgedb",
@@ -2425,7 +2433,7 @@
   },
   {
     "opts": {
-      "dsn": "test_instance"
+      "instance": "test_instance"
     },
     "fs": {
       "homedir": "/home/edgedb",
@@ -2446,7 +2454,7 @@
   },
   {
     "opts": {
-      "dsn": "test_instance"
+      "instance": "test_instance"
     },
     "fs": {
       "homedir": "/home/edgedb",
@@ -2460,7 +2468,7 @@
   },
   {
     "opts": {
-      "dsn": "test_instance"
+      "instance": "test_instance"
     },
     "fs": {
       "homedir": "/home/edgedb",
