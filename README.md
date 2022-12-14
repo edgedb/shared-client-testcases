@@ -1,0 +1,113 @@
+# Shared Test Cases for EdgeDB Clients
+
+This repository contains test cases for different EdgeDB client bindings
+to implement consistent unit tests for connection parameters parsing,
+project handling and so on. [The documentation](
+https://www.edgedb.com/docs/reference/connection) explains the fundamentals.
+
+## `connection_testcases.json`
+
+This file contains test cases with different scenarios using the client API,
+and the corresponding expected parsed connection parameters. The format is
+a list of objects, each may contain the following input/output:
+
+### Input - `opts`
+
+This is usually the values passed directly to the client as options,
+like the keyword arguments on `edgedb.create_client(...)` for Python,
+or direct command arguments for the CLI. Possible values:
+
+| key                  | value type  | value                                                                                                                                               |
+|----------------------|-------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
+| `host`               | string      | the host name or IP of the server instance                                                                                                          |
+| `port`               | integer     | the port of the server instance (test cases may contain strings and floats)                                                                         |
+| `user`               | string      | database user for authentication                                                                                                                    |
+| `password`           | string      | password for authentication                                                                                                                         |
+| `secret_key`         | string      | secret key for authentication                                                                                                                       |
+| `database`           | string      | the name of the database to use in the server instance                                                                                              |
+| `waitUntilAvailable` | string      | max time to wait before server becomes available                                                                                                    |
+| `tlsSecurity`        | enum string | one of `strict`, `no_host_verification` and `insecure` (test cases may contain invalid values)                                                      |
+| `tlsCA`              | string      | PEM string of the CA certificate to trust                                                                                                           |
+| `tlsCAFile`          | path string | path to a file containing `tlsCA`                                                                                                                   |
+| `serverSettings`     | object      | additional [connection parameters](https://www.edgedb.com/docs/reference/protocol/messages#ref-protocol-msg-client-handshake) to send to the server |
+| `credentials`        | JSON string | decodes to an object with possible keys: `host`, `port`, `user`, `password`, `database`, `tls_ca`, `tls_security`                                   |
+| `credentialsFile`    | string      | path to a file containing `credentials`                                                                                                             |
+| `instance`           | string      | name of an EdgeDB instance                                                                                                                          |
+| `dsn`                | string      | EdgeDB DSN                                                                                                                                          |
+
+Note: some client bindings take a single positional argument
+that can be either `dsn` or `instance`, depending on the format.
+
+### Input - `env`
+
+Environment variables present at the time of connecting. Possible values:
+
+| name                          | value                                               |
+|-------------------------------|-----------------------------------------------------|
+| `EDGEDB_HOST`                 | same as `host` above                                |
+| `EDGEDB_PORT`                 | same as `port` above                                |
+| `EDGEDB_USER`                 | same as `user` above                                |
+| `EDGEDB_PASSWORD`             | same as `password` above                            |
+| `EDGEDB_SECRET_KEY`           | same as `secret_key` above                          |
+| `EDGEDB_DATABASE`             | same as `database` above                            |
+| `EDGEDB_WAIT_UNTIL_AVAILABLE` | same as `waitUntilAvailable` above                  |
+| `EDGEDB_CLIENT_TLS_SECURITY`  | same as `tlsSecurity` above                         |
+| `EDGEDB_TLS_CA`               | same as `tlsCA` above                               |
+| `EDGEDB_TLS_CA_FILE`          | same as `tlsCAFile` above                           |
+| `EDGEDB_CREDENTIALS_FILE`     | same as `credentialsFile` above                     |
+| `EDGEDB_INSTANCE`             | same as `instance` above                            |
+| `EDGEDB_DSN`                  | same as `dsn` above                                 |
+| `EDGEDB_CLIENT_SECURITY`      | one of `default`, `strict`, `insecure_dev_mode`     |
+| `EDGEDB_CLOUD_PROFILE`        | the cloud profile name to use                       |
+| any other name                | DSN query may reference these environment variables |
+
+### Input - `fs`
+
+If `fs` is present, the test code should mock up the file system accordingly. Possible keys:
+
+* `cwd` - path to the current working directory as a string to run the test case.
+* `homedir` - path to the home directory of the OS user as a string.
+* `files` - a mapping of full path of files to their corresponding content.
+   * The key is a full path to the file, while the value is the content string of that file.
+   * Project stash directory is a special case where there is a `${HASH}` placeholder in the key.
+     The test code should replace `${HASH}` with hexadecimal SHA-1 of the full path to the
+     project directory specified below. The key represents a directory that contains 2 files
+     represented by the value in the form of an object:
+      * `instance-name` - contains only the name of the instance in the file content
+      * `project-path` - a symlink pointing to the full path to the project directory in the value
+
+### Input - `platform`
+
+Value can be one of `macos` or `windows`, specifies the OS to run this test case.
+This is only useful when `fs` is present.
+
+If `platform` is absent while `fs` is present, the OS should be Linux.
+
+### Output - `result`
+
+Expected result of parsed connection parameters as an object, containing:
+
+| key                  | value type            | value                                                                                                                                               |
+|----------------------|-----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
+| `address`            | list[string, integer] | the address of the server instance [host, port]                                                                                                     |
+| `user`               | string                | database user for authentication                                                                                                                    |
+| `password`           | string or `null`      | optional password for authentication                                                                                                                |
+| `secret_key`         | string or `null`      | optional secret key for authentication                                                                                                              |
+| `database`           | string                | the name of the database to use in the server instance                                                                                              |
+| `waitUntilAvailable` | string                | ISO 8601 max time to wait before server becomes available                                                                                           |
+| `tlsSecurity`        | enum string           | one of `strict`, `no_host_verification` and `insecure`                                                                                              |
+| `tlsCAData`          | string or `null`      | optional PEM string of the CA certificate to trust                                                                                                  |
+| `serverSettings`     | object                | additional [connection parameters](https://www.edgedb.com/docs/reference/protocol/messages#ref-protocol-msg-client-handshake) to send to the server |
+
+### Output - `error`
+
+Expected error, value is currently an object with a single key `type`.
+The value of `type` is an idendifier-like string indicating the actual
+expected error, the test code should map this identifier to an actual
+error type or message.
+
+`result` and `error` are mutually exclusive.
+
+### Output - `warning`
+
+A list of identifier-like strings that this test case should emit.
