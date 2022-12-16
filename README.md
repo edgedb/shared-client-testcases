@@ -74,6 +74,7 @@ If `fs` is present, the test code should mock up the file system accordingly. Po
      project directory specified below. The key represents a directory that contains 2 files
      represented by the value in the form of an object:
       * `instance-name` - contains only the name of the instance in the file content
+      * `cloud-profile` - optionally contains only the name of the cloud profile in the file content
       * `project-path` - a symlink pointing to the full path to the project directory in the value
 
 ### Input - `platform`
