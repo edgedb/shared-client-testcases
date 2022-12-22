@@ -3035,6 +3035,99 @@
     }
   },
   {
+    "opts": {},
+    "env": {
+      "EDGEDB_CLOUD_PROFILE": "ttt"
+    },
+    "fs": {
+      "cwd": "/home/edgedb/test",
+      "homedir": "/home/edgedb",
+      "files": {
+        "/home/edgedb/.config/edgedb/cloud-credentials/ttt.json": "{\"secret_key\": \"nbwt_eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlZGIuc2VydmVyLmFueV9yb2xlIjp0cnVlLCJpYXQiOjE2NjkzMTE3NjMsImlzcyI6ImxvY2FsLTEuaW50ZXJuYWwiLCJuZWJ1bGEuc2NvcGVzIjpbImFkbWluIl0sIm5lYnVsYS51c2VyX2lkIjoiM2U3ODU4YTgtNmJjNy0xMWVkLWFmNTAtMTdiMzkzMjlmZmEyIn0.9cS6-rR00fgmEmGu423IP3snJvmXe7ZGol7ZlYuHBNqmKGrWtTsMZPj-3C7dmureUmk3ZUttxioouPeAreKueg\"}",
+        "/home/edgedb/.config/edgedb/cloud-credentials/default.json": "{\"secret_key\": \"nbwt_eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9\"}",
+        "/home/edgedb/test/edgedb.toml": "",
+        "/home/edgedb/.config/edgedb/projects/test-${HASH}": {
+          "instance-name": "testorg/test_123",
+          "cloud-profile": "default",
+          "project-path": "/home/edgedb/test"
+        }
+      }
+    },
+    "result": {
+      "address": ["test_123.testorg.c-15ea.i.local-1.internal", 5656],
+      "database": "edgedb",
+      "user": "edgedb",
+      "password": null,
+      "secretKey": "nbwt_eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlZGIuc2VydmVyLmFueV9yb2xlIjp0cnVlLCJpYXQiOjE2NjkzMTE3NjMsImlzcyI6ImxvY2FsLTEuaW50ZXJuYWwiLCJuZWJ1bGEuc2NvcGVzIjpbImFkbWluIl0sIm5lYnVsYS51c2VyX2lkIjoiM2U3ODU4YTgtNmJjNy0xMWVkLWFmNTAtMTdiMzkzMjlmZmEyIn0.9cS6-rR00fgmEmGu423IP3snJvmXe7ZGol7ZlYuHBNqmKGrWtTsMZPj-3C7dmureUmk3ZUttxioouPeAreKueg",
+      "tlsCAData": null,
+      "tlsSecurity": "strict",
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
+    }
+  },
+  {
+    "opts": {},
+    "env": {
+      "EDGEDB_SECRET_KEY": "nbwt_eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlZGIuc2VydmVyLmFueV9yb2xlIjp0cnVlLCJpYXQiOjE2NjkzMTE3NjMsImlzcyI6ImxvY2FsLTEuaW50ZXJuYWwiLCJuZWJ1bGEuc2NvcGVzIjpbImFkbWluIl0sIm5lYnVsYS51c2VyX2lkIjoiM2U3ODU4YTgtNmJjNy0xMWVkLWFmNTAtMTdiMzkzMjlmZmEyIn0.9cS6-rR00fgmEmGu423IP3snJvmXe7ZGol7ZlYuHBNqmKGrWtTsMZPj-3C7dmureUmk3ZUttxioouPeAreKueg"
+    },
+    "fs": {
+      "cwd": "/home/edgedb/test",
+      "homedir": "/home/edgedb",
+      "files": {
+        "/home/edgedb/.config/edgedb/cloud-credentials/default.json": "{\"secret_key\": \"nbwt_eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9\"}",
+        "/home/edgedb/test/edgedb.toml": "",
+        "/home/edgedb/.config/edgedb/projects/test-${HASH}": {
+          "instance-name": "testorg/test_123",
+          "cloud-profile": "default",
+          "project-path": "/home/edgedb/test"
+        }
+      }
+    },
+    "result": {
+      "address": ["test_123.testorg.c-15ea.i.local-1.internal", 5656],
+      "database": "edgedb",
+      "user": "edgedb",
+      "password": null,
+      "secretKey": "nbwt_eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlZGIuc2VydmVyLmFueV9yb2xlIjp0cnVlLCJpYXQiOjE2NjkzMTE3NjMsImlzcyI6ImxvY2FsLTEuaW50ZXJuYWwiLCJuZWJ1bGEuc2NvcGVzIjpbImFkbWluIl0sIm5lYnVsYS51c2VyX2lkIjoiM2U3ODU4YTgtNmJjNy0xMWVkLWFmNTAtMTdiMzkzMjlmZmEyIn0.9cS6-rR00fgmEmGu423IP3snJvmXe7ZGol7ZlYuHBNqmKGrWtTsMZPj-3C7dmureUmk3ZUttxioouPeAreKueg",
+      "tlsCAData": null,
+      "tlsSecurity": "strict",
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
+    }
+  },
+  {
+    "opts": {
+      "secretKey": "nbwt_eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlZGIuc2VydmVyLmFueV9yb2xlIjp0cnVlLCJpYXQiOjE2NjkzMTE3NjMsImlzcyI6ImxvY2FsLTEuaW50ZXJuYWwiLCJuZWJ1bGEuc2NvcGVzIjpbImFkbWluIl0sIm5lYnVsYS51c2VyX2lkIjoiM2U3ODU4YTgtNmJjNy0xMWVkLWFmNTAtMTdiMzkzMjlmZmEyIn0.9cS6-rR00fgmEmGu423IP3snJvmXe7ZGol7ZlYuHBNqmKGrWtTsMZPj-3C7dmureUmk3ZUttxioouPeAreKueg"
+    },
+    "env": {
+      "EDGEDB_SECRET_KEY": "nbwt_eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9"
+    },
+    "fs": {
+      "cwd": "/home/edgedb/test",
+      "homedir": "/home/edgedb",
+      "files": {
+        "/home/edgedb/.config/edgedb/cloud-credentials/default.json": "{\"secret_key\": \"nbwt_eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9\"}",
+        "/home/edgedb/test/edgedb.toml": "",
+        "/home/edgedb/.config/edgedb/projects/test-${HASH}": {
+          "instance-name": "testorg/test_123",
+          "cloud-profile": "default",
+          "project-path": "/home/edgedb/test"
+        }
+      }
+    },
+    "result": {
+      "address": ["test_123.testorg.c-15ea.i.local-1.internal", 5656],
+      "database": "edgedb",
+      "user": "edgedb",
+      "password": null,
+      "secretKey": "nbwt_eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlZGIuc2VydmVyLmFueV9yb2xlIjp0cnVlLCJpYXQiOjE2NjkzMTE3NjMsImlzcyI6ImxvY2FsLTEuaW50ZXJuYWwiLCJuZWJ1bGEuc2NvcGVzIjpbImFkbWluIl0sIm5lYnVsYS51c2VyX2lkIjoiM2U3ODU4YTgtNmJjNy0xMWVkLWFmNTAtMTdiMzkzMjlmZmEyIn0.9cS6-rR00fgmEmGu423IP3snJvmXe7ZGol7ZlYuHBNqmKGrWtTsMZPj-3C7dmureUmk3ZUttxioouPeAreKueg",
+      "tlsCAData": null,
+      "tlsSecurity": "strict",
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
+    }
+  },
+  {
     "opts": {
       "dsn": "edgedb://testuser@localhost/db?secret_key=not_secret_key"
     },
