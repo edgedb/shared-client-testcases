@@ -23,7 +23,7 @@ or direct command arguments for the CLI. Possible values:
 | `port`               | integer     | the port of the server instance (test cases may contain strings and floats)                                                                         |
 | `user`               | string      | database user for authentication                                                                                                                    |
 | `password`           | string      | password for authentication                                                                                                                         |
-| `secret_key`         | string      | secret key for authentication                                                                                                                       |
+| `secretKey`          | string      | secret key for authentication                                                                                                                       |
 | `database`           | string      | the name of the database to use in the server instance                                                                                              |
 | `waitUntilAvailable` | string      | max time to wait before server becomes available                                                                                                    |
 | `tlsSecurity`        | enum string | one of `strict`, `no_host_verification` and `insecure` (test cases may contain invalid values)                                                      |
@@ -48,7 +48,7 @@ Environment variables present at the time of connecting. Possible values:
 | `EDGEDB_PORT`                 | same as `port` above                                |
 | `EDGEDB_USER`                 | same as `user` above                                |
 | `EDGEDB_PASSWORD`             | same as `password` above                            |
-| `EDGEDB_SECRET_KEY`           | same as `secret_key` above                          |
+| `EDGEDB_SECRET_KEY`           | same as `secretKey` above                           |
 | `EDGEDB_DATABASE`             | same as `database` above                            |
 | `EDGEDB_WAIT_UNTIL_AVAILABLE` | same as `waitUntilAvailable` above                  |
 | `EDGEDB_CLIENT_TLS_SECURITY`  | same as `tlsSecurity` above                         |
@@ -74,6 +74,7 @@ If `fs` is present, the test code should mock up the file system accordingly. Po
      project directory specified below. The key represents a directory that contains 2 files
      represented by the value in the form of an object:
       * `instance-name` - contains only the name of the instance in the file content
+      * `cloud-profile` - optionally contains only the name of the cloud profile in the file content
       * `project-path` - a symlink pointing to the full path to the project directory in the value
 
 ### Input - `platform`
@@ -92,7 +93,7 @@ Expected result of parsed connection parameters as an object, containing:
 | `address`            | list[string, integer] | the address of the server instance [host, port]                                                                                                     |
 | `user`               | string                | database user for authentication                                                                                                                    |
 | `password`           | string or `null`      | optional password for authentication                                                                                                                |
-| `secret_key`         | string or `null`      | optional secret key for authentication                                                                                                              |
+| `secretKey`          | string or `null`      | optional secret key for authentication                                                                                                              |
 | `database`           | string                | the name of the database to use in the server instance                                                                                              |
 | `waitUntilAvailable` | string                | ISO 8601 max time to wait before server becomes available                                                                                           |
 | `tlsSecurity`        | enum string           | one of `strict`, `no_host_verification` and `insecure`                                                                                              |
