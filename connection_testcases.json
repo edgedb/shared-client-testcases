@@ -2790,16 +2790,8 @@
         "/home/edgedb/.config/edgedb/cloud-credentials/default.json": "{\"secret_key\": \"nbwt_eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9\"}"
       }
     },
-    "result": {
-      "address": ["test_123.testorg.c-15ea.i.local-1.internal", 5656],
-      "database": "edgedb",
-      "user": "edgedb",
-      "password": null,
-      "secretKey": "nbwt_eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlZGIuc2VydmVyLmFueV9yb2xlIjp0cnVlLCJpYXQiOjE2NjkzMTE3NjMsImlzcyI6ImxvY2FsLTEuaW50ZXJuYWwiLCJuZWJ1bGEuc2NvcGVzIjpbImFkbWluIl0sIm5lYnVsYS51c2VyX2lkIjoiM2U3ODU4YTgtNmJjNy0xMWVkLWFmNTAtMTdiMzkzMjlmZmEyIn0.9cS6-rR00fgmEmGu423IP3snJvmXe7ZGol7ZlYuHBNqmKGrWtTsMZPj-3C7dmureUmk3ZUttxioouPeAreKueg",
-      "tlsCAData": null,
-      "tlsSecurity": "strict",
-      "serverSettings": {},
-      "waitUntilAvailable": "PT30S"
+    "error": {
+        "type": "invalid_secret_key"
     }
   },
   {
