@@ -2765,7 +2765,7 @@
       }
     },
     "result": {
-      "address": ["test_123.testorg.c-15ea.i.local-1.internal", 5656],
+      "address": ["test_123--testorg.c-10.i.local-1.internal", 5656],
       "database": "edgedb",
       "user": "edgedb",
       "password": null,
@@ -2878,7 +2878,7 @@
       "files": {}
     },
     "result": {
-      "address": ["test_123.testorg.c-15ea.i.local-1.internal", 5656],
+      "address": ["test_123--testorg.c-10.i.local-1.internal", 5656],
       "database": "edgedb",
       "user": "edgedb",
       "password": null,
@@ -2899,7 +2899,7 @@
       "files": {}
     },
     "result": {
-      "address": ["test_123.testorg.c-15ea.i.local-1.internal", 5656],
+      "address": ["test_123--testorg.c-10.i.local-1.internal", 5656],
       "database": "edgedb",
       "user": "edgedb",
       "password": null,
@@ -2926,7 +2926,7 @@
       }
     },
     "result": {
-      "address": ["test_123.testorg.c-15ea.i.local-1.internal", 5656],
+      "address": ["test_123--testorg.c-10.i.local-1.internal", 5656],
       "database": "edgedb",
       "user": "edgedb",
       "password": null,
@@ -2949,7 +2949,7 @@
       }
     },
     "result": {
-      "address": ["test_123.testorg.c-15ea.i.local-1.internal", 5656],
+      "address": ["test_123--testorg.c-10.i.local-1.internal", 5656],
       "database": "edgedb",
       "user": "edgedb",
       "password": null,
@@ -2986,7 +2986,7 @@
       }
     },
     "result": {
-      "address": ["test_123.testorg.c-15ea.i.local-1.internal", 5656],
+      "address": ["test_123--testorg.c-10.i.local-1.internal", 5656],
       "database": "edgedb",
       "user": "edgedb",
       "password": null,
@@ -3015,7 +3015,7 @@
       }
     },
     "result": {
-      "address": ["test_123.testorg.c-15ea.i.local-1.internal", 5656],
+      "address": ["test_123--testorg.c-10.i.local-1.internal", 5656],
       "database": "edgedb",
       "user": "edgedb",
       "password": null,
@@ -3046,7 +3046,7 @@
       }
     },
     "result": {
-      "address": ["test_123.testorg.c-15ea.i.local-1.internal", 5656],
+      "address": ["test_123--testorg.c-10.i.local-1.internal", 5656],
       "database": "edgedb",
       "user": "edgedb",
       "password": null,
@@ -3076,7 +3076,7 @@
       }
     },
     "result": {
-      "address": ["test_123.testorg.c-15ea.i.local-1.internal", 5656],
+      "address": ["test_123--testorg.c-10.i.local-1.internal", 5656],
       "database": "edgedb",
       "user": "edgedb",
       "password": null,
@@ -3108,7 +3108,7 @@
       }
     },
     "result": {
-      "address": ["test_123.testorg.c-15ea.i.local-1.internal", 5656],
+      "address": ["test_123--testorg.c-10.i.local-1.internal", 5656],
       "database": "edgedb",
       "user": "edgedb",
       "password": null,
