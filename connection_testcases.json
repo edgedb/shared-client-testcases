@@ -2964,6 +2964,21 @@
   },
   {
     "opts": {
+      "instance": "test/te--st"
+    },
+    "env": {},
+    "fs": {
+      "homedir": "/home/edgedb",
+      "files": {
+        "/home/edgedb/.config/edgedb/cloud-credentials/default.json": "{\"secret_key\": \"nbwt_eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlZGIuc2VydmVyLmFueV9yb2xlIjp0cnVlLCJpYXQiOjE2NjkzMTE3NjMsImlzcyI6ImxvY2FsLTEuaW50ZXJuYWwiLCJuZWJ1bGEuc2NvcGVzIjpbImFkbWluIl0sIm5lYnVsYS51c2VyX2lkIjoiM2U3ODU4YTgtNmJjNy0xMWVkLWFmNTAtMTdiMzkzMjlmZmEyIn0.9cS6-rR00fgmEmGu423IP3snJvmXe7ZGol7ZlYuHBNqmKGrWtTsMZPj-3C7dmureUmk3ZUttxioouPeAreKueg\"}"
+      }
+    },
+    "error": {
+      "type": "invalid_dsn_or_instance_name"
+    }
+  },
+  {
+    "opts": {
       "instance": "123456789012345678901234567890123456789012345678901234567890/1234"
     },
     "env": {},
