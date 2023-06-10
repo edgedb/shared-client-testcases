@@ -2849,7 +2849,7 @@
   },
   {
     "opts": {
-      "instance": "testorg/test-123"
+      "instance": "TestOrg/Test-123"
     },
     "env": {},
     "fs": {
