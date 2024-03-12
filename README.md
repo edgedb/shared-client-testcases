@@ -25,6 +25,7 @@ or direct command arguments for the CLI. Possible values:
 | `password`           | string      | password for authentication                                                                                                                         |
 | `secretKey`          | string      | secret key for authentication                                                                                                                       |
 | `database`           | string      | the name of the database to use in the server instance                                                                                              |
+| `branch`             | string      | the name of the branch to use in the server instance                                                                                                |
 | `waitUntilAvailable` | string      | max time to wait before server becomes available                                                                                                    |
 | `tlsSecurity`        | enum string | one of `strict`, `no_host_verification` and `insecure` (test cases may contain invalid values)                                                      |
 | `tlsCA`              | string      | PEM string of the CA certificate to trust                                                                                                           |
@@ -38,6 +39,8 @@ or direct command arguments for the CLI. Possible values:
 Note: some client bindings take a single positional argument
 that can be either `dsn` or `instance`, depending on the format.
 
+Note: `database` and `branch` are old and new way of referring to the same concept. They both exist for compatibility reasons during the deprecation period of `database`. They are generally mutually exclusive and must not be used at the same time.
+
 ### Input - `env`
 
 Environment variables present at the time of connecting. Possible values:
@@ -50,6 +53,7 @@ Environment variables present at the time of connecting. Possible values:
 | `EDGEDB_PASSWORD`             | same as `password` above                            |
 | `EDGEDB_SECRET_KEY`           | same as `secretKey` above                           |
 | `EDGEDB_DATABASE`             | same as `database` above                            |
+| `EDGEDB_BRANCH`               | same as `branch` above                              |
 | `EDGEDB_WAIT_UNTIL_AVAILABLE` | same as `waitUntilAvailable` above                  |
 | `EDGEDB_CLIENT_TLS_SECURITY`  | same as `tlsSecurity` above                         |
 | `EDGEDB_TLS_CA`               | same as `tlsCA` above                               |
@@ -94,7 +98,8 @@ Expected result of parsed connection parameters as an object, containing:
 | `user`               | string                | database user for authentication                                                                                                                    |
 | `password`           | string or `null`      | optional password for authentication                                                                                                                |
 | `secretKey`          | string or `null`      | optional secret key for authentication                                                                                                              |
-| `database`           | string                | the name of the database to use in the server instance                                                                                              |
+| `database`           | string                | the name of the database to use in the server instance (actually used in ver <= 5.x)                                                                |
+| `branch`             | string                | the name of the branch to use in the server instance (for future compatibility)                                                                     |
 | `waitUntilAvailable` | string                | ISO 8601 max time to wait before server becomes available                                                                                           |
 | `tlsSecurity`        | enum string           | one of `strict`, `no_host_verification` and `insecure`                                                                                              |
 | `tlsCAData`          | string or `null`      | optional PEM string of the CA certificate to trust                                                                                                  |
