@@ -17,6 +17,7 @@
     "result": {
       "address": ["localhost", 10702],
       "database": "test3n",
+      "branch": "test3n",
       "user": "test3n",
       "password": "lZTBy1RVCfOpBAOwSCwIyBIR",
       "secretKey": null,
@@ -44,6 +45,7 @@
     "result": {
       "address": ["localhost", 10702],
       "database": "test3n",
+      "branch": "test3n",
       "user": "test3n",
       "password": "lZTBy1RVCfOpBAOwSCwIyBIR",
       "secretKey": null,
@@ -111,6 +113,7 @@
     "result": {
       "address": ["localhost", 10702],
       "database": "test3n",
+      "branch": "test3n",
       "user": "test3n",
       "password": "lZTBy1RVCfOpBAOwSCwIyBIR",
       "secretKey": null,
@@ -139,6 +142,7 @@
     "result": {
       "address": ["localhost", 10702],
       "database": "test3n",
+      "branch": "test3n",
       "user": "test3n",
       "password": "lZTBy1RVCfOpBAOwSCwIyBIR",
       "secretKey": null,
@@ -217,6 +221,7 @@
     "result": {
       "address": ["localhost", 10702],
       "database": "edgedb",
+      "branch": "__default__",
       "user": "test3n",
       "password": null,
       "secretKey": null,
@@ -239,6 +244,7 @@
     "result": {
       "address": ["localhost", 10702],
       "database": "edgedb",
+      "branch": "__default__",
       "user": "test3n",
       "password": null,
       "secretKey": null,
@@ -261,6 +267,7 @@
     "result": {
       "address": ["localhost", 10702],
       "database": "edgedb",
+      "branch": "__default__",
       "user": "test3n",
       "password": null,
       "secretKey": null,
@@ -283,6 +290,7 @@
     "result": {
       "address": ["localhost", 10702],
       "database": "edgedb",
+      "branch": "__default__",
       "user": "test3n",
       "password": null,
       "secretKey": null,
@@ -348,6 +356,7 @@
     "result": {
       "address": ["localhost", 10702],
       "database": "test3n",
+      "branch": "test3n",
       "user": "test3n",
       "password": "lZTBy1RVCfOpBAOwSCwIyBIR",
       "secretKey": null,
@@ -371,6 +380,7 @@
     "result": {
       "address": ["localhost", 10702],
       "database": "test3n",
+      "branch": "test3n",
       "user": "test3n",
       "password": "lZTBy1RVCfOpBAOwSCwIyBIR",
       "secretKey": null,
@@ -394,6 +404,7 @@
     "result": {
       "address": ["localhost", 10702],
       "database": "test3n",
+      "branch": "test3n",
       "user": "test3n",
       "password": "lZTBy1RVCfOpBAOwSCwIyBIR",
       "secretKey": null,
@@ -417,6 +428,7 @@
     "result": {
       "address": ["localhost", 10702],
       "database": "test3n",
+      "branch": "test3n",
       "user": "test3n",
       "password": "lZTBy1RVCfOpBAOwSCwIyBIR",
       "secretKey": null,
@@ -448,6 +460,7 @@
     "result": {
       "address": ["localhost", 5555],
       "database": "abcdef",
+      "branch": "abcdef",
       "user": "user3",
       "password": "123123",
       "secretKey": null,
@@ -512,6 +525,7 @@
     "result": {
       "address": ["localhost", 1234],
       "database": "edgedb",
+      "branch": "__default__",
       "user": "edgedb",
       "password": null,
       "secretKey": null,
@@ -528,6 +542,7 @@
     "result": {
       "address": ["localhost", 1234],
       "database": "edgedb",
+      "branch": "__default__",
       "user": "edgedb",
       "password": null,
       "secretKey": null,
@@ -544,6 +559,7 @@
     "result": {
       "address": ["localhost", 1],
       "database": "edgedb",
+      "branch": "__default__",
       "user": "edgedb",
       "password": null,
       "secretKey": null,
@@ -568,6 +584,7 @@
     "result": {
       "address": ["localhost", 65535],
       "database": "edgedb",
+      "branch": "__default__",
       "user": "edgedb",
       "password": null,
       "secretKey": null,
@@ -624,6 +641,7 @@
     "result": {
       "address": ["localhost", 1234],
       "database": "edgedb",
+      "branch": "__default__",
       "user": "edgedb",
       "password": null,
       "secretKey": null,
@@ -660,6 +678,7 @@
     "result": {
       "address": ["localhost", 1234],
       "database": "edgedb",
+      "branch": "__default__",
       "user": "edgedb",
       "password": null,
       "secretKey": null,
@@ -686,6 +705,7 @@
     "result": {
       "address": ["localhost", 5555],
       "database": "abcdef",
+      "branch": "abcdef",
       "user": "user3",
       "password": "123123",
       "secretKey": null,
@@ -704,6 +724,7 @@
     "result": {
       "address": ["test.local", 12345],
       "database": "edgedb",
+      "branch": "__default__",
       "user": "edgedb",
       "password": null,
       "secretKey": null,
@@ -795,6 +816,7 @@
     "result": {
       "address": ["test.local", 12345],
       "database": "edgedb",
+      "branch": "__default__",
       "user": "edgedb",
       "password": null,
       "secretKey": null,
@@ -907,6 +929,7 @@
     "result": {
       "address": ["localhost", 5555],
       "database": "abcdef",
+      "branch": "abcdef",
       "user": "user3",
       "password": "123123",
       "secretKey": null,
@@ -926,6 +949,7 @@
     "result": {
       "address": ["localhost", 10701],
       "database": "edgedb",
+      "branch": "__default__",
       "user": "edgedb",
       "password": null,
       "secretKey": null,
@@ -945,6 +969,7 @@
     "result": {
       "address": ["localhost", 10701],
       "database": "edgedb",
+      "branch": "__default__",
       "user": "edgedb",
       "password": null,
       "secretKey": null,
@@ -984,6 +1009,7 @@
     "result": {
       "address": ["localhost", 10702],
       "database": "test3n",
+      "branch": "test3n",
       "user": "test3n",
       "password": "lZTBy1RVCfOpBAOwSCwIyBIR",
       "secretKey": null,
@@ -1003,6 +1029,7 @@
     "result": {
       "address": ["localhost", 5555],
       "database": "abcdef",
+      "branch": "abcdef",
       "user": "user3",
       "password": "123123",
       "secretKey": null,
@@ -1022,6 +1049,7 @@
     "result": {
       "address": ["test.local", 5656],
       "database": "edgedb",
+      "branch": "__default__",
       "user": "edgedb",
       "password": null,
       "secretKey": null,
@@ -1046,6 +1074,7 @@
     "result": {
       "address": ["localhost", 10702],
       "database": "test3n",
+      "branch": "test3n",
       "user": "test3n",
       "password": "lZTBy1RVCfOpBAOwSCwIyBIR",
       "secretKey": null,
@@ -1065,6 +1094,7 @@
     "result": {
       "address": ["localhost", 10702],
       "database": "test3n",
+      "branch": "test3n",
       "user": "test3n",
       "password": "lZTBy1RVCfOpBAOwSCwIyBIR",
       "secretKey": null,
@@ -1086,6 +1116,7 @@
     "result": {
       "address": ["localhost", 10701],
       "database": "edgedb",
+      "branch": "__default__",
       "user": "edgedb",
       "password": null,
       "secretKey": null,
@@ -1178,6 +1209,7 @@
     "result": {
       "address": ["localhost", 5555],
       "database": "abcdef",
+      "branch": "abcdef",
       "user": "user3",
       "password": "123123",
       "secretKey": null,
@@ -1204,6 +1236,7 @@
     "result": {
       "address": ["localhost", 5555],
       "database": "abcdef",
+      "branch": "abcdef",
       "user": "testuser",
       "password": null,
       "secretKey": null,
@@ -1230,6 +1263,7 @@
     "result": {
       "address": ["localhost", 2222],
       "database": "abcdef",
+      "branch": "abcdef",
       "user": "testuser",
       "password": null,
       "secretKey": null,
@@ -1248,6 +1282,7 @@
     "result": {
       "address": ["localhost", 2222],
       "database": "testdb",
+      "branch": "testdb",
       "user": "testuser",
       "password": null,
       "secretKey": null,
@@ -1266,6 +1301,7 @@
     "result": {
       "address": ["localhost", 2222],
       "database": "testdb",
+      "branch": "testdb",
       "user": "testuser",
       "password": null,
       "secretKey": null,
@@ -1292,6 +1328,7 @@
     "result": {
       "address": ["testhost", 2222],
       "database": "testdb",
+      "branch": "testdb",
       "user": "testuser",
       "password": null,
       "secretKey": null,
@@ -1318,6 +1355,7 @@
     "result": {
       "address": ["test.local", 2222],
       "database": "testdb",
+      "branch": "testdb",
       "user": "testuser",
       "password": null,
       "secretKey": null,
@@ -1336,6 +1374,7 @@
     "result": {
       "address": ["localhost", 2222],
       "database": "database/with/slash",
+      "branch": "database/with/slash",
       "user": "testuser",
       "password": null,
       "secretKey": null,
@@ -1352,6 +1391,7 @@
     "result": {
       "address": ["localhost", 2222],
       "database": "database/with/slash",
+      "branch": "database/with/slash",
       "user": "testuser",
       "password": null,
       "secretKey": null,
@@ -1368,6 +1408,7 @@
     "result": {
       "address": ["localhost", 5656],
       "database": "db",
+      "branch": "db",
       "user": "testuser",
       "password": "not_secret_password",
       "secretKey": null,
@@ -1387,6 +1428,7 @@
     "result": {
       "address": ["localhost", 5656],
       "database": "db",
+      "branch": "db",
       "user": "testuser",
       "password": "super_secret_password",
       "secretKey": null,
@@ -1406,6 +1448,7 @@
     "result": {
       "address": ["localhost", 5656],
       "database": "db",
+      "branch": "db",
       "user": "testuser",
       "password": "password",
       "secretKey": null,
@@ -1425,6 +1468,7 @@
     "result": {
       "address": ["localhost", 5656],
       "database": "db",
+      "branch": "db",
       "user": "testuser",
       "password": null,
       "secretKey": null,
@@ -1468,6 +1512,7 @@
     "result": {
       "address": ["localhost", 5656],
       "database": "db",
+      "branch": "db",
       "user": "testuser",
       "password": "12345",
       "secretKey": null,
@@ -1498,6 +1543,7 @@
     "result": {
       "address": ["localhost", 5656],
       "database": "edgedb",
+      "branch": "__default__",
       "user": "edgedb",
       "password": null,
       "secretKey": null,
@@ -1523,6 +1569,7 @@
     "result": {
       "address": ["localhost", 5656],
       "database": "edgedb",
+      "branch": "__default__",
       "user": "edgedb",
       "password": null,
       "secretKey": null,
@@ -1549,6 +1596,7 @@
     "result": {
       "address": ["localhost", 5656],
       "database": "edgedb",
+      "branch": "__default__",
       "user": "edgedb",
       "password": null,
       "secretKey": null,
@@ -1573,6 +1621,7 @@
     "result": {
       "address": ["localhost", 5656],
       "database": "edgedb",
+      "branch": "__default__",
       "user": "edgedb",
       "password": null,
       "secretKey": null,
@@ -1594,6 +1643,7 @@
     "result": {
       "address": ["localhost", 5656],
       "database": "edgedb",
+      "branch": "__default__",
       "user": "edgedb",
       "password": null,
       "secretKey": null,
@@ -1611,6 +1661,7 @@
     "result": {
       "address": ["localhost", 5656],
       "database": "edgedb",
+      "branch": "__default__",
       "user": "edgedb",
       "password": null,
       "secretKey": null,
@@ -1628,6 +1679,7 @@
     "result": {
       "address": ["localhost", 5656],
       "database": "edgedb",
+      "branch": "__default__",
       "user": "edgedb",
       "password": null,
       "secretKey": null,
@@ -1645,6 +1697,7 @@
     "result": {
       "address": ["localhost", 5656],
       "database": "edgedb",
+      "branch": "__default__",
       "user": "edgedb",
       "password": null,
       "secretKey": null,
@@ -1678,6 +1731,7 @@
     "result": {
       "address": ["localhost", 5656],
       "database": "edgedb",
+      "branch": "__default__",
       "user": "edgedb",
       "password": null,
       "secretKey": null,
@@ -1696,6 +1750,7 @@
     "result": {
       "address": ["localhost", 5656],
       "database": "edgedb",
+      "branch": "__default__",
       "user": "edgedb",
       "password": null,
       "secretKey": null,
@@ -1719,6 +1774,7 @@
     "result": {
       "address": ["localhost", 5656],
       "database": "edgedb",
+      "branch": "__default__",
       "user": "edgedb",
       "password": null,
       "secretKey": null,
@@ -1742,6 +1798,7 @@
     "result": {
       "address": ["localhost", 5656],
       "database": "edgedb",
+      "branch": "__default__",
       "user": "edgedb",
       "password": null,
       "secretKey": null,
@@ -1765,6 +1822,7 @@
     "result": {
       "address": ["localhost", 5656],
       "database": "edgedb",
+      "branch": "__default__",
       "user": "edgedb",
       "password": null,
       "secretKey": null,
@@ -1790,6 +1848,7 @@
     "result": {
       "address": ["localhost", 5656],
       "database": "edgedb",
+      "branch": "__default__",
       "user": "edgedb",
       "password": null,
       "secretKey": null,
@@ -1815,6 +1874,7 @@
     "result": {
       "address": ["localhost", 5656],
       "database": "edgedb",
+      "branch": "__default__",
       "user": "edgedb",
       "password": null,
       "secretKey": null,
@@ -1841,6 +1901,7 @@
     "result": {
       "address": ["localhost", 5656],
       "database": "edgedb",
+      "branch": "__default__",
       "user": "edgedb",
       "password": null,
       "secretKey": null,
@@ -1859,6 +1920,7 @@
     "result": {
       "address": ["localhost", 5656],
       "database": "edgedb",
+      "branch": "__default__",
       "user": "edgedb",
       "password": null,
       "secretKey": null,
@@ -1877,6 +1939,7 @@
     "result": {
       "address": ["localhost", 5656],
       "database": "edgedb",
+      "branch": "__default__",
       "user": "edgedb",
       "password": null,
       "secretKey": null,
@@ -1895,6 +1958,7 @@
     "result": {
       "address": ["localhost", 5656],
       "database": "edgedb",
+      "branch": "__default__",
       "user": "edgedb",
       "password": null,
       "secretKey": null,
@@ -1913,6 +1977,7 @@
     "result": {
       "address": ["localhost", 5656],
       "database": "edgedb",
+      "branch": "__default__",
       "user": "edgedb",
       "password": null,
       "secretKey": null,
@@ -1931,6 +1996,7 @@
     "result": {
       "address": ["localhost", 5656],
       "database": "edgedb",
+      "branch": "__default__",
       "user": "edgedb",
       "password": null,
       "secretKey": null,
@@ -1949,6 +2015,7 @@
     "result": {
       "address": ["localhost", 5656],
       "database": "edgedb",
+      "branch": "__default__",
       "user": "edgedb",
       "password": null,
       "secretKey": null,
@@ -1967,6 +2034,7 @@
     "result": {
       "address": ["localhost", 5656],
       "database": "edgedb",
+      "branch": "__default__",
       "user": "edgedb",
       "password": null,
       "secretKey": null,
@@ -1985,6 +2053,7 @@
     "result": {
       "address": ["localhost", 5656],
       "database": "edgedb",
+      "branch": "__default__",
       "user": "edgedb",
       "password": null,
       "secretKey": null,
@@ -2003,6 +2072,7 @@
     "result": {
       "address": ["localhost", 5656],
       "database": "edgedb",
+      "branch": "__default__",
       "user": "edgedb",
       "password": null,
       "secretKey": null,
@@ -2041,6 +2111,7 @@
     "result": {
       "address": ["localhost", 5656],
       "database": "edgedb",
+      "branch": "__default__",
       "user": "edgedb",
       "password": null,
       "secretKey": null,
@@ -2058,6 +2129,7 @@
     "result": {
       "address": ["localhost", 5656],
       "database": "edgedb",
+      "branch": "__default__",
       "user": "edgedb",
       "password": null,
       "secretKey": null,
@@ -2075,6 +2147,7 @@
     "result": {
       "address": ["localhost", 5656],
       "database": "edgedb",
+      "branch": "__default__",
       "user": "edgedb",
       "password": null,
       "secretKey": null,
@@ -2103,6 +2176,7 @@
     "result": {
       "address": ["localhost", 5656],
       "database": "edgedb",
+      "branch": "__default__",
       "user": "edgedb",
       "password": null,
       "secretKey": null,
@@ -2201,6 +2275,7 @@
     "result": {
       "address": ["localhost", 5656],
       "database": "edgedb",
+      "branch": "__default__",
       "user": "edgedb",
       "password": "",
       "secretKey": null,
@@ -2217,6 +2292,7 @@
     "result": {
       "address": ["localhost", 5656],
       "database": "edgedb",
+      "branch": "__default__",
       "user": "edgedb",
       "password": "",
       "secretKey": null,
@@ -2293,6 +2369,7 @@
     "result": {
       "address": ["localhost", 5656],
       "database": "edgedb",
+      "branch": "__default__",
       "user": "edgedb",
       "password": "secret",
       "secretKey": null,
@@ -2312,6 +2389,7 @@
     "result": {
       "address": ["localhost", 65535],
       "database": "edgedb",
+      "branch": "__default__",
       "user": "edgedb",
       "password": null,
       "secretKey": null,
@@ -2330,6 +2408,7 @@
     "result": {
       "address": ["testhost", 1234],
       "database": "test_db",
+      "branch": "test_db",
       "user": "edgedb",
       "password": null,
       "secretKey": null,
@@ -2350,6 +2429,7 @@
     "result": {
       "address": ["testhost", 1234],
       "database": "test_db",
+      "branch": "test_db",
       "user": "user_123",
       "password": null,
       "secretKey": null,
@@ -2371,6 +2451,7 @@
     "result": {
       "address": ["testhost", 1234],
       "database": "new_db",
+      "branch": "new_db",
       "user": "user_123",
       "password": null,
       "secretKey": null,
@@ -2392,6 +2473,7 @@
     "result": {
       "address": ["testhost", 1234],
       "database": "new_db",
+      "branch": "new_db",
       "user": "user_123",
       "password": null,
       "secretKey": null,
@@ -2412,6 +2494,7 @@
     "result": {
       "address": ["testhost", 1234],
       "database": "db",
+      "branch": "db",
       "user": "user_123",
       "password": null,
       "secretKey": null,
@@ -2432,6 +2515,7 @@
     "result": {
       "address": ["testhost", 1234],
       "database": "db",
+      "branch": "db",
       "user": "user_123",
       "password": null,
       "secretKey": null,
@@ -2457,6 +2541,7 @@
     "result": {
       "address": ["localhost", 10702],
       "database": "test3n",
+      "branch": "test3n",
       "user": "super_user",
       "password": "lZTBy1RVCfOpBAOwSCwIyBIR",
       "secretKey": null,
@@ -2483,6 +2568,7 @@
     "result": {
       "address": ["localhost", 10702],
       "database": "test3n",
+      "branch": "test3n",
       "user": "super_user",
       "password": "lZTBy1RVCfOpBAOwSCwIyBIR",
       "secretKey": null,
@@ -2509,6 +2595,7 @@
     "result": {
       "address": ["localhost", 10702],
       "database": "test3n",
+      "branch": "test3n",
       "user": "super_user",
       "password": "lZTBy1RVCfOpBAOwSCwIyBIR",
       "secretKey": null,
@@ -2531,6 +2618,7 @@
     "result": {
       "address": ["localhost", 10702],
       "database": "edgedb",
+      "branch": "__default__",
       "user": "edgedb",
       "password": null,
       "secretKey": null,
@@ -2553,6 +2641,7 @@
     "result": {
       "address": ["localhost", 10702],
       "database": "edgedb",
+      "branch": "__default__",
       "user": "edgedb",
       "password": null,
       "secretKey": null,
@@ -2575,6 +2664,7 @@
     "result": {
       "address": ["localhost", 10702],
       "database": "edgedb",
+      "branch": "__default__",
       "user": "edgedb",
       "password": null,
       "secretKey": null,
@@ -2619,6 +2709,7 @@
     "result": {
       "address": ["::1", 5555],
       "database": "abcdef",
+      "branch": "abcdef",
       "password": "123123",
       "secretKey": null,
       "serverSettings": {},
@@ -2635,6 +2726,7 @@
     "result": {
       "address": ["fe80::1ff:fe23:4567:890a%eth0", 3000],
       "database": "ab",
+      "branch": "ab",
       "password": null,
       "secretKey": null,
       "serverSettings": {},
@@ -2652,6 +2744,7 @@
     "result": {
       "address": ["fe80::1ff:fe23:4567:890a%eth0", 12341],
       "database": "edgedb",
+      "branch": "__default__",
       "user": "edgedb",
       "password": null,
       "secretKey": null,
@@ -2669,6 +2762,7 @@
     "result": {
       "address": ["fe80::1ff:fe23:4567:890a%eth0", 12342],
       "database": "edgedb",
+      "branch": "__default__",
       "user": "edgedb",
       "password": null,
       "secretKey": null,
@@ -2686,6 +2780,7 @@
     "result": {
       "address": ["sample", 5656],
       "database": "edgedb",
+      "branch": "__default__",
       "user": "edgedb",
       "password": null,
       "secretKey": null,
@@ -2703,6 +2798,7 @@
     "result": {
       "address": ["localhost", 5555],
       "database": "edgedb",
+      "branch": "__default__",
       "user": "edgedb",
       "password": null,
       "secretKey": null,
@@ -2719,6 +2815,7 @@
     "result": {
       "address": ["localhost", 5555],
       "database": "edgedb",
+      "branch": "__default__",
       "user": "edgedb",
       "password": null,
       "secretKey": null,
@@ -2735,6 +2832,7 @@
     "result": {
       "address": ["localhost", 5555],
       "database": "edgedb",
+      "branch": "__default__",
       "user": "edgedb",
       "password": null,
       "secretKey": null,
@@ -2754,6 +2852,7 @@
     "result": {
       "address": ["localhost", 5555],
       "database": "edgedb",
+      "branch": "__default__",
       "user": "edgedb",
       "password": null,
       "secretKey": null,
@@ -2774,6 +2873,7 @@
     "result": {
       "address": ["localhost", 5555],
       "database": "edgedb",
+      "branch": "__default__",
       "user": "edgedb",
       "password": null,
       "secretKey": null,
@@ -2791,6 +2891,7 @@
     "result": {
       "address": ["localhost", 5555],
       "database": "edgedb",
+      "branch": "__default__",
       "user": "edgedb",
       "password": null,
       "secretKey": null,
@@ -2808,6 +2909,7 @@
     "result": {
       "address": ["localhost", 5555],
       "database": "edgedb",
+      "branch": "__default__",
       "user": "edgedb",
       "password": null,
       "secretKey": null,
@@ -2861,6 +2963,7 @@
     "result": {
       "address": ["test-123--testorg.c-31.i.local-1.internal", 5656],
       "database": "edgedb",
+      "branch": "__default__",
       "user": "edgedb",
       "password": null,
       "secretKey": "nbwt_eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlZGIuc2VydmVyLmFueV9yb2xlIjp0cnVlLCJpYXQiOjE2NjkzMTE3NjMsImlzcyI6ImxvY2FsLTEuaW50ZXJuYWwiLCJuZWJ1bGEuc2NvcGVzIjpbImFkbWluIl0sIm5lYnVsYS51c2VyX2lkIjoiM2U3ODU4YTgtNmJjNy0xMWVkLWFmNTAtMTdiMzkzMjlmZmEyIn0.9cS6-rR00fgmEmGu423IP3snJvmXe7ZGol7ZlYuHBNqmKGrWtTsMZPj-3C7dmureUmk3ZUttxioouPeAreKueg",
@@ -2884,6 +2987,7 @@
     "result": {
       "address": ["test123--test-org.c-76.i.local-1.internal", 5656],
       "database": "edgedb",
+      "branch": "__default__",
       "user": "edgedb",
       "password": null,
       "secretKey": "nbwt_eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlZGIuc2VydmVyLmFueV9yb2xlIjp0cnVlLCJpYXQiOjE2NjkzMTE3NjMsImlzcyI6ImxvY2FsLTEuaW50ZXJuYWwiLCJuZWJ1bGEuc2NvcGVzIjpbImFkbWluIl0sIm5lYnVsYS51c2VyX2lkIjoiM2U3ODU4YTgtNmJjNy0xMWVkLWFmNTAtMTdiMzkzMjlmZmEyIn0.9cS6-rR00fgmEmGu423IP3snJvmXe7ZGol7ZlYuHBNqmKGrWtTsMZPj-3C7dmureUmk3ZUttxioouPeAreKueg",
@@ -2907,16 +3011,8 @@
         "/home/edgedb/.config/edgedb/cloud-credentials/default.json": "{\"secret_key\": \"nbwt_eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9\"}"
       }
     },
-    "result": {
-      "address": ["test-123--test-org.c-96.i.local-1.internal", 5656],
-      "database": "edgedb",
-      "user": "edgedb",
-      "password": null,
-      "secretKey": "nbwt_eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlZGIuc2VydmVyLmFueV9yb2xlIjp0cnVlLCJpYXQiOjE2NjkzMTE3NjMsImlzcyI6ImxvY2FsLTEuaW50ZXJuYWwiLCJuZWJ1bGEuc2NvcGVzIjpbImFkbWluIl0sIm5lYnVsYS51c2VyX2lkIjoiM2U3ODU4YTgtNmJjNy0xMWVkLWFmNTAtMTdiMzkzMjlmZmEyIn0.9cS6-rR00fgmEmGu423IP3snJvmXe7ZGol7ZlYuHBNqmKGrWtTsMZPj-3C7dmureUmk3ZUttxioouPeAreKueg",
-      "tlsCAData": null,
-      "tlsSecurity": "strict",
-      "serverSettings": {},
-      "waitUntilAvailable": "PT30S"
+    "error": {
+        "type": "invalid_secret_key"
     }
   },
   {
@@ -2961,6 +3057,7 @@
     "result": {
       "address": ["test-123--test-org.c-96.i.local-1.internal", 5656],
       "database": "edgedb",
+      "branch": "__default__",
       "user": "edgedb",
       "password": null,
       "secretKey": "nbwt_eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlZGIuc2VydmVyLmFueV9yb2xlIjp0cnVlLCJpYXQiOjE2NjkzMTE3NjMsImlzcyI6ImxvY2FsLTEuaW50ZXJuYWwiLCJuZWJ1bGEuc2NvcGVzIjpbImFkbWluIl0sIm5lYnVsYS51c2VyX2lkIjoiM2U3ODU4YTgtNmJjNy0xMWVkLWFmNTAtMTdiMzkzMjlmZmEyIn0.9cS6-rR00fgmEmGu423IP3snJvmXe7ZGol7ZlYuHBNqmKGrWtTsMZPj-3C7dmureUmk3ZUttxioouPeAreKueg",
@@ -2984,6 +3081,7 @@
     "result": {
       "address": ["456--123.c-40.i.local-1.internal", 5656],
       "database": "edgedb",
+      "branch": "__default__",
       "user": "edgedb",
       "password": null,
       "secretKey": "nbwt_eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlZGIuc2VydmVyLmFueV9yb2xlIjp0cnVlLCJpYXQiOjE2NjkzMTE3NjMsImlzcyI6ImxvY2FsLTEuaW50ZXJuYWwiLCJuZWJ1bGEuc2NvcGVzIjpbImFkbWluIl0sIm5lYnVsYS51c2VyX2lkIjoiM2U3ODU4YTgtNmJjNy0xMWVkLWFmNTAtMTdiMzkzMjlmZmEyIn0.9cS6-rR00fgmEmGu423IP3snJvmXe7ZGol7ZlYuHBNqmKGrWtTsMZPj-3C7dmureUmk3ZUttxioouPeAreKueg",
@@ -3081,6 +3179,7 @@
     "result": {
       "address": ["test-123--test-org.c-96.i.local-1.internal", 5656],
       "database": "edgedb",
+      "branch": "__default__",
       "user": "edgedb",
       "password": null,
       "secretKey": "nbwt_eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlZGIuc2VydmVyLmFueV9yb2xlIjp0cnVlLCJpYXQiOjE2NjkzMTE3NjMsImlzcyI6ImxvY2FsLTEuaW50ZXJuYWwiLCJuZWJ1bGEuc2NvcGVzIjpbImFkbWluIl0sIm5lYnVsYS51c2VyX2lkIjoiM2U3ODU4YTgtNmJjNy0xMWVkLWFmNTAtMTdiMzkzMjlmZmEyIn0.9cS6-rR00fgmEmGu423IP3snJvmXe7ZGol7ZlYuHBNqmKGrWtTsMZPj-3C7dmureUmk3ZUttxioouPeAreKueg",
@@ -3102,6 +3201,7 @@
     "result": {
       "address": ["test-123--testorg.c-31.i.local-1.internal", 5656],
       "database": "edgedb",
+      "branch": "__default__",
       "user": "edgedb",
       "password": null,
       "secretKey": "nbwt_eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlZGIuc2VydmVyLmFueV9yb2xlIjp0cnVlLCJpYXQiOjE2NjkzMTE3NjMsImlzcyI6ImxvY2FsLTEuaW50ZXJuYWwiLCJuZWJ1bGEuc2NvcGVzIjpbImFkbWluIl0sIm5lYnVsYS51c2VyX2lkIjoiM2U3ODU4YTgtNmJjNy0xMWVkLWFmNTAtMTdiMzkzMjlmZmEyIn0.9cS6-rR00fgmEmGu423IP3snJvmXe7ZGol7ZlYuHBNqmKGrWtTsMZPj-3C7dmureUmk3ZUttxioouPeAreKueg",
@@ -3129,6 +3229,7 @@
     "result": {
       "address": ["test-123--testorg.c-31.i.local-1.internal", 5656],
       "database": "edgedb",
+      "branch": "__default__",
       "user": "edgedb",
       "password": null,
       "secretKey": "nbwt_eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlZGIuc2VydmVyLmFueV9yb2xlIjp0cnVlLCJpYXQiOjE2NjkzMTE3NjMsImlzcyI6ImxvY2FsLTEuaW50ZXJuYWwiLCJuZWJ1bGEuc2NvcGVzIjpbImFkbWluIl0sIm5lYnVsYS51c2VyX2lkIjoiM2U3ODU4YTgtNmJjNy0xMWVkLWFmNTAtMTdiMzkzMjlmZmEyIn0.9cS6-rR00fgmEmGu423IP3snJvmXe7ZGol7ZlYuHBNqmKGrWtTsMZPj-3C7dmureUmk3ZUttxioouPeAreKueg",
@@ -3152,6 +3253,7 @@
     "result": {
       "address": ["test-123--testorg.c-31.i.local-1.internal", 5656],
       "database": "edgedb",
+      "branch": "__default__",
       "user": "edgedb",
       "password": null,
       "secretKey": "nbwt_eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlZGIuc2VydmVyLmFueV9yb2xlIjp0cnVlLCJpYXQiOjE2NjkzMTE3NjMsImlzcyI6ImxvY2FsLTEuaW50ZXJuYWwiLCJuZWJ1bGEuc2NvcGVzIjpbImFkbWluIl0sIm5lYnVsYS51c2VyX2lkIjoiM2U3ODU4YTgtNmJjNy0xMWVkLWFmNTAtMTdiMzkzMjlmZmEyIn0.9cS6-rR00fgmEmGu423IP3snJvmXe7ZGol7ZlYuHBNqmKGrWtTsMZPj-3C7dmureUmk3ZUttxioouPeAreKueg",
@@ -3189,6 +3291,7 @@
     "result": {
       "address": ["test-123--testorg.c-31.i.local-1.internal", 5656],
       "database": "edgedb",
+      "branch": "__default__",
       "user": "edgedb",
       "password": null,
       "secretKey": "nbwt_eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlZGIuc2VydmVyLmFueV9yb2xlIjp0cnVlLCJpYXQiOjE2NjkzMTE3NjMsImlzcyI6ImxvY2FsLTEuaW50ZXJuYWwiLCJuZWJ1bGEuc2NvcGVzIjpbImFkbWluIl0sIm5lYnVsYS51c2VyX2lkIjoiM2U3ODU4YTgtNmJjNy0xMWVkLWFmNTAtMTdiMzkzMjlmZmEyIn0.9cS6-rR00fgmEmGu423IP3snJvmXe7ZGol7ZlYuHBNqmKGrWtTsMZPj-3C7dmureUmk3ZUttxioouPeAreKueg",
@@ -3218,6 +3321,7 @@
     "result": {
       "address": ["test-123--testorg.c-31.i.local-1.internal", 5656],
       "database": "edgedb",
+      "branch": "__default__",
       "user": "edgedb",
       "password": null,
       "secretKey": "nbwt_eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlZGIuc2VydmVyLmFueV9yb2xlIjp0cnVlLCJpYXQiOjE2NjkzMTE3NjMsImlzcyI6ImxvY2FsLTEuaW50ZXJuYWwiLCJuZWJ1bGEuc2NvcGVzIjpbImFkbWluIl0sIm5lYnVsYS51c2VyX2lkIjoiM2U3ODU4YTgtNmJjNy0xMWVkLWFmNTAtMTdiMzkzMjlmZmEyIn0.9cS6-rR00fgmEmGu423IP3snJvmXe7ZGol7ZlYuHBNqmKGrWtTsMZPj-3C7dmureUmk3ZUttxioouPeAreKueg",
@@ -3240,6 +3344,7 @@
           "instance-name": "testorg/test-123",
           "cloud-profile": "default",
           "database": "myapp",
+          "branch": "myapp",
           "project-path": "/home/edgedb/test"
         }
       }
@@ -3247,6 +3352,7 @@
     "result": {
       "address": ["test-123--testorg.c-31.i.local-1.internal", 5656],
       "database": "myapp",
+      "branch": "myapp",
       "user": "edgedb",
       "password": null,
       "secretKey": "nbwt_eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlZGIuc2VydmVyLmFueV9yb2xlIjp0cnVlLCJpYXQiOjE2NjkzMTE3NjMsImlzcyI6ImxvY2FsLTEuaW50ZXJuYWwiLCJuZWJ1bGEuc2NvcGVzIjpbImFkbWluIl0sIm5lYnVsYS51c2VyX2lkIjoiM2U3ODU4YTgtNmJjNy0xMWVkLWFmNTAtMTdiMzkzMjlmZmEyIn0.9cS6-rR00fgmEmGu423IP3snJvmXe7ZGol7ZlYuHBNqmKGrWtTsMZPj-3C7dmureUmk3ZUttxioouPeAreKueg",
@@ -3278,6 +3384,7 @@
     "result": {
       "address": ["test-123--testorg.c-31.i.local-1.internal", 5656],
       "database": "edgedb",
+      "branch": "__default__",
       "user": "edgedb",
       "password": null,
       "secretKey": "nbwt_eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlZGIuc2VydmVyLmFueV9yb2xlIjp0cnVlLCJpYXQiOjE2NjkzMTE3NjMsImlzcyI6ImxvY2FsLTEuaW50ZXJuYWwiLCJuZWJ1bGEuc2NvcGVzIjpbImFkbWluIl0sIm5lYnVsYS51c2VyX2lkIjoiM2U3ODU4YTgtNmJjNy0xMWVkLWFmNTAtMTdiMzkzMjlmZmEyIn0.9cS6-rR00fgmEmGu423IP3snJvmXe7ZGol7ZlYuHBNqmKGrWtTsMZPj-3C7dmureUmk3ZUttxioouPeAreKueg",
@@ -3308,6 +3415,7 @@
     "result": {
       "address": ["test-123--testorg.c-31.i.local-1.internal", 5656],
       "database": "edgedb",
+      "branch": "__default__",
       "user": "edgedb",
       "password": null,
       "secretKey": "nbwt_eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlZGIuc2VydmVyLmFueV9yb2xlIjp0cnVlLCJpYXQiOjE2NjkzMTE3NjMsImlzcyI6ImxvY2FsLTEuaW50ZXJuYWwiLCJuZWJ1bGEuc2NvcGVzIjpbImFkbWluIl0sIm5lYnVsYS51c2VyX2lkIjoiM2U3ODU4YTgtNmJjNy0xMWVkLWFmNTAtMTdiMzkzMjlmZmEyIn0.9cS6-rR00fgmEmGu423IP3snJvmXe7ZGol7ZlYuHBNqmKGrWtTsMZPj-3C7dmureUmk3ZUttxioouPeAreKueg",
@@ -3340,6 +3448,7 @@
     "result": {
       "address": ["test-123--testorg.c-31.i.local-1.internal", 5656],
       "database": "edgedb",
+      "branch": "__default__",
       "user": "edgedb",
       "password": null,
       "secretKey": "nbwt_eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlZGIuc2VydmVyLmFueV9yb2xlIjp0cnVlLCJpYXQiOjE2NjkzMTE3NjMsImlzcyI6ImxvY2FsLTEuaW50ZXJuYWwiLCJuZWJ1bGEuc2NvcGVzIjpbImFkbWluIl0sIm5lYnVsYS51c2VyX2lkIjoiM2U3ODU4YTgtNmJjNy0xMWVkLWFmNTAtMTdiMzkzMjlmZmEyIn0.9cS6-rR00fgmEmGu423IP3snJvmXe7ZGol7ZlYuHBNqmKGrWtTsMZPj-3C7dmureUmk3ZUttxioouPeAreKueg",
@@ -3356,6 +3465,7 @@
     "result": {
       "address": ["localhost", 5656],
       "database": "db",
+      "branch": "db",
       "user": "testuser",
       "password": null,
       "secretKey": "not_secret_key",
@@ -3375,6 +3485,7 @@
     "result": {
       "address": ["localhost", 5656],
       "database": "db",
+      "branch": "db",
       "user": "testuser",
       "password": null,
       "secretKey": "super_secret_key",
@@ -3394,6 +3505,7 @@
     "result": {
       "address": ["localhost", 5656],
       "database": "db",
+      "branch": "db",
       "user": "testuser",
       "password": null,
       "secretKey": "kkk",
@@ -3413,6 +3525,7 @@
     "result": {
       "address": ["localhost", 5656],
       "database": "db",
+      "branch": "db",
       "user": "testuser",
       "password": null,
       "secretKey": null,
@@ -3445,6 +3558,7 @@
     "result": {
       "address": ["localhost", 5656],
       "database": "db",
+      "branch": "db",
       "user": "testuser",
       "password": null,
       "secretKey": "12345",
@@ -3463,6 +3577,855 @@
     },
     "error": {
       "type": "file_not_found"
+    }
+  },
+  {
+    "opts": {},
+    "env": {},
+    "fs": {
+      "cwd": "/home/edgedb/test",
+      "homedir": "/home/edgedb",
+      "files": {
+        "/home/edgedb/test/edgedb.toml": "",
+        "/home/edgedb/.config/edgedb/projects/test-${HASH}": {
+          "instance-name": "test_project",
+          "project-path": "/home/edgedb/test"
+        },
+        "/home/edgedb/.config/edgedb/credentials/test_project.json": "{\"port\": 10702, \"user\": \"test3n\", \"password\": \"lZTBy1RVCfOpBAOwSCwIyBIR\", \"branch\": \"test3n\"}"
+      }
+    },
+    "result": {
+      "address": ["localhost", 10702],
+      "database": "test3n",
+      "branch": "test3n",
+      "user": "test3n",
+      "password": "lZTBy1RVCfOpBAOwSCwIyBIR",
+      "secretKey": null,
+      "tlsCAData": null,
+      "tlsSecurity": "strict",
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
+    }
+  },
+  {
+    "opts": {},
+    "env": {},
+    "fs": {
+      "cwd": "/home/edgedb/test",
+      "homedir": "/home/edgedb",
+      "files": {
+        "/home/edgedb/test/edgedb.toml": "",
+        "/home/edgedb/.config/edgedb/projects/test-${HASH}": {
+          "instance-name": "test_project",
+          "project-path": "/home/edgedb/test"
+        },
+        "/home/edgedb/.config/edgedb/credentials/test_project.json": "{\"port\": 10702, \"user\": \"test3n\", \"password\": \"lZTBy1RVCfOpBAOwSCwIyBIR\", \"branch\": \"test3n\", \"database\": \"test3n\"}"
+      }
+    },
+    "error": {
+      "type": "invalid_credentials_file"
+    }
+  },
+  {
+    "opts": {},
+    "env": {
+      "EDGEDB_BRANCH": "test_db"
+    },
+    "fs": {
+      "cwd": "/home/edgedb/test",
+      "homedir": "/home/edgedb",
+      "files": {
+        "/home/edgedb/test/edgedb.toml": "",
+        "/home/edgedb/.config/edgedb/projects/test-${HASH}": {
+          "instance-name": "test_project",
+          "project-path": "/home/edgedb/test"
+        },
+        "/home/edgedb/.config/edgedb/credentials/test_project.json": "{\"port\": 10702, \"user\": \"test3n\", \"password\": \"lZTBy1RVCfOpBAOwSCwIyBIR\", \"branch\": \"test3n\"}"
+      }
+    },
+    "result": {
+      "address": ["localhost", 10702],
+      "database": "test_db",
+      "branch": "test_db",
+      "user": "test3n",
+      "password": "lZTBy1RVCfOpBAOwSCwIyBIR",
+      "secretKey": null,
+      "tlsCAData": null,
+      "tlsSecurity": "strict",
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
+    }
+  },
+  {
+    "opts": {},
+    "env": {
+      "EDGEDB_BRANCH": "test_db"
+    },
+    "fs": {
+      "cwd": "/home/edgedb/test",
+      "homedir": "/home/edgedb",
+      "files": {
+        "/home/edgedb/test/edgedb.toml": "",
+        "/home/edgedb/.config/edgedb/projects/test-${HASH}": {
+          "instance-name": "test_project",
+          "project-path": "/home/edgedb/test"
+        },
+        "/home/edgedb/.config/edgedb/credentials/test_project.json": "{\"port\": 10702, \"user\": \"test3n\", \"password\": \"lZTBy1RVCfOpBAOwSCwIyBIR\", \"database\": \"test3n\"}"
+      }
+    },
+    "error": {
+      "type": "exclusive_options"
+    }
+  },
+  {
+    "opts": {},
+    "env": {
+      "EDGEDB_DATABASE": "test_db"
+    },
+    "fs": {
+      "cwd": "/home/edgedb/test",
+      "homedir": "/home/edgedb",
+      "files": {
+        "/home/edgedb/test/edgedb.toml": "",
+        "/home/edgedb/.config/edgedb/projects/test-${HASH}": {
+          "instance-name": "test_project",
+          "project-path": "/home/edgedb/test"
+        },
+        "/home/edgedb/.config/edgedb/credentials/test_project.json": "{\"port\": 10702, \"user\": \"test3n\", \"password\": \"lZTBy1RVCfOpBAOwSCwIyBIR\", \"branch\": \"test3n\"}"
+      }
+    },
+    "error": {
+      "type": "exclusive_options"
+    }
+  },
+  {
+    "opts": {},
+    "env": {
+      "EDGEDB_DSN": "edgedb://testhost:1234/?branch=db"
+    },
+    "fs": {
+      "cwd": "/home/edgedb/test",
+      "homedir": "/home/edgedb",
+      "files": {
+        "/home/edgedb/test/edgedb.toml": "",
+        "/home/edgedb/.config/edgedb/projects/test-${HASH}": {
+          "instance-name": "test_project",
+          "project-path": "/home/edgedb/test"
+        },
+        "/home/edgedb/.config/edgedb/credentials/test_project.json": "{\"port\": 10702, \"user\": \"test3n\", \"password\": \"lZTBy1RVCfOpBAOwSCwIyBIR\", \"branch\": \"test3n\"}"
+      }
+    },
+    "result": {
+      "address": ["testhost", 1234],
+      "database": "db",
+      "branch": "db",
+      "user": "edgedb",
+      "password": null,
+      "secretKey": null,
+      "tlsCAData": null,
+      "tlsSecurity": "strict",
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
+    }
+  },
+  {
+    "opts": {},
+    "env": {
+      "EDGEDB_DSN": "edgedb://testhost:1234/?branch=db"
+    },
+    "fs": {
+      "cwd": "/home/edgedb/test",
+      "homedir": "/home/edgedb",
+      "files": {
+        "/home/edgedb/test/edgedb.toml": "",
+        "/home/edgedb/.config/edgedb/projects/test-${HASH}": {
+          "instance-name": "test_project",
+          "project-path": "/home/edgedb/test"
+        },
+        "/home/edgedb/.config/edgedb/credentials/test_project.json": "{\"port\": 10702, \"user\": \"test3n\", \"password\": \"lZTBy1RVCfOpBAOwSCwIyBIR\", \"database\": \"test3n\"}"
+      }
+    },
+    "result": {
+      "address": ["testhost", 1234],
+      "database": "db",
+      "branch": "db",
+      "user": "edgedb",
+      "password": null,
+      "secretKey": null,
+      "tlsCAData": null,
+      "tlsSecurity": "strict",
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
+    }
+  },
+  {
+    "opts": {
+      "dsn": "edgedb://testhost:1234/?branch=db"
+    },
+    "env": {},
+    "fs": {
+      "cwd": "/home/edgedb/test",
+      "homedir": "/home/edgedb",
+      "files": {
+        "/home/edgedb/test/edgedb.toml": "",
+        "/home/edgedb/.config/edgedb/projects/test-${HASH}": {
+          "instance-name": "test_project",
+          "project-path": "/home/edgedb/test"
+        },
+        "/home/edgedb/.config/edgedb/credentials/test_project.json": "{\"port\": 10702, \"user\": \"test3n\", \"password\": \"lZTBy1RVCfOpBAOwSCwIyBIR\", \"branch\": \"test3n\"}"
+      }
+    },
+    "result": {
+      "address": ["testhost", 1234],
+      "database": "db",
+      "branch": "db",
+      "user": "edgedb",
+      "password": null,
+      "secretKey": null,
+      "tlsCAData": null,
+      "tlsSecurity": "strict",
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
+    }
+  },
+  {
+    "opts": {
+      "dsn": "edgedb://testhost:1234/?branch=db"
+    },
+    "env": {},
+    "fs": {
+      "cwd": "/home/edgedb/test",
+      "homedir": "/home/edgedb",
+      "files": {
+        "/home/edgedb/test/edgedb.toml": "",
+        "/home/edgedb/.config/edgedb/projects/test-${HASH}": {
+          "instance-name": "test_project",
+          "project-path": "/home/edgedb/test"
+        },
+        "/home/edgedb/.config/edgedb/credentials/test_project.json": "{\"port\": 10702, \"user\": \"test3n\", \"password\": \"lZTBy1RVCfOpBAOwSCwIyBIR\", \"database\": \"test3n\"}"
+      }
+    },
+    "result": {
+      "address": ["testhost", 1234],
+      "database": "db",
+      "branch": "db",
+      "user": "edgedb",
+      "password": null,
+      "secretKey": null,
+      "tlsCAData": null,
+      "tlsSecurity": "strict",
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
+    }
+  },
+  {
+    "opts": {
+      "branch": "test_db"
+    },
+    "env": {},
+    "fs": {
+      "cwd": "/home/edgedb/test",
+      "homedir": "/home/edgedb",
+      "files": {
+        "/home/edgedb/test/edgedb.toml": "",
+        "/home/edgedb/.config/edgedb/projects/test-${HASH}": {
+          "instance-name": "test_project",
+          "project-path": "/home/edgedb/test"
+        },
+        "/home/edgedb/.config/edgedb/credentials/test_project.json": "{\"port\": 10702, \"user\": \"test3n\", \"password\": \"lZTBy1RVCfOpBAOwSCwIyBIR\", \"branch\": \"test3n\"}"
+      }
+    },
+    "result": {
+      "address": ["localhost", 10702],
+      "database": "test_db",
+      "branch": "test_db",
+      "user": "test3n",
+      "password": "lZTBy1RVCfOpBAOwSCwIyBIR",
+      "secretKey": null,
+      "tlsCAData": null,
+      "tlsSecurity": "strict",
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
+    }
+  },
+  {
+    "opts": {
+      "branch": "test_db"
+    },
+    "env": {},
+    "fs": {
+      "cwd": "/home/edgedb/test",
+      "homedir": "/home/edgedb",
+      "files": {
+        "/home/edgedb/test/edgedb.toml": "",
+        "/home/edgedb/.config/edgedb/projects/test-${HASH}": {
+          "instance-name": "test_project",
+          "project-path": "/home/edgedb/test"
+        },
+        "/home/edgedb/.config/edgedb/credentials/test_project.json": "{\"port\": 10702, \"user\": \"test3n\", \"password\": \"lZTBy1RVCfOpBAOwSCwIyBIR\", \"database\": \"test3n\"}"
+      }
+    },
+    "error": {
+      "type": "exclusive_options"
+    }
+  },
+  {
+    "opts": {
+      "database": "test_db"
+    },
+    "env": {},
+    "fs": {
+      "cwd": "/home/edgedb/test",
+      "homedir": "/home/edgedb",
+      "files": {
+        "/home/edgedb/test/edgedb.toml": "",
+        "/home/edgedb/.config/edgedb/projects/test-${HASH}": {
+          "instance-name": "test_project",
+          "project-path": "/home/edgedb/test"
+        },
+        "/home/edgedb/.config/edgedb/credentials/test_project.json": "{\"port\": 10702, \"user\": \"test3n\", \"password\": \"lZTBy1RVCfOpBAOwSCwIyBIR\", \"branch\": \"test3n\"}"
+      }
+    },
+    "error": {
+      "type": "exclusive_options"
+    }
+  },
+  {
+    "opts": {},
+    "env": {
+      "EDGEDB_DSN": "edgedb://testhost:1234/?branch=feature"
+    },
+    "fs": {},
+    "result": {
+      "address": ["testhost", 1234],
+      "database": "feature",
+      "branch": "feature",
+      "user": "edgedb",
+      "password": null,
+      "secretKey": null,
+      "tlsCAData": null,
+      "tlsSecurity": "strict",
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
+    }
+  },
+  {
+    "opts": {},
+    "env": {
+      "EDGEDB_DSN": "edgedb://testhost:1234/foo/?branch=feature"
+    },
+    "fs": {},
+    "error": {
+      "type": "invalid_dsn"
+    }
+  },
+  {
+    "opts": {},
+    "env": {
+      "EDGEDB_DSN": "edgedb://testhost:1234/?branch=feature&database=foo"
+    },
+    "fs": {},
+    "error": {
+      "type": "invalid_dsn"
+    }
+  },
+  {
+    "opts": {},
+    "env": {
+      "EDGEDB_DSN": "edgedb://testhost:1234/feature",
+      "EDGEDB_BRANCH": "experimental"
+    },
+    "fs": {},
+    "result": {
+      "address": ["testhost", 1234],
+      "database": "experimental",
+      "branch": "experimental",
+      "user": "edgedb",
+      "password": null,
+      "secretKey": null,
+      "tlsCAData": null,
+      "tlsSecurity": "strict",
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
+    }
+  },
+  {
+    "opts": {},
+    "env": {
+      "EDGEDB_DSN": "edgedb://testhost:1234/?branch=feature",
+      "EDGEDB_BRANCH": "experimental"
+    },
+    "fs": {},
+    "result": {
+      "address": ["testhost", 1234],
+      "database": "experimental",
+      "branch": "experimental",
+      "user": "edgedb",
+      "password": null,
+      "secretKey": null,
+      "tlsCAData": null,
+      "tlsSecurity": "strict",
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
+    }
+  },
+  {
+    "opts": {},
+    "env": {
+      "EDGEDB_DSN": "edgedb://testhost:1234/?branch=feature",
+      "EDGEDB_DATABASE": "experimental"
+    },
+    "fs": {},
+    "error": {
+      "type": "exclusive_options"
+    }
+  },
+  {
+    "opts": {},
+    "env": {
+      "EDGEDB_DSN": "edgedb://testhost:1234/?database=feature",
+      "EDGEDB_BRANCH": "experimental"
+    },
+    "fs": {},
+    "error": {
+      "type": "exclusive_options"
+    }
+  },
+  {
+    "opts": {
+      "branch": "experimental"
+    },
+    "env": {
+      "EDGEDB_DSN": "edgedb://testhost:1234/feature"
+    },
+    "fs": {},
+    "result": {
+      "address": ["testhost", 1234],
+      "database": "experimental",
+      "branch": "experimental",
+      "user": "edgedb",
+      "password": null,
+      "secretKey": null,
+      "tlsCAData": null,
+      "tlsSecurity": "strict",
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
+    }
+  },
+  {
+    "opts": {
+      "branch": "experimental"
+    },
+    "env": {
+      "EDGEDB_DSN": "edgedb://testhost:1234/?branch=feature"
+    },
+    "fs": {},
+    "result": {
+      "address": ["testhost", 1234],
+      "database": "experimental",
+      "branch": "experimental",
+      "user": "edgedb",
+      "password": null,
+      "secretKey": null,
+      "tlsCAData": null,
+      "tlsSecurity": "strict",
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
+    }
+  },
+  {
+    "opts": {
+      "branch": "experimental"
+    },
+    "env": {
+      "EDGEDB_DSN": "edgedb://testhost:1234/?database=feature"
+    },
+    "fs": {},
+    "error": {
+      "type": "exclusive_options"
+    }
+  },
+  {
+    "opts": {
+      "database": "experimental"
+    },
+    "env": {
+      "EDGEDB_DSN": "edgedb://testhost:1234/?branch=feature"
+    },
+    "fs": {},
+    "error": {
+      "type": "exclusive_options"
+    }
+  },
+  {
+    "opts": {},
+    "env": {
+      "EDGEDB_HOST": "testhost",
+      "EDGEDB_PORT": "1312",
+      "EDGEDB_BRANCH": "feature"
+    },
+    "fs": {},
+    "result": {
+      "address": ["testhost", 1312],
+      "database": "feature",
+      "branch": "feature",
+      "user": "edgedb",
+      "password": null,
+      "secretKey": null,
+      "tlsCAData": null,
+      "tlsSecurity": "strict",
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
+    }
+  },
+  {
+    "opts": {},
+    "env": {
+      "EDGEDB_HOST": "testhost",
+      "EDGEDB_PORT": "1312",
+      "EDGEDB_DATABASE": "feature",
+      "EDGEDB_BRANCH": "feature"
+    },
+    "fs": {},
+    "error": {
+      "type": "exclusive_options"
+    }
+  },
+  {
+    "opts": {
+      "branch": "experimental"
+    },
+    "env": {
+      "EDGEDB_HOST": "testhost",
+      "EDGEDB_PORT": "1312",
+      "EDGEDB_BRANCH": "feature"
+    },
+    "fs": {},
+    "result": {
+      "address": ["testhost", 1312],
+      "database": "experimental",
+      "branch": "experimental",
+      "user": "edgedb",
+      "password": null,
+      "secretKey": null,
+      "tlsCAData": null,
+      "tlsSecurity": "strict",
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
+    }
+  },
+  {
+    "opts": {
+      "branch": "experimental"
+    },
+    "env": {
+      "EDGEDB_HOST": "testhost",
+      "EDGEDB_PORT": "1312",
+      "EDGEDB_DATABASE": "feature"
+    },
+    "fs": {},
+    "error": {
+      "type": "exclusive_options"
+    }
+  },
+  {
+    "opts": {
+      "database": "experimental"
+    },
+    "env": {
+      "EDGEDB_HOST": "testhost",
+      "EDGEDB_PORT": "1312",
+      "EDGEDB_BRANCH": "feature"
+    },
+    "fs": {},
+    "error": {
+      "type": "exclusive_options"
+    }
+  },
+  {
+    "opts": {
+      "dsn": "edgedb://testhost:1234/feature"
+    },
+    "env": {},
+    "fs": {},
+    "result": {
+      "address": ["testhost", 1234],
+      "database": "feature",
+      "branch": "feature",
+      "user": "edgedb",
+      "password": null,
+      "secretKey": null,
+      "tlsCAData": null,
+      "tlsSecurity": "strict",
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
+    }
+  },
+  {
+    "opts": {
+      "dsn": "edgedb://testhost:1234/?branch=experimental"
+    },
+    "env": {},
+    "fs": {},
+    "result": {
+      "address": ["testhost", 1234],
+      "database": "experimental",
+      "branch": "experimental",
+      "user": "edgedb",
+      "password": null,
+      "secretKey": null,
+      "tlsCAData": null,
+      "tlsSecurity": "strict",
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
+    }
+  },
+  {
+    "opts": {
+      "dsn": "edgedb://testhost:1234/feature/?branch=feature"
+    },
+    "env": {},
+    "fs": {},
+    "error": {
+      "type": "invalid_dsn"
+    }
+  },
+  {
+    "opts": {
+      "dsn": "edgedb://testhost:1234/feature/?branch=feature&database=feature"
+    },
+    "env": {},
+    "fs": {},
+    "error": {
+      "type": "invalid_dsn"
+    }
+  },
+  {
+    "opts": {
+      "dsn": "edgedb://testhost:1234/feature",
+      "branch": "experimental"
+    },
+    "env": {},
+    "fs": {},
+    "result": {
+      "address": ["testhost", 1234],
+      "database": "experimental",
+      "branch": "experimental",
+      "user": "edgedb",
+      "password": null,
+      "secretKey": null,
+      "tlsCAData": null,
+      "tlsSecurity": "strict",
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
+    }
+  },
+  {
+    "opts": {
+      "dsn": "edgedb://testhost:1234/?branch=feature",
+      "branch": "experimental"
+    },
+    "env": {},
+    "fs": {},
+    "result": {
+      "address": ["testhost", 1234],
+      "database": "experimental",
+      "branch": "experimental",
+      "user": "edgedb",
+      "password": null,
+      "secretKey": null,
+      "tlsCAData": null,
+      "tlsSecurity": "strict",
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
+    }
+  },
+  {
+    "opts": {
+      "dsn": "edgedb://testhost:1234/?branch=feature"
+    },
+    "env": {
+      "EDGEDB_BRANCH": "experimental"
+    },
+    "fs": {},
+    "result": {
+      "address": ["testhost", 1234],
+      "database": "feature",
+      "branch": "feature",
+      "user": "edgedb",
+      "password": null,
+      "secretKey": null,
+      "tlsCAData": null,
+      "tlsSecurity": "strict",
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
+    }
+  },
+  {
+    "opts": {
+      "dsn": "edgedb://testhost:1234/?branch=feature",
+      "database": "experimental"
+    },
+    "env": {},
+    "fs": {},
+    "error": {
+      "type": "exclusive_options"
+    }
+  },
+  {
+    "opts": {
+      "dsn": "edgedb://testhost:1234/?database=feature",
+      "branch": "experimental"
+    },
+    "env": {},
+    "fs": {},
+    "error": {
+      "type": "exclusive_options"
+    }
+  },
+  {
+    "opts": {
+      "dsn": "edgedb://testhost:1234/?branch=feature"
+    },
+    "env": {
+      "EDGEDB_DATABASE": "experimental"
+    },
+    "fs": {},
+    "result": {
+      "address": ["testhost", 1234],
+      "database": "feature",
+      "branch": "feature",
+      "user": "edgedb",
+      "password": null,
+      "secretKey": null,
+      "tlsCAData": null,
+      "tlsSecurity": "strict",
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
+    }
+  },
+  {
+    "opts": {
+      "dsn": "edgedb://testhost:1234/?database=feature"
+    },
+    "env": {
+      "EDGEDB_BRANCH": "experimental"
+    },
+    "fs": {},
+    "result": {
+      "address": ["testhost", 1234],
+      "database": "feature",
+      "branch": "feature",
+      "user": "edgedb",
+      "password": null,
+      "secretKey": null,
+      "tlsCAData": null,
+      "tlsSecurity": "strict",
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
+    }
+  },
+  {
+    "opts": {
+      "host": "testhost",
+      "port": 1312,
+      "branch": "feature"
+    },
+    "env": {},
+    "fs": {},
+    "result": {
+      "address": ["testhost", 1312],
+      "database": "feature",
+      "branch": "feature",
+      "user": "edgedb",
+      "password": null,
+      "secretKey": null,
+      "tlsCAData": null,
+      "tlsSecurity": "strict",
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
+    }
+  },
+  {
+    "opts": {
+      "host": "testhost",
+      "port": 1312,
+      "branch": "feature",
+      "database": "feature"
+    },
+    "env": {},
+    "fs": {},
+    "error": {
+      "type": "exclusive_options"
+    }
+  },
+  {
+    "opts": {
+      "host": "testhost",
+      "port": 1312,
+      "branch": "feature"
+    },
+    "env": {
+      "EDGEDB_BRANCH": "experimental"
+    },
+    "fs": {},
+    "result": {
+      "address": ["testhost", 1312],
+      "database": "feature",
+      "branch": "feature",
+      "user": "edgedb",
+      "password": null,
+      "secretKey": null,
+      "tlsCAData": null,
+      "tlsSecurity": "strict",
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
+    }
+  },
+  {
+    "opts": {
+      "host": "testhost",
+      "port": 1312,
+      "branch": "feature"
+    },
+    "env": {
+      "EDGEDB_DATABASE": "experimental"
+    },
+    "fs": {},
+    "result": {
+      "address": ["testhost", 1312],
+      "database": "feature",
+      "branch": "feature",
+      "user": "edgedb",
+      "password": null,
+      "secretKey": null,
+      "tlsCAData": null,
+      "tlsSecurity": "strict",
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
+    }
+  },
+  {
+    "opts": {
+      "host": "testhost",
+      "port": 1312,
+      "database": "feature"
+    },
+    "env": {
+      "EDGEDB_BRANCH": "experimental"
+    },
+    "fs": {},
+    "result": {
+      "address": ["testhost", 1312],
+      "database": "feature",
+      "branch": "feature",
+      "user": "edgedb",
+      "password": null,
+      "secretKey": null,
+      "tlsCAData": null,
+      "tlsSecurity": "strict",
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
     }
   }
 ]
