@@ -3631,6 +3631,34 @@
         "/home/edgedb/.config/edgedb/credentials/test_project.json": "{\"port\": 10702, \"user\": \"test3n\", \"password\": \"lZTBy1RVCfOpBAOwSCwIyBIR\", \"branch\": \"test3n\", \"database\": \"test3n\"}"
       }
     },
+    "result": {
+      "address": ["localhost", 10702],
+      "database": "test3n",
+      "branch": "test3n",
+      "user": "test3n",
+      "password": "lZTBy1RVCfOpBAOwSCwIyBIR",
+      "secretKey": null,
+      "tlsCAData": null,
+      "tlsSecurity": "strict",
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
+    }
+  },
+  {
+    "opts": {},
+    "env": {},
+    "fs": {
+      "cwd": "/home/edgedb/test",
+      "homedir": "/home/edgedb",
+      "files": {
+        "/home/edgedb/test/edgedb.toml": "",
+        "/home/edgedb/.config/edgedb/projects/test-${HASH}": {
+          "instance-name": "test_project",
+          "project-path": "/home/edgedb/test"
+        },
+        "/home/edgedb/.config/edgedb/credentials/test_project.json": "{\"port\": 10702, \"user\": \"test3n\", \"password\": \"lZTBy1RVCfOpBAOwSCwIyBIR\", \"branch\": \"badbranch\", \"database\": \"test3n\"}"
+      }
+    },
     "error": {
       "type": "invalid_credentials_file"
     }
@@ -3682,8 +3710,17 @@
         "/home/edgedb/.config/edgedb/credentials/test_project.json": "{\"port\": 10702, \"user\": \"test3n\", \"password\": \"lZTBy1RVCfOpBAOwSCwIyBIR\", \"database\": \"test3n\"}"
       }
     },
-    "error": {
-      "type": "exclusive_options"
+    "result": {
+      "address": ["localhost", 10702],
+      "database": "test_db",
+      "branch": "test_db",
+      "user": "test3n",
+      "password": "lZTBy1RVCfOpBAOwSCwIyBIR",
+      "secretKey": null,
+      "tlsCAData": null,
+      "tlsSecurity": "strict",
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
     }
   },
   {
@@ -3703,8 +3740,17 @@
         "/home/edgedb/.config/edgedb/credentials/test_project.json": "{\"port\": 10702, \"user\": \"test3n\", \"password\": \"lZTBy1RVCfOpBAOwSCwIyBIR\", \"branch\": \"test3n\"}"
       }
     },
-    "error": {
-      "type": "exclusive_options"
+    "result": {
+      "address": ["localhost", 10702],
+      "database": "test_db",
+      "branch": "test_db",
+      "user": "test3n",
+      "password": "lZTBy1RVCfOpBAOwSCwIyBIR",
+      "secretKey": null,
+      "tlsCAData": null,
+      "tlsSecurity": "strict",
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
     }
   },
   {
@@ -3874,8 +3920,17 @@
         "/home/edgedb/.config/edgedb/credentials/test_project.json": "{\"port\": 10702, \"user\": \"test3n\", \"password\": \"lZTBy1RVCfOpBAOwSCwIyBIR\", \"database\": \"test3n\"}"
       }
     },
-    "error": {
-      "type": "exclusive_options"
+    "result": {
+      "address": ["localhost", 10702],
+      "database": "test_db",
+      "branch": "test_db",
+      "user": "test3n",
+      "password": "lZTBy1RVCfOpBAOwSCwIyBIR",
+      "secretKey": null,
+      "tlsCAData": null,
+      "tlsSecurity": "strict",
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
     }
   },
   {
@@ -3895,8 +3950,17 @@
         "/home/edgedb/.config/edgedb/credentials/test_project.json": "{\"port\": 10702, \"user\": \"test3n\", \"password\": \"lZTBy1RVCfOpBAOwSCwIyBIR\", \"branch\": \"test3n\"}"
       }
     },
-    "error": {
-      "type": "exclusive_options"
+    "result": {
+      "address": ["localhost", 10702],
+      "database": "test_db",
+      "branch": "test_db",
+      "user": "test3n",
+      "password": "lZTBy1RVCfOpBAOwSCwIyBIR",
+      "secretKey": null,
+      "tlsCAData": null,
+      "tlsSecurity": "strict",
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
     }
   },
   {
@@ -3942,13 +4006,13 @@
     "opts": {},
     "env": {
       "EDGEDB_DSN": "edgedb://testhost:1234/feature",
-      "EDGEDB_BRANCH": "experimental"
+      "EDGEDB_BRANCH": "experimental0"
     },
     "fs": {},
     "result": {
       "address": ["testhost", 1234],
-      "database": "experimental",
-      "branch": "experimental",
+      "database": "experimental0",
+      "branch": "experimental0",
       "user": "edgedb",
       "password": null,
       "secretKey": null,
@@ -3962,13 +4026,13 @@
     "opts": {},
     "env": {
       "EDGEDB_DSN": "edgedb://testhost:1234/?branch=feature",
-      "EDGEDB_BRANCH": "experimental"
+      "EDGEDB_BRANCH": "experimental1"
     },
     "fs": {},
     "result": {
       "address": ["testhost", 1234],
-      "database": "experimental",
-      "branch": "experimental",
+      "database": "experimental1",
+      "branch": "experimental1",
       "user": "edgedb",
       "password": null,
       "secretKey": null,
@@ -3982,27 +4046,45 @@
     "opts": {},
     "env": {
       "EDGEDB_DSN": "edgedb://testhost:1234/?branch=feature",
-      "EDGEDB_DATABASE": "experimental"
+      "EDGEDB_DATABASE": "experimental2"
     },
     "fs": {},
-    "error": {
-      "type": "exclusive_options"
+    "result": {
+      "address": ["testhost", 1234],
+      "database": "experimental2",
+      "branch": "experimental2",
+      "user": "edgedb",
+      "password": null,
+      "secretKey": null,
+      "tlsCAData": null,
+      "tlsSecurity": "strict",
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
     }
   },
   {
     "opts": {},
     "env": {
       "EDGEDB_DSN": "edgedb://testhost:1234/?database=feature",
-      "EDGEDB_BRANCH": "experimental"
+      "EDGEDB_BRANCH": "experimental3"
     },
     "fs": {},
-    "error": {
-      "type": "exclusive_options"
+    "result": {
+      "address": ["testhost", 1234],
+      "database": "experimental3",
+      "branch": "experimental3",
+      "user": "edgedb",
+      "password": null,
+      "secretKey": null,
+      "tlsCAData": null,
+      "tlsSecurity": "strict",
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
     }
   },
   {
     "opts": {
-      "branch": "experimental"
+      "branch": "experimental4"
     },
     "env": {
       "EDGEDB_DSN": "edgedb://testhost:1234/feature"
@@ -4010,8 +4092,8 @@
     "fs": {},
     "result": {
       "address": ["testhost", 1234],
-      "database": "experimental",
-      "branch": "experimental",
+      "database": "experimental4",
+      "branch": "experimental4",
       "user": "edgedb",
       "password": null,
       "secretKey": null,
@@ -4023,7 +4105,7 @@
   },
   {
     "opts": {
-      "branch": "experimental"
+      "branch": "experimental5"
     },
     "env": {
       "EDGEDB_DSN": "edgedb://testhost:1234/?branch=feature"
@@ -4031,8 +4113,8 @@
     "fs": {},
     "result": {
       "address": ["testhost", 1234],
-      "database": "experimental",
-      "branch": "experimental",
+      "database": "experimental5",
+      "branch": "experimental5",
       "user": "edgedb",
       "password": null,
       "secretKey": null,
@@ -4044,26 +4126,44 @@
   },
   {
     "opts": {
-      "branch": "experimental"
+      "branch": "experimental6"
     },
     "env": {
       "EDGEDB_DSN": "edgedb://testhost:1234/?database=feature"
     },
     "fs": {},
-    "error": {
-      "type": "exclusive_options"
+    "result": {
+      "address": ["testhost", 1234],
+      "database": "experimental6",
+      "branch": "experimental6",
+      "user": "edgedb",
+      "password": null,
+      "secretKey": null,
+      "tlsCAData": null,
+      "tlsSecurity": "strict",
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
     }
   },
   {
     "opts": {
-      "database": "experimental"
+      "database": "experimental7"
     },
     "env": {
       "EDGEDB_DSN": "edgedb://testhost:1234/?branch=feature"
     },
     "fs": {},
-    "error": {
-      "type": "exclusive_options"
+    "result": {
+      "address": ["testhost", 1234],
+      "database": "experimental7",
+      "branch": "experimental7",
+      "user": "edgedb",
+      "password": null,
+      "secretKey": null,
+      "tlsCAData": null,
+      "tlsSecurity": "strict",
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
     }
   },
   {
@@ -4102,7 +4202,7 @@
   },
   {
     "opts": {
-      "branch": "experimental"
+      "branch": "experimental8"
     },
     "env": {
       "EDGEDB_HOST": "testhost",
@@ -4112,8 +4212,8 @@
     "fs": {},
     "result": {
       "address": ["testhost", 1312],
-      "database": "experimental",
-      "branch": "experimental",
+      "database": "experimental8",
+      "branch": "experimental8",
       "user": "edgedb",
       "password": null,
       "secretKey": null,
@@ -4125,7 +4225,7 @@
   },
   {
     "opts": {
-      "branch": "experimental"
+      "branch": "experimental9"
     },
     "env": {
       "EDGEDB_HOST": "testhost",
@@ -4133,13 +4233,22 @@
       "EDGEDB_DATABASE": "feature"
     },
     "fs": {},
-    "error": {
-      "type": "exclusive_options"
+    "result": {
+      "address": ["testhost", 1312],
+      "database": "experimental9",
+      "branch": "experimental9",
+      "user": "edgedb",
+      "password": null,
+      "secretKey": null,
+      "tlsCAData": null,
+      "tlsSecurity": "strict",
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
     }
   },
   {
     "opts": {
-      "database": "experimental"
+      "database": "experimental10"
     },
     "env": {
       "EDGEDB_HOST": "testhost",
@@ -4147,8 +4256,17 @@
       "EDGEDB_BRANCH": "feature"
     },
     "fs": {},
-    "error": {
-      "type": "exclusive_options"
+    "result": {
+      "address": ["testhost", 1312],
+      "database": "experimental10",
+      "branch": "experimental10",
+      "user": "edgedb",
+      "password": null,
+      "secretKey": null,
+      "tlsCAData": null,
+      "tlsSecurity": "strict",
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
     }
   },
   {
@@ -4172,14 +4290,14 @@
   },
   {
     "opts": {
-      "dsn": "edgedb://testhost:1234/?branch=experimental"
+      "dsn": "edgedb://testhost:1234/?branch=experimental11"
     },
     "env": {},
     "fs": {},
     "result": {
       "address": ["testhost", 1234],
-      "database": "experimental",
-      "branch": "experimental",
+      "database": "experimental11",
+      "branch": "experimental11",
       "user": "edgedb",
       "password": null,
       "secretKey": null,
@@ -4212,14 +4330,14 @@
   {
     "opts": {
       "dsn": "edgedb://testhost:1234/feature",
-      "branch": "experimental"
+      "branch": "experimental12"
     },
     "env": {},
     "fs": {},
     "result": {
       "address": ["testhost", 1234],
-      "database": "experimental",
-      "branch": "experimental",
+      "database": "experimental12",
+      "branch": "experimental12",
       "user": "edgedb",
       "password": null,
       "secretKey": null,
@@ -4232,14 +4350,14 @@
   {
     "opts": {
       "dsn": "edgedb://testhost:1234/?branch=feature",
-      "branch": "experimental"
+      "branch": "experimental13"
     },
     "env": {},
     "fs": {},
     "result": {
       "address": ["testhost", 1234],
-      "database": "experimental",
-      "branch": "experimental",
+      "database": "experimental13",
+      "branch": "experimental13",
       "user": "edgedb",
       "password": null,
       "secretKey": null,
@@ -4254,7 +4372,7 @@
       "dsn": "edgedb://testhost:1234/?branch=feature"
     },
     "env": {
-      "EDGEDB_BRANCH": "experimental"
+      "EDGEDB_BRANCH": "experimental14"
     },
     "fs": {},
     "result": {
@@ -4273,23 +4391,41 @@
   {
     "opts": {
       "dsn": "edgedb://testhost:1234/?branch=feature",
-      "database": "experimental"
+      "database": "experimental15"
     },
     "env": {},
     "fs": {},
-    "error": {
-      "type": "exclusive_options"
+    "result": {
+      "address": ["testhost", 1234],
+      "database": "experimental15",
+      "branch": "experimental15",
+      "user": "edgedb",
+      "password": null,
+      "secretKey": null,
+      "tlsCAData": null,
+      "tlsSecurity": "strict",
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
     }
   },
   {
     "opts": {
       "dsn": "edgedb://testhost:1234/?database=feature",
-      "branch": "experimental"
+      "branch": "experimental16"
     },
     "env": {},
     "fs": {},
-    "error": {
-      "type": "exclusive_options"
+    "result": {
+      "address": ["testhost", 1234],
+      "database": "experimental16",
+      "branch": "experimental16",
+      "user": "edgedb",
+      "password": null,
+      "secretKey": null,
+      "tlsCAData": null,
+      "tlsSecurity": "strict",
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
     }
   },
   {
@@ -4297,7 +4433,7 @@
       "dsn": "edgedb://testhost:1234/?branch=feature"
     },
     "env": {
-      "EDGEDB_DATABASE": "experimental"
+      "EDGEDB_DATABASE": "experimental17"
     },
     "fs": {},
     "result": {
@@ -4318,7 +4454,7 @@
       "dsn": "edgedb://testhost:1234/?database=feature"
     },
     "env": {
-      "EDGEDB_BRANCH": "experimental"
+      "EDGEDB_BRANCH": "experimental18"
     },
     "fs": {},
     "result": {
@@ -4375,7 +4511,7 @@
       "branch": "feature"
     },
     "env": {
-      "EDGEDB_BRANCH": "experimental"
+      "EDGEDB_BRANCH": "experimental19"
     },
     "fs": {},
     "result": {
@@ -4398,7 +4534,7 @@
       "branch": "feature"
     },
     "env": {
-      "EDGEDB_DATABASE": "experimental"
+      "EDGEDB_DATABASE": "experimental20"
     },
     "fs": {},
     "result": {
@@ -4421,9 +4557,77 @@
       "database": "feature"
     },
     "env": {
-      "EDGEDB_BRANCH": "experimental"
+      "EDGEDB_BRANCH": "experimental21"
     },
     "fs": {},
+    "result": {
+      "address": ["testhost", 1312],
+      "database": "feature",
+      "branch": "feature",
+      "user": "edgedb",
+      "password": null,
+      "secretKey": null,
+      "tlsCAData": null,
+      "tlsSecurity": "strict",
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
+    }
+  },
+  {
+    "opts": {
+      "host": "testhost",
+      "port": 1312,
+      "database": "feature"
+    },
+    "env": {
+      "EDGEDB_BRANCH": "experimental22"
+    },
+    "fs": {
+      "cwd": "/home/edgedb/test",
+      "homedir": "/home/edgedb",
+      "files": {
+        "/home/edgedb/test/edgedb.toml": "",
+        "/home/edgedb/.config/edgedb/projects/test-${HASH}": {
+          "instance-name": "test_project",
+          "project-path": "/home/edgedb/test"
+        },
+        "/home/edgedb/.config/edgedb/credentials/test_project.json": "{\"port\": 10702, \"user\": \"test3n\", \"password\": \"lZTBy1RVCfOpBAOwSCwIyBIR\", \"database\": \"test3n\"}"
+      }
+    },
+    "result": {
+      "address": ["testhost", 1312],
+      "database": "feature",
+      "branch": "feature",
+      "user": "edgedb",
+      "password": null,
+      "secretKey": null,
+      "tlsCAData": null,
+      "tlsSecurity": "strict",
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
+    }
+  },
+  {
+    "opts": {
+      "host": "testhost",
+      "port": 1312,
+      "branch": "feature"
+    },
+    "env": {
+      "EDGEDB_DATABASE": "experimental23"
+    },
+    "fs": {
+      "cwd": "/home/edgedb/test",
+      "homedir": "/home/edgedb",
+      "files": {
+        "/home/edgedb/test/edgedb.toml": "",
+        "/home/edgedb/.config/edgedb/projects/test-${HASH}": {
+          "instance-name": "test_project",
+          "project-path": "/home/edgedb/test"
+        },
+        "/home/edgedb/.config/edgedb/credentials/test_project.json": "{\"port\": 10702, \"user\": \"test3n\", \"password\": \"lZTBy1RVCfOpBAOwSCwIyBIR\", \"branch\": \"test3n\"}"
+      }
+    },
     "result": {
       "address": ["testhost", 1312],
       "database": "feature",
