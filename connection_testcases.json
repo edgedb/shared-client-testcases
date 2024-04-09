@@ -1783,6 +1783,7 @@
     "result": {
       "address": ["localhost", 5656],
       "database": "edgedb",
+      "branch": "__default__",
       "user": "edgedb",
       "password": null,
       "secretKey": null,
@@ -1801,6 +1802,7 @@
     "result": {
       "address": ["localhost", 5656],
       "database": "edgedb",
+      "branch": "__default__",
       "user": "edgedb",
       "password": null,
       "secretKey": null,
@@ -1818,6 +1820,7 @@
     "result": {
       "address": ["localhost", 5656],
       "database": "edgedb",
+      "branch": "__default__",
       "user": "edgedb",
       "password": null,
       "secretKey": null,
