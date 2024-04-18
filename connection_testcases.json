@@ -4397,7 +4397,7 @@
     },
     "fs": {},
     "error": {
-      "type": "exclusive_options"
+      "type": "multiple_compound_env"
     }
   },
   {
