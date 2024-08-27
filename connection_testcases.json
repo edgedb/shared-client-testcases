@@ -106,8 +106,8 @@
       "files": {
         "C:\\Users\\edgedb\\test\\edgedb.toml": "",
         "C:\\Users\\edgedb\\AppData\\Local\\EdgeDB\\config\\projects\\test-${HASH}": {
-           "instance-name": "test_project",
-           "project-path": "C:\\Users\\edgedb\\test"
+          "instance-name": "test_project",
+          "project-path": "C:\\Users\\edgedb\\test"
         },
         "C:\\Users\\edgedb\\AppData\\Local\\EdgeDB\\config\\credentials\\test_project.json": "{\"port\": 10702, \"user\": \"test3n\", \"password\": \"lZTBy1RVCfOpBAOwSCwIyBIR\", \"database\": \"test3n\"}"
       }
@@ -2831,7 +2831,7 @@
       }
     },
     "error": {
-      "type":"invalid_credentials_file"
+      "type": "invalid_credentials_file"
     }
   },
   {
@@ -2845,7 +2845,7 @@
       }
     },
     "error": {
-      "type":"invalid_credentials_file"
+      "type": "invalid_credentials_file"
     }
   },
   {
@@ -2923,7 +2923,7 @@
     }
   },
   {
-    "env" :{
+    "env": {
       "EDGEDB_WAIT_UNTIL_AVAILABLE": "PT10S",
       "EDGEDB_HOST": "sample"
     },
@@ -2997,7 +2997,7 @@
     }
   },
   {
-    "env" :{
+    "env": {
       "EDGEDB_WAIT_UNTIL_AVAILABLE": "PT1H1M28S"
     },
     "opts": {
@@ -3018,7 +3018,7 @@
     }
   },
   {
-    "env" :{
+    "env": {
       "EDGEDB_WAIT_UNTIL_AVAILABLE": "PT1S"
     },
     "opts": {
@@ -3059,7 +3059,7 @@
     }
   },
   {
-    "env" :{
+    "env": {
       "EDGEDB_DSN": "edgedb://localhost:5555?wait_until_available=PT1H",
       "EDGEDB_WAIT_UNTIL_AVAILABLE": "10 s"
     },
@@ -3112,6 +3112,7 @@
       "secretKey": "nbwt_eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlZGIuc2VydmVyLmFueV9yb2xlIjp0cnVlLCJpYXQiOjE2NjkzMTE3NjMsImlzcyI6ImxvY2FsLTEuaW50ZXJuYWwiLCJuZWJ1bGEuc2NvcGVzIjpbImFkbWluIl0sIm5lYnVsYS51c2VyX2lkIjoiM2U3ODU4YTgtNmJjNy0xMWVkLWFmNTAtMTdiMzkzMjlmZmEyIn0.9cS6-rR00fgmEmGu423IP3snJvmXe7ZGol7ZlYuHBNqmKGrWtTsMZPj-3C7dmureUmk3ZUttxioouPeAreKueg",
       "tlsCAData": null,
       "tlsSecurity": "strict",
+      "tlsServerName": null,
       "serverSettings": {},
       "waitUntilAvailable": "PT30S"
     }
@@ -3128,7 +3129,10 @@
       }
     },
     "result": {
-      "address": ["test123---vicfg-hceteouz6ixr3vkxpf0wsudd.c-30.i.local-1.internal", 5656],
+      "address": [
+        "test123---vicfg-hceteouz6ixr3vkxpf0wsudd.c-30.i.local-1.internal",
+        5656
+      ],
       "database": "edgedb",
       "branch": "__default__",
       "user": "edgedb",
@@ -3136,6 +3140,7 @@
       "secretKey": "nbwt_eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlZGIuc2VydmVyLmFueV9yb2xlIjp0cnVlLCJpYXQiOjE2NjkzMTE3NjMsImlzcyI6ImxvY2FsLTEuaW50ZXJuYWwiLCJuZWJ1bGEuc2NvcGVzIjpbImFkbWluIl0sIm5lYnVsYS51c2VyX2lkIjoiM2U3ODU4YTgtNmJjNy0xMWVkLWFmNTAtMTdiMzkzMjlmZmEyIn0.9cS6-rR00fgmEmGu423IP3snJvmXe7ZGol7ZlYuHBNqmKGrWtTsMZPj-3C7dmureUmk3ZUttxioouPeAreKueg",
       "tlsCAData": null,
       "tlsSecurity": "strict",
+      "tlsServerName": null,
       "serverSettings": {},
       "waitUntilAvailable": "PT30S"
     }
