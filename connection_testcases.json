@@ -32,6 +32,35 @@
     "opts": {},
     "env": {},
     "fs": {
+      "cwd": "/home/edgedb/test",
+      "homedir": "/home/edgedb",
+      "files": {
+        "/home/edgedb/test/gel.toml": "",
+        "/home/edgedb/.config/edgedb/projects/test-${HASH}": {
+          "instance-name": "test_project",
+          "project-path": "/home/edgedb/test"
+        },
+        "/home/edgedb/.config/edgedb/credentials/test_project.json": "{\"port\": 10702, \"user\": \"test3n\", \"password\": \"lZTBy1RVCfOpBAOwSCwIyBIR\", \"database\": \"test3n\"}"
+      }
+    },
+    "result": {
+      "address": ["localhost", 10702],
+      "database": "test3n",
+      "branch": "test3n",
+      "user": "test3n",
+      "password": "lZTBy1RVCfOpBAOwSCwIyBIR",
+      "secretKey": null,
+      "tlsCAData": null,
+      "tlsSecurity": "strict",
+      "tlsServerName": null,
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
+    }
+  },
+  {
+    "opts": {},
+    "env": {},
+    "fs": {
       "cwd": "/home/edgedb/test/sub/di/rect/or/ry",
       "homedir": "/home/edgedb",
       "files": {
@@ -4896,5 +4925,54 @@
       "serverSettings": {},
       "waitUntilAvailable": "PT30S"
     }
+  },
+  {
+    "env": {
+      "EDGEDB_HOST": "test.local",
+      "GEL_PORT": "12345"
+    },
+    "result": {
+      "address": ["test.local", 12345],
+      "database": "edgedb",
+      "branch": "__default__",
+      "user": "edgedb",
+      "password": null,
+      "secretKey": null,
+      "tlsCAData": null,
+      "tlsSecurity": "strict",
+      "tlsServerName": null,
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
+    }
+  },
+  {
+    "env": {
+      "EDGEDB_DSN": "edgedb://user3:123123@localhost:5555/abcdef",
+      "GEL_HOST": "test.local"
+    },
+    "error": {
+      "type": "multiple_compound_env"
+    }
+  },
+  {
+    "env": {
+      "EDGEDB_HOST": "test.local",
+      "EDGEDB_PORT": "11111",
+      "GEL_PORT": "12345"
+    },
+    "result": {
+      "address": ["test.local", 12345],
+      "database": "edgedb",
+      "branch": "__default__",
+      "user": "edgedb",
+      "password": null,
+      "secretKey": null,
+      "tlsCAData": null,
+      "tlsSecurity": "strict",
+      "tlsServerName": null,
+      "serverSettings": {},
+      "waitUntilAvailable": "PT30S"
+    },
+    "warnings": ["gel_and_edgedb"]
   }
 ]
