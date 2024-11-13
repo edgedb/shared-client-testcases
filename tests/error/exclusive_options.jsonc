@@ -25,16 +25,12 @@
     "error": {
       "type": "exclusive_options"
     },
-    "fs": {},
-    "name": "test_1",
-    "opts": {}
+    "name": "test_1"
   },
   {
-    "env": {},
     "error": {
       "type": "exclusive_options"
     },
-    "fs": {},
     "name": "test_2",
     "opts": {
       "branch": "feature",

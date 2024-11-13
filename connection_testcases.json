@@ -123,7 +123,6 @@
       "EDGEDB_DSN": "edgedb://testhost:1234/?database=db"
     },
     "name": "basic_env_test_5",
-    "opts": {},
     "result": {
       "address": [
         "testhost",
@@ -214,9 +213,7 @@
     "env": {
       "EDGEDB_DSN": "edgedb://testhost:1234/?branch=feature"
     },
-    "fs": {},
     "name": "basic_env_test_9",
-    "opts": {},
     "result": {
       "address": [
         "testhost",
@@ -239,9 +236,7 @@
       "EDGEDB_BRANCH": "experimental0",
       "EDGEDB_DSN": "edgedb://testhost:1234/feature"
     },
-    "fs": {},
     "name": "basic_env_test_10",
-    "opts": {},
     "result": {
       "address": [
         "testhost",
@@ -264,9 +259,7 @@
       "EDGEDB_BRANCH": "experimental1",
       "EDGEDB_DSN": "edgedb://testhost:1234/?branch=feature"
     },
-    "fs": {},
     "name": "basic_env_test_11",
-    "opts": {},
     "result": {
       "address": [
         "testhost",
@@ -313,9 +306,7 @@
       "EDGEDB_DATABASE": "experimental2",
       "EDGEDB_DSN": "edgedb://testhost:1234/?branch=feature"
     },
-    "fs": {},
     "name": "basic_env_test_13",
-    "opts": {},
     "result": {
       "address": [
         "testhost",
@@ -338,9 +329,7 @@
       "EDGEDB_BRANCH": "experimental3",
       "EDGEDB_DSN": "edgedb://testhost:1234/?database=feature"
     },
-    "fs": {},
     "name": "basic_env_test_14",
-    "opts": {},
     "result": {
       "address": [
         "testhost",
@@ -364,9 +353,7 @@
       "EDGEDB_HOST": "testhost",
       "EDGEDB_PORT": "1312"
     },
-    "fs": {},
     "name": "basic_env_test_15",
-    "opts": {},
     "result": {
       "address": [
         "testhost",
@@ -766,7 +753,6 @@
     }
   },
   {
-    "env": {},
     "fs": {
       "cwd": "/home/edgedb/test",
       "files": {
@@ -780,7 +766,6 @@
       "homedir": "/home/edgedb"
     },
     "name": "basic_fs_test_0",
-    "opts": {},
     "result": {
       "address": [
         "localhost",
@@ -799,7 +784,6 @@
     }
   },
   {
-    "env": {},
     "fs": {
       "cwd": "/home/edgedb/test",
       "files": {
@@ -813,7 +797,6 @@
       "homedir": "/home/edgedb"
     },
     "name": "basic_fs_test_1",
-    "opts": {},
     "result": {
       "address": [
         "localhost",
@@ -832,7 +815,6 @@
     }
   },
   {
-    "env": {},
     "fs": {
       "cwd": "/home/edgedb/test/sub/di/rect/or/ry",
       "files": {
@@ -846,7 +828,6 @@
       "homedir": "/home/edgedb"
     },
     "name": "basic_fs_test_2",
-    "opts": {},
     "result": {
       "address": [
         "localhost",
@@ -865,7 +846,6 @@
     }
   },
   {
-    "env": {},
     "fs": {
       "cwd": "C:\\Users\\edgedb\\test",
       "files": {
@@ -879,7 +859,6 @@
       "homedir": "C:\\Users\\edgedb"
     },
     "name": "basic_fs_test_3",
-    "opts": {},
     "platform": "windows",
     "result": {
       "address": [
@@ -899,7 +878,6 @@
     }
   },
   {
-    "env": {},
     "fs": {
       "cwd": "/Users/edgedb/test",
       "files": {
@@ -913,7 +891,6 @@
       "homedir": "/Users/edgedb"
     },
     "name": "basic_fs_test_4",
-    "opts": {},
     "platform": "macos",
     "result": {
       "address": [
@@ -933,7 +910,6 @@
     }
   },
   {
-    "env": {},
     "fs": {
       "cwd": "/home/edgedb/test",
       "files": {
@@ -949,7 +925,6 @@
       "homedir": "/home/edgedb"
     },
     "name": "basic_fs_test_5",
-    "opts": {},
     "result": {
       "address": [
         "test-123--testorg.c-31.i.local-1.internal",
@@ -968,7 +943,6 @@
     }
   },
   {
-    "env": {},
     "fs": {
       "cwd": "/home/edgedb/test",
       "files": {
@@ -985,7 +959,6 @@
       "homedir": "/home/edgedb"
     },
     "name": "basic_fs_test_6",
-    "opts": {},
     "result": {
       "address": [
         "test-123--testorg.c-31.i.local-1.internal",
@@ -1004,7 +977,6 @@
     }
   },
   {
-    "env": {},
     "fs": {
       "cwd": "/home/edgedb/test",
       "files": {
@@ -1018,7 +990,6 @@
       "homedir": "/home/edgedb"
     },
     "name": "basic_fs_test_7",
-    "opts": {},
     "result": {
       "address": [
         "localhost",
@@ -1037,7 +1008,6 @@
     }
   },
   {
-    "env": {},
     "fs": {
       "cwd": "/home/edgedb/test",
       "files": {
@@ -1051,7 +1021,6 @@
       "homedir": "/home/edgedb"
     },
     "name": "basic_fs_test_8",
-    "opts": {},
     "result": {
       "address": [
         "localhost",
@@ -1522,8 +1491,6 @@
     }
   },
   {
-    "env": {},
-    "fs": {},
     "name": "basic_opts_test_20",
     "opts": {
       "dsn": "edgedb://testhost:1234/feature"
@@ -1546,8 +1513,6 @@
     }
   },
   {
-    "env": {},
-    "fs": {},
     "name": "basic_opts_test_21",
     "opts": {
       "dsn": "edgedb://testhost:1234/?branch=experimental11"
@@ -1570,8 +1535,6 @@
     }
   },
   {
-    "env": {},
-    "fs": {},
     "name": "basic_opts_test_22",
     "opts": {
       "branch": "experimental12",
@@ -1619,8 +1582,6 @@
     }
   },
   {
-    "env": {},
-    "fs": {},
     "name": "basic_opts_test_24",
     "opts": {
       "branch": "experimental13",
@@ -1644,8 +1605,6 @@
     }
   },
   {
-    "env": {},
-    "fs": {},
     "name": "basic_opts_test_25",
     "opts": {
       "database": "experimental15",
@@ -1669,8 +1628,6 @@
     }
   },
   {
-    "env": {},
-    "fs": {},
     "name": "basic_opts_test_26",
     "opts": {
       "branch": "experimental16",
@@ -1694,8 +1651,6 @@
     }
   },
   {
-    "env": {},
-    "fs": {},
     "name": "basic_opts_test_27",
     "opts": {
       "branch": "feature",
@@ -2010,7 +1965,6 @@
     }
   },
   {
-    "env": {},
     "error": {
       "type": "credentials_file_not_found"
     },
@@ -2025,8 +1979,7 @@
       },
       "homedir": "/home/edgedb"
     },
-    "name": "error_credentials_file_not_found_test_0",
-    "opts": {}
+    "name": "error_credentials_file_not_found_test_0"
   },
   {
     "env": {
@@ -2105,16 +2058,12 @@
     "error": {
       "type": "exclusive_options"
     },
-    "fs": {},
-    "name": "error_exclusive_options_test_1",
-    "opts": {}
+    "name": "error_exclusive_options_test_1"
   },
   {
-    "env": {},
     "error": {
       "type": "exclusive_options"
     },
-    "fs": {},
     "name": "error_exclusive_options_test_2",
     "opts": {
       "branch": "feature",
@@ -2167,7 +2116,6 @@
     }
   },
   {
-    "env": {},
     "error": {
       "type": "invalid_credentials_file"
     },
@@ -2182,7 +2130,6 @@
     }
   },
   {
-    "env": {},
     "error": {
       "type": "invalid_credentials_file"
     },
@@ -2212,7 +2159,6 @@
     }
   },
   {
-    "env": {},
     "error": {
       "type": "invalid_credentials_file"
     },
@@ -2228,11 +2174,9 @@
       },
       "homedir": "/home/edgedb"
     },
-    "name": "error_invalid_credentials_file_test_3",
-    "opts": {}
+    "name": "error_invalid_credentials_file_test_3"
   },
   {
-    "env": {},
     "error": {
       "type": "invalid_credentials_file"
     },
@@ -2247,7 +2191,6 @@
     }
   },
   {
-    "env": {},
     "error": {
       "type": "invalid_credentials_file"
     },
@@ -2262,7 +2205,6 @@
     }
   },
   {
-    "env": {},
     "error": {
       "type": "invalid_credentials_file"
     },
@@ -2277,7 +2219,6 @@
     }
   },
   {
-    "env": {},
     "error": {
       "type": "invalid_credentials_file"
     },
@@ -2292,7 +2233,6 @@
     }
   },
   {
-    "env": {},
     "error": {
       "type": "invalid_credentials_file"
     },
@@ -2350,7 +2290,6 @@
     }
   },
   {
-    "env": {},
     "error": {
       "type": "invalid_dsn_or_instance_name"
     },
@@ -2411,7 +2350,6 @@
     }
   },
   {
-    "env": {},
     "error": {
       "type": "invalid_dsn_or_instance_name"
     },
@@ -2427,7 +2365,6 @@
     }
   },
   {
-    "env": {},
     "error": {
       "type": "invalid_dsn_or_instance_name"
     },
@@ -2443,7 +2380,6 @@
     }
   },
   {
-    "env": {},
     "error": {
       "type": "invalid_dsn_or_instance_name"
     },
@@ -2459,7 +2395,6 @@
     }
   },
   {
-    "env": {},
     "error": {
       "type": "invalid_dsn_or_instance_name"
     },
@@ -2499,9 +2434,7 @@
     "error": {
       "type": "invalid_dsn"
     },
-    "fs": {},
-    "name": "error_invalid_dsn_test_2",
-    "opts": {}
+    "name": "error_invalid_dsn_test_2"
   },
   {
     "env": {
@@ -2510,27 +2443,21 @@
     "error": {
       "type": "invalid_dsn"
     },
-    "fs": {},
-    "name": "error_invalid_dsn_test_3",
-    "opts": {}
+    "name": "error_invalid_dsn_test_3"
   },
   {
-    "env": {},
     "error": {
       "type": "invalid_dsn"
     },
-    "fs": {},
     "name": "error_invalid_dsn_test_4",
     "opts": {
       "dsn": "edgedb://testhost:1234/feature/?branch=feature"
     }
   },
   {
-    "env": {},
     "error": {
       "type": "invalid_dsn"
     },
-    "fs": {},
     "name": "error_invalid_dsn_test_5",
     "opts": {
       "dsn": "edgedb://testhost:1234/feature/?branch=feature&database=feature"
@@ -2648,7 +2575,6 @@
     }
   },
   {
-    "env": {},
     "error": {
       "type": "invalid_instance_name"
     },
@@ -2664,7 +2590,6 @@
     }
   },
   {
-    "env": {},
     "error": {
       "type": "invalid_instance_name"
     },
@@ -2779,7 +2704,6 @@
     }
   },
   {
-    "env": {},
     "error": {
       "type": "invalid_secret_key"
     },
@@ -3083,12 +3007,10 @@
     }
   },
   {
-    "env": {},
     "error": {
       "type": "no_options_or_toml"
     },
-    "name": "error_no_options_or_toml_test_0",
-    "opts": {}
+    "name": "error_no_options_or_toml_test_0"
   },
   {
     "env": {
@@ -3103,7 +3025,6 @@
     ]
   },
   {
-    "env": {},
     "error": {
       "type": "project_not_initialised"
     },
@@ -3114,11 +3035,9 @@
       },
       "homedir": "/home/edgedb"
     },
-    "name": "error_project_not_initialised_test_0",
-    "opts": {}
+    "name": "error_project_not_initialised_test_0"
   },
   {
-    "env": {},
     "error": {
       "type": "secret_key_not_found"
     },
@@ -3166,7 +3085,6 @@
     }
   },
   {
-    "env": {},
     "fs": {
       "files": {
         "/home/edgedb/test/credentials.json": "{\"port\": 10702, \"user\": \"test3n\", \"tls_ca\": \"-----BEGIN CERTIFICATE-----\\nMIICEjCCAXsCAg36MA0GCSqGSIb3DQEBBQUAMIGbMQswCQYDVQQGEwJKUDEOMAwG\\nA1UECBMFVG9reW8xEDAOBgNVBAcTB0NodW8ta3UxETAPBgNVBAoTCEZyYW5rNERE\\nMRgwFgYDVQQLEw9XZWJDZXJ0IFN1cHBvcnQxGDAWBgNVBAMTD0ZyYW5rNEREIFdl\\nYiBDQTEjMCEGCSqGSIb3DQEJARYUc3VwcG9ydEBmcmFuazRkZC5jb20wHhcNMTIw\\nODIyMDUyNjU0WhcNMTcwODIxMDUyNjU0WjBKMQswCQYDVQQGEwJKUDEOMAwGA1UE\\nCAwFVG9reW8xETAPBgNVBAoMCEZyYW5rNEREMRgwFgYDVQQDDA93d3cuZXhhbXBs\\nZS5jb20wXDANBgkqhkiG9w0BAQEFAANLADBIAkEAm/xmkHmEQrurE/0re/jeFRLl\\n8ZPjBop7uLHhnia7lQG/5zDtZIUC3RVpqDSwBuw/NTweGyuP+o8AG98HxqxTBwID\\nAQABMA0GCSqGSIb3DQEBBQUAA4GBABS2TLuBeTPmcaTaUW/LCB2NYOy8GMdzR1mx\\n8iBIu2H6/E2tiY3RIevV2OW61qY2/XRQg7YPxx3ffeUugX9F4J/iPnnu1zAxxyBy\\n2VguKv4SWjRFoRkIfIlHX0qVviMhSlNy2ioFLy7JcPZb+v3ftDGywUqcBiVDoea0\\nHn+GmxZA\\n-----END CERTIFICATE-----\\n\"}"
@@ -3194,7 +3112,6 @@
     }
   },
   {
-    "env": {},
     "fs": {
       "files": {
         "/home/edgedb/test/credentials.json": "{\"port\": 10702, \"user\": \"test3n\", \"tls_verify_hostname\": true, \"tls_ca\": \"-----BEGIN CERTIFICATE-----\\nMIICEjCCAXsCAg36MA0GCSqGSIb3DQEBBQUAMIGbMQswCQYDVQQGEwJKUDEOMAwG\\nA1UECBMFVG9reW8xEDAOBgNVBAcTB0NodW8ta3UxETAPBgNVBAoTCEZyYW5rNERE\\nMRgwFgYDVQQLEw9XZWJDZXJ0IFN1cHBvcnQxGDAWBgNVBAMTD0ZyYW5rNEREIFdl\\nYiBDQTEjMCEGCSqGSIb3DQEJARYUc3VwcG9ydEBmcmFuazRkZC5jb20wHhcNMTIw\\nODIyMDUyNjU0WhcNMTcwODIxMDUyNjU0WjBKMQswCQYDVQQGEwJKUDEOMAwGA1UE\\nCAwFVG9reW8xETAPBgNVBAoMCEZyYW5rNEREMRgwFgYDVQQDDA93d3cuZXhhbXBs\\nZS5jb20wXDANBgkqhkiG9w0BAQEFAANLADBIAkEAm/xmkHmEQrurE/0re/jeFRLl\\n8ZPjBop7uLHhnia7lQG/5zDtZIUC3RVpqDSwBuw/NTweGyuP+o8AG98HxqxTBwID\\nAQABMA0GCSqGSIb3DQEBBQUAA4GBABS2TLuBeTPmcaTaUW/LCB2NYOy8GMdzR1mx\\n8iBIu2H6/E2tiY3RIevV2OW61qY2/XRQg7YPxx3ffeUugX9F4J/iPnnu1zAxxyBy\\n2VguKv4SWjRFoRkIfIlHX0qVviMhSlNy2ioFLy7JcPZb+v3ftDGywUqcBiVDoea0\\nHn+GmxZA\\n-----END CERTIFICATE-----\\n\"}"
@@ -3222,7 +3139,6 @@
     }
   },
   {
-    "env": {},
     "fs": {
       "files": {
         "/home/edgedb/test/credentials.json": "{\"port\": 10702, \"user\": \"test3n\", \"tls_security\": \"strict\", \"tls_cert_data\": \"-----BEGIN CERTIFICATE-----\\nMIICEjCCAXsCAg36MA0GCSqGSIb3DQEBBQUAMIGbMQswCQYDVQQGEwJKUDEOMAwG\\nA1UECBMFVG9reW8xEDAOBgNVBAcTB0NodW8ta3UxETAPBgNVBAoTCEZyYW5rNERE\\nMRgwFgYDVQQLEw9XZWJDZXJ0IFN1cHBvcnQxGDAWBgNVBAMTD0ZyYW5rNEREIFdl\\nYiBDQTEjMCEGCSqGSIb3DQEJARYUc3VwcG9ydEBmcmFuazRkZC5jb20wHhcNMTIw\\nODIyMDUyNjU0WhcNMTcwODIxMDUyNjU0WjBKMQswCQYDVQQGEwJKUDEOMAwGA1UE\\nCAwFVG9reW8xETAPBgNVBAoMCEZyYW5rNEREMRgwFgYDVQQDDA93d3cuZXhhbXBs\\nZS5jb20wXDANBgkqhkiG9w0BAQEFAANLADBIAkEAm/xmkHmEQrurE/0re/jeFRLl\\n8ZPjBop7uLHhnia7lQG/5zDtZIUC3RVpqDSwBuw/NTweGyuP+o8AG98HxqxTBwID\\nAQABMA0GCSqGSIb3DQEBBQUAA4GBABS2TLuBeTPmcaTaUW/LCB2NYOy8GMdzR1mx\\n8iBIu2H6/E2tiY3RIevV2OW61qY2/XRQg7YPxx3ffeUugX9F4J/iPnnu1zAxxyBy\\n2VguKv4SWjRFoRkIfIlHX0qVviMhSlNy2ioFLy7JcPZb+v3ftDGywUqcBiVDoea0\\nHn+GmxZA\\n-----END CERTIFICATE-----\\n\"}"
@@ -3431,7 +3347,6 @@
     }
   },
   {
-    "env": {},
     "fs": {
       "files": {
         "/home/edgedb/test/credentials.json": "{\"port\": 10702, \"user\": \"test3n\"}"
@@ -3459,7 +3374,6 @@
     }
   },
   {
-    "env": {},
     "fs": {
       "files": {
         "/home/edgedb/.config/edgedb/credentials/test_123.json": "{\"port\": 10702, \"user\": \"test3n\", \"password\": \"lZTBy1RVCfOpBAOwSCwIyBIR\", \"database\": \"test3n\"}"
@@ -3549,7 +3463,6 @@
     }
   },
   {
-    "env": {},
     "fs": {
       "files": {
         "/home/edgedb/.config/edgedb/credentials/test-123.json": "{\"port\": 10702, \"user\": \"test3n\", \"password\": \"lZTBy1RVCfOpBAOwSCwIyBIR\", \"database\": \"test3n\"}"
@@ -3880,7 +3793,6 @@
     }
   },
   {
-    "env": {},
     "fs": {
       "files": {
         "/home/edgedb/.config/edgedb/credentials/1234567890123456789012345678901234567890123456789012345678901234.json": "{\"port\": 10702, \"user\": \"test3n\", \"password\": \"lZTBy1RVCfOpBAOwSCwIyBIR\", \"database\": \"test3n\"}"
@@ -4101,7 +4013,6 @@
     }
   },
   {
-    "env": {},
     "fs": {
       "files": {
         "/home/edgedb/.config/edgedb/cloud-credentials/default.json": "{\"secret_key\": \"nbwt_eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlZGIuc2VydmVyLmFueV9yb2xlIjp0cnVlLCJpYXQiOjE2NjkzMTE3NjMsImlzcyI6ImxvY2FsLTEuaW50ZXJuYWwiLCJuZWJ1bGEuc2NvcGVzIjpbImFkbWluIl0sIm5lYnVsYS51c2VyX2lkIjoiM2U3ODU4YTgtNmJjNy0xMWVkLWFmNTAtMTdiMzkzMjlmZmEyIn0.9cS6-rR00fgmEmGu423IP3snJvmXe7ZGol7ZlYuHBNqmKGrWtTsMZPj-3C7dmureUmk3ZUttxioouPeAreKueg\"}"
@@ -4130,7 +4041,6 @@
     }
   },
   {
-    "env": {},
     "fs": {
       "files": {
         "/home/edgedb/.config/edgedb/cloud-credentials/default.json": "{\"secret_key\": \"nbwt_eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlZGIuc2VydmVyLmFueV9yb2xlIjp0cnVlLCJpYXQiOjE2NjkzMTE3NjMsImlzcyI6ImxvY2FsLTEuaW50ZXJuYWwiLCJuZWJ1bGEuc2NvcGVzIjpbImFkbWluIl0sIm5lYnVsYS51c2VyX2lkIjoiM2U3ODU4YTgtNmJjNy0xMWVkLWFmNTAtMTdiMzkzMjlmZmEyIn0.9cS6-rR00fgmEmGu423IP3snJvmXe7ZGol7ZlYuHBNqmKGrWtTsMZPj-3C7dmureUmk3ZUttxioouPeAreKueg\"}"
@@ -4159,7 +4069,6 @@
     }
   },
   {
-    "env": {},
     "fs": {
       "files": {
         "/home/edgedb/.config/edgedb/cloud-credentials/default.json": "{\"secret_key\": \"nbwt_eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlZGIuc2VydmVyLmFueV9yb2xlIjp0cnVlLCJpYXQiOjE2NjkzMTE3NjMsImlzcyI6ImxvY2FsLTEuaW50ZXJuYWwiLCJuZWJ1bGEuc2NvcGVzIjpbImFkbWluIl0sIm5lYnVsYS51c2VyX2lkIjoiM2U3ODU4YTgtNmJjNy0xMWVkLWFmNTAtMTdiMzkzMjlmZmEyIn0.9cS6-rR00fgmEmGu423IP3snJvmXe7ZGol7ZlYuHBNqmKGrWtTsMZPj-3C7dmureUmk3ZUttxioouPeAreKueg\"}"
@@ -4188,7 +4097,6 @@
     }
   },
   {
-    "env": {},
     "fs": {
       "files": {
         "/home/edgedb/.config/edgedb/cloud-credentials/default.json": "{\"secret_key\": \"nbwt_eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlZGIuc2VydmVyLmFueV9yb2xlIjp0cnVlLCJpYXQiOjE2NjkzMTE3NjMsImlzcyI6ImxvY2FsLTEuaW50ZXJuYWwiLCJuZWJ1bGEuc2NvcGVzIjpbImFkbWluIl0sIm5lYnVsYS51c2VyX2lkIjoiM2U3ODU4YTgtNmJjNy0xMWVkLWFmNTAtMTdiMzkzMjlmZmEyIn0.9cS6-rR00fgmEmGu423IP3snJvmXe7ZGol7ZlYuHBNqmKGrWtTsMZPj-3C7dmureUmk3ZUttxioouPeAreKueg\"}"
@@ -4217,7 +4125,6 @@
     }
   },
   {
-    "env": {},
     "fs": {
       "files": {
         "/home/edgedb/.config/edgedb/credentials/123-test.json": "{\"port\": 10702, \"user\": \"test3n\", \"password\": \"lZTBy1RVCfOpBAOwSCwIyBIR\", \"database\": \"test3n\"}"
@@ -4278,7 +4185,6 @@
     }
   },
   {
-    "env": {},
     "fs": {
       "files": {
         "/home/edgedb/.config/edgedb/cloud-credentials/default.json": "{\"secret_key\": \"nbwt_eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlZGIuc2VydmVyLmFueV9yb2xlIjp0cnVlLCJpYXQiOjE2NjkzMTE3NjMsImlzcyI6ImxvY2FsLTEuaW50ZXJuYWwiLCJuZWJ1bGEuc2NvcGVzIjpbImFkbWluIl0sIm5lYnVsYS51c2VyX2lkIjoiM2U3ODU4YTgtNmJjNy0xMWVkLWFmNTAtMTdiMzkzMjlmZmEyIn0.9cS6-rR00fgmEmGu423IP3snJvmXe7ZGol7ZlYuHBNqmKGrWtTsMZPj-3C7dmureUmk3ZUttxioouPeAreKueg\"}"
@@ -4307,7 +4213,6 @@
     }
   },
   {
-    "env": {},
     "fs": {
       "files": {
         "/home/edgedb/.config/edgedb/cloud-credentials/default.json": "{\"secret_key\": \"nbwt_eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlZGIuc2VydmVyLmFueV9yb2xlIjp0cnVlLCJpYXQiOjE2NjkzMTE3NjMsImlzcyI6ImxvY2FsLTEuaW50ZXJuYWwiLCJuZWJ1bGEuc2NvcGVzIjpbImFkbWluIl0sIm5lYnVsYS51c2VyX2lkIjoiM2U3ODU4YTgtNmJjNy0xMWVkLWFmNTAtMTdiMzkzMjlmZmEyIn0.9cS6-rR00fgmEmGu423IP3snJvmXe7ZGol7ZlYuHBNqmKGrWtTsMZPj-3C7dmureUmk3ZUttxioouPeAreKueg\"}"
@@ -4336,7 +4241,6 @@
     }
   },
   {
-    "env": {},
     "fs": {
       "files": {},
       "homedir": "/home/edgedb"
@@ -4529,7 +4433,6 @@
       "homedir": "/home/edgedb"
     },
     "name": "override_other_test_38",
-    "opts": {},
     "result": {
       "address": [
         "test-123--testorg.c-31.i.local-1.internal",
@@ -4565,7 +4468,6 @@
       "homedir": "/home/edgedb"
     },
     "name": "override_other_test_39",
-    "opts": {},
     "result": {
       "address": [
         "test-123--testorg.c-31.i.local-1.internal",
@@ -4793,7 +4695,6 @@
       "homedir": "/home/edgedb"
     },
     "name": "override_other_test_47",
-    "opts": {},
     "result": {
       "address": [
         "localhost",
@@ -4828,7 +4729,6 @@
       "homedir": "/home/edgedb"
     },
     "name": "override_other_test_48",
-    "opts": {},
     "result": {
       "address": [
         "localhost",
@@ -4863,7 +4763,6 @@
       "homedir": "/home/edgedb"
     },
     "name": "override_other_test_49",
-    "opts": {},
     "result": {
       "address": [
         "localhost",
@@ -4898,7 +4797,6 @@
       "homedir": "/home/edgedb"
     },
     "name": "override_other_test_50",
-    "opts": {},
     "result": {
       "address": [
         "testhost",
@@ -4933,7 +4831,6 @@
       "homedir": "/home/edgedb"
     },
     "name": "override_other_test_51",
-    "opts": {},
     "result": {
       "address": [
         "testhost",
@@ -4977,7 +4874,6 @@
     }
   },
   {
-    "env": {},
     "fs": {
       "cwd": "/home/edgedb/test",
       "files": {
@@ -5012,7 +4908,6 @@
     }
   },
   {
-    "env": {},
     "fs": {
       "cwd": "/home/edgedb/test",
       "files": {
@@ -5047,7 +4942,6 @@
     }
   },
   {
-    "env": {},
     "fs": {
       "cwd": "/home/edgedb/test",
       "files": {
@@ -5109,7 +5003,6 @@
     }
   },
   {
-    "env": {},
     "fs": {
       "cwd": "/home/edgedb/test",
       "files": {
@@ -5144,7 +5037,6 @@
     }
   },
   {
-    "env": {},
     "fs": {
       "cwd": "/home/edgedb/test",
       "files": {
@@ -5182,7 +5074,6 @@
     "env": {
       "EDGEDB_DSN": "edgedb://testhost:1234/feature"
     },
-    "fs": {},
     "name": "override_other_test_59",
     "opts": {
       "branch": "experimental4"
@@ -5208,7 +5099,6 @@
     "env": {
       "EDGEDB_DSN": "edgedb://testhost:1234/?branch=feature"
     },
-    "fs": {},
     "name": "override_other_test_60",
     "opts": {
       "branch": "experimental5"
@@ -5234,7 +5124,6 @@
     "env": {
       "EDGEDB_DSN": "edgedb://testhost:1234/?database=feature"
     },
-    "fs": {},
     "name": "override_other_test_61",
     "opts": {
       "branch": "experimental6"
@@ -5260,7 +5149,6 @@
     "env": {
       "EDGEDB_DSN": "edgedb://testhost:1234/?branch=feature"
     },
-    "fs": {},
     "name": "override_other_test_62",
     "opts": {
       "database": "experimental7"
@@ -5288,7 +5176,6 @@
       "EDGEDB_HOST": "testhost",
       "EDGEDB_PORT": "1312"
     },
-    "fs": {},
     "name": "override_other_test_63",
     "opts": {
       "branch": "experimental8"
@@ -5341,7 +5228,6 @@
       "EDGEDB_HOST": "testhost",
       "EDGEDB_PORT": "1312"
     },
-    "fs": {},
     "name": "override_other_test_65",
     "opts": {
       "branch": "experimental9"
@@ -5369,7 +5255,6 @@
       "EDGEDB_HOST": "testhost",
       "EDGEDB_PORT": "1312"
     },
-    "fs": {},
     "name": "override_other_test_66",
     "opts": {
       "database": "experimental10"
@@ -5420,7 +5305,6 @@
     "env": {
       "EDGEDB_BRANCH": "experimental14"
     },
-    "fs": {},
     "name": "override_other_test_68",
     "opts": {
       "dsn": "edgedb://testhost:1234/?branch=feature"
@@ -5446,7 +5330,6 @@
     "env": {
       "EDGEDB_DATABASE": "experimental17"
     },
-    "fs": {},
     "name": "override_other_test_69",
     "opts": {
       "dsn": "edgedb://testhost:1234/?branch=feature"
@@ -5472,7 +5355,6 @@
     "env": {
       "EDGEDB_BRANCH": "experimental18"
     },
-    "fs": {},
     "name": "override_other_test_70",
     "opts": {
       "dsn": "edgedb://testhost:1234/?database=feature"
@@ -5498,7 +5380,6 @@
     "env": {
       "EDGEDB_BRANCH": "experimental19"
     },
-    "fs": {},
     "name": "override_other_test_71",
     "opts": {
       "branch": "feature",
@@ -5526,7 +5407,6 @@
     "env": {
       "EDGEDB_DATABASE": "experimental20"
     },
-    "fs": {},
     "name": "override_other_test_72",
     "opts": {
       "branch": "feature",
@@ -5554,7 +5434,6 @@
     "env": {
       "EDGEDB_BRANCH": "experimental21"
     },
-    "fs": {},
     "name": "override_other_test_73",
     "opts": {
       "database": "feature",

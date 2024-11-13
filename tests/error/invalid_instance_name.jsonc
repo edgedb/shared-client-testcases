@@ -1,6 +1,5 @@
 [
   {
-    "env": {},
     "error": {
       "type": "invalid_instance_name"
     },
@@ -16,7 +15,6 @@
     }
   },
   {
-    "env": {},
     "error": {
       "type": "invalid_instance_name"
     },

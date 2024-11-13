@@ -1,6 +1,5 @@
 [
   {
-    "env": {},
     "error": {
       "type": "project_not_initialised"
     },
@@ -11,7 +10,6 @@
       },
       "homedir": "/home/edgedb"
     },
-    "name": "test_0",
-    "opts": {}
+    "name": "test_0"
   }
 ]

@@ -1,11 +1,9 @@
 [
   {
-    "env": {},
     "error": {
       "type": "no_options_or_toml"
     },
-    "name": "test_0",
-    "opts": {}
+    "name": "test_0"
   },
   {
     "env": {
