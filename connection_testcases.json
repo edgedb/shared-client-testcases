@@ -53,7 +53,7 @@
       "EDGEDB_CLIENT_TLS_SECURITY": "insecure",
       "EDGEDB_DSN": "edgedb://"
     },
-    "name": "basic_env_test_10",
+    "name": "basic_env_test_2",
     "result": {
       "address": [
         "localhost",
@@ -76,7 +76,7 @@
       "EDGEDB_CLIENT_TLS_SECURITY": "no_host_verification",
       "EDGEDB_DSN": "edgedb://"
     },
-    "name": "basic_env_test_11",
+    "name": "basic_env_test_3",
     "result": {
       "address": [
         "localhost",
@@ -99,7 +99,7 @@
       "EDGEDB_HOST": "test.local",
       "EDGEDB_PORT": "12345"
     },
-    "name": "basic_env_test_12",
+    "name": "basic_env_test_4",
     "result": {
       "address": [
         "test.local",
@@ -122,7 +122,7 @@
       "EDGEDB_DATABASE": "test_db",
       "EDGEDB_DSN": "edgedb://testhost:1234/?database=db"
     },
-    "name": "basic_env_test_13",
+    "name": "basic_env_test_5",
     "opts": {},
     "result": {
       "address": [
@@ -146,7 +146,7 @@
       "EDGEDB_HOST": "fe80::1ff:fe23:4567:890a%eth0",
       "EDGEDB_PORT": "12341"
     },
-    "name": "basic_env_test_14",
+    "name": "basic_env_test_6",
     "result": {
       "address": [
         "fe80::1ff:fe23:4567:890a%eth0",
@@ -169,7 +169,7 @@
       "EDGEDB_HOST": "sample",
       "EDGEDB_WAIT_UNTIL_AVAILABLE": "PT10S"
     },
-    "name": "basic_env_test_15",
+    "name": "basic_env_test_7",
     "result": {
       "address": [
         "sample",
@@ -192,7 +192,7 @@
       "EDGEDB_DSN": "edgedb://localhost:5555?wait_until_available=PT1H",
       "EDGEDB_WAIT_UNTIL_AVAILABLE": "10 s"
     },
-    "name": "basic_env_test_16",
+    "name": "basic_env_test_8",
     "result": {
       "address": [
         "localhost",
@@ -215,7 +215,7 @@
       "EDGEDB_DSN": "edgedb://testhost:1234/?branch=feature"
     },
     "fs": {},
-    "name": "basic_env_test_17",
+    "name": "basic_env_test_9",
     "opts": {},
     "result": {
       "address": [
@@ -240,7 +240,7 @@
       "EDGEDB_DSN": "edgedb://testhost:1234/feature"
     },
     "fs": {},
-    "name": "basic_env_test_18",
+    "name": "basic_env_test_10",
     "opts": {},
     "result": {
       "address": [
@@ -265,7 +265,7 @@
       "EDGEDB_DSN": "edgedb://testhost:1234/?branch=feature"
     },
     "fs": {},
-    "name": "basic_env_test_19",
+    "name": "basic_env_test_11",
     "opts": {},
     "result": {
       "address": [
@@ -290,7 +290,7 @@
       "EDGEDB_CLIENT_TLS_SECURITY": "no_host_verification",
       "EDGEDB_DSN": "edgedb://"
     },
-    "name": "basic_env_test_2",
+    "name": "basic_env_test_12",
     "result": {
       "address": [
         "localhost",
@@ -314,7 +314,7 @@
       "EDGEDB_DSN": "edgedb://testhost:1234/?branch=feature"
     },
     "fs": {},
-    "name": "basic_env_test_20",
+    "name": "basic_env_test_13",
     "opts": {},
     "result": {
       "address": [
@@ -339,7 +339,7 @@
       "EDGEDB_DSN": "edgedb://testhost:1234/?database=feature"
     },
     "fs": {},
-    "name": "basic_env_test_21",
+    "name": "basic_env_test_14",
     "opts": {},
     "result": {
       "address": [
@@ -365,7 +365,7 @@
       "EDGEDB_PORT": "1312"
     },
     "fs": {},
-    "name": "basic_env_test_22",
+    "name": "basic_env_test_15",
     "opts": {},
     "result": {
       "address": [
@@ -389,7 +389,7 @@
       "EDGEDB_CLIENT_TLS_SECURITY": "insecure",
       "EDGEDB_DSN": "edgedb://?tls_security=strict"
     },
-    "name": "basic_env_test_23",
+    "name": "basic_env_test_16",
     "result": {
       "address": [
         "localhost",
@@ -412,7 +412,7 @@
       "EDGEDB_HOST": "test.local",
       "GEL_PORT": "12345"
     },
-    "name": "basic_env_test_24",
+    "name": "basic_env_test_17",
     "result": {
       "address": [
         "test.local",
@@ -436,7 +436,7 @@
       "EDGEDB_PORT": "11111",
       "GEL_PORT": "12345"
     },
-    "name": "basic_env_test_25",
+    "name": "basic_env_test_18",
     "result": {
       "address": [
         "test.local",
@@ -462,7 +462,7 @@
       "EDGEDB_CLIENT_TLS_SECURITY": "no_host_verification",
       "EDGEDB_DSN": "edgedb://?tls_security=strict"
     },
-    "name": "basic_env_test_26",
+    "name": "basic_env_test_19",
     "result": {
       "address": [
         "localhost",
@@ -485,7 +485,7 @@
       "EDGEDB_DSN": "edgedb://",
       "EDGEDB_TLS_SERVER_NAME": "foo.example.com"
     },
-    "name": "basic_env_test_27",
+    "name": "basic_env_test_20",
     "result": {
       "address": [
         "localhost",
@@ -507,7 +507,7 @@
     "env": {
       "EDGEDB_DSN": "edgedb://localhost:5656/?tls_server_name=foo.example.com"
     },
-    "name": "basic_env_test_28",
+    "name": "basic_env_test_21",
     "result": {
       "address": [
         "localhost",
@@ -531,7 +531,7 @@
       "EDGEDB_DSN": "edgedb://",
       "EDGEDB_TLS_CA": "-----BEGIN CERTIFICATE-----\nMIICEjCCAXsCAg36MA0GCSqGSIb3DQEBBQUAMIGbMQswCQYDVQQGEwJKUDEOMAwG\nA1UECBMFVG9reW8xEDAOBgNVBAcTB0NodW8ta3UxETAPBgNVBAoTCEZyYW5rNERE\nMRgwFgYDVQQLEw9XZWJDZXJ0IFN1cHBvcnQxGDAWBgNVBAMTD0ZyYW5rNEREIFdl\nYiBDQTEjMCEGCSqGSIb3DQEJARYUc3VwcG9ydEBmcmFuazRkZC5jb20wHhcNMTIw\nODIyMDUyNjU0WhcNMTcwODIxMDUyNjU0WjBKMQswCQYDVQQGEwJKUDEOMAwGA1UE\nCAwFVG9reW8xETAPBgNVBAoMCEZyYW5rNEREMRgwFgYDVQQDDA93d3cuZXhhbXBs\nZS5jb20wXDANBgkqhkiG9w0BAQEFAANLADBIAkEAm/xmkHmEQrurE/0re/jeFRLl\n8ZPjBop7uLHhnia7lQG/5zDtZIUC3RVpqDSwBuw/NTweGyuP+o8AG98HxqxTBwID\nAQABMA0GCSqGSIb3DQEBBQUAA4GBABS2TLuBeTPmcaTaUW/LCB2NYOy8GMdzR1mx\n8iBIu2H6/E2tiY3RIevV2OW61qY2/XRQg7YPxx3ffeUugX9F4J/iPnnu1zAxxyBy\n2VguKv4SWjRFoRkIfIlHX0qVviMhSlNy2ioFLy7JcPZb+v3ftDGywUqcBiVDoea0\nHn+GmxZA\n-----END CERTIFICATE-----\n"
     },
-    "name": "basic_env_test_29",
+    "name": "basic_env_test_22",
     "result": {
       "address": [
         "localhost",
@@ -555,7 +555,7 @@
       "EDGEDB_CLIENT_TLS_SECURITY": "strict",
       "EDGEDB_DSN": "edgedb://"
     },
-    "name": "basic_env_test_3",
+    "name": "basic_env_test_23",
     "result": {
       "address": [
         "localhost",
@@ -579,7 +579,7 @@
       "EDGEDB_CLIENT_TLS_SECURITY": "default",
       "EDGEDB_DSN": "edgedb://"
     },
-    "name": "basic_env_test_30",
+    "name": "basic_env_test_24",
     "result": {
       "address": [
         "localhost",
@@ -603,7 +603,7 @@
       "EDGEDB_CLIENT_TLS_SECURITY": "insecure",
       "EDGEDB_DSN": "edgedb://"
     },
-    "name": "basic_env_test_31",
+    "name": "basic_env_test_25",
     "result": {
       "address": [
         "localhost",
@@ -627,7 +627,7 @@
       "EDGEDB_CLIENT_TLS_SECURITY": "default",
       "EDGEDB_DSN": "edgedb://"
     },
-    "name": "basic_env_test_4",
+    "name": "basic_env_test_26",
     "result": {
       "address": [
         "localhost",
@@ -651,7 +651,7 @@
       "EDGEDB_CLIENT_TLS_SECURITY": "insecure",
       "EDGEDB_DSN": "edgedb://"
     },
-    "name": "basic_env_test_5",
+    "name": "basic_env_test_27",
     "result": {
       "address": [
         "localhost",
@@ -675,7 +675,7 @@
       "EDGEDB_CLIENT_TLS_SECURITY": "no_host_verification",
       "EDGEDB_DSN": "edgedb://"
     },
-    "name": "basic_env_test_6",
+    "name": "basic_env_test_28",
     "result": {
       "address": [
         "localhost",
@@ -699,7 +699,7 @@
       "EDGEDB_CLIENT_TLS_SECURITY": "strict",
       "EDGEDB_DSN": "edgedb://"
     },
-    "name": "basic_env_test_7",
+    "name": "basic_env_test_29",
     "result": {
       "address": [
         "localhost",
@@ -723,7 +723,7 @@
       "EDGEDB_CLIENT_TLS_SECURITY": "default",
       "EDGEDB_DSN": "edgedb://"
     },
-    "name": "basic_env_test_8",
+    "name": "basic_env_test_30",
     "result": {
       "address": [
         "localhost",
@@ -747,7 +747,7 @@
       "EDGEDB_CLIENT_TLS_SECURITY": "strict",
       "EDGEDB_DSN": "edgedb://"
     },
-    "name": "basic_env_test_9",
+    "name": "basic_env_test_31",
     "result": {
       "address": [
         "localhost",
@@ -1114,7 +1114,7 @@
     }
   },
   {
-    "name": "basic_opts_test_10",
+    "name": "basic_opts_test_2",
     "opts": {
       "dsn": "edgedb://",
       "tlsSecurity": "no_host_verification"
@@ -1137,7 +1137,7 @@
     }
   },
   {
-    "name": "basic_opts_test_11",
+    "name": "basic_opts_test_3",
     "opts": {
       "dsn": "edgedb://",
       "tlsSecurity": "insecure"
@@ -1160,7 +1160,7 @@
     }
   },
   {
-    "name": "basic_opts_test_12",
+    "name": "basic_opts_test_4",
     "opts": {
       "port": "1234"
     },
@@ -1182,7 +1182,7 @@
     }
   },
   {
-    "name": "basic_opts_test_13",
+    "name": "basic_opts_test_5",
     "opts": {
       "dsn": "edgedb://",
       "tlsServerName": "foo.example.com"
@@ -1205,7 +1205,7 @@
     }
   },
   {
-    "name": "basic_opts_test_14",
+    "name": "basic_opts_test_6",
     "opts": {
       "dsn": "edgedb://",
       "tlsCA": "-----BEGIN CERTIFICATE-----\nMIICEjCCAXsCAg36MA0GCSqGSIb3DQEBBQUAMIGbMQswCQYDVQQGEwJKUDEOMAwG\nA1UECBMFVG9reW8xEDAOBgNVBAcTB0NodW8ta3UxETAPBgNVBAoTCEZyYW5rNERE\nMRgwFgYDVQQLEw9XZWJDZXJ0IFN1cHBvcnQxGDAWBgNVBAMTD0ZyYW5rNEREIFdl\nYiBDQTEjMCEGCSqGSIb3DQEJARYUc3VwcG9ydEBmcmFuazRkZC5jb20wHhcNMTIw\nODIyMDUyNjU0WhcNMTcwODIxMDUyNjU0WjBKMQswCQYDVQQGEwJKUDEOMAwGA1UE\nCAwFVG9reW8xETAPBgNVBAoMCEZyYW5rNEREMRgwFgYDVQQDDA93d3cuZXhhbXBs\nZS5jb20wXDANBgkqhkiG9w0BAQEFAANLADBIAkEAm/xmkHmEQrurE/0re/jeFRLl\n8ZPjBop7uLHhnia7lQG/5zDtZIUC3RVpqDSwBuw/NTweGyuP+o8AG98HxqxTBwID\nAQABMA0GCSqGSIb3DQEBBQUAA4GBABS2TLuBeTPmcaTaUW/LCB2NYOy8GMdzR1mx\n8iBIu2H6/E2tiY3RIevV2OW61qY2/XRQg7YPxx3ffeUugX9F4J/iPnnu1zAxxyBy\n2VguKv4SWjRFoRkIfIlHX0qVviMhSlNy2ioFLy7JcPZb+v3ftDGywUqcBiVDoea0\nHn+GmxZA\n-----END CERTIFICATE-----\n",
@@ -1229,7 +1229,7 @@
     }
   },
   {
-    "name": "basic_opts_test_15",
+    "name": "basic_opts_test_7",
     "opts": {
       "dsn": "edgedb://",
       "password": ""
@@ -1252,7 +1252,7 @@
     }
   },
   {
-    "name": "basic_opts_test_16",
+    "name": "basic_opts_test_8",
     "opts": {
       "dsn": "edgedb://?password="
     },
@@ -1274,7 +1274,7 @@
     }
   },
   {
-    "name": "basic_opts_test_17",
+    "name": "basic_opts_test_9",
     "opts": {
       "dsn": "edgedb://?password_env=DOESNT_EXIST",
       "password": "secret"
@@ -1297,7 +1297,7 @@
     }
   },
   {
-    "name": "basic_opts_test_18",
+    "name": "basic_opts_test_10",
     "opts": {
       "dsn": "edgedb://user3:123123@[::1]:5555/abcdef"
     },
@@ -1319,7 +1319,7 @@
     }
   },
   {
-    "name": "basic_opts_test_19",
+    "name": "basic_opts_test_11",
     "opts": {
       "dsn": "edgedb://user3@[fe80::1ff:fe23:4567:890a%25eth0]:3000/ab"
     },
@@ -1341,7 +1341,7 @@
     }
   },
   {
-    "name": "basic_opts_test_2",
+    "name": "basic_opts_test_12",
     "opts": {
       "dsn": "edgedb://localhost?param=123&user=testuser&port=2222&database=testdb"
     },
@@ -1365,7 +1365,7 @@
     }
   },
   {
-    "name": "basic_opts_test_20",
+    "name": "basic_opts_test_13",
     "opts": {
       "host": "fe80::1ff:fe23:4567:890a%eth0",
       "port": 12342
@@ -1388,7 +1388,7 @@
     }
   },
   {
-    "name": "basic_opts_test_21",
+    "name": "basic_opts_test_14",
     "opts": {
       "dsn": "edgedb://localhost:5555",
       "waitUntilAvailable": "PT9M"
@@ -1411,7 +1411,7 @@
     }
   },
   {
-    "name": "basic_opts_test_22",
+    "name": "basic_opts_test_15",
     "opts": {
       "dsn": "edgedb://localhost:5555?wait_until_available=PT2M5S"
     },
@@ -1433,7 +1433,7 @@
     }
   },
   {
-    "name": "basic_opts_test_23",
+    "name": "basic_opts_test_16",
     "opts": {
       "port": 1
     },
@@ -1455,7 +1455,7 @@
     }
   },
   {
-    "name": "basic_opts_test_24",
+    "name": "basic_opts_test_17",
     "opts": {
       "dsn": "edgedb://localhost:5555?wait_until_available=5s2minutes"
     },
@@ -1477,7 +1477,7 @@
     }
   },
   {
-    "name": "basic_opts_test_25",
+    "name": "basic_opts_test_18",
     "opts": {
       "dsn": "edgedb://localhost:5555?wait_until_available=PT1H",
       "waitUntilAvailable": "PT90M"
@@ -1500,7 +1500,7 @@
     }
   },
   {
-    "name": "basic_opts_test_26",
+    "name": "basic_opts_test_19",
     "opts": {
       "dsn": "edgedb://testuser@localhost/db?secret_key=not_secret_key"
     },
@@ -1524,7 +1524,7 @@
   {
     "env": {},
     "fs": {},
-    "name": "basic_opts_test_27",
+    "name": "basic_opts_test_20",
     "opts": {
       "dsn": "edgedb://testhost:1234/feature"
     },
@@ -1548,7 +1548,7 @@
   {
     "env": {},
     "fs": {},
-    "name": "basic_opts_test_28",
+    "name": "basic_opts_test_21",
     "opts": {
       "dsn": "edgedb://testhost:1234/?branch=experimental11"
     },
@@ -1572,7 +1572,7 @@
   {
     "env": {},
     "fs": {},
-    "name": "basic_opts_test_29",
+    "name": "basic_opts_test_22",
     "opts": {
       "branch": "experimental12",
       "dsn": "edgedb://testhost:1234/feature"
@@ -1595,7 +1595,7 @@
     }
   },
   {
-    "name": "basic_opts_test_3",
+    "name": "basic_opts_test_23",
     "opts": {
       "dsn": "edgedb://?param=123&host=testhost&user=testuser&port=2222&database=testdb"
     },
@@ -1621,7 +1621,7 @@
   {
     "env": {},
     "fs": {},
-    "name": "basic_opts_test_30",
+    "name": "basic_opts_test_24",
     "opts": {
       "branch": "experimental13",
       "dsn": "edgedb://testhost:1234/?branch=feature"
@@ -1646,7 +1646,7 @@
   {
     "env": {},
     "fs": {},
-    "name": "basic_opts_test_31",
+    "name": "basic_opts_test_25",
     "opts": {
       "database": "experimental15",
       "dsn": "edgedb://testhost:1234/?branch=feature"
@@ -1671,7 +1671,7 @@
   {
     "env": {},
     "fs": {},
-    "name": "basic_opts_test_32",
+    "name": "basic_opts_test_26",
     "opts": {
       "branch": "experimental16",
       "dsn": "edgedb://testhost:1234/?database=feature"
@@ -1696,7 +1696,7 @@
   {
     "env": {},
     "fs": {},
-    "name": "basic_opts_test_33",
+    "name": "basic_opts_test_27",
     "opts": {
       "branch": "feature",
       "host": "testhost",
@@ -1720,7 +1720,7 @@
     }
   },
   {
-    "name": "basic_opts_test_34",
+    "name": "basic_opts_test_28",
     "opts": {
       "port": 65535
     },
@@ -1742,7 +1742,7 @@
     }
   },
   {
-    "name": "basic_opts_test_35",
+    "name": "basic_opts_test_29",
     "opts": {
       "host": "test.local",
       "port": 12345
@@ -1765,7 +1765,7 @@
     }
   },
   {
-    "name": "basic_opts_test_36",
+    "name": "basic_opts_test_30",
     "opts": {
       "dsn": "edgedb://user3:123123@localhost:5555/abcdef?param=123"
     },
@@ -1789,7 +1789,7 @@
     }
   },
   {
-    "name": "basic_opts_test_37",
+    "name": "basic_opts_test_31",
     "opts": {
       "dsn": "edgedb://localhost:5555/abcdef?param=123&user=testuser"
     },
@@ -1813,7 +1813,7 @@
     }
   },
   {
-    "name": "basic_opts_test_38",
+    "name": "basic_opts_test_32",
     "opts": {
       "dsn": "edgedb://localhost/abcdef?param=123&user=testuser&port=2222"
     },
@@ -1837,7 +1837,7 @@
     }
   },
   {
-    "name": "basic_opts_test_39",
+    "name": "basic_opts_test_33",
     "opts": {
       "dsn": "edgedb://localhost/?param=123&user=testuser&port=2222&database=testdb"
     },
@@ -1861,7 +1861,7 @@
     }
   },
   {
-    "name": "basic_opts_test_4",
+    "name": "basic_opts_test_34",
     "opts": {
       "dsn": "edgedb://?param=123&user=testuser&port=2222&database=testdb&host=test.local"
     },
@@ -1885,7 +1885,7 @@
     }
   },
   {
-    "name": "basic_opts_test_5",
+    "name": "basic_opts_test_35",
     "opts": {
       "dsn": "edgedb://localhost/database/with/slash?user=testuser&port=2222"
     },
@@ -1907,7 +1907,7 @@
     }
   },
   {
-    "name": "basic_opts_test_6",
+    "name": "basic_opts_test_36",
     "opts": {
       "dsn": "edgedb://localhost/?user=testuser&port=2222&database=/database/with/slash"
     },
@@ -1929,7 +1929,7 @@
     }
   },
   {
-    "name": "basic_opts_test_7",
+    "name": "basic_opts_test_37",
     "opts": {
       "dsn": "edgedb://testuser@localhost/db?password=not_secret_password"
     },
@@ -1951,7 +1951,7 @@
     }
   },
   {
-    "name": "basic_opts_test_8",
+    "name": "basic_opts_test_38",
     "opts": {
       "dsn": "edgedb://?a=abc&b=def",
       "serverSettings": {
@@ -1980,7 +1980,7 @@
     }
   },
   {
-    "name": "basic_opts_test_9",
+    "name": "basic_opts_test_39",
     "opts": {
       "dsn": "edgedb://?a=abc&b=def",
       "serverSettings": {
@@ -2206,7 +2206,7 @@
       },
       "homedir": "/home/edgedb"
     },
-    "name": "error_invalid_credentials_file_test_10",
+    "name": "error_invalid_credentials_file_test_2",
     "opts": {
       "instance": "test_instance"
     }
@@ -2228,7 +2228,7 @@
       },
       "homedir": "/home/edgedb"
     },
-    "name": "error_invalid_credentials_file_test_2",
+    "name": "error_invalid_credentials_file_test_3",
     "opts": {}
   },
   {
@@ -2239,21 +2239,6 @@
     "fs": {
       "files": {
         "/home/edgedb/test/credentials.json": "{\"port\": \"10702\", \"user\": \"test3n\", \"password\": \"lZTBy1RVCfOpBAOwSCwIyBIR\", \"database\": \"test3n\"}"
-      }
-    },
-    "name": "error_invalid_credentials_file_test_3",
-    "opts": {
-      "credentialsFile": "/home/edgedb/test/credentials.json"
-    }
-  },
-  {
-    "env": {},
-    "error": {
-      "type": "invalid_credentials_file"
-    },
-    "fs": {
-      "files": {
-        "/home/edgedb/test/credentials.json": "\"port\": 10702, \"user\": \"test3n\", \"password\": \"lZTBy1RVCfOpBAOwSCwIyBIR\", \"database\": \"test3n\"}"
       }
     },
     "name": "error_invalid_credentials_file_test_4",
@@ -2268,7 +2253,7 @@
     },
     "fs": {
       "files": {
-        "/home/edgedb/test/credentials.json": "{\"port\": 10702, \"user\": \"test3n\", \"tls_verify_hostname\": \"true\", \"tls_ca\": \"-----BEGIN CERTIFICATE-----\\nMIICEjCCAXsCAg36MA0GCSqGSIb3DQEBBQUAMIGbMQswCQYDVQQGEwJKUDEOMAwG\\nA1UECBMFVG9reW8xEDAOBgNVBAcTB0NodW8ta3UxETAPBgNVBAoTCEZyYW5rNERE\\nMRgwFgYDVQQLEw9XZWJDZXJ0IFN1cHBvcnQxGDAWBgNVBAMTD0ZyYW5rNEREIFdl\\nYiBDQTEjMCEGCSqGSIb3DQEJARYUc3VwcG9ydEBmcmFuazRkZC5jb20wHhcNMTIw\\nODIyMDUyNjU0WhcNMTcwODIxMDUyNjU0WjBKMQswCQYDVQQGEwJKUDEOMAwGA1UE\\nCAwFVG9reW8xETAPBgNVBAoMCEZyYW5rNEREMRgwFgYDVQQDDA93d3cuZXhhbXBs\\nZS5jb20wXDANBgkqhkiG9w0BAQEFAANLADBIAkEAm/xmkHmEQrurE/0re/jeFRLl\\n8ZPjBop7uLHhnia7lQG/5zDtZIUC3RVpqDSwBuw/NTweGyuP+o8AG98HxqxTBwID\\nAQABMA0GCSqGSIb3DQEBBQUAA4GBABS2TLuBeTPmcaTaUW/LCB2NYOy8GMdzR1mx\\n8iBIu2H6/E2tiY3RIevV2OW61qY2/XRQg7YPxx3ffeUugX9F4J/iPnnu1zAxxyBy\\n2VguKv4SWjRFoRkIfIlHX0qVviMhSlNy2ioFLy7JcPZb+v3ftDGywUqcBiVDoea0\\nHn+GmxZA\\n-----END CERTIFICATE-----\\n\"}"
+        "/home/edgedb/test/credentials.json": "\"port\": 10702, \"user\": \"test3n\", \"password\": \"lZTBy1RVCfOpBAOwSCwIyBIR\", \"database\": \"test3n\"}"
       }
     },
     "name": "error_invalid_credentials_file_test_5",
@@ -2283,7 +2268,7 @@
     },
     "fs": {
       "files": {
-        "/home/edgedb/test/credentials.json": "{\"port\": 10702, \"user\": \"test3n\", \"tls_security\": true, \"tls_ca\": \"-----BEGIN CERTIFICATE-----\\nMIICEjCCAXsCAg36MA0GCSqGSIb3DQEBBQUAMIGbMQswCQYDVQQGEwJKUDEOMAwG\\nA1UECBMFVG9reW8xEDAOBgNVBAcTB0NodW8ta3UxETAPBgNVBAoTCEZyYW5rNERE\\nMRgwFgYDVQQLEw9XZWJDZXJ0IFN1cHBvcnQxGDAWBgNVBAMTD0ZyYW5rNEREIFdl\\nYiBDQTEjMCEGCSqGSIb3DQEJARYUc3VwcG9ydEBmcmFuazRkZC5jb20wHhcNMTIw\\nODIyMDUyNjU0WhcNMTcwODIxMDUyNjU0WjBKMQswCQYDVQQGEwJKUDEOMAwGA1UE\\nCAwFVG9reW8xETAPBgNVBAoMCEZyYW5rNEREMRgwFgYDVQQDDA93d3cuZXhhbXBs\\nZS5jb20wXDANBgkqhkiG9w0BAQEFAANLADBIAkEAm/xmkHmEQrurE/0re/jeFRLl\\n8ZPjBop7uLHhnia7lQG/5zDtZIUC3RVpqDSwBuw/NTweGyuP+o8AG98HxqxTBwID\\nAQABMA0GCSqGSIb3DQEBBQUAA4GBABS2TLuBeTPmcaTaUW/LCB2NYOy8GMdzR1mx\\n8iBIu2H6/E2tiY3RIevV2OW61qY2/XRQg7YPxx3ffeUugX9F4J/iPnnu1zAxxyBy\\n2VguKv4SWjRFoRkIfIlHX0qVviMhSlNy2ioFLy7JcPZb+v3ftDGywUqcBiVDoea0\\nHn+GmxZA\\n-----END CERTIFICATE-----\\n\"}"
+        "/home/edgedb/test/credentials.json": "{\"port\": 10702, \"user\": \"test3n\", \"tls_verify_hostname\": \"true\", \"tls_ca\": \"-----BEGIN CERTIFICATE-----\\nMIICEjCCAXsCAg36MA0GCSqGSIb3DQEBBQUAMIGbMQswCQYDVQQGEwJKUDEOMAwG\\nA1UECBMFVG9reW8xEDAOBgNVBAcTB0NodW8ta3UxETAPBgNVBAoTCEZyYW5rNERE\\nMRgwFgYDVQQLEw9XZWJDZXJ0IFN1cHBvcnQxGDAWBgNVBAMTD0ZyYW5rNEREIFdl\\nYiBDQTEjMCEGCSqGSIb3DQEJARYUc3VwcG9ydEBmcmFuazRkZC5jb20wHhcNMTIw\\nODIyMDUyNjU0WhcNMTcwODIxMDUyNjU0WjBKMQswCQYDVQQGEwJKUDEOMAwGA1UE\\nCAwFVG9reW8xETAPBgNVBAoMCEZyYW5rNEREMRgwFgYDVQQDDA93d3cuZXhhbXBs\\nZS5jb20wXDANBgkqhkiG9w0BAQEFAANLADBIAkEAm/xmkHmEQrurE/0re/jeFRLl\\n8ZPjBop7uLHhnia7lQG/5zDtZIUC3RVpqDSwBuw/NTweGyuP+o8AG98HxqxTBwID\\nAQABMA0GCSqGSIb3DQEBBQUAA4GBABS2TLuBeTPmcaTaUW/LCB2NYOy8GMdzR1mx\\n8iBIu2H6/E2tiY3RIevV2OW61qY2/XRQg7YPxx3ffeUugX9F4J/iPnnu1zAxxyBy\\n2VguKv4SWjRFoRkIfIlHX0qVviMhSlNy2ioFLy7JcPZb+v3ftDGywUqcBiVDoea0\\nHn+GmxZA\\n-----END CERTIFICATE-----\\n\"}"
       }
     },
     "name": "error_invalid_credentials_file_test_6",
@@ -2298,7 +2283,7 @@
     },
     "fs": {
       "files": {
-        "/home/edgedb/test/credentials.json": "{\"port\": 10702, \"user\": \"test3n\", \"tls_cert_data\": \"-----BEGIN CERTIFICATE-----\\nMIIC0zCCAbugAwIBAgIRAIiyXkJh/EUTq0GiQYnaTnUwDQYJKoZIhvcNAQELBQAw\\nGDEWMBQGA1UEAwwNRWRnZURCIFNlcnZlcjAeFw0yMTA4MTAyMDIzMjVaFw00MDEw\\nMTAyMDIzMjVaMBgxFjAUBgNVBAMMDUVkZ2VEQiBTZXJ2ZXIwggEiMA0GCSqGSIb3\\nDQEBAQUAA4IBDwAwggEKAoIBAQC0gePsxmtfwkiVXd+WjiXtSy1AMj/8zK1YWDDS\\n/GbVufBEFXDnGWgC4yEQl872tJOBrKUUHIqkWj65AXH50mrcs6ejc7tgZbK34i77\\nV/NQk7lsgwiHXNw0FAVH/pf+0Jfd6A+Re5pYcAmMiU6Gt2P+xTe6TgJk+h+L47QU\\nnDNNzfmxlVzQ9/MdaWxvH6AmAn5VzazaF8tZuvD5bt9opDCHtikjZFviML7mwnVa\\n9RoWc9oFLq7QwvqwZ10tCxNL/ApR7NQDuNf0v0Ib/ix8IhIkOQmovEY5Qcd1/Fo9\\nf+Ypf6c5Sc4J7Crajvz+nCZlAHrRi8L3lxDcQfUQO6Dh9ty3AgMBAAGjGDAWMBQG\\nA1UdEQQNMAuCCTEyNy4wLjAuMTANBgkqhkiG9w0BAQsFAAOCAQEAE4p0/QZk5aZY\\nsqhJTeEx6paWT1DUxQaFo3l259WVCSx4a+zEhikPgk9l23Tk3E56OScKg29mUpMq\\n/dJU8t4qp3JhiMk5pFVVuFfEqmr7RAktwt0tOF+9ZxKBCdT5EYxlhWlsJu9bVY0c\\nzlnZIc6SBUa1n19lWK9k4QF/1p8CpwindG6HrrbFmQmwhIcOuuOHOJ3dJwzM9Gtn\\nh3At6XIBPpNNrmsnRK6JncnMvITs20yHADU4k88U2vUtTFgVEAzpzgebSU7LdArC\\nIUAnwMCMIBPDFWU0DRa5ZNipuM1lJfHb6zDy2KK3wF/J6FI+A3GxbmRGMIzsAjD3\\nRQ/7CXD9Fw==\\n-----END CERTIFICATE-----\", \"tls_ca\": \"-----BEGIN CERTIFICATE-----\\nMIICEjCCAXsCAg36MA0GCSqGSIb3DQEBBQUAMIGbMQswCQYDVQQGEwJKUDEOMAwG\\nA1UECBMFVG9reW8xEDAOBgNVBAcTB0NodW8ta3UxETAPBgNVBAoTCEZyYW5rNERE\\nMRgwFgYDVQQLEw9XZWJDZXJ0IFN1cHBvcnQxGDAWBgNVBAMTD0ZyYW5rNEREIFdl\\nYiBDQTEjMCEGCSqGSIb3DQEJARYUc3VwcG9ydEBmcmFuazRkZC5jb20wHhcNMTIw\\nODIyMDUyNjU0WhcNMTcwODIxMDUyNjU0WjBKMQswCQYDVQQGEwJKUDEOMAwGA1UE\\nCAwFVG9reW8xETAPBgNVBAoMCEZyYW5rNEREMRgwFgYDVQQDDA93d3cuZXhhbXBs\\nZS5jb20wXDANBgkqhkiG9w0BAQEFAANLADBIAkEAm/xmkHmEQrurE/0re/jeFRLl\\n8ZPjBop7uLHhnia7lQG/5zDtZIUC3RVpqDSwBuw/NTweGyuP+o8AG98HxqxTBwID\\nAQABMA0GCSqGSIb3DQEBBQUAA4GBABS2TLuBeTPmcaTaUW/LCB2NYOy8GMdzR1mx\\n8iBIu2H6/E2tiY3RIevV2OW61qY2/XRQg7YPxx3ffeUugX9F4J/iPnnu1zAxxyBy\\n2VguKv4SWjRFoRkIfIlHX0qVviMhSlNy2ioFLy7JcPZb+v3ftDGywUqcBiVDoea0\\nHn+GmxZA\\n-----END CERTIFICATE-----\\n\"}"
+        "/home/edgedb/test/credentials.json": "{\"port\": 10702, \"user\": \"test3n\", \"tls_security\": true, \"tls_ca\": \"-----BEGIN CERTIFICATE-----\\nMIICEjCCAXsCAg36MA0GCSqGSIb3DQEBBQUAMIGbMQswCQYDVQQGEwJKUDEOMAwG\\nA1UECBMFVG9reW8xEDAOBgNVBAcTB0NodW8ta3UxETAPBgNVBAoTCEZyYW5rNERE\\nMRgwFgYDVQQLEw9XZWJDZXJ0IFN1cHBvcnQxGDAWBgNVBAMTD0ZyYW5rNEREIFdl\\nYiBDQTEjMCEGCSqGSIb3DQEJARYUc3VwcG9ydEBmcmFuazRkZC5jb20wHhcNMTIw\\nODIyMDUyNjU0WhcNMTcwODIxMDUyNjU0WjBKMQswCQYDVQQGEwJKUDEOMAwGA1UE\\nCAwFVG9reW8xETAPBgNVBAoMCEZyYW5rNEREMRgwFgYDVQQDDA93d3cuZXhhbXBs\\nZS5jb20wXDANBgkqhkiG9w0BAQEFAANLADBIAkEAm/xmkHmEQrurE/0re/jeFRLl\\n8ZPjBop7uLHhnia7lQG/5zDtZIUC3RVpqDSwBuw/NTweGyuP+o8AG98HxqxTBwID\\nAQABMA0GCSqGSIb3DQEBBQUAA4GBABS2TLuBeTPmcaTaUW/LCB2NYOy8GMdzR1mx\\n8iBIu2H6/E2tiY3RIevV2OW61qY2/XRQg7YPxx3ffeUugX9F4J/iPnnu1zAxxyBy\\n2VguKv4SWjRFoRkIfIlHX0qVviMhSlNy2ioFLy7JcPZb+v3ftDGywUqcBiVDoea0\\nHn+GmxZA\\n-----END CERTIFICATE-----\\n\"}"
       }
     },
     "name": "error_invalid_credentials_file_test_7",
@@ -2307,10 +2292,25 @@
     }
   },
   {
+    "env": {},
     "error": {
       "type": "invalid_credentials_file"
     },
+    "fs": {
+      "files": {
+        "/home/edgedb/test/credentials.json": "{\"port\": 10702, \"user\": \"test3n\", \"tls_cert_data\": \"-----BEGIN CERTIFICATE-----\\nMIIC0zCCAbugAwIBAgIRAIiyXkJh/EUTq0GiQYnaTnUwDQYJKoZIhvcNAQELBQAw\\nGDEWMBQGA1UEAwwNRWRnZURCIFNlcnZlcjAeFw0yMTA4MTAyMDIzMjVaFw00MDEw\\nMTAyMDIzMjVaMBgxFjAUBgNVBAMMDUVkZ2VEQiBTZXJ2ZXIwggEiMA0GCSqGSIb3\\nDQEBAQUAA4IBDwAwggEKAoIBAQC0gePsxmtfwkiVXd+WjiXtSy1AMj/8zK1YWDDS\\n/GbVufBEFXDnGWgC4yEQl872tJOBrKUUHIqkWj65AXH50mrcs6ejc7tgZbK34i77\\nV/NQk7lsgwiHXNw0FAVH/pf+0Jfd6A+Re5pYcAmMiU6Gt2P+xTe6TgJk+h+L47QU\\nnDNNzfmxlVzQ9/MdaWxvH6AmAn5VzazaF8tZuvD5bt9opDCHtikjZFviML7mwnVa\\n9RoWc9oFLq7QwvqwZ10tCxNL/ApR7NQDuNf0v0Ib/ix8IhIkOQmovEY5Qcd1/Fo9\\nf+Ypf6c5Sc4J7Crajvz+nCZlAHrRi8L3lxDcQfUQO6Dh9ty3AgMBAAGjGDAWMBQG\\nA1UdEQQNMAuCCTEyNy4wLjAuMTANBgkqhkiG9w0BAQsFAAOCAQEAE4p0/QZk5aZY\\nsqhJTeEx6paWT1DUxQaFo3l259WVCSx4a+zEhikPgk9l23Tk3E56OScKg29mUpMq\\n/dJU8t4qp3JhiMk5pFVVuFfEqmr7RAktwt0tOF+9ZxKBCdT5EYxlhWlsJu9bVY0c\\nzlnZIc6SBUa1n19lWK9k4QF/1p8CpwindG6HrrbFmQmwhIcOuuOHOJ3dJwzM9Gtn\\nh3At6XIBPpNNrmsnRK6JncnMvITs20yHADU4k88U2vUtTFgVEAzpzgebSU7LdArC\\nIUAnwMCMIBPDFWU0DRa5ZNipuM1lJfHb6zDy2KK3wF/J6FI+A3GxbmRGMIzsAjD3\\nRQ/7CXD9Fw==\\n-----END CERTIFICATE-----\", \"tls_ca\": \"-----BEGIN CERTIFICATE-----\\nMIICEjCCAXsCAg36MA0GCSqGSIb3DQEBBQUAMIGbMQswCQYDVQQGEwJKUDEOMAwG\\nA1UECBMFVG9reW8xEDAOBgNVBAcTB0NodW8ta3UxETAPBgNVBAoTCEZyYW5rNERE\\nMRgwFgYDVQQLEw9XZWJDZXJ0IFN1cHBvcnQxGDAWBgNVBAMTD0ZyYW5rNEREIFdl\\nYiBDQTEjMCEGCSqGSIb3DQEJARYUc3VwcG9ydEBmcmFuazRkZC5jb20wHhcNMTIw\\nODIyMDUyNjU0WhcNMTcwODIxMDUyNjU0WjBKMQswCQYDVQQGEwJKUDEOMAwGA1UE\\nCAwFVG9reW8xETAPBgNVBAoMCEZyYW5rNEREMRgwFgYDVQQDDA93d3cuZXhhbXBs\\nZS5jb20wXDANBgkqhkiG9w0BAQEFAANLADBIAkEAm/xmkHmEQrurE/0re/jeFRLl\\n8ZPjBop7uLHhnia7lQG/5zDtZIUC3RVpqDSwBuw/NTweGyuP+o8AG98HxqxTBwID\\nAQABMA0GCSqGSIb3DQEBBQUAA4GBABS2TLuBeTPmcaTaUW/LCB2NYOy8GMdzR1mx\\n8iBIu2H6/E2tiY3RIevV2OW61qY2/XRQg7YPxx3ffeUugX9F4J/iPnnu1zAxxyBy\\n2VguKv4SWjRFoRkIfIlHX0qVviMhSlNy2ioFLy7JcPZb+v3ftDGywUqcBiVDoea0\\nHn+GmxZA\\n-----END CERTIFICATE-----\\n\"}"
+      }
+    },
     "name": "error_invalid_credentials_file_test_8",
+    "opts": {
+      "credentialsFile": "/home/edgedb/test/credentials.json"
+    }
+  },
+  {
+    "error": {
+      "type": "invalid_credentials_file"
+    },
+    "name": "error_invalid_credentials_file_test_9",
     "opts": {
       "credentialsFile": ""
     }
@@ -2325,7 +2325,7 @@
       },
       "homedir": "/home/edgedb"
     },
-    "name": "error_invalid_credentials_file_test_9",
+    "name": "error_invalid_credentials_file_test_10",
     "opts": {
       "instance": "test_instance"
     }
@@ -2500,7 +2500,7 @@
       "type": "invalid_dsn"
     },
     "fs": {},
-    "name": "error_invalid_dsn_test_10",
+    "name": "error_invalid_dsn_test_2",
     "opts": {}
   },
   {
@@ -2511,7 +2511,7 @@
       "type": "invalid_dsn"
     },
     "fs": {},
-    "name": "error_invalid_dsn_test_11",
+    "name": "error_invalid_dsn_test_3",
     "opts": {}
   },
   {
@@ -2520,7 +2520,7 @@
       "type": "invalid_dsn"
     },
     "fs": {},
-    "name": "error_invalid_dsn_test_2",
+    "name": "error_invalid_dsn_test_4",
     "opts": {
       "dsn": "edgedb://testhost:1234/feature/?branch=feature"
     }
@@ -2531,7 +2531,7 @@
       "type": "invalid_dsn"
     },
     "fs": {},
-    "name": "error_invalid_dsn_test_3",
+    "name": "error_invalid_dsn_test_5",
     "opts": {
       "dsn": "edgedb://testhost:1234/feature/?branch=feature&database=feature"
     }
@@ -2540,7 +2540,7 @@
     "error": {
       "type": "invalid_dsn"
     },
-    "name": "error_invalid_dsn_test_4",
+    "name": "error_invalid_dsn_test_6",
     "opts": {
       "dsn": "edgedb://user@host1:1111,host2:2222/db"
     }
@@ -2549,7 +2549,7 @@
     "error": {
       "type": "invalid_dsn"
     },
-    "name": "error_invalid_dsn_test_5",
+    "name": "error_invalid_dsn_test_7",
     "opts": {
       "dsn": "edgedb://user3:123123@localhost:5555/abcdef?param=sss&param=123"
     }
@@ -2558,7 +2558,7 @@
     "error": {
       "type": "invalid_dsn"
     },
-    "name": "error_invalid_dsn_test_6",
+    "name": "error_invalid_dsn_test_8",
     "opts": {
       "dsn": "edgedb://localhost:5555/abcdef?param=123&user=testuser&port=2222&database=testdb"
     }
@@ -2567,7 +2567,7 @@
     "error": {
       "type": "invalid_dsn"
     },
-    "name": "error_invalid_dsn_test_7",
+    "name": "error_invalid_dsn_test_9",
     "opts": {
       "dsn": "edgedb://localhost?param=123&host=testhost&user=testuser&port=2222&database=testdb"
     }
@@ -2576,7 +2576,7 @@
     "error": {
       "type": "invalid_dsn"
     },
-    "name": "error_invalid_dsn_test_8",
+    "name": "error_invalid_dsn_test_10",
     "opts": {
       "dsn": "edgedb://?param=123&host=testhost&user=testuser&port=2222&database=testdb&host=localhost"
     }
@@ -2588,7 +2588,7 @@
     "error": {
       "type": "invalid_dsn"
     },
-    "name": "error_invalid_dsn_test_9",
+    "name": "error_invalid_dsn_test_11",
     "opts": {
       "dsn": "edgedb://testuser:pass@localhost/db?password_env=EDGEDB_PASSWORD"
     }
@@ -2701,7 +2701,7 @@
     "error": {
       "type": "invalid_port"
     },
-    "name": "error_invalid_port_test_10",
+    "name": "error_invalid_port_test_2",
     "opts": {
       "port": ""
     }
@@ -2710,7 +2710,7 @@
     "error": {
       "type": "invalid_port"
     },
-    "name": "error_invalid_port_test_2",
+    "name": "error_invalid_port_test_3",
     "opts": {
       "dsn": "edgedb://?port="
     }
@@ -2719,7 +2719,7 @@
     "error": {
       "type": "invalid_port"
     },
-    "name": "error_invalid_port_test_3",
+    "name": "error_invalid_port_test_4",
     "opts": {
       "port": 123.456
     }
@@ -2728,7 +2728,7 @@
     "error": {
       "type": "invalid_port"
     },
-    "name": "error_invalid_port_test_4",
+    "name": "error_invalid_port_test_5",
     "opts": {
       "port": "123.456"
     }
@@ -2737,7 +2737,7 @@
     "error": {
       "type": "invalid_port"
     },
-    "name": "error_invalid_port_test_5",
+    "name": "error_invalid_port_test_6",
     "opts": {
       "port": "string"
     }
@@ -2746,7 +2746,7 @@
     "error": {
       "type": "invalid_port"
     },
-    "name": "error_invalid_port_test_6",
+    "name": "error_invalid_port_test_7",
     "opts": {
       "port": "tcp://localhost:123"
     }
@@ -2758,7 +2758,7 @@
     "error": {
       "type": "invalid_port"
     },
-    "name": "error_invalid_port_test_7"
+    "name": "error_invalid_port_test_8"
   },
   {
     "env": {
@@ -2767,13 +2767,13 @@
     "error": {
       "type": "invalid_port"
     },
-    "name": "error_invalid_port_test_8"
+    "name": "error_invalid_port_test_9"
   },
   {
     "error": {
       "type": "invalid_port"
     },
-    "name": "error_invalid_port_test_9",
+    "name": "error_invalid_port_test_10",
     "opts": {
       "port": "1111,2222"
     }
@@ -2892,58 +2892,22 @@
     "error": {
       "type": "multiple_compound_env"
     },
-    "name": "error_multiple_compound_env_test_10"
-  },
-  {
-    "env": {
-      "EDGEDB_DSN": "edgedb://user3:123123@localhost:5555/abcdef",
-      "EDGEDB_INSTANCE": "test_instance"
-    },
-    "error": {
-      "type": "multiple_compound_env"
-    },
-    "name": "error_multiple_compound_env_test_11"
-  },
-  {
-    "env": {
-      "EDGEDB_CREDENTIALS_FILE": "/home/edgedb/test/credentials.json",
-      "EDGEDB_INSTANCE": "test_instance"
-    },
-    "error": {
-      "type": "multiple_compound_env"
-    },
-    "name": "error_multiple_compound_env_test_12"
-  },
-  {
-    "env": {
-      "EDGEDB_CREDENTIALS_FILE": "/home/edgedb/test/credentials.json",
-      "EDGEDB_DSN": "edgedb://user3:123123@localhost:5555/abcdef",
-      "EDGEDB_HOST": "localhost",
-      "EDGEDB_INSTANCE": "test_instance",
-      "EDGEDB_PORT": "10701"
-    },
-    "error": {
-      "type": "multiple_compound_env"
-    },
     "name": "error_multiple_compound_env_test_2"
   },
   {
     "env": {
-      "EDGEDB_CREDENTIALS_FILE": "/home/edgedb/test/credentials.json",
-      "EDGEDB_DSN": "edgedb://user3:123123@localhost:5555/abcdef"
+      "EDGEDB_DSN": "edgedb://user3:123123@localhost:5555/abcdef",
+      "EDGEDB_INSTANCE": "test_instance"
     },
     "error": {
       "type": "multiple_compound_env"
     },
-    "name": "error_multiple_compound_env_test_3",
-    "opts": {
-      "database": "testdb"
-    }
+    "name": "error_multiple_compound_env_test_3"
   },
   {
     "env": {
-      "EDGEDB_DSN": "edgedb://user3:123123@localhost:5555/abcdef",
-      "GEL_HOST": "test.local"
+      "EDGEDB_CREDENTIALS_FILE": "/home/edgedb/test/credentials.json",
+      "EDGEDB_INSTANCE": "test_instance"
     },
     "error": {
       "type": "multiple_compound_env"
@@ -2952,7 +2916,10 @@
   },
   {
     "env": {
+      "EDGEDB_CREDENTIALS_FILE": "/home/edgedb/test/credentials.json",
       "EDGEDB_DSN": "edgedb://user3:123123@localhost:5555/abcdef",
+      "EDGEDB_HOST": "localhost",
+      "EDGEDB_INSTANCE": "test_instance",
       "EDGEDB_PORT": "10701"
     },
     "error": {
@@ -2968,7 +2935,40 @@
     "error": {
       "type": "multiple_compound_env"
     },
-    "name": "error_multiple_compound_env_test_6"
+    "name": "error_multiple_compound_env_test_6",
+    "opts": {
+      "database": "testdb"
+    }
+  },
+  {
+    "env": {
+      "EDGEDB_DSN": "edgedb://user3:123123@localhost:5555/abcdef",
+      "GEL_HOST": "test.local"
+    },
+    "error": {
+      "type": "multiple_compound_env"
+    },
+    "name": "error_multiple_compound_env_test_7"
+  },
+  {
+    "env": {
+      "EDGEDB_DSN": "edgedb://user3:123123@localhost:5555/abcdef",
+      "EDGEDB_PORT": "10701"
+    },
+    "error": {
+      "type": "multiple_compound_env"
+    },
+    "name": "error_multiple_compound_env_test_8"
+  },
+  {
+    "env": {
+      "EDGEDB_CREDENTIALS_FILE": "/home/edgedb/test/credentials.json",
+      "EDGEDB_DSN": "edgedb://user3:123123@localhost:5555/abcdef"
+    },
+    "error": {
+      "type": "multiple_compound_env"
+    },
+    "name": "error_multiple_compound_env_test_9"
   },
   {
     "env": {
@@ -2978,7 +2978,7 @@
     "error": {
       "type": "multiple_compound_env"
     },
-    "name": "error_multiple_compound_env_test_7"
+    "name": "error_multiple_compound_env_test_10"
   },
   {
     "env": {
@@ -2988,7 +2988,7 @@
     "error": {
       "type": "multiple_compound_env"
     },
-    "name": "error_multiple_compound_env_test_8"
+    "name": "error_multiple_compound_env_test_11"
   },
   {
     "env": {
@@ -2998,7 +2998,7 @@
     "error": {
       "type": "multiple_compound_env"
     },
-    "name": "error_multiple_compound_env_test_9"
+    "name": "error_multiple_compound_env_test_12"
   },
   {
     "error": {
@@ -3496,7 +3496,7 @@
         "/home/edgedb/password": "12345"
       }
     },
-    "name": "override_other_test_10",
+    "name": "override_other_test_2",
     "opts": {
       "dsn": "edgedb://testuser@localhost/db?password_file=/home/edgedb/password"
     },
@@ -3521,7 +3521,7 @@
     "env": {
       "EDGEDB_DSN": "edgedb://?a=abc&b=def"
     },
-    "name": "override_other_test_11",
+    "name": "override_other_test_3",
     "opts": {
       "serverSettings": {
         "c": "ghi"
@@ -3556,7 +3556,7 @@
       },
       "homedir": "/home/edgedb"
     },
-    "name": "override_other_test_12",
+    "name": "override_other_test_4",
     "opts": {
       "instance": "test-123"
     },
@@ -3581,7 +3581,7 @@
     "env": {
       "EDGEDB_DSN": "edgedb://?a=abc&b=def"
     },
-    "name": "override_other_test_13",
+    "name": "override_other_test_5",
     "opts": {
       "serverSettings": {
         "a": "jkl",
@@ -3613,7 +3613,7 @@
     "env": {
       "EDGEDB_CLIENT_TLS_SECURITY": "invalid value"
     },
-    "name": "override_other_test_14",
+    "name": "override_other_test_6",
     "opts": {
       "dsn": "edgedb://"
     },
@@ -3638,7 +3638,7 @@
     "env": {
       "EDGEDB_DSN": "edgedb://testhost:1234/?database=db"
     },
-    "name": "override_other_test_15",
+    "name": "override_other_test_7",
     "opts": {
       "port": 65535
     },
@@ -3664,7 +3664,7 @@
       "EDGEDB_DATABASE": "test_db",
       "EDGEDB_DSN": "edgedb://testhost:1234/?database=db"
     },
-    "name": "override_other_test_16",
+    "name": "override_other_test_8",
     "opts": {
       "user": "user_123"
     },
@@ -3690,7 +3690,7 @@
       "EDGEDB_DATABASE": "test_db",
       "EDGEDB_DSN": "edgedb://testhost:1234/?database=db"
     },
-    "name": "override_other_test_17",
+    "name": "override_other_test_9",
     "opts": {
       "database": "new_db",
       "user": "user_123"
@@ -3717,7 +3717,7 @@
       "EDGEDB_DATABASE": "test_db",
       "EDGEDB_DSN": "edgedb://testhost:1234/?database="
     },
-    "name": "override_other_test_18",
+    "name": "override_other_test_10",
     "opts": {
       "database": "new_db",
       "user": "user_123"
@@ -3743,7 +3743,7 @@
     "env": {
       "EDGEDB_DATABASE": "test_db"
     },
-    "name": "override_other_test_19",
+    "name": "override_other_test_11",
     "opts": {
       "dsn": "edgedb://testhost:1234/?database=db",
       "user": "user_123"
@@ -3769,7 +3769,7 @@
     "env": {
       "EDGEDB_CREDENTIALS_FILE": "/home/edgedb/test/credentials.json"
     },
-    "name": "override_other_test_2",
+    "name": "override_other_test_12",
     "opts": {
       "dsn": "edgedb://user3:123123@localhost:5555/abcdef"
     },
@@ -3794,7 +3794,7 @@
     "env": {
       "EDGEDB_PASSWORD": "qwerty"
     },
-    "name": "override_other_test_20",
+    "name": "override_other_test_13",
     "opts": {
       "dsn": "edgedb://testhost:1234/?database=db",
       "user": "user_123"
@@ -3826,7 +3826,7 @@
       },
       "homedir": "/home/edgedb"
     },
-    "name": "override_other_test_21",
+    "name": "override_other_test_14",
     "opts": {
       "user": "super_user"
     },
@@ -3858,7 +3858,7 @@
       },
       "homedir": "/home/edgedb"
     },
-    "name": "override_other_test_22",
+    "name": "override_other_test_15",
     "opts": {
       "user": "super_user"
     },
@@ -3887,7 +3887,7 @@
       },
       "homedir": "/home/edgedb"
     },
-    "name": "override_other_test_23",
+    "name": "override_other_test_16",
     "opts": {
       "instance": "1234567890123456789012345678901234567890123456789012345678901234"
     },
@@ -3919,7 +3919,7 @@
       },
       "homedir": "/home/edgedb"
     },
-    "name": "override_other_test_24",
+    "name": "override_other_test_17",
     "opts": {
       "user": "super_user"
     },
@@ -3947,7 +3947,7 @@
       },
       "homedir": "/home/edgedb"
     },
-    "name": "override_other_test_25",
+    "name": "override_other_test_18",
     "opts": {
       "instance": "test_instance"
     },
@@ -3975,7 +3975,7 @@
       },
       "homedir": "/home/edgedb"
     },
-    "name": "override_other_test_26",
+    "name": "override_other_test_19",
     "opts": {
       "instance": "test_instance"
     },
@@ -4003,7 +4003,7 @@
       },
       "homedir": "/home/edgedb"
     },
-    "name": "override_other_test_27",
+    "name": "override_other_test_20",
     "opts": {
       "instance": "test_instance"
     },
@@ -4028,7 +4028,7 @@
     "env": {
       "EDGEDB_WAIT_UNTIL_AVAILABLE": "PT1H1M28S"
     },
-    "name": "override_other_test_28",
+    "name": "override_other_test_21",
     "opts": {
       "dsn": "edgedb://localhost:5555?wait_until_available=1hour"
     },
@@ -4053,7 +4053,7 @@
     "env": {
       "EDGEDB_WAIT_UNTIL_AVAILABLE": "PT1S"
     },
-    "name": "override_other_test_29",
+    "name": "override_other_test_22",
     "opts": {
       "dsn": "edgedb://localhost:5555",
       "waitUntilAvailable": "9 minutes"
@@ -4079,7 +4079,7 @@
     "env": {
       "EDGEDB_CREDENTIALS_FILE": "/home/edgedb/test/credentials.json"
     },
-    "name": "override_other_test_3",
+    "name": "override_other_test_23",
     "opts": {
       "host": "test.local"
     },
@@ -4108,7 +4108,7 @@
       },
       "homedir": "/home/edgedb"
     },
-    "name": "override_other_test_30",
+    "name": "override_other_test_24",
     "opts": {
       "instance": "test_org/test123"
     },
@@ -4137,7 +4137,7 @@
       },
       "homedir": "/home/edgedb"
     },
-    "name": "override_other_test_31",
+    "name": "override_other_test_25",
     "opts": {
       "instance": "-vicfg-hceTeOuz6iXr3vkXPf0Wsudd/test123"
     },
@@ -4166,7 +4166,7 @@
       },
       "homedir": "/home/edgedb"
     },
-    "name": "override_other_test_32",
+    "name": "override_other_test_26",
     "opts": {
       "instance": "TestOrg/Test-123"
     },
@@ -4195,7 +4195,7 @@
       },
       "homedir": "/home/edgedb"
     },
-    "name": "override_other_test_33",
+    "name": "override_other_test_27",
     "opts": {
       "instance": "test-org/test123"
     },
@@ -4224,7 +4224,7 @@
       },
       "homedir": "/home/edgedb"
     },
-    "name": "override_other_test_34",
+    "name": "override_other_test_28",
     "opts": {
       "instance": "123-test"
     },
@@ -4256,7 +4256,7 @@
       },
       "homedir": "/home/edgedb"
     },
-    "name": "override_other_test_35",
+    "name": "override_other_test_29",
     "opts": {
       "instance": "test-org/test-123"
     },
@@ -4285,7 +4285,7 @@
       },
       "homedir": "/home/edgedb"
     },
-    "name": "override_other_test_36",
+    "name": "override_other_test_30",
     "opts": {
       "instance": "test-org/test-123"
     },
@@ -4314,7 +4314,7 @@
       },
       "homedir": "/home/edgedb"
     },
-    "name": "override_other_test_37",
+    "name": "override_other_test_31",
     "opts": {
       "instance": "123/456"
     },
@@ -4341,7 +4341,7 @@
       "files": {},
       "homedir": "/home/edgedb"
     },
-    "name": "override_other_test_38",
+    "name": "override_other_test_32",
     "opts": {
       "instance": "test-org/test-123",
       "secretKey": "nbwt_eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlZGIuc2VydmVyLmFueV9yb2xlIjp0cnVlLCJpYXQiOjE2NjkzMTE3NjMsImlzcyI6ImxvY2FsLTEuaW50ZXJuYWwiLCJuZWJ1bGEuc2NvcGVzIjpbImFkbWluIl0sIm5lYnVsYS51c2VyX2lkIjoiM2U3ODU4YTgtNmJjNy0xMWVkLWFmNTAtMTdiMzkzMjlmZmEyIn0.9cS6-rR00fgmEmGu423IP3snJvmXe7ZGol7ZlYuHBNqmKGrWtTsMZPj-3C7dmureUmk3ZUttxioouPeAreKueg"
@@ -4372,7 +4372,7 @@
       "files": {},
       "homedir": "/home/edgedb"
     },
-    "name": "override_other_test_39",
+    "name": "override_other_test_33",
     "result": {
       "address": [
         "test-123--testorg.c-31.i.local-1.internal",
@@ -4399,7 +4399,7 @@
         "/home/edgedb/test/credentials.json": "{\"port\": 10702, \"user\": \"test3n\", \"password\": \"lZTBy1RVCfOpBAOwSCwIyBIR\", \"database\": \"test3n\"}"
       }
     },
-    "name": "override_other_test_4",
+    "name": "override_other_test_34",
     "opts": {
       "credentialsFile": "/home/edgedb/test/credentials.json"
     },
@@ -4431,7 +4431,7 @@
       },
       "homedir": "/home/edgedb"
     },
-    "name": "override_other_test_40",
+    "name": "override_other_test_35",
     "opts": {
       "instance": "testorg/test-123",
       "secretKey": "nbwt_eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlZGIuc2VydmVyLmFueV9yb2xlIjp0cnVlLCJpYXQiOjE2NjkzMTE3NjMsImlzcyI6ImxvY2FsLTEuaW50ZXJuYWwiLCJuZWJ1bGEuc2NvcGVzIjpbImFkbWluIl0sIm5lYnVsYS51c2VyX2lkIjoiM2U3ODU4YTgtNmJjNy0xMWVkLWFmNTAtMTdiMzkzMjlmZmEyIn0.9cS6-rR00fgmEmGu423IP3snJvmXe7ZGol7ZlYuHBNqmKGrWtTsMZPj-3C7dmureUmk3ZUttxioouPeAreKueg"
@@ -4464,7 +4464,7 @@
       },
       "homedir": "/home/edgedb"
     },
-    "name": "override_other_test_41",
+    "name": "override_other_test_36",
     "result": {
       "address": [
         "test-123--testorg.c-31.i.local-1.internal",
@@ -4492,7 +4492,7 @@
       },
       "homedir": "/home/edgedb"
     },
-    "name": "override_other_test_42",
+    "name": "override_other_test_37",
     "result": {
       "address": [
         "test-123--testorg.c-31.i.local-1.internal",
@@ -4528,7 +4528,7 @@
       },
       "homedir": "/home/edgedb"
     },
-    "name": "override_other_test_43",
+    "name": "override_other_test_38",
     "opts": {},
     "result": {
       "address": [
@@ -4564,7 +4564,7 @@
       },
       "homedir": "/home/edgedb"
     },
-    "name": "override_other_test_44",
+    "name": "override_other_test_39",
     "opts": {},
     "result": {
       "address": [
@@ -4587,7 +4587,7 @@
     "env": {
       "EDGEDB_PORT": "invalid"
     },
-    "name": "override_other_test_45",
+    "name": "override_other_test_40",
     "opts": {
       "port": 1234
     },
@@ -4625,7 +4625,7 @@
       },
       "homedir": "/home/edgedb"
     },
-    "name": "override_other_test_46",
+    "name": "override_other_test_41",
     "opts": {
       "secretKey": "nbwt_eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlZGIuc2VydmVyLmFueV9yb2xlIjp0cnVlLCJpYXQiOjE2NjkzMTE3NjMsImlzcyI6ImxvY2FsLTEuaW50ZXJuYWwiLCJuZWJ1bGEuc2NvcGVzIjpbImFkbWluIl0sIm5lYnVsYS51c2VyX2lkIjoiM2U3ODU4YTgtNmJjNy0xMWVkLWFmNTAtMTdiMzkzMjlmZmEyIn0.9cS6-rR00fgmEmGu423IP3snJvmXe7ZGol7ZlYuHBNqmKGrWtTsMZPj-3C7dmureUmk3ZUttxioouPeAreKueg"
     },
@@ -4650,7 +4650,7 @@
     "env": {
       "SECRET_KEY": "super_secret_key"
     },
-    "name": "override_other_test_47",
+    "name": "override_other_test_42",
     "opts": {
       "dsn": "edgedb://testuser@localhost/db?secret_key_env=SECRET_KEY"
     },
@@ -4675,7 +4675,7 @@
     "env": {
       "EDGEDB_SECRET_KEY": "kkk"
     },
-    "name": "override_other_test_48",
+    "name": "override_other_test_43",
     "opts": {
       "dsn": "edgedb://testuser@localhost/db?secret_key_env=EDGEDB_SECRET_KEY"
     },
@@ -4700,7 +4700,7 @@
     "env": {
       "EDGEDB_SECRET_KEY": "kkk"
     },
-    "name": "override_other_test_49",
+    "name": "override_other_test_44",
     "opts": {
       "dsn": "edgedb://testuser@localhost/db"
     },
@@ -4725,7 +4725,7 @@
     "env": {
       "EDGEDB_PORT": "1234"
     },
-    "name": "override_other_test_5",
+    "name": "override_other_test_45",
     "opts": {
       "credentials": "{\"port\": 10702, \"user\": \"test3n\", \"password\": \"lZTBy1RVCfOpBAOwSCwIyBIR\", \"database\": \"test3n\"}"
     },
@@ -4755,7 +4755,7 @@
         "/home/edgedb/secret_key": "12345"
       }
     },
-    "name": "override_other_test_50",
+    "name": "override_other_test_46",
     "opts": {
       "dsn": "edgedb://testuser@localhost/db?secret_key_file=/home/edgedb/secret_key"
     },
@@ -4792,7 +4792,7 @@
       },
       "homedir": "/home/edgedb"
     },
-    "name": "override_other_test_51",
+    "name": "override_other_test_47",
     "opts": {},
     "result": {
       "address": [
@@ -4827,7 +4827,7 @@
       },
       "homedir": "/home/edgedb"
     },
-    "name": "override_other_test_52",
+    "name": "override_other_test_48",
     "opts": {},
     "result": {
       "address": [
@@ -4862,7 +4862,7 @@
       },
       "homedir": "/home/edgedb"
     },
-    "name": "override_other_test_53",
+    "name": "override_other_test_49",
     "opts": {},
     "result": {
       "address": [
@@ -4897,7 +4897,7 @@
       },
       "homedir": "/home/edgedb"
     },
-    "name": "override_other_test_54",
+    "name": "override_other_test_50",
     "opts": {},
     "result": {
       "address": [
@@ -4932,7 +4932,7 @@
       },
       "homedir": "/home/edgedb"
     },
-    "name": "override_other_test_55",
+    "name": "override_other_test_51",
     "opts": {},
     "result": {
       "address": [
@@ -4955,7 +4955,7 @@
     "env": {
       "EDGEDB_HOST": "test.local"
     },
-    "name": "override_other_test_56",
+    "name": "override_other_test_52",
     "opts": {
       "dsn": "edgedb://user3:123123@localhost:5555/abcdef"
     },
@@ -4990,7 +4990,7 @@
       },
       "homedir": "/home/edgedb"
     },
-    "name": "override_other_test_57",
+    "name": "override_other_test_53",
     "opts": {
       "dsn": "edgedb://testhost:1234/?branch=db"
     },
@@ -5025,7 +5025,7 @@
       },
       "homedir": "/home/edgedb"
     },
-    "name": "override_other_test_58",
+    "name": "override_other_test_54",
     "opts": {
       "dsn": "edgedb://testhost:1234/?branch=db"
     },
@@ -5060,7 +5060,7 @@
       },
       "homedir": "/home/edgedb"
     },
-    "name": "override_other_test_59",
+    "name": "override_other_test_55",
     "opts": {
       "branch": "test_db"
     },
@@ -5086,7 +5086,7 @@
       "EDGEDB_CREDENTIALS_FILE": "/home/edgedb/test/credentials.json",
       "EDGEDB_DSN": "edgedb://user3:123123@localhost:5555/abcdef"
     },
-    "name": "override_other_test_6",
+    "name": "override_other_test_56",
     "opts": {
       "host": "localhost",
       "port": 10701
@@ -5122,7 +5122,7 @@
       },
       "homedir": "/home/edgedb"
     },
-    "name": "override_other_test_60",
+    "name": "override_other_test_57",
     "opts": {
       "branch": "test_db"
     },
@@ -5157,7 +5157,7 @@
       },
       "homedir": "/home/edgedb"
     },
-    "name": "override_other_test_61",
+    "name": "override_other_test_58",
     "opts": {
       "database": "test_db"
     },
@@ -5183,7 +5183,7 @@
       "EDGEDB_DSN": "edgedb://testhost:1234/feature"
     },
     "fs": {},
-    "name": "override_other_test_62",
+    "name": "override_other_test_59",
     "opts": {
       "branch": "experimental4"
     },
@@ -5209,7 +5209,7 @@
       "EDGEDB_DSN": "edgedb://testhost:1234/?branch=feature"
     },
     "fs": {},
-    "name": "override_other_test_63",
+    "name": "override_other_test_60",
     "opts": {
       "branch": "experimental5"
     },
@@ -5235,7 +5235,7 @@
       "EDGEDB_DSN": "edgedb://testhost:1234/?database=feature"
     },
     "fs": {},
-    "name": "override_other_test_64",
+    "name": "override_other_test_61",
     "opts": {
       "branch": "experimental6"
     },
@@ -5261,7 +5261,7 @@
       "EDGEDB_DSN": "edgedb://testhost:1234/?branch=feature"
     },
     "fs": {},
-    "name": "override_other_test_65",
+    "name": "override_other_test_62",
     "opts": {
       "database": "experimental7"
     },
@@ -5289,7 +5289,7 @@
       "EDGEDB_PORT": "1312"
     },
     "fs": {},
-    "name": "override_other_test_66",
+    "name": "override_other_test_63",
     "opts": {
       "branch": "experimental8"
     },
@@ -5314,7 +5314,7 @@
     "env": {
       "EDGEDB_DSN": "edgedb://user3:123123@localhost:5555/abcdef"
     },
-    "name": "override_other_test_67",
+    "name": "override_other_test_64",
     "opts": {
       "port": 10701
     },
@@ -5342,7 +5342,7 @@
       "EDGEDB_PORT": "1312"
     },
     "fs": {},
-    "name": "override_other_test_68",
+    "name": "override_other_test_65",
     "opts": {
       "branch": "experimental9"
     },
@@ -5370,7 +5370,7 @@
       "EDGEDB_PORT": "1312"
     },
     "fs": {},
-    "name": "override_other_test_69",
+    "name": "override_other_test_66",
     "opts": {
       "database": "experimental10"
     },
@@ -5395,7 +5395,7 @@
     "env": {
       "SECRET_PASSWORD": "super_secret_password"
     },
-    "name": "override_other_test_7",
+    "name": "override_other_test_67",
     "opts": {
       "dsn": "edgedb://testuser@localhost/db?password_env=SECRET_PASSWORD"
     },
@@ -5421,7 +5421,7 @@
       "EDGEDB_BRANCH": "experimental14"
     },
     "fs": {},
-    "name": "override_other_test_70",
+    "name": "override_other_test_68",
     "opts": {
       "dsn": "edgedb://testhost:1234/?branch=feature"
     },
@@ -5447,7 +5447,7 @@
       "EDGEDB_DATABASE": "experimental17"
     },
     "fs": {},
-    "name": "override_other_test_71",
+    "name": "override_other_test_69",
     "opts": {
       "dsn": "edgedb://testhost:1234/?branch=feature"
     },
@@ -5473,7 +5473,7 @@
       "EDGEDB_BRANCH": "experimental18"
     },
     "fs": {},
-    "name": "override_other_test_72",
+    "name": "override_other_test_70",
     "opts": {
       "dsn": "edgedb://testhost:1234/?database=feature"
     },
@@ -5499,7 +5499,7 @@
       "EDGEDB_BRANCH": "experimental19"
     },
     "fs": {},
-    "name": "override_other_test_73",
+    "name": "override_other_test_71",
     "opts": {
       "branch": "feature",
       "host": "testhost",
@@ -5527,7 +5527,7 @@
       "EDGEDB_DATABASE": "experimental20"
     },
     "fs": {},
-    "name": "override_other_test_74",
+    "name": "override_other_test_72",
     "opts": {
       "branch": "feature",
       "host": "testhost",
@@ -5555,7 +5555,7 @@
       "EDGEDB_BRANCH": "experimental21"
     },
     "fs": {},
-    "name": "override_other_test_75",
+    "name": "override_other_test_73",
     "opts": {
       "database": "feature",
       "host": "testhost",
@@ -5594,7 +5594,7 @@
       },
       "homedir": "/home/edgedb"
     },
-    "name": "override_other_test_76",
+    "name": "override_other_test_74",
     "opts": {
       "database": "feature",
       "host": "testhost",
@@ -5633,7 +5633,7 @@
       },
       "homedir": "/home/edgedb"
     },
-    "name": "override_other_test_77",
+    "name": "override_other_test_75",
     "opts": {
       "branch": "feature",
       "host": "testhost",
@@ -5660,7 +5660,7 @@
     "env": {
       "EDGEDB_INSTANCE": "test_instance"
     },
-    "name": "override_other_test_78",
+    "name": "override_other_test_76",
     "opts": {
       "port": 10701
     },
@@ -5691,7 +5691,7 @@
       },
       "homedir": "/home/edgedb"
     },
-    "name": "override_other_test_79",
+    "name": "override_other_test_77",
     "opts": {
       "instance": "test_instance"
     },
@@ -5717,7 +5717,7 @@
     "env": {
       "EDGEDB_PASSWORD": "password"
     },
-    "name": "override_other_test_8",
+    "name": "override_other_test_78",
     "opts": {
       "dsn": "edgedb://testuser@localhost/db?password_env=EDGEDB_PASSWORD"
     },
@@ -5742,7 +5742,7 @@
     "env": {
       "EDGEDB_PASSWORD": "password"
     },
-    "name": "override_other_test_9",
+    "name": "override_other_test_79",
     "opts": {
       "dsn": "edgedb://testuser@localhost/db"
     },
