@@ -38,8 +38,22 @@ for (const path of collectRecursively(tests, "")) {
   }
 }
 
-// Sort by testcase.name
-out.sort((a, b) => a.name.localeCompare(b.name));
+function sortNumberAware(a: string, b: string): number {
+  const aMatch = a.match(/^(.+?)_(\d+)$/);
+  const bMatch = b.match(/^(.+?)_(\d+)$/);
+  
+  if (aMatch && bMatch && aMatch[1] === bMatch[1]) {
+    // Same base name, compare numbers
+    return parseInt(aMatch[2]) - parseInt(bMatch[2]);
+  }
+  
+  // Default to string comparison
+  return a.localeCompare(b);
+}
+
+// Sort by testcase.name, with numeric suffix handling
+out.sort((a, b) => sortNumberAware(a.name, b.name));
+
 function sortObjectKeys(key: string, value: any): any {
   if (value instanceof Object && !(value instanceof Array)) {
     return Object.keys(value)
