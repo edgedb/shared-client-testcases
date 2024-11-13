@@ -10,7 +10,7 @@ import { jsonc } from "npm:jsonc";
 const DEFAULT_RESULT = {
   "address": [
     "localhost",
-    5656
+    5656,
   ],
   "branch": "__default__",
   "database": "edgedb",
@@ -21,7 +21,7 @@ const DEFAULT_RESULT = {
   "tlsSecurity": "strict",
   "tlsServerName": null,
   "user": "edgedb",
-  "waitUntilAvailable": "PT30S"
+  "waitUntilAvailable": "PT30S",
 };
 
 function collectRecursively(base: string, path: string): string[] {
@@ -75,8 +75,15 @@ for (const path of collectRecursively(tests, "")) {
           if (!(resultKey in DEFAULT_RESULT)) {
             throw new Error(`Invalid result key ${resultKey} in ${path}`);
           }
-          if (JSON.stringify(DEFAULT_RESULT[resultKey]) === JSON.stringify(testcase.result[resultKey])) {
-            console.warn(`Removing default value ${DEFAULT_RESULT[resultKey]} from result key ${resultKey} in ${path} for testcase ${testcase.name}`);
+          if (
+            JSON.stringify(DEFAULT_RESULT[resultKey]) ===
+              JSON.stringify(testcase.result[resultKey])
+          ) {
+            console.warn(
+              `Removing default value ${
+                DEFAULT_RESULT[resultKey]
+              } from result key ${resultKey} in ${path} for testcase ${testcase.name}`,
+            );
             delete testcase.result[resultKey];
             dirty = true;
           }
@@ -84,17 +91,23 @@ for (const path of collectRecursively(tests, "")) {
       }
     }
     if (testcase.env && Object.keys(testcase.env).length === 0) {
-      console.warn(`Removing empty env object from ${path} for testcase ${testcase.name}`);
+      console.warn(
+        `Removing empty env object from ${path} for testcase ${testcase.name}`,
+      );
       delete testcase.env;
       dirty = true;
     }
     if (testcase.fs && Object.keys(testcase.fs).length === 0) {
-      console.warn(`Removing empty fs object from ${path} for testcase ${testcase.name}`);
+      console.warn(
+        `Removing empty fs object from ${path} for testcase ${testcase.name}`,
+      );
       delete testcase.fs;
       dirty = true;
     }
     if (testcase.opts && Object.keys(testcase.opts).length === 0) {
-      console.warn(`Removing empty opts object from ${path} for testcase ${testcase.name}`);
+      console.warn(
+        `Removing empty opts object from ${path} for testcase ${testcase.name}`,
+      );
       delete testcase.opts;
       dirty = true;
     }
@@ -108,7 +121,7 @@ for (const path of collectRecursively(tests, "")) {
     }
 
     outTestCase.name = path.replace("/", "_").replace(".jsonc", "") + "_" +
-    outTestCase.name;
+      outTestCase.name;
     out.push(outTestCase);
   }
 
