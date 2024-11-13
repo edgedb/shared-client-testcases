@@ -1,6 +1,5 @@
 [
   {
-    "env": {},
     "error": {
       "type": "invalid_dsn_or_instance_name"
     },
@@ -61,7 +60,6 @@
     }
   },
   {
-    "env": {},
     "error": {
       "type": "invalid_dsn_or_instance_name"
     },
@@ -77,7 +75,6 @@
     }
   },
   {
-    "env": {},
     "error": {
       "type": "invalid_dsn_or_instance_name"
     },
@@ -93,7 +90,6 @@
     }
   },
   {
-    "env": {},
     "error": {
       "type": "invalid_dsn_or_instance_name"
     },
@@ -109,7 +105,6 @@
     }
   },
   {
-    "env": {},
     "error": {
       "type": "invalid_dsn_or_instance_name"
     },

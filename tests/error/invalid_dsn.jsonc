@@ -24,9 +24,7 @@
     "error": {
       "type": "invalid_dsn"
     },
-    "fs": {},
-    "name": "test_2",
-    "opts": {}
+    "name": "test_2"
   },
   {
     "env": {
@@ -35,27 +33,21 @@
     "error": {
       "type": "invalid_dsn"
     },
-    "fs": {},
-    "name": "test_3",
-    "opts": {}
+    "name": "test_3"
   },
   {
-    "env": {},
     "error": {
       "type": "invalid_dsn"
     },
-    "fs": {},
     "name": "test_4",
     "opts": {
       "dsn": "edgedb://testhost:1234/feature/?branch=feature"
     }
   },
   {
-    "env": {},
     "error": {
       "type": "invalid_dsn"
     },
-    "fs": {},
     "name": "test_5",
     "opts": {
       "dsn": "edgedb://testhost:1234/feature/?branch=feature&database=feature"

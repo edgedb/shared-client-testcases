@@ -7,6 +7,23 @@ import { lstatSync, readdirSync, readFileSync, writeFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { jsonc } from "npm:jsonc";
 
+const DEFAULT_RESULT = {
+  "address": [
+    "localhost",
+    5656,
+  ],
+  "branch": "__default__",
+  "database": "edgedb",
+  "password": null,
+  "secretKey": null,
+  "serverSettings": {},
+  "tlsCAData": null,
+  "tlsSecurity": "strict",
+  "tlsServerName": null,
+  "user": "edgedb",
+  "waitUntilAvailable": "PT30S",
+};
+
 function collectRecursively(base: string, path: string): string[] {
   const out: string[] = [];
   for (const name of readdirSync(join(base, path))) {
@@ -26,15 +43,91 @@ const out: any[] = [];
 const tests = join(scriptDir, "..", "tests");
 console.log("Reading testcases from", tests);
 
+let dirty = false;
+
 for (const path of collectRecursively(tests, "")) {
   const testcases = jsonc.parse(readFileSync(join(tests, path), "utf8"));
   if (!Array.isArray(testcases)) {
     throw new Error(`Expected array of testcases in ${path}`);
   }
   for (const testcase of testcases) {
-    testcase.name = path.replace("/", "_").replace(".jsonc", "") + "_" +
-      testcase.name;
-    out.push(testcase);
+    if (typeof testcase.name !== "string") {
+      throw new Error(`Expected string testcase.name in ${path}`);
+    }
+
+    const VALID_KEYS = [
+      "name",
+      "opts",
+      "result",
+      "env",
+      "fs",
+      "error",
+      "warnings",
+      "platform",
+    ];
+
+    for (const key of Object.keys(testcase)) {
+      if (!VALID_KEYS.includes(key)) {
+        throw new Error(`Invalid key ${key} in ${path}`);
+      }
+      if (testcase.result) {
+        for (const resultKey of Object.keys(testcase.result)) {
+          if (!(resultKey in DEFAULT_RESULT)) {
+            throw new Error(`Invalid result key ${resultKey} in ${path}`);
+          }
+          if (
+            JSON.stringify(DEFAULT_RESULT[resultKey]) ===
+              JSON.stringify(testcase.result[resultKey])
+          ) {
+            console.warn(
+              `Removing default value ${
+                DEFAULT_RESULT[resultKey]
+              } from result key ${resultKey} in ${path} for testcase ${testcase.name}`,
+            );
+            delete testcase.result[resultKey];
+            dirty = true;
+          }
+        }
+      }
+    }
+    if (testcase.env && Object.keys(testcase.env).length === 0) {
+      console.warn(
+        `Removing empty env object from ${path} for testcase ${testcase.name}`,
+      );
+      delete testcase.env;
+      dirty = true;
+    }
+    if (testcase.fs && Object.keys(testcase.fs).length === 0) {
+      console.warn(
+        `Removing empty fs object from ${path} for testcase ${testcase.name}`,
+      );
+      delete testcase.fs;
+      dirty = true;
+    }
+    if (testcase.opts && Object.keys(testcase.opts).length === 0) {
+      console.warn(
+        `Removing empty opts object from ${path} for testcase ${testcase.name}`,
+      );
+      delete testcase.opts;
+      dirty = true;
+    }
+
+    // Deep clone the testcase to avoid modifying the original
+    let outTestCase = JSON.parse(JSON.stringify(testcase));
+
+    // Merge in default values
+    if (outTestCase.result) {
+      outTestCase.result = { ...DEFAULT_RESULT, ...testcase.result };
+    }
+
+    outTestCase.name = path.replace("/", "_").replace(".jsonc", "") + "_" +
+      outTestCase.name;
+    out.push(outTestCase);
+  }
+
+  if (dirty) {
+    // writeFileSync(join(tests, path), JSON.stringify(testcases, sortObjectKeys, 2));
+    throw new Error(`Dirty testcase ${path}`);
   }
 }
 
