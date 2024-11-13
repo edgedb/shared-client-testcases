@@ -64,7 +64,7 @@ writeFileSync(
     out,
     sortObjectKeys,
     2,
-  ),
+  ) + "\n",
 );
 
 console.log("Wrote", out.length, "testcases to", "connection_testcases.json");

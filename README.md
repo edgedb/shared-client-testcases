@@ -1,24 +1,32 @@
 # Shared Test Cases for EdgeDB Clients
 
-This repository contains test cases for different EdgeDB client bindings
-to implement consistent unit tests for connection parameters parsing,
-project handling and so on. [The documentation](
-https://www.edgedb.com/docs/reference/connection) explains the fundamentals.
+This repository contains test cases for different EdgeDB client bindings to
+implement consistent unit tests for connection parameters parsing, project
+handling and so on.
+[The documentation](https://www.edgedb.com/docs/reference/connection) explains
+the fundamentals.
 
 ## `connection_testcases.json`
 
-This file contains test cases with different scenarios using the client API,
-and the corresponding expected parsed connection parameters. The format is
-a list of objects, each may contain the following input/output:
+This is a generated file that combines `tests/**/*.jsonc` files into a single
+file.
+
+## `tests/**/*.jsonc`
+
+These files contain test cases in JSONC format.
+
+These are test cases with different scenarios using the client API, and the
+corresponding expected parsed connection parameters. The format is a list of
+objects, each may contain the following input/output:
 
 ### Input - `opts`
 
-This is usually the values passed directly to the client as options,
-like the keyword arguments on `edgedb.create_client(...)` for Python,
-or direct command arguments for the CLI. Possible values:
+This is usually the values passed directly to the client as options, like the
+keyword arguments on `edgedb.create_client(...)` for Python, or direct command
+arguments for the CLI. Possible values:
 
 | key                  | value type  | value                                                                                                                                               |
-|----------------------|-------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
+| -------------------- | ----------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `host`               | string      | the host name or IP of the server instance                                                                                                          |
 | `port`               | integer     | the port of the server instance (test cases may contain strings and floats)                                                                         |
 | `user`               | string      | database user for authentication                                                                                                                    |
@@ -36,17 +44,20 @@ or direct command arguments for the CLI. Possible values:
 | `instance`           | string      | name of an EdgeDB instance                                                                                                                          |
 | `dsn`                | string      | EdgeDB DSN                                                                                                                                          |
 
-Note: some client bindings take a single positional argument
-that can be either `dsn` or `instance`, depending on the format.
+Note: some client bindings take a single positional argument that can be either
+`dsn` or `instance`, depending on the format.
 
-Note: `database` and `branch` are old and new way of referring to the same concept. They both exist for compatibility reasons during the deprecation period of `database`. They are generally mutually exclusive and must not be used at the same time.
+Note: `database` and `branch` are old and new way of referring to the same
+concept. They both exist for compatibility reasons during the deprecation period
+of `database`. They are generally mutually exclusive and must not be used at the
+same time.
 
 ### Input - `env`
 
 Environment variables present at the time of connecting. Possible values:
 
 | name                          | value                                               |
-|-------------------------------|-----------------------------------------------------|
+| ----------------------------- | --------------------------------------------------- |
 | `EDGEDB_HOST`                 | same as `host` above                                |
 | `EDGEDB_PORT`                 | same as `port` above                                |
 | `EDGEDB_USER`                 | same as `user` above                                |
@@ -67,24 +78,31 @@ Environment variables present at the time of connecting. Possible values:
 
 ### Input - `fs`
 
-If `fs` is present, the test code should mock up the file system accordingly. Possible keys:
+If `fs` is present, the test code should mock up the file system accordingly.
+Possible keys:
 
-* `cwd` - path to the current working directory as a string to run the test case.
-* `homedir` - path to the home directory of the OS user as a string.
-* `files` - a mapping of full path of files to their corresponding content.
-   * The key is a full path to the file, while the value is the content string of that file.
-   * Project stash directory is a special case where there is a `${HASH}` placeholder in the key.
-     The test code should replace `${HASH}` with hexadecimal SHA-1 of the full path to the
-     project directory specified below. The key represents a directory that contains 2 files
-     represented by the value in the form of an object:
-      * `instance-name` - contains only the name of the instance in the file content
-      * `cloud-profile` - optionally contains only the name of the cloud profile in the file content
-      * `project-path` - a symlink pointing to the full path to the project directory in the value
+- `cwd` - path to the current working directory as a string to run the test
+  case.
+- `homedir` - path to the home directory of the OS user as a string.
+- `files` - a mapping of full path of files to their corresponding content.
+  - The key is a full path to the file, while the value is the content string of
+    that file.
+  - Project stash directory is a special case where there is a `${HASH}`
+    placeholder in the key. The test code should replace `${HASH}` with
+    hexadecimal SHA-1 of the full path to the project directory specified below.
+    The key represents a directory that contains 2 files represented by the
+    value in the form of an object:
+    - `instance-name` - contains only the name of the instance in the file
+      content
+    - `cloud-profile` - optionally contains only the name of the cloud profile
+      in the file content
+    - `project-path` - a symlink pointing to the full path to the project
+      directory in the value
 
 ### Input - `platform`
 
-Value can be one of `macos` or `windows`, specifies the OS to run this test case.
-This is only useful when `fs` is present.
+Value can be one of `macos` or `windows`, specifies the OS to run this test
+case. This is only useful when `fs` is present.
 
 If `platform` is absent while `fs` is present, the OS should be Linux.
 
@@ -93,7 +111,7 @@ If `platform` is absent while `fs` is present, the OS should be Linux.
 Expected result of parsed connection parameters as an object, containing:
 
 | key                  | value type            | value                                                                                                                                               |
-|----------------------|-----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
+| -------------------- | --------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `address`            | list[string, integer] | the address of the server instance [host, port]                                                                                                     |
 | `user`               | string                | database user for authentication                                                                                                                    |
 | `password`           | string or `null`      | optional password for authentication                                                                                                                |
@@ -107,10 +125,9 @@ Expected result of parsed connection parameters as an object, containing:
 
 ### Output - `error`
 
-Expected error, value is currently an object with a single key `type`.
-The value of `type` is an idendifier-like string indicating the actual
-expected error, the test code should map this identifier to an actual
-error type or message.
+Expected error, value is currently an object with a single key `type`. The value
+of `type` is an idendifier-like string indicating the actual expected error, the
+test code should map this identifier to an actual error type or message.
 
 `result` and `error` are mutually exclusive.
 
