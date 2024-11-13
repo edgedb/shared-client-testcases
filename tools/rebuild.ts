@@ -41,12 +41,12 @@ for (const path of collectRecursively(tests, "")) {
 function sortNumberAware(a: string, b: string): number {
   const aMatch = a.match(/^(.+?)_(\d+)$/);
   const bMatch = b.match(/^(.+?)_(\d+)$/);
-  
+
   if (aMatch && bMatch && aMatch[1] === bMatch[1]) {
     // Same base name, compare numbers
     return parseInt(aMatch[2]) - parseInt(bMatch[2]);
   }
-  
+
   // Default to string comparison
   return a.localeCompare(b);
 }
