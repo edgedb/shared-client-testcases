@@ -32,6 +32,26 @@ for (const path of collectRecursively(tests, "")) {
     throw new Error(`Expected array of testcases in ${path}`);
   }
   for (const testcase of testcases) {
+    if (typeof testcase.name !== "string") {
+      throw new Error(`Expected string testcase.name in ${path}`);
+    }
+
+    const VALID_KEYS = [
+      "name",
+      "opts",
+      "result",
+      "env",
+      "fs",
+      "error",
+      "warnings",
+      "platform",
+    ];
+    for (const key of Object.keys(testcase)) {
+      if (!VALID_KEYS.includes(key)) {
+        throw new Error(`Invalid key ${key} in ${path}`);
+      }
+    }
+
     testcase.name = path.replace("/", "_").replace(".jsonc", "") + "_" +
       testcase.name;
     out.push(testcase);
