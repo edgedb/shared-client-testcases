@@ -1,0 +1,21 @@
+[
+  {
+    "error": {
+      "type": "invalid_user"
+    },
+    "name": "test_0",
+    "opts": {
+      "dsn": "edgedb://",
+      "user": ""
+    }
+  },
+  {
+    "error": {
+      "type": "invalid_user"
+    },
+    "name": "test_1",
+    "opts": {
+      "dsn": "edgedb://?user="
+    }
+  }
+]

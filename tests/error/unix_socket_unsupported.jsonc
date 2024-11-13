@@ -1,0 +1,20 @@
+[
+  {
+    "error": {
+      "type": "unix_socket_unsupported"
+    },
+    "name": "test_0",
+    "opts": {
+      "host": "/tmp/test"
+    }
+  },
+  {
+    "error": {
+      "type": "unix_socket_unsupported"
+    },
+    "name": "test_1",
+    "opts": {
+      "dsn": "edgedb:///dbname?host=/unix_sock/test&user=spam"
+    }
+  }
+]

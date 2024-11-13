@@ -1,0 +1,84 @@
+[
+  {
+    "error": {
+      "type": "multiple_compound_opts"
+    },
+    "name": "test_0",
+    "opts": {
+      "dsn": "edgedb://user3:123123@localhost:5555/abcdef",
+      "host": "test.local"
+    }
+  },
+  {
+    "error": {
+      "type": "multiple_compound_opts"
+    },
+    "name": "test_1",
+    "opts": {
+      "dsn": "edgedb://user3:123123@localhost:5555/abcdef",
+      "port": 10701
+    }
+  },
+  {
+    "error": {
+      "type": "multiple_compound_opts"
+    },
+    "name": "test_2",
+    "opts": {
+      "instance": "test_instance",
+      "port": 10701
+    }
+  },
+  {
+    "error": {
+      "type": "multiple_compound_opts"
+    },
+    "name": "test_3",
+    "opts": {
+      "credentialsFile": "/home/edgedb/test/credentials.json",
+      "dsn": "edgedb://user3:123123@localhost:5555/abcdef"
+    }
+  },
+  {
+    "error": {
+      "type": "multiple_compound_opts"
+    },
+    "name": "test_4",
+    "opts": {
+      "credentialsFile": "/home/edgedb/test/credentials.json",
+      "host": "test.local"
+    }
+  },
+  {
+    "error": {
+      "type": "multiple_compound_opts"
+    },
+    "name": "test_5",
+    "opts": {
+      "credentialsFile": "/home/edgedb/test/credentials.json",
+      "port": 1234
+    }
+  },
+  {
+    "error": {
+      "type": "multiple_compound_opts"
+    },
+    "name": "test_6",
+    "opts": {
+      "credentialsFile": "/home/edgedb/test/credentials.json",
+      "dsn": "edgedb://user3:123123@localhost:5555/abcdef",
+      "host": "localhost",
+      "port": 10701
+    }
+  },
+  {
+    "error": {
+      "type": "multiple_compound_opts"
+    },
+    "name": "test_7",
+    "opts": {
+      "credentials": "{\"port: 10000\"}",
+      "credentialsFile": "/home/edgedb/test/credentials.json"
+    }
+  }
+]

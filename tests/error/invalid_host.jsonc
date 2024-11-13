@@ -1,0 +1,56 @@
+[
+  {
+    "env": {
+      "EDGEDB_HOST": "host1:1111,host2:2222"
+    },
+    "error": {
+      "type": "invalid_host"
+    },
+    "name": "test_0"
+  },
+  {
+    "env": {
+      "EDGEDB_HOST": "host1,host2"
+    },
+    "error": {
+      "type": "invalid_host"
+    },
+    "name": "test_1"
+  },
+  {
+    "error": {
+      "type": "invalid_host"
+    },
+    "name": "test_2",
+    "opts": {
+      "host": "host1,host2"
+    }
+  },
+  {
+    "error": {
+      "type": "invalid_host"
+    },
+    "name": "test_3",
+    "opts": {
+      "dsn": "edgedb://user@host1,host2/db"
+    }
+  },
+  {
+    "error": {
+      "type": "invalid_host"
+    },
+    "name": "test_4",
+    "opts": {
+      "host": ""
+    }
+  },
+  {
+    "error": {
+      "type": "invalid_host"
+    },
+    "name": "test_5",
+    "opts": {
+      "dsn": "edgedb://?host="
+    }
+  }
+]

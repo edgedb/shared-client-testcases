@@ -1,0 +1,17 @@
+[
+  {
+    "env": {},
+    "error": {
+      "type": "project_not_initialised"
+    },
+    "fs": {
+      "cwd": "/home/edgedb/test",
+      "files": {
+        "/home/edgedb/test/edgedb.toml": ""
+      },
+      "homedir": "/home/edgedb"
+    },
+    "name": "test_0",
+    "opts": {}
+  }
+]
