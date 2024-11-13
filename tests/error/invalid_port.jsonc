@@ -1,0 +1,101 @@
+[
+  {
+    "error": {
+      "type": "invalid_port"
+    },
+    "name": "test_0",
+    "opts": {
+      "port": 0
+    }
+  },
+  {
+    "error": {
+      "type": "invalid_port"
+    },
+    "name": "test_1",
+    "opts": {
+      "port": 65536
+    }
+  },
+  {
+    "error": {
+      "type": "invalid_port"
+    },
+    "name": "test_2",
+    "opts": {
+      "port": ""
+    }
+  },
+  {
+    "error": {
+      "type": "invalid_port"
+    },
+    "name": "test_3",
+    "opts": {
+      "dsn": "edgedb://?port="
+    }
+  },
+  {
+    "error": {
+      "type": "invalid_port"
+    },
+    "name": "test_4",
+    "opts": {
+      "port": 123.456
+    }
+  },
+  {
+    "error": {
+      "type": "invalid_port"
+    },
+    "name": "test_5",
+    "opts": {
+      "port": "123.456"
+    }
+  },
+  {
+    "error": {
+      "type": "invalid_port"
+    },
+    "name": "test_6",
+    "opts": {
+      "port": "string"
+    }
+  },
+  {
+    "error": {
+      "type": "invalid_port"
+    },
+    "name": "test_7",
+    "opts": {
+      "port": "tcp://localhost:123"
+    }
+  },
+  {
+    "env": {
+      "EDGEDB_PORT": "invalid"
+    },
+    "error": {
+      "type": "invalid_port"
+    },
+    "name": "test_8"
+  },
+  {
+    "env": {
+      "EDGEDB_PORT": "1111,2222"
+    },
+    "error": {
+      "type": "invalid_port"
+    },
+    "name": "test_9"
+  },
+  {
+    "error": {
+      "type": "invalid_port"
+    },
+    "name": "test_10",
+    "opts": {
+      "port": "1111,2222"
+    }
+  }
+]

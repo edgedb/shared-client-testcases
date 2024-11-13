@@ -1,0 +1,22 @@
+[
+  {
+    "env": {},
+    "error": {
+      "type": "no_options_or_toml"
+    },
+    "name": "test_0",
+    "opts": {}
+  },
+  {
+    "env": {
+      "EDGEDB_PORT": "tcp://localhost:123"
+    },
+    "error": {
+      "type": "no_options_or_toml"
+    },
+    "name": "test_1",
+    "warnings": [
+      "docker_tcp_port"
+    ]
+  }
+]

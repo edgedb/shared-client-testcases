@@ -1,0 +1,121 @@
+[
+  {
+    "error": {
+      "type": "invalid_dsn"
+    },
+    "name": "test_0",
+    "opts": {
+      "dsn": "egdedb://user3:123123@localhost:5555/abcdef"
+    }
+  },
+  {
+    "error": {
+      "type": "invalid_dsn"
+    },
+    "name": "test_1",
+    "opts": {
+      "dsn": "edgedbadmin://user3:123123@localhost:5555/abcdef"
+    }
+  },
+  {
+    "env": {
+      "EDGEDB_DSN": "edgedb://testhost:1234/foo/?branch=feature"
+    },
+    "error": {
+      "type": "invalid_dsn"
+    },
+    "fs": {},
+    "name": "test_2",
+    "opts": {}
+  },
+  {
+    "env": {
+      "EDGEDB_DSN": "edgedb://testhost:1234/?branch=feature&database=foo"
+    },
+    "error": {
+      "type": "invalid_dsn"
+    },
+    "fs": {},
+    "name": "test_3",
+    "opts": {}
+  },
+  {
+    "env": {},
+    "error": {
+      "type": "invalid_dsn"
+    },
+    "fs": {},
+    "name": "test_4",
+    "opts": {
+      "dsn": "edgedb://testhost:1234/feature/?branch=feature"
+    }
+  },
+  {
+    "env": {},
+    "error": {
+      "type": "invalid_dsn"
+    },
+    "fs": {},
+    "name": "test_5",
+    "opts": {
+      "dsn": "edgedb://testhost:1234/feature/?branch=feature&database=feature"
+    }
+  },
+  {
+    "error": {
+      "type": "invalid_dsn"
+    },
+    "name": "test_6",
+    "opts": {
+      "dsn": "edgedb://user@host1:1111,host2:2222/db"
+    }
+  },
+  {
+    "error": {
+      "type": "invalid_dsn"
+    },
+    "name": "test_7",
+    "opts": {
+      "dsn": "edgedb://user3:123123@localhost:5555/abcdef?param=sss&param=123"
+    }
+  },
+  {
+    "error": {
+      "type": "invalid_dsn"
+    },
+    "name": "test_8",
+    "opts": {
+      "dsn": "edgedb://localhost:5555/abcdef?param=123&user=testuser&port=2222&database=testdb"
+    }
+  },
+  {
+    "error": {
+      "type": "invalid_dsn"
+    },
+    "name": "test_9",
+    "opts": {
+      "dsn": "edgedb://localhost?param=123&host=testhost&user=testuser&port=2222&database=testdb"
+    }
+  },
+  {
+    "error": {
+      "type": "invalid_dsn"
+    },
+    "name": "test_10",
+    "opts": {
+      "dsn": "edgedb://?param=123&host=testhost&user=testuser&port=2222&database=testdb&host=localhost"
+    }
+  },
+  {
+    "env": {
+      "EDGEDB_PASSWORD": "password"
+    },
+    "error": {
+      "type": "invalid_dsn"
+    },
+    "name": "test_11",
+    "opts": {
+      "dsn": "edgedb://testuser:pass@localhost/db?password_env=EDGEDB_PASSWORD"
+    }
+  }
+]

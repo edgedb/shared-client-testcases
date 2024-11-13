@@ -1,0 +1,45 @@
+[
+  {
+    "env": {
+      "EDGEDB_PASSWORD": "password"
+    },
+    "error": {
+      "type": "file_not_found"
+    },
+    "name": "test_0",
+    "opts": {
+      "dsn": "edgedb://testuser@localhost/db?password_file=/home/edgedb/password"
+    }
+  },
+  {
+    "error": {
+      "type": "file_not_found"
+    },
+    "name": "test_1",
+    "opts": {
+      "dsn": "edgedb://",
+      "tlsCAFile": ""
+    }
+  },
+  {
+    "error": {
+      "type": "file_not_found"
+    },
+    "name": "test_2",
+    "opts": {
+      "dsn": "edgedb://?tls_ca_file="
+    }
+  },
+  {
+    "env": {
+      "EDGEDB_SECRET_KEY": "password"
+    },
+    "error": {
+      "type": "file_not_found"
+    },
+    "name": "test_3",
+    "opts": {
+      "dsn": "edgedb://testuser@localhost/db?secret_key_file=/home/edgedb/secret_key"
+    }
+  }
+]

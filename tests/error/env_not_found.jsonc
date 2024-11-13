@@ -1,0 +1,38 @@
+[
+  {
+    "error": {
+      "type": "env_not_found"
+    },
+    "name": "test_0",
+    "opts": {
+      "dsn": "edgedb://testuser@localhost/db?password_env=EDGEDB_PASSWORD"
+    }
+  },
+  {
+    "error": {
+      "type": "env_not_found"
+    },
+    "name": "test_1",
+    "opts": {
+      "dsn": "edgedb://?host_env="
+    }
+  },
+  {
+    "error": {
+      "type": "env_not_found"
+    },
+    "name": "test_2",
+    "opts": {
+      "dsn": "edgedb://?host_env="
+    }
+  },
+  {
+    "error": {
+      "type": "env_not_found"
+    },
+    "name": "test_3",
+    "opts": {
+      "dsn": "edgedb://testuser@localhost/db?secret_key_env=EDGEDB_SECRET_KEY"
+    }
+  }
+]

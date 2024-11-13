@@ -1,0 +1,21 @@
+[
+  {
+    "error": {
+      "type": "invalid_database"
+    },
+    "name": "test_0",
+    "opts": {
+      "database": "",
+      "dsn": "edgedb://"
+    }
+  },
+  {
+    "error": {
+      "type": "invalid_database"
+    },
+    "name": "test_1",
+    "opts": {
+      "dsn": "edgedb://?database"
+    }
+  }
+]

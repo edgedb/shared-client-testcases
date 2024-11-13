@@ -1,0 +1,53 @@
+[
+  {
+    "env": {
+      "EDGEDB_CLIENT_SECURITY": "strict",
+      "EDGEDB_CLIENT_TLS_SECURITY": "insecure",
+      "EDGEDB_DSN": "edgedb://"
+    },
+    "error": {
+      "type": "invalid_tls_security"
+    },
+    "name": "test_0"
+  },
+  {
+    "env": {
+      "EDGEDB_CLIENT_SECURITY": "strict",
+      "EDGEDB_CLIENT_TLS_SECURITY": "no_host_verification",
+      "EDGEDB_DSN": "edgedb://"
+    },
+    "error": {
+      "type": "invalid_tls_security"
+    },
+    "name": "test_1"
+  },
+  {
+    "env": {
+      "EDGEDB_CLIENT_TLS_SECURITY": "invalid value",
+      "EDGEDB_DSN": "edgedb://"
+    },
+    "error": {
+      "type": "invalid_tls_security"
+    },
+    "name": "test_2"
+  },
+  {
+    "error": {
+      "type": "invalid_tls_security"
+    },
+    "name": "test_3",
+    "opts": {
+      "dsn": "edgedb://",
+      "tlsSecurity": ""
+    }
+  },
+  {
+    "error": {
+      "type": "invalid_tls_security"
+    },
+    "name": "test_4",
+    "opts": {
+      "dsn": "edgedb://?tls_security"
+    }
+  }
+]
