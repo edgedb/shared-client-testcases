@@ -561,5 +561,17 @@
         "c": "ghi"
       }
     }
+  },
+  {
+    "name": "test_gel_dsn_1",
+    "opts": {
+      "dsn": "gel://testuser@localhost/db?password=not_secret_password"
+    },
+    "result": {
+      "branch": "db",
+      "database": "db",
+      "password": "not_secret_password",
+      "user": "testuser"
+    }
   }
 ]

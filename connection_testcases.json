@@ -753,6 +753,56 @@
     }
   },
   {
+    "env": {
+      "EDGEDB_CLIENT_SECURITY": "strict",
+      "EDGEDB_CLIENT_TLS_SECURITY": "strict",
+      "EDGEDB_DSN": "gel://"
+    },
+    "name": "basic_env_test_gel_01",
+    "result": {
+      "address": [
+        "localhost",
+        5656
+      ],
+      "branch": "__default__",
+      "database": "edgedb",
+      "password": null,
+      "secretKey": null,
+      "serverSettings": {},
+      "tlsCAData": null,
+      "tlsSecurity": "strict",
+      "tlsServerName": null,
+      "user": "edgedb",
+      "waitUntilAvailable": "PT30S"
+    }
+  },
+  {
+    "env": {
+      "EDGEDB_DSN": "gel://user3:123123@localhost:5555/abcdef",
+      "EDGEDB_PORT": "tcp://localhost:123"
+    },
+    "name": "basic_env_test_gel_02",
+    "result": {
+      "address": [
+        "localhost",
+        5555
+      ],
+      "branch": "abcdef",
+      "database": "abcdef",
+      "password": "123123",
+      "secretKey": null,
+      "serverSettings": {},
+      "tlsCAData": null,
+      "tlsSecurity": "strict",
+      "tlsServerName": null,
+      "user": "user3",
+      "waitUntilAvailable": "PT30S"
+    },
+    "warnings": [
+      "docker_tcp_port"
+    ]
+  },
+  {
     "fs": {
       "cwd": "/home/edgedb/test",
       "files": {
@@ -1961,6 +2011,28 @@
       "tlsSecurity": "strict",
       "tlsServerName": null,
       "user": "edgedb",
+      "waitUntilAvailable": "PT30S"
+    }
+  },
+  {
+    "name": "basic_opts_test_gel_dsn_1",
+    "opts": {
+      "dsn": "gel://testuser@localhost/db?password=not_secret_password"
+    },
+    "result": {
+      "address": [
+        "localhost",
+        5656
+      ],
+      "branch": "db",
+      "database": "db",
+      "password": "not_secret_password",
+      "secretKey": null,
+      "serverSettings": {},
+      "tlsCAData": null,
+      "tlsSecurity": "strict",
+      "tlsServerName": null,
+      "user": "testuser",
       "waitUntilAvailable": "PT30S"
     }
   },
