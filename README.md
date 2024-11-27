@@ -38,6 +38,7 @@ arguments for the CLI. Possible values:
 | `tlsSecurity`        | enum string | one of `strict`, `no_host_verification` and `insecure` (test cases may contain invalid values)                                                      |
 | `tlsCA`              | string      | PEM string of the CA certificate to trust                                                                                                           |
 | `tlsCAFile`          | path string | path to a file containing `tlsCA`                                                                                                                   |
+| `tlsServerName`      | string      | Server name to expect when performing host verification                                                                                             |
 | `serverSettings`     | object      | additional [connection parameters](https://www.edgedb.com/docs/reference/protocol/messages#ref-protocol-msg-client-handshake) to send to the server |
 | `credentials`        | JSON string | decodes to an object with possible keys: `host`, `port`, `user`, `password`, `database`, `tls_ca`, `tls_security`                                   |
 | `credentialsFile`    | string      | path to a file containing `credentials`                                                                                                             |
@@ -56,25 +57,26 @@ same time.
 
 Environment variables present at the time of connecting. Possible values:
 
-| name                          | value                                               |
-| ----------------------------- | --------------------------------------------------- |
-| `EDGEDB_HOST`                 | same as `host` above                                |
-| `EDGEDB_PORT`                 | same as `port` above                                |
-| `EDGEDB_USER`                 | same as `user` above                                |
-| `EDGEDB_PASSWORD`             | same as `password` above                            |
-| `EDGEDB_SECRET_KEY`           | same as `secretKey` above                           |
-| `EDGEDB_DATABASE`             | same as `database` above                            |
-| `EDGEDB_BRANCH`               | same as `branch` above                              |
-| `EDGEDB_WAIT_UNTIL_AVAILABLE` | same as `waitUntilAvailable` above                  |
-| `EDGEDB_CLIENT_TLS_SECURITY`  | same as `tlsSecurity` above                         |
-| `EDGEDB_TLS_CA`               | same as `tlsCA` above                               |
-| `EDGEDB_TLS_CA_FILE`          | same as `tlsCAFile` above                           |
-| `EDGEDB_CREDENTIALS_FILE`     | same as `credentialsFile` above                     |
-| `EDGEDB_INSTANCE`             | same as `instance` above                            |
-| `EDGEDB_DSN`                  | same as `dsn` above                                 |
-| `EDGEDB_CLIENT_SECURITY`      | one of `default`, `strict`, `insecure_dev_mode`     |
-| `EDGEDB_CLOUD_PROFILE`        | the cloud profile name to use                       |
-| any other name                | DSN query may reference these environment variables |
+| name                       | value                                               |
+| -------------------------- | --------------------------------------------------- |
+| `GEL_HOST`                 | same as `host` above                                |
+| `GEL_PORT`                 | same as `port` above                                |
+| `EDGEDB_USER`              | same as `user` above                                |
+| `EDGEDB_PASSWORD`          | same as `password` above                            |
+| `EDGEDB_SECRET_KEY`        | same as `secretKey` above                           |
+| `EDGEDB_DATABASE`          | same as `database` above                            |
+| `GEL_BRANCH`               | same as `branch` above                              |
+| `GEL_WAIT_UNTIL_AVAILABLE` | same as `waitUntilAvailable` above                  |
+| `GEL_CLIENT_TLS_SECURITY`  | same as `tlsSecurity` above                         |
+| `GEL_TLS_CA`               | same as `tlsCA` above                               |
+| `GEL_TLS_CA_FILE`          | same as `tlsCAFile` above                           |
+| `GEL_TLS_SERVER_NAME`      | same as `tlsServerName` above                       |
+| `EDGEDB_CREDENTIALS_FILE`  | same as `credentialsFile` above                     |
+| `GEL_INSTANCE`             | same as `instance` above                            |
+| `GEL_DSN`                  | same as `dsn` above                                 |
+| `GEL_CLIENT_SECURITY`      | one of `default`, `strict`, `insecure_dev_mode`     |
+| `GEL_CLOUD_PROFILE`        | the cloud profile name to use                       |
+| any other name             | DSN query may reference these environment variables |
 
 ### Input - `fs`
 
@@ -121,6 +123,7 @@ Expected result of parsed connection parameters as an object, containing:
 | `waitUntilAvailable` | string                | ISO 8601 max time to wait before server becomes available                                                                                           |
 | `tlsSecurity`        | enum string           | one of `strict`, `no_host_verification` and `insecure`                                                                                              |
 | `tlsCAData`          | string or `null`      | optional PEM string of the CA certificate to trust                                                                                                  |
+| `tlsServerName`      | string or `null`      | optional server name to expect when performing host verification                                                                                    |
 | `serverSettings`     | object                | additional [connection parameters](https://www.edgedb.com/docs/reference/protocol/messages#ref-protocol-msg-client-handshake) to send to the server |
 
 ### Output - `error`

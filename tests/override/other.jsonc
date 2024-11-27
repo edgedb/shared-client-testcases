@@ -1627,5 +1627,63 @@
       "database": "db",
       "user": "testuser"
     }
+  },
+  {
+    "env": {
+      "GEL_INSTANCE": "gel",
+      "EDGEDB_INSTANCE": "edgedb"
+    },
+    "fs": {
+      "files": {
+        "/home/edgedb/.config/edgedb/credentials/gel.json": "{\"port\": 10702, \"user\": \"test3n\", \"password\": \"lZTBy1RVCfOpBAOwSCwIyBIR\", \"database\": \"test3n\"}",
+        "/home/edgedb/.config/edgedb/credentials/edgedb.json": "{\"port\": 5555, \"user\": \"test1n\", \"password\": \"wrong\", \"database\": \"test2n\"}"
+      },
+      "homedir": "/home/edgedb"
+    },
+    "name": "Use GEL_INSTANCE instead of EDGEDB_INSTANCE",
+    "opts": {
+      "user": "super_user"
+    },
+    "result": {
+      "address": [
+        "localhost",
+        10702
+      ],
+      "branch": "test3n",
+      "database": "test3n",
+      "password": "lZTBy1RVCfOpBAOwSCwIyBIR",
+      "user": "super_user"
+    },
+    "warnings": [
+      "gel_and_edgedb"
+    ]
+  },
+  {
+    "env": {
+      "GEL_CLOUD_PROFILE": "gel",
+      "EDGEDB_CLOUD_PROFILE": "edgedb"
+    },
+    "fs": {
+      "files": {
+        "/home/edgedb/.config/edgedb/cloud-credentials/default.json": "{\"secret_key\": \"nbwt_eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9\"}",
+        "/home/edgedb/.config/edgedb/cloud-credentials/gel.json": "{\"secret_key\": \"nbwt_eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlZGIuc2VydmVyLmFueV9yb2xlIjp0cnVlLCJpYXQiOjE2NjkzMTE3NjMsImlzcyI6ImxvY2FsLTEuaW50ZXJuYWwiLCJuZWJ1bGEuc2NvcGVzIjpbImFkbWluIl0sIm5lYnVsYS51c2VyX2lkIjoiM2U3ODU4YTgtNmJjNy0xMWVkLWFmNTAtMTdiMzkzMjlmZmEyIn0.9cS6-rR00fgmEmGu423IP3snJvmXe7ZGol7ZlYuHBNqmKGrWtTsMZPj-3C7dmureUmk3ZUttxioouPeAreKueg\"}",
+        "/home/edgedb/.config/edgedb/cloud-credentials/edgedb.json": "{\"secret_key\": \"nbwt_eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9\"}"
+      },
+      "homedir": "/home/edgedb"
+    },
+    "name": "Use GEL_CLOUD_PROFILE instead of EDGEDB_CLOUD_PROFILE",
+    "opts": {
+      "instance": "test-org/test-123"
+    },
+    "result": {
+      "address": [
+        "test-123--test-org.c-96.i.local-1.internal",
+        5656
+      ],
+      "secretKey": "nbwt_eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlZGIuc2VydmVyLmFueV9yb2xlIjp0cnVlLCJpYXQiOjE2NjkzMTE3NjMsImlzcyI6ImxvY2FsLTEuaW50ZXJuYWwiLCJuZWJ1bGEuc2NvcGVzIjpbImFkbWluIl0sIm5lYnVsYS51c2VyX2lkIjoiM2U3ODU4YTgtNmJjNy0xMWVkLWFmNTAtMTdiMzkzMjlmZmEyIn0.9cS6-rR00fgmEmGu423IP3snJvmXe7ZGol7ZlYuHBNqmKGrWtTsMZPj-3C7dmureUmk3ZUttxioouPeAreKueg"
+    },
+    "warnings": [
+      "gel_and_edgedb"
+    ]
   }
 ]
