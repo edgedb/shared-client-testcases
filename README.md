@@ -60,8 +60,6 @@ Environment variables present at the time of connecting. Possible values:
 | ----------------------------- | --------------------------------------------------- |
 | `EDGEDB_HOST`                 | same as `host` above                                |
 | `EDGEDB_PORT`                 | same as `port` above                                |
-| `EDGEDB_USER`                 | same as `user` above                                |
-| `EDGEDB_PASSWORD`             | same as `password` above                            |
 | `EDGEDB_SECRET_KEY`           | same as `secretKey` above                           |
 | `EDGEDB_DATABASE`             | same as `database` above                            |
 | `EDGEDB_BRANCH`               | same as `branch` above                              |
