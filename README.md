@@ -63,7 +63,7 @@ Environment variables present at the time of connecting. Possible values:
 | `GEL_PORT`                 | same as `port` above                                |
 | `GEL_USER`                 | same as `user` above                                |
 | `GEL_PASSWORD`             | same as `password` above                            |
-| `EDGEDB_SECRET_KEY`        | same as `secretKey` above                           |
+| `GEL_SECRET_KEY`           | same as `secretKey` above                           |
 | `EDGEDB_DATABASE`          | same as `database` above                            |
 | `GEL_BRANCH`               | same as `branch` above                              |
 | `GEL_WAIT_UNTIL_AVAILABLE` | same as `waitUntilAvailable` above                  |
