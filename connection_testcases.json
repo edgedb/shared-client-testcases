@@ -998,7 +998,6 @@
       "waitUntilAvailable": "PT30S"
     },
     "warnings": [
-      "docker_tcp_port",
       "gel_and_edgedb"
     ]
   },
