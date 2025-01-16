@@ -48,6 +48,56 @@
   },
   {
     "env": {
+      "EDGEDB_PORT": "12345",
+      "GEL_HOST": "test.local"
+    },
+    "name": "basic_env_GEL_HOST is respected",
+    "result": {
+      "address": [
+        "test.local",
+        12345
+      ],
+      "branch": "__default__",
+      "database": "edgedb",
+      "password": null,
+      "secretKey": null,
+      "serverSettings": {},
+      "tlsCAData": null,
+      "tlsSecurity": "strict",
+      "tlsServerName": null,
+      "user": "edgedb",
+      "waitUntilAvailable": "PT30S"
+    }
+  },
+  {
+    "env": {
+      "EDGEDB_HOST": "test.local1",
+      "GEL_HOST": "test.local",
+      "GEL_PORT": "12345"
+    },
+    "name": "basic_env_GEL_HOST is used instead of EDGEDB_HOST",
+    "result": {
+      "address": [
+        "test.local",
+        12345
+      ],
+      "branch": "__default__",
+      "database": "edgedb",
+      "password": null,
+      "secretKey": null,
+      "serverSettings": {},
+      "tlsCAData": null,
+      "tlsSecurity": "strict",
+      "tlsServerName": null,
+      "user": "edgedb",
+      "waitUntilAvailable": "PT30S"
+    },
+    "warnings": [
+      "gel_and_edgedb"
+    ]
+  },
+  {
+    "env": {
       "GEL_PASSWORD": "secret",
       "GEL_PORT": "1234"
     },
@@ -71,6 +121,33 @@
   },
   {
     "env": {
+      "EDGEDB_PASSWORD": "secret2",
+      "GEL_PASSWORD": "secret",
+      "GEL_PORT": "1234"
+    },
+    "name": "basic_env_GEL_PASSWORD is used instead of EDGEDB_PASSWORD",
+    "result": {
+      "address": [
+        "localhost",
+        1234
+      ],
+      "branch": "__default__",
+      "database": "edgedb",
+      "password": "secret",
+      "secretKey": null,
+      "serverSettings": {},
+      "tlsCAData": null,
+      "tlsSecurity": "strict",
+      "tlsServerName": null,
+      "user": "edgedb",
+      "waitUntilAvailable": "PT30S"
+    },
+    "warnings": [
+      "gel_and_edgedb"
+    ]
+  },
+  {
+    "env": {
       "GEL_PORT": "1234",
       "GEL_USER": "testuser"
     },
@@ -91,6 +168,33 @@
       "user": "testuser",
       "waitUntilAvailable": "PT30S"
     }
+  },
+  {
+    "env": {
+      "EDGEDB_USER": "testuser2",
+      "GEL_PORT": "1234",
+      "GEL_USER": "testuser"
+    },
+    "name": "basic_env_GEL_USER is used instead of EDGEDB_USER",
+    "result": {
+      "address": [
+        "localhost",
+        1234
+      ],
+      "branch": "__default__",
+      "database": "edgedb",
+      "password": null,
+      "secretKey": null,
+      "serverSettings": {},
+      "tlsCAData": null,
+      "tlsSecurity": "strict",
+      "tlsServerName": null,
+      "user": "testuser",
+      "waitUntilAvailable": "PT30S"
+    },
+    "warnings": [
+      "gel_and_edgedb"
+    ]
   },
   {
     "env": {
@@ -3759,7 +3863,10 @@
       "tlsServerName": null,
       "user": "edgedb",
       "waitUntilAvailable": "PT30S"
-    }
+    },
+    "warnings": [
+      "gel_and_edgedb"
+    ]
   },
   {
     "fs": {
